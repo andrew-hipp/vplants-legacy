@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-application PUBLIC "-//Evermind//DTD J2EE Application runtime 1.2//EN" "http://xmlns.oracle.com/ias/dtds/orion-application.dtd">
+<orion-application>
+  <web-module id="MortonVPlants-VPlants-webapp" path="C:\oracle\jdev1012\jdev\mywork\MortonVPlants\VPlants\public_html"/>
+  <log>
+    <file path="MortonVPlants-oc4j-app.log"/>
+  </log>
+  <jazn provider="XML" location="MortonVPlants-jazn-data.xml" default-realm="jazn.com"/>
+  <data-sources path="MortonVPlants-data-sources.xml"/>
+</orion-application>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speciesPage>
+  <NAME_CD>LYSA2</NAME_CD>
+  <group>PLANT</group>
+  <desc>
+    <growthForm>Perennial herb</growthForm>
+    <size>0.5 - 1.5 m tall</size>
+    <parts>
+      <part>
+        <partName>Stem</partName>
+        <partText>stout, erect, usually with some hairs, especially near the branching inflorescence.</partText>
+      </part>
+      <part>
+        <partName>Leaves</partName>
+        <partText>opposite or in whorls of three, stalkless, non-toothed, more than 5 cm long, somewhat lance-shaped, widest below the middle, gradually tapering to a pointy tip, and sometimes with a clasping base.</partText>
+      </part>
+      <part>
+        <partName>Inflorescence</partName>
+        <partText>a terminal, 10 - 40 cm tall,  elongate, "spike" or wand-like cluster with numerous, crowded flowers in the axils of two pointy-tipped, hairy bracts.  There are usually at least two, normally more, flowers per bract axil.</partText>
+      </part>
+      <part>
+        <partName>Flowers</partName>
+        <partText>bright purple-red, stalkless, radially symmetric (regular), with sepals and petals fused together most of the sepal length into a slender, eight- to twelve-nerved, hairy sepal-petal tube (hypanthium).</partText>
+      </part>
+      <part>
+        <partName>Sepals</partName>
+        <partText>five to seven but fused most of their length with each other and the petals into a long, slender tube (hypanthium), with the separate sepal lobes short-triangular and alternating with much longer (around two times), very thin appendages.</partText>
+      </part>
+      <part>
+        <partName>Petals</partName>
+        <partText>five to seven, fused less than half their length, with separate, ascending or slightly spreading, 0.7 - 1.2 cm long, somewhat oblong or elliptic lobes.</partText>
+      </part>
+      <part>
+        <partName>Stamens</partName>
+        <partText>usually twelve (always more than ten ), of different, alternating lengths with half short and half tall.</partText>
+      </part>
+      <part>
+        <partName>Pistil</partName>
+        <partText>with a single, superior, two-chambered ovary, a single, slender style, and rounded stigma.  The style of each flower can be one of three possible lengths, short, medium, or tall, in relation to the stamens.</partText>
+      </part>
+      <part>
+        <partName>Fruit</partName>
+        <partText>a two-chambered capsule enclosed by the sepal-petal tube (hypanthium), and breaking apart through the side walls of the chambers, not directly into the chambers (septicidal).</partText>
+      </part>
+      <part>
+        <partName/>
+        <partText/>
+      </part>
+    </parts>
+  </desc>
+  <similarSpecies>
+    <comments>Lythrum salicaria is very similar to another Eurasian species, &lt;i&gt;L. virgatum&lt;/i&gt;, which is often cultivated (and escapes), but the plant is not hairy where as &lt;i&gt;L. salicaria&lt;/i&gt; is normally hairy, especially in the flowering "spikes". The other species in our area, &lt;i&gt;L. alatum&lt;/i&gt;, is native and differs by usually being less than 0.8 m tall, hairless, having a four-angled stem, alternate leaves less than 5 cm long, and always less than ten stamens per flower.</comments>
+    <nameCds>
+      <simNmCd>LYAL4</simNmCd>
+      <simNmCd/>
+      <simNmCd/>
+      <simNmCd/>
+      <simNmCd/>
+      <simNmCd/>
+    </nameCds>
+    <links>
+      <link>
+        <linkUri>http://plants.usda.gov/cgi_bin/plant_profile.cgi?symbol=LYVI3</linkUri>
+        <linkText>Lythrum virgatum</linkText>
+      </link>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </links>
+  </similarSpecies>
+  <flowering>July - October</flowering>
+  <habitatEcology>Native to Eurasia, found in wet places of all kinds and increasingly abundant since it is an invasive plant.</habitatEcology>
+  <nativity>non-native</nativity>
+  <notes>
+    <comments>Listed as one of the top 100 of the "World's Worst" invaders (see link below), this plant is native to Eurasia and has escaped cultivation to become an aggressive weed in our natural wetlands and even roadside ditches.  Large patches of this species are seen throughout the Chicago Region.  Though seemingly "pretty" due to the bright purple-red flowers, this plant spreads quickly and chokes out high-quality native wetland plant species, which consequently makes the wetlands less useful for wildlife.  These plants persist year after year as well as produce copious amounts of seed.  Due to the threat this plant poses to our nation's wetlands, the USDA has spearheaded efforts to combat this species by releasing natural biological enemies, beetles from Eurasia, which feed on purple loosestrife.</comments>
+    <links>
+      <link>
+        <linkUri>http://www.issg.org/database/species/ecology.asp?si=93&amp;fr=1&amp;sts=</linkUri>
+        <linkText>Global Invasive Species Database</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.inhs.uiuc.edu/cee/loosestrife/bcpl.html</linkUri>
+        <linkText>National Project for the Biological Control of Purple Loosestrife</linkText>
+      </link>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </links>
+  </notes>
+  <etymology>
+    <comments>comment on etymology</comments>
+    <links>
+      <link>
+        <linkUri>http://www.yahoo.com</linkUri>
+        <linkText>yahoo link</linkText>
+      </link>
+      <link>
+        <linkUri></linkUri>
+        <linkText></linkText>
+      </link>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </links>
+  </etymology>
+  <furtherInfo>
+    <comments>further info comments  </comments>
+    <links>
+      <link>
+        <linkUri>http://www.inhs.uiuc.edu/chf/outreach/VMG/ploosestrife.html</linkUri>
+        <linkText>Illinois Natural History Survey's Vegetaion Management Guidelines</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.dnr.state.wi.us/org/land/er/invasive/factsheets/loose.htm</linkUri>
+        <linkText>Wisconsin Department of Natural Resources - fact sheet</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.dnr.state.wi.us/org/land/er/invasive/factsheets/loosecontrol.htm</linkUri>
+        <linkText>Wisconsin Department of Natural Resources - controlling Purple Loosestrife</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.ipaw.org/invaders/loosestrife/index.htm</linkUri>
+        <linkText>Invasive Plants Association of Wisonsin</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.miseagrant.umich.edu/pp/</linkUri>
+        <linkText>Purple Loosestrife Project at Michigan State University</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.nps.gov/plants/alien/fact/lysa1.htm</linkUri>
+        <linkText>Plant Conservation Alliance Alien Plants Working Group</linkText>
+      </link>
+      <link>
+        <linkUri>http://tncweeds.ucdavis.edu/esadocs/lythsali.html</linkUri>
+        <linkText>The Nature Conservancy Invasive Species Initiative</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.invasive.org/eastern/biocontrol/11PurpleLoosestrife.html</linkUri>
+        <linkText>Invasive Species</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.invasiveplants.net/</linkUri>
+        <linkText>Ecology and Management of Invasive Plants Program</linkText>
+      </link>
+      <link>
+        <linkUri>http://www.glifwc.org/epicenter/</linkUri>
+        <linkText>Exotic Plant Information Center</linkText>
+      </link>
+    </links>
+  </furtherInfo>
+  <references>
+    <reference>
+      <citation>This is a sample References citation. Blossy, B., Schroeder, D., Hight, SD., and Malecki, R.A. 1994.</citation>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <citation/>
+    </reference>
+    <reference>
+      <link>
+        <linkUri>http://www.npwrc.usgs.gov/resource/1999/loosstrf/loosstrf.htm</linkUri>
+        <linkText>Thompson, D.Q., R.L. Stuckey, E.B. Thompson. 1987. &lt;i&gt;Spread, impact, and control of purple loosestrife (&lt;i&gt;Lythrum salicaria&lt;/i&gt;) in North Amercan wetlands&lt;/i&gt;. Jamestown, ND: U.S. Fisth and Wildlife Service, Northern Prairie Wildlife Reserach Center Online.</linkText>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri>http://members.valley.net/~invasiveplants/misc.html</linkUri>
+        <linkText>Blossy, B., Schroeder, D., Hight, SD., and Malecki, R.A. 1994. Host specificity and environmental impact of two leaf beetles (&lt;i&gt;Galerucella calmariensis&lt;/i&gt; and &lt;i&gt;G. Pusilla&lt;/i&gt;) for the biological control of purple loosestrife (&lt;i&gt;Lythrum salicaria&lt;/i&gt;). Weed Science 42:134-140. Excerpt on pollination and beetles.</linkText>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+    <reference>
+      <link>
+        <linkUri/>
+        <linkText/>
+      </link>
+    </reference>
+  </references>
+  <otherRecords>
+    <ilBn/>
+    <ilCk>has other records</ilCk>
+    <ilDk>has other records</ilDk>
+    <ilDp>has other records</ilDp>
+    <ilGd>has other records</ilGd>
+    <ilKd>has other records</ilKd>
+    <ilKk/>
+    <ilKn>has other records</ilKn>
+    <ilLk>has other records</ilLk>
+    <ilMh>has other records</ilMh>
+    <ilWl>has other records</ilWl>
+    <inJs>has other records</inJs>
+    <inLk>has other records</inLk>
+    <inLp>has other records</inLp>
+    <inNt>has other records</inNt>
+    <inPt>has other records</inPt>
+    <inSj>has other records</inSj>
+    <inSk>has other records</inSk>
+    <miBr>has other records</miBr>
+    <wiKs>has other records</wiKs>
+    <wiMw>has other records</wiMw>
+    <wiRc>has other records</wiRc>
+    <wiWk>has other records</wiWk>
+    <wiWw>has other records</wiWw>
+  </otherRecords>
+</speciesPage>

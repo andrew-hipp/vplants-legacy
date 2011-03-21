@@ -1,0 +1,1405 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<project nselem="project" class="oracle.jdeveloper.model.JProject" xmlns="http://xmlns.oracle.com/jdeveloper/10120/jproject">
+   <defaultPackage>org.vplants.tags</defaultPackage>
+   <defaultPackages class="java.util.ArrayList">
+      <Item class="java.lang.String">org.vplants.tags</Item>
+      <Item class="java.lang.String">org.vplants.utils</Item>
+      <Item class="java.lang.String">org.vplants.datahandler</Item>
+      <Item class="java.lang.String">mypackage1</Item>
+   </defaultPackages>
+   <dependencyList/>
+   <htmlRootDirectory path="public_html/"/>
+   <j2eeWebAppName>MortonVPlants-VPlants-webapp</j2eeWebAppName>
+   <j2eeWebContextRoot>MortonVPlants-VPlants-context-root</j2eeWebContextRoot>
+   <listOfChildren class="oracle.ide.model.DataList">
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/AbstractUnmarshallingEventHandlerImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/basic.css"/>
+         <nodeClass>oracle.jdevimpl.webapp.css.addin.CSSSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/basic.js"/>
+         <nodeClass>oracle.jdevimpl.webapp.javascript.JavaScriptSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/BAVI3.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/bgm.ser"/>
+         <nodeClass>oracle.ide.model.DeployableTextNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/CIHI.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/CIPI.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Citation.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/CitationImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Comments.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/CommentsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ContentHandlerAdaptor.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/datahandler/DataBean.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/DBSupportBean.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/DefaultJAXBContextImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Desc.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/DescImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/DescType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/DescTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/Discarder.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ErrorHandlerAdaptor.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Etymology.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/EtymologyImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/EtymologyType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/EtymologyTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Flowering.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/FloweringImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Fruiting.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/FruitingImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/FurtherInfo.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/FurtherInfoImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/FurtherInfoType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/FurtherInfoTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/GEAL4.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/gean.po.jpg"/>
+         <nodeClass>oracle.jdeveloper.model.JpegImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/GEAN.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/geana.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/geana.po.jpg"/>
+         <nodeClass>oracle.jdeveloper.model.JpegImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/GEANA.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/GESA.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/GetConnection.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/GrammarInfo.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/GrammarInfoFacade.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/GrammarInfoImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Group.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/GroupImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/GrowthForm.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/GrowthFormImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/HabitatEcology.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/HabitatEcologyImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/header.jsp"/>
+         <nodeClass>oracle.jdeveloper.model.JspSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlBn.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlBnImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlCk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlCkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlDk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlDkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlDp.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlDpImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlGd.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlGdImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlKd.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlKdImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlKk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlKkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlKn.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlKnImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlLk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlLkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlMh.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlMhImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/IlWl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/IlWlImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/Images.properties"/>
+         <nodeClass>oracle.ide.model.DeployableTextNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/index.html"/>
+         <nodeClass>oracle.jdevimpl.webapp.html.HtmlSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/index.jsp"/>
+         <nodeClass>oracle.jdeveloper.model.JspSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InJs.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InJsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InLk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InLkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InLp.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InLpImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InNt.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InNtImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InPt.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InPtImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InSj.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InSjImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/InSk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/InSkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/InterningUnmarshallerHandler.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/jaxb.properties"/>
+         <nodeClass>oracle.ide.model.DeployableTextNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/JAXBVersion.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/legend.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Link.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Links.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinksImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/LinksType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinksTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/LinkText.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinkTextImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/LinkType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinkTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/LinkUri.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/LinkUriImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/logo.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/LYSA2.xml"/>
+         <nodeClass>oracle.bali.xml.addin.XMLSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/MarshallerImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/MiBr.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/MiBrImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/MSVValidator.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/NAMECD.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NAMECDImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/NameCds.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NameCdsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/NameCdsType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NameCdsTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/NamespaceContext2.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/NamespaceContextImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Nativity.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NativityImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Notes.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NotesImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/NotesType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/NotesTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/ObjectFactory.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/OtherRecords.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/OtherRecordsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/OtherRecordsType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/OtherRecordsTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Part.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/PartName.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartNameImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Parts.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/PartsType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartsTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/PartText.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartTextImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/PartType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/PartTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/PrefixCallback.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/print.css"/>
+         <nodeClass>oracle.jdevimpl.webapp.css.addin.CSSSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Reference.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/ReferenceImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/References.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/ReferencesImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/ReferencesType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/ReferencesTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/ReferenceType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/ReferenceTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/SAXMarshaller.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/SAXUnmarshallerHandler.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/SAXUnmarshallerHandlerImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/side_line.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/SimilarSpecies.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SimilarSpeciesImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/SimilarSpeciesType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SimilarSpeciesTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/SimNmCd.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SimNmCdImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/Size.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SizeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="species.deploy"/>
+         <nodeClass>oracle.ide.model.XMLDataNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/SpeciesPage.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SpeciesPageImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/SpeciesPageType.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/SpeciesPageTypeImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/tab1.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/tab2.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/taglib.deploy"/>
+         <nodeClass>oracle.ide.model.XMLDataNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/top_line.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/UnmarshallableObject.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/UnmarshallerImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/UnmarshallingContext.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/UnmarshallingEventHandler.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/UnmarshallingEventHandlerAdaptor.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/Util.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ValidatableObject.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ValidatingUnmarshaller.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ValidationContext.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/ValidatorImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/Ver2b_Sppage.xsd"/>
+         <nodeClass>oracle.jdevimpl.xml.schema.XmlSchemaNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/vp.css"/>
+         <nodeClass>oracle.jdevimpl.webapp.css.addin.CSSSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/vPlants.jsp"/>
+         <nodeClass>oracle.jdeveloper.model.JspSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/WEB-INF/vplants.tld"/>
+         <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/WEB-INF/web.xml"/>
+         <nodeClass>oracle.jdeveloper.xml.j2ee.war.WebAppNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/WiKs.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/WiKsImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/WiMw.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/WiMwImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="public_html/window.gif"/>
+         <nodeClass>oracle.jdeveloper.model.GifImageNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/WiRc.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/WiRcImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/WiWk.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/WiWkImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/WiWw.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/WiWwImpl.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/XMLSerializable.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/jaxb/impl/runtime/XMLSerializer.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/XMLSupportBean.java"/>
+         <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+      </Item>
+      <Item class="oracle.ide.model.Reference">
+         <URL path="src/org/vplants/utils/XMLSupportBean.properties"/>
+         <nodeClass>oracle.ide.model.DeployableTextNode</nodeClass>
+      </Item>
+   </listOfChildren>
+   <ownerMap class="java.util.HashMap">
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/AuthorTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/CommonNamesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/DescTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/EtymologyTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/FamilyTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/FloweringTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/FormaTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/FruitingTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/FurtherInfoTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/GenusTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/GIDTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/GroupTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/HabitatEcologyTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/ImageGalleryTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/ImagesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/MapTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/NameCDTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/NativityTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/NotesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/OtherRecordsTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/PartsTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/ReferencesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/RegionalOccurenceTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SimilarSpeciesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SpeciesPageTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SpeciesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SubDescriptionTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SubSpeciesTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/SynonymsTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+      <Item>
+         <Key class="oracle.ide.model.Reference">
+            <URL path="src/org/vplants/tags/VarTag.java"/>
+            <nodeClass>oracle.jdeveloper.model.JavaSourceNode</nodeClass>
+         </Key>
+         <Value class="oracle.ide.model.Reference">
+            <URL path="public_html/WEB-INF/vplants.tld"/>
+            <nodeClass>oracle.jdevimpl.jsp.wizards.taglib.TaglibNode</nodeClass>
+         </Value>
+      </Item>
+   </ownerMap>
+   <projectDocPath>
+      <entries class="[Ljava.net.URL;"/>
+   </projectDocPath>
+   <projectLibraryList class="oracle.jdeveloper.library.JProjectLibraryList">
+      <jdkList class="java.util.ArrayList"/>
+      <libraryList class="java.util.ArrayList"/>
+   </projectLibraryList>
+   <projectSettings>
+      <activeConfigName>Development</activeConfigName>
+      <commonData class="java.util.HashMap">
+         <Item>
+            <Key>oracle.bm.commonIde.data.project.ModelerProjectSettings</Key>
+            <Value class="oracle.bm.commonIde.data.project.ModelerProjectSettings">
+               <modelersPath>
+                  <entries>
+                     <Item path="model/"/>
+                  </entries>
+               </modelersPath>
+               <modelersVersion>10.12</modelersVersion>
+            </Value>
+         </Item>
+         <Item>
+            <Key>oracle.jdeveloper.compiler.ant.AntConfiguration</Key>
+            <Value class="oracle.jdeveloper.compiler.ant.AntConfiguration">
+               <arguments class="java.lang.String"/>
+               <makeTarget/>
+               <projectBuildfile/>
+               <rebuildTarget/>
+               <showOutput>true</showOutput>
+            </Value>
+         </Item>
+         <Item>
+            <Key>oracle.jdeveloper.offlinedb.OfflineDBProjectSettings</Key>
+            <Value class="oracle.jdeveloper.offlinedb.OfflineDBProjectSettings">
+               <databasePath>
+                  <entries>
+                     <Item path="database/"/>
+                  </entries>
+               </databasePath>
+            </Value>
+         </Item>
+      </commonData>
+      <configurations class="java.util.TreeMap">
+         <Item>
+            <Key>Development</Key>
+            <Value class="oracle.jdeveloper.model.JProjectConfiguration">
+               <configData class="java.util.HashMap">
+                  <Item>
+                     <Key>oracle.jdeveloper.compiler.OjcConfiguration</Key>
+                     <Value class="oracle.jdeveloper.compiler.OjcConfiguration">
+                        <assertionsEnabled>false</assertionsEnabled>
+                        <copyRes>
+                           <Item>.gif</Item>
+                           <Item>.properties</Item>
+                           <Item>.jpg</Item>
+                           <Item>.jpeg</Item>
+                           <Item>.xml</Item>
+                           <Item>-apf.xml</Item>
+                           <Item>.xcfg</Item>
+                           <Item>.cpx</Item>
+                           <Item>.css</Item>
+                           <Item>.js</Item>
+                           <Item>.png</Item>
+                           <Item>.tld</Item>
+                        </copyRes>
+                        <debugInformation>true</debugInformation>
+                        <excludedClasses class="[Ljava.lang.String;"/>
+                        <internalEncoding>Cp1252</internalEncoding>
+                        <obfuscate>false</obfuscate>
+                        <reverseCopyRes>false</reverseCopyRes>
+                        <showDeprecations>true</showDeprecations>
+                        <showObjectDotStaticWarnings>false</showObjectDotStaticWarnings>
+                        <showPartialImportWarnings>false</showPartialImportWarnings>
+                        <showSelfDeprecations>true</showSelfDeprecations>
+                        <showUnusedImportWarnings>false</showUnusedImportWarnings>
+                        <showWarnings>true</showWarnings>
+                        <target>Default</target>
+                        <updateImports>false</updateImports>
+                        <updateZipJarImports>false</updateZipJarImports>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.javadoc.JProjectJavadoc</Key>
+                     <Value class="oracle.jdeveloper.javadoc.JProjectJavadoc">
+                        <embedDiagram>5</embedDiagram>
+                        <genDiagramDoc>true</genDiagramDoc>
+                        <generateAuthor>false</generateAuthor>
+                        <generateDeprecated>true</generateDeprecated>
+                        <generateIndex>true</generateIndex>
+                        <generateNavbar>true</generateNavbar>
+                        <generateSince>true</generateSince>
+                        <generateTree>true</generateTree>
+                        <generateVersion>false</generateVersion>
+                        <heapSize>32</heapSize>
+                        <imageFormat>1</imageFormat>
+                        <miscOptions class="java.lang.String"/>
+                        <oneOneFormat>false</oneOneFormat>
+                        <outputDirectory path="javadoc/"/>
+                        <scope>-protected</scope>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.runner.RunConfiguration</Key>
+                     <Value class="oracle.jdeveloper.runner.RunConfiguration">
+                        <VMName>ojvm</VMName>
+                        <XSLTInputFileURL/>
+                        <XSLTOutputFileURL/>
+                        <allowInput>false</allowInput>
+                        <alwaysUseTarget>false</alwaysUseTarget>
+                        <clearLogBeforeRun>true</clearLogBeforeRun>
+                        <compileBeforeRun>true</compileBeforeRun>
+                        <connectionName/>
+                        <javaOptions class="java.lang.String"/>
+                        <logCommand>true</logCommand>
+                        <logError>true</logError>
+                        <logExit>true</logExit>
+                        <logOutput>true</logOutput>
+                        <programArguments class="java.lang.String"/>
+                        <runActiveFile>true</runActiveFile>
+                        <runDirectoryURL/>
+                        <targetURL path="public_html/index.jsp"/>
+                        <useProxy>true</useProxy>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectLibraries</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectLibraries">
+                        <jdkName>1.4.2_04</jdkName>
+                        <jdkVersionNumber>1.4.2_04</jdkVersionNumber>
+                        <libraries>JSP Runtime;J2EE;JAXB;JAXB_Extended</libraries>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectPaths</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectPaths">
+                        <additionalClassPath>
+                           <entries>
+                              <Item path="src/org/vplants/utils/"/>
+                           </entries>
+                        </additionalClassPath>
+                        <outputDirectory path="classes/"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.codecoach.CCConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.codecoach.CCConfiguration">
+                        <advices>ALL</advices>
+                        <exclude>com;java;javax;sun;sunw;org;oracle</exclude>
+                        <include class="java.lang.String"/>
+                        <level>4</level>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.debug.DebugConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.debug.DebugConfiguration">
+                        <JPDAClassicDebugArguments>-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDAClassicDebugArguments>
+                        <JPDADebugArguments>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDADebugArguments>
+                        <OJVMDebugArguments>-XXdebug,quiet,port&lt;port></OJVMDebugArguments>
+                        <breakpointScope>workspace</breakpointScope>
+                        <remoteDebugging>false</remoteDebugging>
+                        <remoteDebuggingParameters class="java.util.HashMap"/>
+                        <remoteDebuggingParametersSaved>false</remoteDebuggingParametersSaved>
+                        <remoteDebuggingProtocol>ojvm</remoteDebuggingProtocol>
+                        <startOption>running</startOption>
+                        <tracingDisabled>java;javax;sun;sunw;apple;com.apple;com.evermind;com.oracle;com.orionserver;com.sun;EDU.oswego;oracle.core;oracle.dms;oracle.ide;oracle.j2ee;oracle.jdbc;oracle.jdevimpl;oracle.jsp;oracle.oc4j;oracle.ojc;oracle.security;oracle.xml;org.omg;org.w3c;org.xml</tracingDisabled>
+                        <tracingEnabled class="java.lang.String"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.profile.ProfileConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.profile.ProfileConfiguration">
+                        <DMSstartID>20000</DMSstartID>
+                        <DMSstate>0</DMSstate>
+                        <eventColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </eventColumnVisible>
+                        <events>G(All events;(G(VM Events;(E(0;GC;-16776961;1);E(10;Wait;-65485;0);E(11;Synch Blocks 0;-39322;0);E(12;Synch Blocks 1;-39322;0);E(13;Synch Blocks 2;-39322;0);E(20;Prepare Class;-16751002;0);E(21;Load Class;-16724992;0);E(22;Resolve Class;-16737997;0);));G(BC4J Events;(E(1000;JBO_MISCELLANEOUS;-4144960;1);E(1001;JDBC_SELECT;-256;1);E(1002;JDBC_CREATE_STATEMENT;-256;1);E(1003;JDBC_CONNECT;-256;1);E(1004;JDBC_CREATE_PREPARED_STATEMENT;-256;1);E(1005;JDBC_EXECUTE;-256;1);E(1006;METAOBJECT_LOAD;-65281;1);E(1007;EXECUTE_QUERY;-16776961;1);E(1008;BC4J_CREATE_COMPOBJ;-65281;0);E(1009;BC4J_CREATE_ROOTAM;-65281;1);E(1010;BC4J_CREATE_VIEWOBJECT;-65281;0);E(1011;BC4J_CREATE_AM;-65281;0);E(1012;BC4J_CREATE_VIEWLINK;-65281;0);E(1013;SQLB_DOENTITYDML;-16776961;1);E(1014;SQLB_DOENTITYSELECT;-16776961;1);E(1015;VIEWOBJECT_GETSTATEMENT;-16776961;1);E(1016;REMOTE_METHOD_CALL;-65536;1);));));</events>
+                        <excludedClasses>java;javax;sun;sunw;com;oracle</excludedClasses>
+                        <excludedInstances class="java.lang.String"/>
+                        <includedClasses class="java.lang.String"/>
+                        <includedInstances class="java.lang.String"/>
+                        <localProfiling>true</localProfiling>
+                        <memColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </memColumnVisible>
+                        <memoryUpdateInterval>10</memoryUpdateInterval>
+                        <remoteHost class="java.lang.String"/>
+                        <remoteParametersSaved>false</remoteParametersSaved>
+                        <remotePort>4000</remotePort>
+                        <sampleColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </sampleColumnVisible>
+                        <sampleInterval>5</sampleInterval>
+                        <sliderDepth>20</sliderDepth>
+                        <useAPI>false</useAPI>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.xslt.XSLTConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.xslt.XSLTConfiguration">
+                        <inputFileURL/>
+                        <outputFileURL/>
+                        <showInputFile>true</showInputFile>
+                        <showOutputFile>true</showOutputFile>
+                        <sourcePath>
+                           <entries class="[Ljava.net.URL;"/>
+                        </sourcePath>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.sqlj.config.SqljConfiguration</Key>
+                     <Value class="oracle.jdevimpl.sqlj.config.SqljConfiguration">
+                        <additionalParameters class="java.lang.String"/>
+                        <checkSemantics>false</checkSemantics>
+                        <codegen>oracle</codegen>
+                        <contextConnectionMap class="java.util.HashMap"/>
+                        <contextName>&lt;none></contextName>
+                        <useCache>false</useCache>
+                        <warnAll>false</warnAll>
+                        <warnNull>false</warnNull>
+                        <warnPortable>false</warnPortable>
+                        <warnPrecision>false</warnPrecision>
+                        <warnStrict>false</warnStrict>
+                        <warnVerbose>false</warnVerbose>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>WebappJspCompilerOptions</Key>
+                     <Value class="oracle.jdevimpl.webapp.jsp.JspCompilerOptions">
+                        <forgiveDuplicateDirectiveAttributes>false</forgiveDuplicateDirectiveAttributes>
+                        <requestTimeIntrospection>false</requestTimeIntrospection>
+                        <validate>true</validate>
+                        <validateTLD>true</validateTLD>
+                     </Value>
+                  </Item>
+               </configData>
+            </Value>
+         </Item>
+      </configurations>
+   </projectSettings>
+   <projectSourcePath>
+      <entries>
+         <Item path="src/"/>
+      </entries>
+   </projectSourcePath>
+   <properties class="java.util.HashMap">
+      <Item>
+         <Key>CachedConfigTable</Key>
+         <Value class="oracle.jsp.parse.CachedConfigTable"/>
+      </Item>
+   </properties>
+</project>
