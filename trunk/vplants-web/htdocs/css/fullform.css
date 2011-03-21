@@ -1,0 +1,103 @@
+
+/* CSS for fullform found on Advanced Search */
+
+form td {
+	vertical-align: top;
+	width: 45%;
+	}
+form td.rightcol {
+	padding-left: 15px;
+	}
+form fieldset {
+	text-align: right;
+	background: #ffd; 	
+	}
+#fullform fieldset p.small {
+	text-align: left;
+	}
+#fullform fieldset { 
+	width: auto;
+	margin: 5px 0 5px 0px;
+	padding: 5px 10px 7px 5px; 
+	}
+#fullform p { 
+	margin: 0.4em 0;
+	}
+#fullform p.actions {
+	text-align: center;
+	margin-top: 15px;
+	}
+#fullform fieldset, #fullform legend {
+	border: 1px solid #890;
+	}
+#fullform legend { 
+	background: #ff8;
+	color: #360;
+	padding: 0 10px;
+	}
+#fullform label, #fullform strong { 
+	font-weight: bold; 
+	}
+#fullform .radios label { 
+	font-family: Optima, Arial, sans-serif; 
+	}
+#fullform fieldset input, #fullform fieldset select {
+	border: 1px inset #cc0; 
+	color: black; 
+	width: 7.6em; 
+	background: #ffe; 
+	}
+#fullform fieldset.inputshort input, #fullform fieldset.inputshort select{
+	width: 4em; 
+	}
+#fullform fieldset.inputlong input, #fullform fieldset.inputlong select{
+	width: 16em; 
+	}
+#fullform fieldset select {
+	width: 7.8em; 
+	}
+
+#fullform fieldset input:focus, #fullform fieldset select:focus { 
+	border-color: #000;
+	background: #fff; 
+	}
+#fullform fieldset.radio input {
+	border: 0; 
+	color: black; 
+	width: auto; 
+	background: transparent; 
+	}
+
+#fullform .actions input { 
+	font-size: 1em; 
+	font-weight: bold;
+	width: 5em;
+	height: 1.6em;
+	padding: 0 5px 3px;
+	}
+#fullform .actions input#reset1 { 
+	font-size: .8em; 
+	font-weight: normal;
+	width: 4em;
+	height: 1.5em;
+	padding: 0 4px 2px;
+	}
+
+
+
+
+
+/* === Start rules seen only by IE 5 Mac. Don't put any comments below!! === */
+/*\*//*/
+
+
+#fullform p { 
+	font-size: .8em;
+	}
+
+#fullform p.small { 
+	font-size: .7em;
+	}
+
+/* */
+/* === end rules for IE 5 Mac === */ 

@@ -1,0 +1,26 @@
+/* #wrapper1 */
+body.home {color: #361; background: #ffb;}
+#sitehead {
+	min-height: 60px;
+	color: #361; 
+	background: #dd7 url(../img/side_line.gif) right top no-repeat;
+	}
+.boxless #bodywrap {background: url(../img/side_line.gif) #ffb right top repeat-y;} 
+.boxless #sitefoot {background: #ffb;}
+#tagline {padding-top: 9px; text-align: right;}
+#tagline img {display: inline; margin-right: 8px; border: 1px solid #cc0;}
+
+
+#pagemenu li.thispage {background-color: #ffb; color: #361;}
+div#sitemenu li span.start {background-color: #ffb; color: #361; border-right: 0;}
+
+h2 {margin: 0 0 .5em 0; font-size: 1.4em;}
+
+.maps a {display: inline; margin-left: 7px;}
+.maps img {border: 2px solid #cc0;}
+.maps a:link img {border-color: #361;}
+.maps a:visited img {border-color: #650;}
+.maps a:hover img, .maps a:active img, .maps a:focus img {border-color: #00f;}
+
+#sitefoot {margin-bottom: 0; padding-bottom: 50px;}
+

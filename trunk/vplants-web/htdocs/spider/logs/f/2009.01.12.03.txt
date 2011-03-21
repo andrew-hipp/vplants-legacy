@@ -1,0 +1,29 @@
+[Mon Jan 12 03:00:02 CST 2009] [NORMAL][main] START: F1
+[Mon Jan 12 03:01:16 CST 2009] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VP-251/146814VP-251.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_PLANTS"."SPECIMEN"."COLL_NBR" (actual: 22, maximum: 20)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] FINISH: F1
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] *************************************************************************
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Total Run Time= 			75.550 seconds
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Total Run Time= 			1 minutes, 15 seconds
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Taxon Pages Processed = 		1359
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Specimen Pages Processed = 		22153
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Specimen Page Inserts = 		0
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Specimen Page Updates = 		1
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] Total Errors = 			1
+[Mon Jan 12 03:01:17 CST 2009] [NORMAL][main] *************************************************************************

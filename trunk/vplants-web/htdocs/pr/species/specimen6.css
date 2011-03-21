@@ -1,0 +1,29 @@
+
+
+/* used on Speciman Detail page 
+for download information */	
+.smtxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	color: #999999;
+} 
+
+
+/* Used as Specimen head */
+.specimenhead {
+	font-family: arial, helvetical, sans-serif;
+	color: #360;
+	}		
+a.specimenhead:link, a.specimenhead:visited {
+	font-family: arial, helvetical, sans-serif;
+	color: #360;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	}		
+a.specimenhead:hover {
+	font-family: arial, helvetical, sans-serif;
+	color: #960;
+	text-decoration: none;
+	}	
+	

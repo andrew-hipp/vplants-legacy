@@ -1,0 +1,494 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<font FACE="arial" size="+1">
+<body>
+<center>
+<table align=center width=100%>
+	<tr align=left>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Content Model Diagram</font>
+		</th>
+	</tr>
+</table>
+<p><img border="0" src="XAImageFile6.jpg"></p>
+<H2>Element Types Table</H2>
+<table align=center width=100%>
+	<tr align=left>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			D</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Type</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Derives From</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Content</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Content Model</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Attributes</font>
+		</th>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>spm</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(colldate? , collectors? , collnbr? , sitegeo? , sitesurvey? , sitegps? , locality? , habitat? , typespm? , homepg? , crdate)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>colldate</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(month? , day? , year)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>month</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>integer</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>day</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>integer</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>year</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>integer</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>collectors</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(pcoll , scoll*)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>pcoll</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(fname? , mname? , lname)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>scoll</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(fname? , mname? , lname)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>fname</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>mname</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>lname</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>collnbr</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>sitegeo</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(state , county? , township? , city?)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>state</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>county</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>township</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>city</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>sitesurvey</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(twp , rng , sec)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>twp</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(twpnum , twpdir)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>twpnum</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>twpdir</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>rng</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(rngnum , rngdir)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>rngnum</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>rngdir</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>sec</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(secnum , secdtl)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>secnum</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>secdtl</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>sitegps</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(lat , long)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>lat</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(latdir , latdd)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>latdir</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>latdd</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>decimal</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>long</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(longdir , longdd)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>longdir</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>longdd</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>decimal</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>locality</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>habitat</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>string</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>typespm</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>homepg</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(link , loc? , hab? , desc? , assoc? , annot? , image*)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>link</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>anyURI</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>loc</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>data</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>hab</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>data</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>desc</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>data</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>assoc</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>data</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>annot</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>EMPTY</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>data</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>image</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Type</td>
+		<td VALIGN=TOP>anyURI</td>
+		<td VALIGN=TOP>type</td>
+	</tr>
+	<tr align=left>
+		<td VALIGN=TOP>E</td>
+		<td VALIGN=TOP>crdate</td>
+		<td VALIGN=TOP><pre> </pre></td>
+		<td VALIGN=TOP>Elements</td>
+		<td VALIGN=TOP>(month , day , year)</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+</table>
+<br><hr><br>
+
+<H2>Attribute Types Table</H2>
+<table align=center width=100%>
+	<tr align=LEFT>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Attribute Name</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Element</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Data Type</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Constraints</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Use</font>
+		</th>
+		<th bgcolor=#0000FF VALIGN=BOTTOM><font FACE="arial" size="+1" color=#FFFFFF>
+			Value</font>
+		</th>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>type</td>
+		<td VALIGN=TOP>image</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>preview | full | flower | bud | fruit | seed | label | map | site</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>data</td>
+		<td VALIGN=TOP>annot</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>H | S</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>data</td>
+		<td VALIGN=TOP>assoc</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>H | S</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>data</td>
+		<td VALIGN=TOP>desc</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>H | S</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>data</td>
+		<td VALIGN=TOP>hab</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>H | S</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+	<tr align=LEFT>
+		<td VALIGN=TOP>data</td>
+		<td VALIGN=TOP>loc</td>
+		<td VALIGN=TOP>NMTOKEN</td>
+		<td VALIGN=TOP>H | S</td>
+		<td VALIGN=TOP>required</td>
+		<td VALIGN=TOP><pre> </pre></td>
+	</tr>
+</table>
+<br><hr><br>
+
+
+
+
+
+
+
+
+</center>
+
+</FONT>
+</body>
+</html>

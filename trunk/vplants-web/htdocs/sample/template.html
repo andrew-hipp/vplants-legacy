@@ -1,0 +1,657 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>vPlants - 
+[t03] 
+[t04] 
+ssp. [if t06 exists] 
+[t06] 
+var. [if t08 exists] 
+[t08] 
+forma [if t10 exists] 
+[t10] 
+ - Description</title>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="vplants, vplants.org, plant, plants, herbarium, herbaria, collections, specimens, museum, arboretum, botanic garden, natural history, ecology, distribution" />
+<meta name="description" content="vPlants offers thousands of plant and fungus specimens for the Chicago Region, USA, with images and descriptions." />
+<meta name="author" content="The vPlants Project" />
+<meta http-equiv="content-language" content="en-us" />
+<meta content="General" name="rating" />
+<meta content="Living Document" name="doc-class" />
+<meta content="Copyright (c) 2001-2005 The vPlants Project" name="copyright" />
+
+<link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="start" title="Home page" href="/" />
+<link rel="search" title="Search this site" http://www.vplants.org/search.html">
+<link rel="help" title="Access features of this site" href="/access.html" />
+
+<link href="/css/basic.css" rel="stylesheet" type="text/css" media="screen"  />
+<style type="text/css" media="screen, print">@import "/css/vp.css";</style>
+<link href="/print.css" rel="stylesheet" type="text/css"  media="print"  />
+<script src="/js/basic.js" type="text/javascript"></script>
+
+</head>
+
+<body id="vplants" class="plant descrip" >
+<!-- Body ID allows user styling of vPlants pages. 
+Body CLASS allows author styling of that page. -->
+<a class="zero" id="top" name="top"></a>
+
+<div id="header" class="clearfix">
+<div id="logo"><a tabindex="2" 
+ href="/"
+ title="vPlants.org Home."><img src="/img/logo.gif" 
+ width="240" height="60" alt="vPlants" /></a></div>
+<p class="hide">
+<a href="#tabmenu">Skip to tab menu.</a>
+</p>
+<div id="headerform">
+<div id="simpleform">
+<form
+ name="simple"
+ method="post"
+ action="/xsql/plants/findtaxa.xsql">
+
+<p><input id="submit" name="submit" type="submit" value="Search"
+ tabindex="107" title="Perform Search." />
+ <label for="genus" accesskey="4" 
+ title="Example: Ulmus.">Genus: 
+<input class="texts" id="genus" name="genus" type="text" maxlength="30" 
+ tabindex="104" title="Enter name of a genus [one word, can use first several letters]." value="" /></label>
+</p>
+<p><label for="species" 
+ title="Example: americana.">Species Epithet: 
+<input class="texts" id="species" name="species" type="text" maxlength="30" 
+ tabindex="105" title="Enter the species epithet, or subspecies, or variety [one word]." value="" /></label>
+</p>
+<p><label for="common" 
+ title="Example: american elm.">Common Name: 
+<input class="texts" id="common" name="common" type="text" maxlength="50" 
+ tabindex="106" title="Enter a common name [can use more than one word]." value="" /></label></p></form></div></div>
+
+
+<div id="tagline"><h1>vPlants.org</h1>
+ <p><a href="/about_herbarium.html" 
+ title="What is a Herbarium?">A Virtual Herbarium of the Chicago Region</a></p></div>
+</div><!-- End of #header -->
+
+
+<div id="tabs" class="clearfix">
+<p class="hide">
+<a id="tabmenu" name="tabmenu" ></a>
+<a href="#primary">Skip to plant description.</a>
+</p>
+
+<ul id="taxtabs"><li><a tabindex="200" 
+ href="/xsql/plants/famtaxa.xsql?fam=[t12]" 
+ title="Go to listing for this Family.">Plant<!-- insert GROUP --> Family:  
+ <strong>[t12]</strong></a></li><li><a 
+ href="/xsql/plants/gentaxa.xsql?gen=[t03]" 
+ title="Go to listing for this Genus.">Genus:  
+<strong>[t03]</strong></a></li></ul>
+
+<ul id="viewtabs"><li><a 
+ href="/xsql/plants/taxon.xsql?gid=[t01]"
+ title="All Specimens for this plant.">Specimens</a></li><li
+ class="thispage"><span 
+ title="You are here: Description for this plant.">Description</span></li><li><a 
+ href="[link to photo gallery]"
+ title="Photo Gallery for this plant.">Photos</a></li></ul>
+</div><!-- End of #tabs -->
+
+<div id="main1" class="clearfix"><div id="main2" class="clearfix">
+<!-- PAGE CONTENT STARTS --><a class="zero" id="content" name="content"></a>
+<div id="content1"><!-- start of primary content -->
+<p class="hide">
+<a id="primary" name="primary"></a>
+<a href="#xlinks">Skip to links and references.</a>
+</p>
+<!--  
+Insert ONE of the following if indicated for that plant.
+There may be a rare case where a plant is listed in both databases,
+possibly by error, but that case is not expected.
+
+[INV] insert this <p> element if taxon exists in Invasive species database:
+<p class="rating"><a href="/plants/invasive.html">Invasive Plant</a></p>
+
+[T&E] insert this <p> element if taxon exists in Plants of Concern database:
+<p class="concern"><a href="/plants/concern.html">Plant of Concern</a></p>
+
+-->
+
+<h2 class="taxon">
+<!-- ENTER TAXON NAME PARTS HERE -->
+ <span class="sp">
+  <em class="genus">[t03]</em> 
+  <em class="epithet">[t04]</em> 
+  <span class="author">[t05]</span><!-- species author -->
+ </span>
+
+ <!-- 
+ elements for  Subspecies or Variety or Forma (in that order)
+ use ssp. or var. or forma
+
+ insert this span element if [t06] ssp. exists:
+	
+ <span class="infra">ssp.
+  <em class="epithet">[t06]</em>
+  <span class="author">[t07]</span>
+ </span>
+ 
+ 
+ insert this span element if [t08] var. exists:
+	
+ <span class="infra">var. 
+  <em class="epithet">[t08]</em>
+  <span class="author">[t09]</span>
+ </span>
+ 
+ insert this span element if [t10] forma exists:
+	
+ <span class="infra">forma
+  <em class="epithet">[t10]</em>
+  <span class="author">[t11]</span>
+ </span>
+ 
+ -->
+</h2>
+
+<dl id="deflist"><!-- Start main definition list 
+Each definition pair has a matching class -->
+
+<!-- *** Check for existence of Common Names values.
+If there are none than Omit this <dt> <dd> elements pair. -->
+<dt id="common">Common Names:</dt>
+<dd>
+[CN]
+</dd>
+
+<!-- *** Check for existence of Synonym records.
+If there are none than Omit this <dt> <dd> elements pair. -->
+<dt id="synonym">Synonyms:</dt>
+<dd><!-- 
+These taxon names come from the Taxon Checklist where
+the "Synonymy Code" matches but the "vPlants accepted name?" equals "N".
+
+Insert and repeat this <span> element for each synonym record:
+A semicolon  ";" is inserted at the end of each synonym except for the last one.
+  -->
+<span><em>[t03] [t04]</em> [t05]
+ ssp. [if t06 exists] 
+ <em>[t06]</em> [t07]
+var. [if t08 exists] 
+ <em>[t08]</em>  [t09]
+forma [if t10 exists] 
+ <em>[t10]</em>  [t11];
+ </span>
+
+</dd>
+
+<dt id="desc">Description:</dt>
+<dd>
+ <dl id="descdef">
+  <dt class="growth">Growth form:</dt>
+   <dd class="growth">[s03],</dd><!-- insert comma after text -->
+  <dt class="size">Size:</dt>
+   <dd class="size">[s04].</dd><!-- insert period after text -->
+   
+  <!-- Repeating contents of PARTS element -->
+  <dt class="part">[s05]</dt>
+   <dd class="part">[s06]</dd>
+
+
+ </dl><!-- End #defdesc -->
+</dd>
+
+<dt id="simsp">Similar species:</dt> 
+<dd>
+[s07]
+</dd>
+<!-- insert taxon names for Similar Species name codes 
+and link to their description page URL.
+Repeat the following <dd> for each NameCd that exists.
+Each link goes in a separate <dd> -->
+<dd class="simlink">
+<!-- {s08] NameCd gives name code for other description pages to link to.
+Use the name code to lookup in the checklist for the species name. -->
+<a href="{s08 URI for description page]">[t03] [t04] [t05]
+ssp. [if t06 exists] [t06] [t07]
+var. [if t08 exists] [t08] [t09]
+forma [if t10 exists] [t10] [t11]</a>
+</dd>
+
+<!-- Repeat the following <dd> for each SimilarSpecies Link that exists.
+Each link goes in a separate <dd> -->
+<dd class="links">
+<a href="[s09]">[s10]</a> (external link)
+</dd>
+
+<!-- Fungus page uses Fruiting instead. -->
+<dt id="season">Flowering:</dt>
+<dd> 
+[s11]
+</dd>
+
+<dt id="habitat">Habitat and ecology:</dt> 
+<dd>
+[s13]
+</dd>
+
+<dt id="notes">Notes:</dt> 
+<dd>
+[s14]
+</dd>
+<!-- Repeat the following <dd> for each Notes Link that exists.
+Each link goes in a separate <dd> -->
+<dd class="links">
+<a href="[s15]">[s16]</a> (external link)
+</dd>
+
+<dt id="etym">Etymology:</dt> 
+<dd> 
+[s17]
+</dd>
+<!-- Repeat the following <dd> for each Etymology Link that exists.
+Each link goes in a separate <dd> -->
+<dd class="links">
+<a href="[s18]">[s19]</a> (external link)
+</dd>
+
+<dt id="native">Regional occurrence:</dt>
+<dd><!-- nativity; plants only.
+All content goes inside of the link. -->
+<a href="/plants/concern.html" title="Read about native, non-native and invasive plants.">[s20]</a>.
+</dd>
+
+<dt id="conserv">Regional conservation status:</dt>
+<dd><!-- text from relational table; plants only. 
+Format is start with the link for Listed as
+followed by "[category] in [state]" for up to 4 states
+then ending with "[category] Federally" when indicated.
+Include commas and final period for punctuation.
+Example follows.
+If the state and federal fields are blank then omit this <dt> <dd> pair.
+ -->
+<a href="/plants/concern.html" 
+title="Read about plants of concern.">Listed</a> as 
+Threatened in Illinois, 
+Special Concern in Indiana, 
+Threatened in Michigan, 
+and Threatened Federally.
+</dd>
+
+<dt class="namecode">vPlants name code:</dt>
+<dd class="namecode">
+[t02]
+</dd>
+<dd class="hide">
+<a id="xlinks" name="xlinks" ></a>
+<a href="#secondary">Skip to photo and distribution map.</a>
+</dd>
+
+<dt id="further">Further information (external links):</dt>
+<dd>
+[s21]
+</dd>
+<dd class="links"><!-- This link generated automatically ?? -->
+<a href="http://botany.wisc.edu/wisflora/scripts/detail.asp?SpCode=[Wisc Name Code]">Wisconsin State Herbarium, UW - Madison</a>
+</dd>
+<dd class="links"><!-- This link generated automatically ?? -->
+<a href="http://wisplants.uwsp.edu/scripts/detail.asp?SpCode=[Wisc Name Code]">Freckmann Herbarium, UW - Stevens Point</a>
+</dd>
+<dd class="links"><!-- This link generated automatically ?? -->
+<a href="http://plants.usda.gov/cgi_bin/plant_profile.cgi?symbol=[USDA Name Code">
+USDA PLANTS Profile</a>, Includes USA map, state map links
+</dd>
+
+<!-- Repeat the following <dd> for each furtherInfo Link that exists.
+Each link goes in a separate <dd> -->
+<dd class="links">
+<a href="[s22]">[s23]</a> (external link)
+</dd>
+
+<dd class="google">Google: 
+<!-- insert Genus and Epithets [t03] [t04] [t06] [t08] [t10] into URL 
+Note there are no spaces before genus and after last epithet -->
+<a href="http://www.google.com/search?hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=[genus species variety]&amp;btnG=Google+Search" >Text Search</a>
+ |
+<a href="http://images.google.com/images?q=[genus species variety]&amp;ie=UTF-8&amp;oe=UTF-8&amp;hl=en&amp;btnG=Google+Search" >Image Search</a>
+</dd>
+<dd>
+[ We can not vouch for content of other websites ]
+</dd>
+
+<dt class="refer">References:</dt>
+<!-- Repeat the following <dd> for each reference that exists.
+Enter the Citation and/or the Link whichever exist(s).
+Each reference goes in a separate <dd> -->
+<dd class="refer">
+[s24 if it exists] 
+<a href="[s25]">[s26]</a>
+</dd>
+
+
+</dl><!-- End main definition list -->
+
+</div><!-- end of #content1 -->
+
+<div id="content2"><!-- start of side content -->
+<p class="hide">
+<a id="secondary" name="secondary"></a>
+<a href="#sitemenu">Skip to site menu.</a>
+</p>
+<div id="portrait"><a tabindex="400"
+
+
+
+ href="#" 
+ title="Go to Photo Gallery."><img
+ src="[nameCd.po.jpg URI]" 
+ width="[PO.jpg query, max is 250]" 
+ height="[PO.jpg query]"
+ alt="[t03] [t04] 
+ ssp. [if t06 exists] 
+ [t06]
+ var. [if t08 exists] 
+ [t08] 
+ forma [if t10 exists] 
+ [t10]"
+ /></a></div>
+        
+<div class="box map">
+
+<h3>Distribution by county</h3>
+
+<p class="taxon"><!-- ENTER TAXON NAME PARTS HERE -->
+ <em>[t03] [t04]</em> 
+ ssp. [if t06 exists] 
+ <em>[t06]</em> 
+ var. [if t08 exists] 
+ <em>[t08]</em> 
+ forma [if t10 exists] 
+ <em>[t10]</em> 
+</p>
+
+<img id="map"
+ usemap="#map_205x225" 
+ src="[MAP URI]" 
+ width="205" height="225" 
+ alt="Chicago Region Distribution Map." />
+
+<img id="legend"
+ src="/img/legend.gif" border="0" 
+ width="205" height="40"
+ alt="Color Symbols used on map."
+ title="Color Symbols for Specimens and Other Records." />
+
+<p>
+Click any county or state for specimens from that area.
+</p>
+
+<!-- The following list of state and county specimen links 
+is a sample output that matches the sample for the 
+client side image map at end of this file. -->
+<div id="colinks"><ul>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI"><strong>Wisconsin</strong></a>
+ <ul>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI&amp;county=walworth">Walworth</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI&amp;county=waukesha">Waukesha</a></li>
+ </ul></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL"><strong>Illinois</strong></a>
+ <ul>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=cook">Cook</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=dupage">DuPage</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=kane">Kane</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=kankakee">Kankakee</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=lake">Lake</a></li>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=mchenry">McHenry</a></li>
+ </ul></li>
+
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IN"><strong>Indiana</strong></a>
+ <ul>
+<li><a href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IN&amp;county=lake">Lake</a></li>
+ </ul></li>
+
+<!-- no Michigan records in this example. -->
+</ul></div>
+
+<p>
+<a href="/xsql/plants/taxon.xsql?gid=[t01]">
+Or click here for specimen records from all counties.</a>
+</p>
+</div>
+
+<p class="small">
+Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p>
+<p class="small">
+<a class="popup" href="/disclaimer.html" 
+title="Read Disclaimer [opens new window]." 
+onclick="window.open(this.href, 'disclaimer', 
+'width=500,height=350,resizable,top=100,left=100');
+return false;" 
+onkeypress="window.open(this.href, 'disclaimer', 
+'width=500,height=350,resizable,top=100,left=100');
+return false;">Disclaimer</a>
+</p>
+
+</div><!-- end of #content2 -->
+</div><!-- end of #main2 -->
+
+<div id="menu"><!-- start of #menu -->
+<p class="hide">
+<a id="sitemenu" name="sitemenu"></a>
+<a href="#footmenu">Skip to footer and access key menu.</a>
+</p>
+<ul><li 
+ class="search"><a tabindex="500"
+ href="/search.html"
+ title="Advanced Search.">Search</a></li><li 
+ class="home"><a 
+ href="/"
+ title="Home Page.">Home</a></li><li 
+ class="plant head"><a class="thismenu" 
+ href="/plants/"
+ title="Plant directory.">Plants</a></li><li 
+ class="plant item"><a 
+ href="/plants/diversity.html"
+ title="All about plants of the region.">Diversity</a></li><li 
+ class="plant item"><a 
+ href="/plants/glossary/"
+ title="Definitions of terms for plants.">Glossary</a></li><li 
+ class="fungus head"><a 
+ href="/fungi/"
+ title="Fungus directory.">Fungi</a></li><li><a href="/help.html" 
+ title="Help and Frequently Asked Questions.">Help FAQ</a></li><li><a 
+ href="/biblio.html"
+ title="List of Books and other literature.">References</a></li><li><a 
+ href="/links.html"
+ title="Links to related web sites.">Links</a></li></ul>
+
+
+</div><!-- end of #menu --></div><!-- end of #main1 -->
+
+
+<div id="footer">
+<p class="hide">
+<a id="footmenu" name="footmenu"></a>
+<a href="#accessmenu">Skip to access key menu.</a>
+</p>
+<p id="funds">
+Funded by <a href="http://www.imls.gov" title="Go to IMLS web site." 
+ >Institute of Museum and Library Services (IMLS)</a>
+</p>
+<p id="citation">
+Citation: <span class="helptext" title="This is how you list this web site as a reference.">
+The vPlants Project. 
+vPlants: A Virtual Herbarium of the Chicago Region. 
+http://www.vplants.org</span>
+</p>
+<p id="copyright">
+Copyright &copy; 2001 - 
+<script type="text/javascript" language="JavaScript">
+document.write(thisYear())
+</script>
+ The vPlants Project 
+<br />
+<a tabindex="600" 
+ href="/about_partners.html#morton" 
+ title="Read about this partner.">The Morton Arboretum</a>, 
+<a 
+ href="/about_partners.html#field" 
+ title="Read about this partner.">The Field Museum</a>, 
+<a 
+ href="/about_partners.html#botanic" 
+ title="Read about this partner.">Chicago Botanic Garden</a>, 
+<a 
+ href="/about_partners.html#additional" 
+ title="Read about other partners.">Additional Partners</a>
+</p>
+<div id="footlinks">
+<p class="hide">
+<a id="accessmenu" name="accessmenu"></a>
+<a href="#top">Skip back to top of page.</a>
+</p>
+ <p><a class="helptext" href="/access.html" title="Access Keys: press number key (Windows, Alt plus number) (Mac, Control plus number).">Keyboard shortcuts:</a> Press number key (Windows, Alt plus key) (Mac, Control plus key).</p>
+ <ul><li><a tabindex="900" href="/" accesskey="1">1: Home</a></li>
+ <li><a href="#content" accesskey="2">2: Page Content</a></li>
+ <li><a href="#top" accesskey="3">3: Page Top</a></li>
+ <li>4: Search</li><!-- accesskey 4 is attached to first label in search form. -->
+ <li><a href="/search.html" accesskey="5">5: Advanced Search</a></li>
+ </ul>
+ <ul>
+ <li><a href="/sitemap.html" accesskey="7">7: Site Map</a></li>
+ <li><a href="/contact.html" accesskey="8">8: Contact Us</a></li>
+ <li><a href="/feedback.html" accesskey="9">9: Feedback</a></li>
+ <li><a href="/access.html" accesskey="0">0: Accessibility Statement</a></li>
+ </ul>
+ </div>
+</div><!-- End #footer -->
+
+
+<!-- The following client side image map 
+is a sample output that matches the sample for the 
+list of state and county specimen links above. -->
+<div>
+<map id="map_205x225" name="map_205x225">
+<!-- If a vPlants specimen record exists for the state or county 
+     then the HREF is inserted with the search string 
+	 with taxon number, state and county, and the text 
+	 ", see specimens" is added to the Title attribute.
+	 
+	 If there is no record then the HREF is omitted. 
+	 
+	 If there are no vPlants records but the Species page XML file
+	 indicates "other records" for the county then 
+	 ", has other records" is added to the Title attribute.
+	 Otherwise ", no records" is added to the Title attribute.
+	 -->
+
+<area shape="rect" alt="Wisconsin (5 counties)" title="Wisconsin (5 counties), see specimens" 
+ coords="3,9,36,33" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI" 
+  />
+<area shape="rect" alt="Illinois (11 counties)" title="Illinois (11 counties), see specimens" 
+ coords="2,144,29,171" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL" 
+  />
+<area shape="rect" alt="Indiana (7 counties)" title="Indiana (7 counties), see specimens" 
+ coords="171,157,201,183" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IN" 
+  />
+<area shape="rect" alt="Michigan (1 county)" title="Michigan (1 county), no records" 
+ coords="180,60,204,86" 
+  />
+
+<area shape="rect" alt="Kenosha County, Wisconsin"  title="Kenosha County, Wisconsin, has other records" 
+ coords="54,53,82,63" 
+  />
+<area shape="rect" alt="Milwaukee County, Wisconsin" title="Milwaukee County, Wisconsin, has other records" 
+ coords="69,8,81,37" 
+  />
+<area shape="rect" alt="Racine County, Wisconsin" title="Racine County, Wisconsin, has other records" 
+ coords="54,39,83,50" 
+  />
+<area shape="rect" alt="Walworth County, Wisconsin" title="Walworth County, Wisconsin, see specimens" 
+ coords="26,39,52,64" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI&amp;county=walworth" 
+  />
+<area shape="rect" alt="Waukesha County, Wisconsin" title="Waukesha County, Wisconsin, see specimens" 
+ coords="41,9,66,36" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=WI&amp;county=waukesha" 
+  />
+
+<area shape="rect" alt="Boone County, Illinois" title="Boone County, Illinois, no records" 
+ coords="14,68,27,94" 
+  />
+<area shape="poly" alt="Cook County, Illinois" title="Cook County, Illinois, see specimens" 
+ coords="58,96,58,108,77,109,77,146,85,146,85,153,98,153,98,130,85,95" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=cook" 
+  />
+<area shape="rect" alt="DeKalb County, Illinois" title="DeKalb County, Illinois, no records" 
+ coords="14,96,32,138" 
+  />
+<area shape="rect" alt="DuPage County, Illinois" title="DuPage County, Illinois, see specimens" 
+ coords="57,111,75,131" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=dupage" 
+  />
+<area shape="rect" alt="Grundy County, Illinois" title="Grundy County, Illinois, no records" 
+ coords="36,155,55,183" 
+  />
+<area shape="rect" alt="Kane County, Illinois" title="Kane County, Illinois, see specimens" 
+ coords="35,96,54,131" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=kane" 
+  />
+<area shape="poly" alt="Kankakee County, Illinois" title="Kankakee County, Illinois, see specimens" 
+ coords="98,191,57,191,58,177,71,177,71,169,98,169" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=kankakee" 
+  />
+<area shape="rect" alt="Kendall County, Illinois" title="Kendall County, Illinois, no records" 
+ coords="35,134,54,152" 
+  />
+<area shape="rect" alt="Lake County, Illinois" title="Lake County, Illinois, see specimens" 
+ coords="62,67,84,93" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=lake" 
+  />
+<area shape="rect" alt="McHenry County, Illinois" title="McHenry County, Illinois, see specimens"
+ coords="29,68,59,93" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IL&amp;county=mchenry" 
+  /> 
+<area shape="poly" alt="Will County, Illinois" title="Will County, Illinois, no records" 
+ coords="57,133,58,174,69,174,69,167,98,166,98,155,84,155,83,148,75,148,75,141,68,141,67,133" 
+  />
+
+<area shape="poly" alt="Jasper County, Indiana" title="Jasper County, Indiana, no records"
+ coords="117,176,118,213,126,213,126,205,133,205,133,200,136,200,136,176,131,175,127,171,122,171" 
+  />
+<area shape="poly" alt="Lake County, Indiana"  title="Lake County, Indiana, see specimens"  
+ coords="101,136,101,178,113,177,119,172,119,142,110,141" 
+ href="/xsql/plants/searchtaxon.xsql?gid=[t01]&amp;state=IN&amp;county=lake" 
+  />
+<area shape="poly" alt="LaPorte County, Indiana" title="LaPorte County, Indiana, no records" 
+ coords="139,133,139,172,149,165,153,155,163,155,163,129,143,129" 
+  />
+<area shape="rect" alt="Newton County, Indiana" title="Newton County, Indiana, no records"
+ coords="101,180,115,213" 
+  />
+<area shape="poly" alt="Porter County, Indiana" title="Porter County, Indiana, no records"
+ coords="121,140,121,169,129,169,136,174,136,134"
+  />
+<area shape="rect" alt="St. Joseph County, Indiana" title="St. Joseph County, Indiana, no records"
+ coords="164,128,190,152"
+  />
+<area shape="poly" alt="Starke County, Indiana" title="Starke County, Indiana, no records" 
+ coords="138,173,138,179,166,179,166,157,155,157,149,168"
+  />
+
+<area shape="poly" alt="Berrien County, Michigan" title="Berrien County, Michigan, no records"
+ coords="171,89,150,125,180,125,180,89"
+  />
+
+<area shape="default" nohref="nohref" alt=" " />
+</map>
+</div>
+
+</body>
+</html>

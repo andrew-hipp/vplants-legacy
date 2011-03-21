@@ -1,0 +1,178 @@
+[Thu May 25 11:02:45 CDT 2006] [NORMAL][main] START: F2
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AGARSUBR1/4256AGARSUBR1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1112720INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114680INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114681INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114682INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114793INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114797INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114802INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:47 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114803INOC2FAST1.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1115950SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1115954SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1115959SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1115971SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116025SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116028SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116057SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116938SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117134SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117135SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117136SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117137SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117138SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1117139SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1124000SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1124001SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1125346SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1125347SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1125349SCLE1AREO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1LYCO/1151160SCLE1LYCO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1LYCO/1277786SCLE1LYCO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1LYCO/1277832SCLE1LYCO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1LYCO/1277875SCLE1LYCO.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115744STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115762STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115781STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115782STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115783STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115784STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115942STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115946STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1115978STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116013STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116035STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116044STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116049STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116912STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1116913STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2OSTR/1124012STER2OSTR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/T/THEL2PALM/1004292THEL2PALM.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/T/THEL2PALM/1004316THEL2PALM.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/T/THEL2PALM/1114749THEL2PALM.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1FURF/1125352XERU1FURF.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1FURF/1125353XERU1FURF.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1FURF/1125354XERU1FURF.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1014377XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1020609XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1051866XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1053792XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1115775XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125355XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125356XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125357XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125358XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125359XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125360XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125361XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:51 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1159921XERU1MEGA.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:51 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1RUBR/1075733XERU1RUBR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:51 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1RUBR/1322727XERU1RUBR.xml]: 
+	java.lang.NullPointerException
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] FINISH: F2
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Total Run Time= 			5.798 seconds
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Total Run Time= 			0 minutes, 5 seconds
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		27
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		59
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] Total Errors = 			69
+[Thu May 25 11:02:51 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 11:15:42 CDT 2006] [NORMAL][main] START: F2
+[Thu May 25 11:15:44 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AGARSUBR1/4256AGARSUBR1.xml]: 
+java.sql.SQLException: ORA-00001: unique constraint (VPLANTS_FUNGI.SYS_C006353) violated
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmImageInsQuery.executeQuery(SpmImageInsQuery.java:74)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:344)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:247)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:177)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] FINISH: F2
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Total Run Time= 			6.34 seconds
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Total Run Time= 			0 minutes, 6 seconds
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		27
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		127
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		68
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] Total Errors = 			1
+[Thu May 25 11:15:48 CDT 2006] [NORMAL][main] *************************************************************************

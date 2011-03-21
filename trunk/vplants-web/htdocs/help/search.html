@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us"><head>
+<title>vPlants - Help with Searching</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="vplants, vplants.org, plant, plants, herbarium, herbaria, collections, specimens, museum, arboretum, botanic garden, natural history, ecology, distribution">
+<meta name="description" content="vPlants offers thousands of plant and fungus specimens for the Chicago Region, USA, with images and descriptions.">
+<link rel="stylesheet" href="../css/master.css" type="text/css" media="screen, projection">
+<!--[if lte IE 7.1]>
+  <link href="../css/iewin_lte_71.css" rel="stylesheet" type="text/css" media="screen, projection">
+<![endif]-->
+<link rel="stylesheet" href="../css/print.css"  type="text/css" media="print">
+</head>
+
+<body id="vplants-org" class="help boxless" ><div id="bodywrap">
+
+<div id="sitehead">
+<a id="pagetop" name="pagetop"></a>
+
+<div id="breadcrumbs">
+You are here:
+<a href="/">Home</a> &#187;
+<a href="/help/">Help</a> &#187;
+<strong>Help with Searching</strong>
+</div>
+
+<p class="access"><a href="#pagecontent" accesskey="2" title="Skip to page content.">[Skip to page content]</a></p>
+<p class="access"><a href="#menu1" title="Skip to menu one.">[Skip to primary menu]</a></p>
+<div id="partners"><ul><li><a href="/about/partner_mor.html" title="Read about this partner.">The Morton Arboretum</a></li><li><a href="/about/partner_f.html" title="Read about this partner.">The Field Museum</a></li><li><a href="/about/partner_chic.html" title="Read about this partner.">Chicago Botanic Garden</a></li><li><a href="/about/partner_other.html" title="Read about other partners.">Additional Partners</a></li></ul></div>
+<div id="logo"><a href="/" title="vPlants.org Home."><img src="../img/logo2h.gif" alt="vPlants.org Home."></a></div>
+<p id="tagline"><strong>vPlants.org</strong> <a href="/topics/" 
+  title="What is a Herbarium?">A Virtual Herbarium of the Chicago Region</a></p>
+</div><!-- End of #sitehead -->
+
+
+<div id="wrapper1">
+
+<div id="content1wrap">
+
+<div id="content1"><a id="pagecontent" name="pagecontent"></a>
+
+<h1>Help with Searching</h1>
+
+
+<p>Choose whether you are looking for plants or fungi. The plant and fungus data are treated separately on this website.</p> 
+<p>Search words can be entered in lowercase or uppercase. Search terms will match the beginnings of words, and is useful for shorthand or uncertain spelling. Fungus Family: <kbd>hygro</kbd> will find <i>Hygrophoraceae</i>, but Fungus Genus: <kbd>hygro</kbd> will find <i>Hygrocybe</i>, <i>Hygrophorus</i>, and <i>Hygrophoropsis</i>. This is also helpful with Latin endings; use Epithet: <kbd>tomentos</kbd> to match <i>tomentosa</i>, <i>tomentosum</i>, and <i>tomentosus</i>.</p>
+
+<h2>Using simple Name Search</h2>
+
+<p>Use the Name Search form, such as on this page or on the home page, to look up the name or family of a plant or fungus.</p>
+
+<p>If you enter a genus name, you do not need a family name.</p>
+<p>Some species may or may not have hyphenated epithets, for example: <i>Aster novae-angliae</i> and <i>Carex laevivaginata</i>.
+In this case one may have to search twice: with and without a hyphen.
+But it is simpler to just search on the first part of the epithet (i.e., search <kbd>novae</kbd> for <i>novae-angliae</i>; or <kbd>laevi</kbd> for <i>laevivaginata</i>).</p>
+<p>The <a href="/search.html">Advanced Search</a> can be used if you are looking for a particular subspecies, variety or form.</P.
+
+<p>Searching by Common Name is less reliable because not all common names are included and some are used for multiple species. Multiple word common names must match each word you enter. It is simpler to use <kbd>elm</kbd> to find american elm, rock elm, etc.</p>
+
+<h2>Using Advanced Search</h2>
+
+<p>Use the <a href="/search.html">Advanced Search</a> to find specimens by particular collectors, dates, or locations.
+Many records, especially older ones, do not have complete collection data. For example, old records may only have the year indicated, or very little locality information, such as only the state.</p>
+
+<p>If searching by county, you do not need a state, except for Lake County, Illinois and Lake County, Indiana. Note that all county names are one word (DuPage, LaPorte) except for St. Joseph.</p>
+
+<p>When searching collector names, the suffixes (Sr., Jr., III, etc.) are best left off.</p>
+<p>Collection Day needs to be two digits; use <kbd>04</kbd> instead of <kbd>4</kbd>.</p>
+
+<p>The results page shows the names for those plants or fungi that have specimens that match your search values. Selecting the Specimens link on the search results page for a name will list the specimens that match your search. It does not show all specimens for that name.</p>
+
+<div id="gomenu">Next &#187; <a href="specimen.html">Help with Specimens</a></div>
+
+</div><!-- end of #content1 -->
+</div><!-- end of #content1wrap -->
+
+
+<div id="content2"><!-- start of side content -->
+
+
+<div id="simpleform">
+  <form name="simple" method="post" action="/xsql/common/findtaxa.xsql">
+   <fieldset><legend title="Enter name of plant or fungus in one or more of the search fields.">Name Search</legend>
+    <p class="radios"><strong title="Select Plant or Fungus.">Group:</strong>
+     <input id="plant" name="db" type="radio" checked="checked" 
+      tabindex="101" value="plants">
+     <label for="plant" title="Select Plant Collections.">Plants</label>
+     <input id="fungus" name="db" type="radio" 
+      tabindex="102" value="fungi">
+     <label for="fungus" title="Select Fungus Collections.">Fungi</label>
+    </p>
+   <p><label for="family" accesskey="4" 
+    title="Example: Ulmaceae.">Family:</label>
+    <input class="texts" id="family" name="family" type="text" maxlength="30" 
+     title="Enter name of a family [one word, can use first several letters]." 
+     value=""></p>
+   <p><label for="genus"  
+    title="Example: Ulmus.">Genus:</label> 
+    <input class="texts" id="genus" name="genus" type="text" maxlength="30" 
+     title="Enter name of a genus [one word, can use first several letters]." 
+     value=""></p>
+   <p><label for="species" 
+    title="Example: americana.">Species Epithet:</label> 
+    <input class="texts" id="species" name="species" type="text" maxlength="30" 
+     title="Enter the species epithet, or subspecies, or variety [one word]."
+     value=""></p>
+   <p><label for="common" 
+    title="Example: american elm.">Common Name:</label> 
+    <input class="texts" id="common" name="common" type="text" maxlength="50" 
+     title="Enter a common name [can use more than one word]." 
+     value=""></p>
+    <p><input class="actions" id="submit" name="submit" type="submit" 
+      value="Go" title="Perform Search."></p>
+   </fieldset>
+  </form>
+</div>
+
+<p class="large"><a href="/search.html" title="Search by Location, Collector, and more.">Go to Advanced Search</a></p>
+
+<div class="box">
+<h3>External Links</h3>
+<p>See explanation for Federal Township and Range system - 
+<a href="http://www.outfitters.com/genealogy/land/land.html">Legal Land Descriptions in the USA</a>
+</p>
+</div>
+
+<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+
+</div><!-- end of #content2 -->
+
+
+<div id="sitemenu"><a id="menu1" name="menu1"></a>
+<h5 class="access">Primary Menu <a href="#menu2" title="Skip this menu.">[Skip]</a></h5>
+<ul class="home"><li><a 
+ class="start" href="/" 
+ title="Home page.">Home</a></li></ul>
+<ul class="plant"><li><a 
+ class="start" href="/plants/" 
+ title="Plants start page.">Plants</a></li></ul>
+<ul class="fungus"><li><a 
+ class="start" href="/fungi/" 
+ title="Fungi start page.">Fungi</a></li></ul>
+<ul class="tools"><li><a accesskey="5" 
+ class="search" href="/search.html" 
+ title="Advanced search for plants or fungi.">Search</a></li><li><a 
+ class="help" href="/help/" 
+ title="Help and user guide.">Help Guide</a></li><li><a 
+ class="topics" href="/topics/" 
+ title="Collections, habitats, and more.">Topics</a></li><li><a 
+ class="resources" href="/resources/" 
+ title="Documents, books, and links.">Resources</a></li></ul>
+</div><!-- end of #sitemenu -->
+
+<div id="pagemenu"><a id="menu2" name="menu2"></a>
+<h5 class="access">Secondary Menu <a href="#menu4" title="Skip this menu.">[Skip]</a></h5>
+<ul id="pageset1"><li><a 
+href="index.html" 
+title="Help and user guide.">Help</a></li><li class="thispage"><span 
+title="You are here: Help with searching.">Searching</span></li><li><a 
+href="specimen.html" 
+title="Help with specimen pages.">Specimens</a></li><li><a 
+href="description.html" 
+title="Help with description pages.">Descriptions</a></li><li><a 
+href="gallery.html" 
+title="Help with photo galleries.">Photos</a></li><li><a 
+href="glossary.html" 
+title="Help with glossary.">Glossary</a></li></ul>
+<span class="filler">&nbsp;</span>
+</div><!-- End of #pagemenu -->
+
+</div><!-- end of #wrapper1 -->
+
+<div id="sitefoot"><a id="menu4" name="menu4"></a>
+<h5 class="access">Footer Menu</h5>
+<ul id="footmenu"><li><a href="/" accesskey="1" title="Home page.">Home</a></li><li><a href="/help/" accesskey="6" title="Help and user guide.">Help Guide</a></li><li><a href="/sitemap.html" accesskey="7" title="Table of contents.">Site Map</a></li><li><a href="/about/contact.html" accesskey="8" title="Contact information.">Contact Us</a></li><li><a href="/about/feedback.html" accesskey="9" title="Please provide feedback!">Feedback</a></li><li><a href="/access.html" accesskey="0" title="Accessibility features of this site.">Accessibility Statement</a></li></ul>
+<p id="funds">Funded by <a href="http://www.imls.gov" title="Go to IMLS web site.">Institute of Museum and Library Services (IMLS)</a></p>
+<p id="citation">Citation: <span class="helptext" title="This is how you list this web site as a reference.">The vPlants Project. vPlants: A Virtual Herbarium of the Chicago Region. http://www.vplants.org</span></p>
+<p id="copyright">Copyright &#169; 2001&#8211;2009 The vPlants Project, All Rights Reserved.</p>
+<p><a href="/about/partner_mor.html" title="Read about this partner.">The Morton Arboretum</a>, <a href="/about/partner_f.html" title="Read about this partner.">The Field Museum</a>, <a href="/about/partner_chic.html" title="Read about this partner.">Chicago Botanic Garden</a>, <a href="/about/partner_other.html" title="Read about other partners.">Additional Partners</a></p>
+<p class="access"><a href="#pagetop" accesskey="3" title="Back to top of page.">[Back to top of page]</a></p>
+</div><!-- End #sitefoot -->
+
+</div><!-- End of #bodywrap -->
+</body>
+</html>

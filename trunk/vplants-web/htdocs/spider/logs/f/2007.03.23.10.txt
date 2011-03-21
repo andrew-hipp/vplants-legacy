@@ -1,0 +1,251 @@
+[Fri Mar 23 11:07:55 CDT 2007] [NORMAL][main] START: F2
+[Fri Mar 23 11:08:07 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANABRU/1116328AMANABRU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:08 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANBRUNPALL/1116337AMANBRUNPALL.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:08 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANCECI/1116333AMANCECI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:10 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANFLAV1/1116335AMANFLAV1.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:10 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANFULV/1116340AMANFULV.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:12 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANT/1116244AMANPANT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:18 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/B/BOLE6PSEU/1116338BOLE6PSEU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:19 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CALVCYAT/1116339CALVCYAT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:23 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CLIT1GIBB/1116329CLIT1GIBB.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:23 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CLIT1GIBB/1116330CLIT1GIBB.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:26 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBN/1116332COLLSUBN.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:26 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBS2/1116331COLLSUBS2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:26 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBS2/1116341COLLSUBS2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:29 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COPR3MICA/1116827COPR3MICA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:34 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CRINSETI/1116326CRINSETI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:35 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/D/DACR1CHRY/1116343DACR1CHRY.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:38 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GALIRUFA/1116243GALIRUFA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:40 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GRIFFRON/1116325GRIFFRON.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:41 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GYMN3SPEC/1116344GYMN3SPEC.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:42 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GYRO2CAST/1116324GYRO2CAST.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:46 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/H/HYGR2CONI/1116854HYGR2CONI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:50 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2MACU/1114791INOC2MACU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:08:54 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCOCHR/1116825LACCOCHR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:05 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/M/MEGAPLAT/1116342MEGAPLAT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:09 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/M/MYCE1SUBC1/1116323MYCE1SUBC1.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:24 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/R/RESUAPPL/1116327RESUAPPL.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:28 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1CITR/1116242SCLE1CITR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:29 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCUT1SCUT/1116245SCUT1SCUT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:30 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2HIRS/1116246STER2HIRS.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:32 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SUILAMER/1116336SUILAMER.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] FINISH: F2
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] *************************************************************************
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Total Run Time= 			102.996 seconds
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Total Run Time= 			1 minutes, 42 seconds
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Taxon Pages Processed = 		635
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Specimen Pages Processed = 		3041
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Specimen Page Inserts = 		28
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] Total Errors = 			30
+[Fri Mar 23 11:09:38 CDT 2007] [NORMAL][main] *************************************************************************

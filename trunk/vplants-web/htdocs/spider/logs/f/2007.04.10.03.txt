@@ -1,0 +1,51 @@
+[Tue Apr 10 03:00:02 CDT 2007] [NORMAL][main] START: F2
+[Tue Apr 10 03:00:12 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANT/1116244AMANPANT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Tue Apr 10 03:00:40 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GALIRUFA/1116243GALIRUFA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Tue Apr 10 03:01:39 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1CITR/1116242SCLE1CITR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Tue Apr 10 03:01:39 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCUT1SCUT/1116245SCUT1SCUT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Tue Apr 10 03:01:41 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2HIRS/1116246STER2HIRS.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] FINISH: F2
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] *************************************************************************
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Total Run Time= 			108.236 seconds
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Total Run Time= 			1 minutes, 48 seconds
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Taxon Pages Processed = 		635
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Specimen Pages Processed = 		3066
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Specimen Page Inserts = 		0
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] Total Errors = 			5
+[Tue Apr 10 03:01:50 CDT 2007] [NORMAL][main] *************************************************************************

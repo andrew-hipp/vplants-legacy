@@ -1,0 +1,50 @@
+[Wed Mar 08 13:23:06 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 13:23:07 CST 2006] [ERROR][main] Database Connect: 
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:268)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.vplants.bot.vPlantsSpider.databaseConnect(vPlantsSpider.java:278)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:105)
+
+[Wed Mar 08 13:25:04 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 13:43:37 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 13:43:38 CST 2006] [ERROR][main] Creating IndexHandler: 
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+	at org.xml.sax.helpers.XMLReaderFactory.loadClass(XMLReaderFactory.java:189)
+	at org.xml.sax.helpers.XMLReaderFactory.createXMLReader(XMLReaderFactory.java:180)
+	at org.vplants.bot.XMLPipeline.<init>(XMLPipeline.java:41)
+	at org.vplants.bot.XMLPipeline.<init>(XMLPipeline.java:73)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:147)
+
+[Wed Mar 08 13:44:41 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 13:48:36 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=1629]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'common'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:51:53 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:52:10 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.b: The content of element 'taxon' is not complete. It must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:52:13 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:52:29 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:52:34 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:53:09 CST 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] FINISH: MOR1
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] *************************************************************************
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Total Run Time= 			508.493 seconds
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Total Run Time= 			8 minutes, 28 seconds
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Taxon Pages Processed = 		2771
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Specimen Pages Processed = 		39556
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Specimen Page Inserts = 		115
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Specimen Page Updates = 		322
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] Total Errors = 			7
+[Wed Mar 08 13:53:10 CST 2006] [NORMAL][main] *************************************************************************

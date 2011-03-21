@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>vPlants Metadata - v1.1 Release Notes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<p><b><font size="4" color="#000000">vPlants Metadata Change Log</font></b></p>
+<p><font size="4" color="#000000"><b><u>v1.2 - April, 2002</u></b></font></p>
+<p><font color="#000000">The following changes were prompted by our meeting at 
+  UIC on March 7. The general theme in this release was to introduce consistancy 
+  in terminology.</font></p>
+<p><font color="#000000">For starters, I've renamed the layers in our metadata 
+  to better reflect their purpose:</font></p>
+<table width="40%" border="1" cellspacing="0">
+  <tr> 
+    <td><font color="#000000"><b>Previous Layer Name</b></font></td>
+    <td><font color="#000000"><b>New Layer Name</b></font></td>
+  </tr>
+  <tr> 
+    <td><font color="#000000">vpindex</font></td>
+    <td><font color="#000000">index</font></td>
+  </tr>
+  <tr> 
+    <td><font color="#000000">vphdr</font></td>
+    <td><font color="#000000">taxon</font></td>
+  </tr>
+  <tr> 
+    <td><font color="#000000">vpdtl</font></td>
+    <td><font color="#000000">spm</font></td>
+  </tr>
+</table>
+<font color="#000000"><br>
+</font>
+<table width="100%" border="1" cellspacing="0">
+  <tr> 
+    <td width="10%"><font color="#000000"><b>Layer</b></font></td>
+    <td width="38%"><font color="#000000"><b>Change</b></font></td>
+    <td width="52%"><font color="#000000"><b>Reason</b></font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">index</font></td>
+    <td width="38%" valign="top">Changed &lt;vpindex&gt; to &lt;index&gt;</td>
+    <td width="52%" valign="top">&quot;vp&quot; is unnecessary.</td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">index</font></td>
+    <td width="38%" valign="top"><font color="#000000">Broke up scinmlink into 
+      2 elements, &lt;taxon&gt; and &lt;link&gt;. &lt;taxon&gt; is the parent, 
+      &lt;link&gt; is the child. &lt;taxon&gt; can have 1 to many &lt;link&gt; 
+      elements. <a href="vpindex.xml">See example</a>. </font></td>
+    <td width="52%" valign="top"> 
+      <p><font color="#000000">Better terminology and a more flexible element 
+        layout. <br>
+        </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">taxon</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed &lt;vphdr&gt; to 
+      &lt;taxon&gt; </font></td>
+    <td width="52%" valign="top"><font color="#000000">Better terminology.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">taxon</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed &lt;spmlink&gt; 
+      to &lt;link&gt;. <a href="vptaxon.xml">See example</a>.</font></td>
+    <td width="52%"><font color="#000000">Consistancy.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">spm</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed &lt;vpdtl&gt; to 
+      &lt;spm&gt; </font></td>
+    <td width="52%" valign="top"><font color="#000000">Better terminology.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">spm</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed &lt;typespec&gt; 
+      to &lt;typespm&gt;</font></td>
+    <td width="52%"><font color="#000000">Consistancy.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">spm</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed &lt;spmpg&gt; to 
+      &lt;homepg&gt;. <a href="vpspm.xml">See example</a>.</font></td>
+    <td width="52%" valign="top"> 
+      <p><font color="#000000">Better terminology.</font></p>
+    </td>
+  </tr>
+</table>
+<p><font size="4" color="#000000"><b><u>v1.1 - March, 2002</u></b></font></p>
+<p><font color="#000000">The following changes have been applied to the last version 
+  of the vPlants Metadata Standard:</font></p>
+<table width="100%" border="1" cellspacing="0">
+  <tr> 
+    <td width="10%"><font color="#000000"><b>Layer</b></font></td>
+    <td width="38%"><font color="#000000"><b>Change</b></font></td>
+    <td width="52%"><font color="#000000"><b>Reason</b></font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vphdr</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed the following tag 
+      names:<br>
+      SPECIMEN to SPM<br>
+      SPID to SPMID<br>
+      SPLINK to SPMLINK<br>
+      </font></td>
+    <td width="52%" valign="top"><font color="#000000">We felt the shorthand SP 
+      for specimen was to brief, especially considering the potential development 
+      of species pages. SPM is slightly more specific.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vphdr</font></td>
+    <td width="38%" valign="top"><font color="#000000">Introduced minutes (MIN) 
+      into the UPDTTM</font></td>
+    <td width="52%"><font color="#000000">The bot keeps track of when it visits 
+      a set of metadata. The UPDTTM field allows the bot to decide if a particular 
+      set of specimen data has changed since it's last visit. Introducing minutes 
+      provides the potential for the bot running multiple times in the same hour. 
+      Perhaps this is overkill, but we felt it would be easier to add it now instead 
+      of later.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vpdtl</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed TSHIP to TOWNSHIP</font></td>
+    <td width="52%"><font color="#000000">Clarity.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vpdtl</font></td>
+    <td width="38%" valign="top"><font color="#000000">SITESURVEY - broke out 
+      the Township/Range number and bearing into separate fields.</font></td>
+    <td width="52%"><font color="#000000">This decision keeps with the theme of 
+      breaking individual pieces of data into the finest granularity possible.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vpdtl</font></td>
+    <td width="38%" valign="top"><font color="#000000">Changed SPECPG to SPMPG</font></td>
+    <td width="52%"><font color="#000000">As mentioned above, this eliminates 
+      any confusion between specimen and species.</font></td>
+  </tr>
+  <tr> 
+    <td width="10%" align="left" valign="top"><font color="#000000">vpdtl</font></td>
+    <td width="38%" valign="top"><font color="#000000">SPMPG/IMAGE tags include 
+      a URI reference.</font></td>
+    <td width="52%" valign="top"> 
+      <p><font color="#000000">In the previous version, the IMAGE tag simply indicated 
+        the presence of an image and it's type. Now we are also providing the 
+        web address for the image via it's URI (i.e., http://www.mortonarb.org/acc123.jpg). 
+        <br>
+        <br>
+        An awareness of &quot;where&quot; the images reside allows us to:<br>
+        (1). Embed the image within results pages at the portal.<br>
+        (2). Provide users with &quot;direct links&quot; to the images.<br>
+        </font></p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp; </p>
+</body>
+</html>

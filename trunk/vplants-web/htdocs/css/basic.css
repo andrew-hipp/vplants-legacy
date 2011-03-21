@@ -1,0 +1,78 @@
+
+/* 
+Basic styles for older browsers (Netscape 4.x)
+Do not use any hacks or filters in this file. 
+Do not reference any background images.
+
+Use this rule to have NN4 fill-in the 
+background color for an element:
+border: 0.1px solid none;
+
+*/
+
+
+
+body {
+	color: #000;
+	background: #fff;
+	}
+
+body, div, p, td, ul, ol, li, dl, dt, dd {
+	font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	}
+h4, h5, h6 {
+	margin: 0;
+	font-weight: normal; 
+	font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	}
+h4 {
+	font-weight: bold; 
+	}
+h1, h2, h3 {
+	margin: 0;
+	font-weight: bold; 
+	font-family: Georgia, "New Century Schoolbook", Times, serif;
+	}
+	
+code, pre, tt, kbd {
+	font-family: "Bitstream Vera Sans Mono", monaco, "Courier New", Courier, monospace;
+	font-weight: normal;
+	}
+
+img {
+	border: 0;
+	}
+a {
+	text-decoration: underline;
+	}
+a:link {
+	color: #650; 
+	}
+a:visited {
+	color: #360; 
+	}
+a:focus, a:hover, a:active {
+	color: #00f; 
+	}
+dt	{
+	font-weight: bold;
+	}
+
+p {
+	line-height: 1.3;
+	}
+
+fieldset {
+	width: 20em;
+	padding: 5px;
+	margin: 10px;
+	border: 1px dotted #360;
+	}
+
+
+
+#footer {
+	padding-top: 20px;
+	border-top: 1px solid #360;
+	}
+

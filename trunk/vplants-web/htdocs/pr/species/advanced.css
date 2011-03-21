@@ -1,0 +1,150 @@
+#prototype { margin: 0; border: 0; padding: 5px 50px;
+background: black; color: #ccc;}
+#prototype div {border: 3px outset #690; padding: 5px;
+background: #ccc; color: black; font-size: 90%;}
+
+/*----------------------------
+This advanced CSS file is imported rather than linked
+so that the styles here are not seen by NN4 and other CSS poor browsers.
+----------------------------*/
+
+/*----------------------------
+Top Header Styles 
+----------------------------*/
+#header a:link, #header a:visited {text-decoration: none; color: #141;}
+#header a:hover, #header a:focus {text-decoration: underline; color: #630;}
+
+#head3 { width: 260px;} 
+
+/*----------------------------
+Footer Styles  
+----------------------------*/
+
+#copyright {}
+
+#footer a:link, #footer a:visited { text-decoration: none; }
+#footer a:hover, #footer a:focus { text-decoration: underline; }       
+
+#midrow td { border-top: 1px solid #cc0; border-bottom: 1px solid #cc0;}
+
+/*----------------------------
+PageLinks Styles  
+----------------------------*/
+
+table#pagelinks {width: 100%;}
+table#pagelinks td {background: #360; color: white; }
+
+#pagelinks b {display: none;}
+
+.taxonlinks, .splinks {margin:0; border-bottom: 1px solid #360; }
+
+
+.taxonlinks a, .splinks a, #thispage {padding: 0 5px;
+ border: 1px solid #cc0; margin: 14px 3px 10px 3px;}
+
+#pagelinks a:link, #pagelinks a:visited { text-decoration: none;}
+#pagelinks a:hover, #pagelinks a:focus {text-decoration: none;
+ background: #ff8; color: #960;}
+
+
+#thispage, #specimens .specimens, #description .description, #photos .photos {
+ border-bottom: 1px solid white; 
+ background: white; text-decoration: none; color: black; }
+
+ /*----------------------------
+Left Bar Styles  
+.leftbar is also used in footer table
+----------------------------*/
+td.leftbar { background: #360; color: white;
+ } /* replace colors in basic.css */
+
+
+/*----------------------------
+Left Menu Styles 
+----------------------------*/	
+
+#sidenav div {  
+ background: #360; color: white;
+ padding: 0;
+ border-bottom: 1px solid #cc0;} 
+#sidenav a { display: block; 
+ background: #360; color: white;
+ text-decoration: none;
+ padding: 5px 7px;}
+
+ /* NN4 is using padding in A element from basic.css file.
+    But IE4 and IE5 ignore padding put in an A element. 
+		So put each A element inside a DIV */
+
+#sidenav a.item-search { font-weight: bold; background: #cc0; color: #141;
+ border: 1px solid #360; border-top: 0;}
+
+#sidenav a.item-p-head { background: #141; color: white;
+ border-left: 3px solid #cc0; }
+#sidenav a.item-p { background: #141; color: white;
+ text-align: right; 
+ border-left: 5px solid #cc0; }
+
+#sidenav a.item-f-head { background: #440; color: white;
+ border-left: 3px solid #ea0; }
+#sidenav a.item-f { background: #440; color: white;
+ text-align: right;
+ border-left: 5px solid #ea0; }
+
+#sidenav a:hover,
+#sidenav a:focus { background: #cc0; color: black; 
+ text-decoration: underline; } 
+
+#sidenav a.item-search:hover,
+#sidenav a.item-search:focus { background: #ffb; color: black; 
+ text-decoration: underline; } 
+
+
+div#quickform {display: block;
+ border: 0px;
+ padding: 0px; padding-left: 5px;
+ margin-top: 30px;}
+#quickform .formhead {display: block; font-size: 85%;
+ font-weight: bold; margin: 5px 0 7px 0;}
+#quickform .label {font-size: 75%;}
+#quickform input {font-size: 75%;  
+ border: 1px solid #cc0; margin-bottom: 5px;}
+ 
+#quickform input.txt { color: black; width: 75px;
+ background: #ffb;}
+
+#quickform input.button { color: #141; margin: 10px 0 0 10px;
+ background: #cc0; border: 2px outset #773; width: 55px; padding: 1px;}
+ 
+/*----------------------------
+Page Content Styles  
+ border-bottom: 1px solid #cc0;
+ border-bottom: 1px solid #ea0;
+#sidenav a.item-p-head, #sidenav a.item-p { background: #141;}
+#sidenav a.item-f-head, #sidenav a.item-f { background: #440;}
+
+----------------------------*/
+td#content {}
+
+
+#descrip { }
+#descrip .heading { }
+#growth {}
+.part{ display: block; margin-left: 20px;}
+.partName{margin-left: -10px; font-weight: bold; color: #841;}
+
+
+.taxoncode {border-bottom: 2px solid #360;}
+.info {}
+
+
+img#portrait {}
+
+
+.mapbox {background: #ffc;
+  border: 1px solid #360;}
+
+#maptaxon {border-bottom: 1px solid #360; padding: 5px 0;}
+#maptaxon .rank { }
+.maptext, .maptitle, #mapclick1, #mapclick2 {line-height: 1.2em; padding: 5px;}
+#mapclick2 {border-top: 1px solid #360;}	

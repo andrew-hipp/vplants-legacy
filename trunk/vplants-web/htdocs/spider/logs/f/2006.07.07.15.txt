@@ -1,0 +1,507 @@
+[Fri Jul 07 15:32:10 CDT 2006] [NORMAL][main] START: F1
+[Fri Jul 07 15:32:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/A/ALCE2/1434228alce2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:32:54 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/A/ALCE2/2179426alce2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:33:03 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/A/ALTR3/1470180altr3.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:34:11 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/A/ARUV/2262873ARUV.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:36:21 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/B/BOFL3/1423903BOFL3.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:36:35 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CAAQS2/2108762CAAQS2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:37:09 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CADI4/2108757CADI4.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:37:20 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CAGR3/2177351CAGR3.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:37:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CAHI5/2108756CAHI5.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:40:29 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/COUMU/1416041coumu.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:40:45 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CYAC2/2179524CYAC2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:40:49 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CYBI6/1507986CYBI6.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:41:04 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/C/CYST/1581533CYST.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:42:02 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/E/ELMA5/2177286ELMA5.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:42:15 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/E/EPRE2/1507437EPRE2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:42:19 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/E/EQAR/1891230eqar.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:42:21 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/E/EQHYA2/1562180eqhya2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:42:23 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/E/EQUIS/1891229equis.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:44:34 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/H/HYSP2/2177334HYSP2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:45:09 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/J/JUDU2/1434245judu2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:45:21 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/J/JUTO/1564370juto.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:45:24 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/J/JUTO/2177332juto.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:45:24 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/J/JUTO/2177323juto.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:45:57 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/L/LEMU/2179523LEMU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:46:37 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/L/LIVU2/1891219LIVU2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:47:04 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/L/LUMU2/1492664lumu2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:47:20 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/L/LYAM/1492657LYAM.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:47:21 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/L/LYAS/2179516LYAS.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:47:42 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MACAI/1434235macai.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:47:43 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MAHI/2179583MAHI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:48:03 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MESU5/1882833MESU5.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:48:28 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MOPUV/26817MOPUV.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '1897`' of element 'year' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:48:32 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MUNE/2000261mune.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:48:33 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/M/MYHE2/1439057MYHE2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:49:46 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PECA/1564443PECA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:49:55 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PESE6/1891242pese6.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:50:05 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PHDIL6/1416811PHDIL6.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:50:09 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PHGLI/1416799PHGLI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:50:13 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PHLA3/2179521phla3.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:50:20 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PHPA9/1880278PHPA9.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:50:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/POBI2/1891232pobi2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:51:02 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/POIL/2000630poil.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:51:44 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/P/PYVI/2177335PYVI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:53:48 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCACA/1423889SCACA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:53:50 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCAT2/1438196SCAT2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:53:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCAT2/2177339SCAT2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:53:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCAT2/1564371SCAT2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:54:12 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCPE4/2177337SCPE4.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:54:17 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SCTA2/1507924SCTA2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:54:57 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SMHI/2203415smhi.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:55:00 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SMLA3/1990209smla3.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:55:29 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/SPPO/1423907sppo.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:55:35 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/STHI/933404STHI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:55:35 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/S/STHI/1423499STHI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:55:56 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/T/TECAV/1492672TECAV.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:56:55 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/T/TRRE5/2094427trre5.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:57:04 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/U/ULAM/1417030ULAM.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:57:29 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VEAR/1417088VEAR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:57:37 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VEHA2/1508430veha2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:57:41 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VESC2/1416800VESC2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:58:03 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VIBL/1480851vibl.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:58:29 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/metadata/V/VIPUS/2088608vipus.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'twpdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] FINISH: F1
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] *************************************************************************
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Total Run Time= 			1642.548 seconds
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Total Run Time= 			27 minutes, 22 seconds
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		1653
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		27125
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		27125
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] Total Errors = 			62
+[Fri Jul 07 15:59:33 CDT 2006] [NORMAL][main] *************************************************************************

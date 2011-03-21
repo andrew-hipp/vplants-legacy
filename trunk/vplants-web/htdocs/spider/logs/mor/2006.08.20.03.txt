@@ -1,0 +1,25 @@
+[Sun Aug 20 03:00:02 CDT 2006] [NORMAL][main] START: MOR1
+[Sun Aug 20 03:00:11 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=1629]: 
+	[Ljava.lang.StackTraceElement;@99353f
+[Sun Aug 20 03:00:19 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	[Ljava.lang.StackTraceElement;@5f6303
+[Sun Aug 20 03:00:45 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	[Ljava.lang.StackTraceElement;@883357
+[Sun Aug 20 03:00:45 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	[Ljava.lang.StackTraceElement;@4b82d2
+[Sun Aug 20 03:01:09 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	[Ljava.lang.StackTraceElement;@1c0bee6
+[Sun Aug 20 03:01:21 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	[Ljava.lang.StackTraceElement;@4eb585
+[Sun Aug 20 03:01:33 CDT 2006] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	[Ljava.lang.StackTraceElement;@16c1227
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] FINISH: MOR1
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] *************************************************************************
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Total Run Time= 			103.985 seconds
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Total Run Time= 			1 minutes, 43 seconds
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		2771
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		39584
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Specimen Page Updates = 		2
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] Total Errors = 			7
+[Sun Aug 20 03:01:46 CDT 2006] [NORMAL][main] *************************************************************************

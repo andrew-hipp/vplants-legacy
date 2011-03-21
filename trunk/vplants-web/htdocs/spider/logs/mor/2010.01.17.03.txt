@@ -1,0 +1,7 @@
+[Sun Jan 17 03:00:02 CST 2010] [NORMAL][main] START: MOR1
+[Sun Jan 17 03:00:05 CST 2010] [ERROR][main] Parsing Index Page [http://vplants.org/xsql/metadata/vpidx.xsql]: 
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:169)
+

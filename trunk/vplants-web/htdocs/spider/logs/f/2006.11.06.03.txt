@@ -1,0 +1,11 @@
+[Mon Nov 06 03:00:02 CST 2006] [NORMAL][main] START: F1
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] FINISH: F1
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] *************************************************************************
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Total Run Time= 			234.2 seconds
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Total Run Time= 			3 minutes, 54 seconds
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Taxon Pages Processed = 		1718
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Specimen Pages Processed = 		28971
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] Total Errors = 			0
+[Mon Nov 06 03:03:56 CST 2006] [NORMAL][main] *************************************************************************

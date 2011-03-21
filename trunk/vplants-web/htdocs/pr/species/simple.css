@@ -1,0 +1,277 @@
+/*----------------------------
+styles for vPlants.org revised by Leacock 
+
+NOTES
+
+Don't use a font-size smaller than 75% to be legible.
+
+DON'T use underscores "_" in Class or ID names,
+these don't work in some browsers, e.g., IE4.
+
+display: block; is used okay by NN4.0 but not by IE4.0
+
+Netscape Navigator 4.x doesn't use relative URLs correctly from stylesheet
+So would be better to use Absolute URLs for background-image paths 
+or put stylesheet in the same directory as the html page.
+
+NN4.x doesn't understand ID="" tags completely, 
+#copyright will work
+div#copyright will not work
+div #copyright will not work
+
+Could do the following to Cancel enlarged header size
+h2#taxon {font-size: 100%; }
+But this doesn't work in NN4.0
+And you still have to cancel top and bottom margins.
+
+NN4.0 crashes if you assign a Table width in the HTML and then
+assign any TD width in the CSS for that same table.
+
+If you use text-align: right; and padding-right: 15px;
+NN4.0 ignores the padding or margins 
+even if they are in nested elements.
+But it will apply padding-left: 15px;
+(handles vertical align ok).
+NN4 DIV don't inherit text-align: center; of parent TD.
+
+NN4.0 doesn't understand : margin: 10px 0;
+but it does understand : margin: 10px; and margin-top: 10px;
+It does understand padding-bottom: 7px;
+margin-left is used okay by NN4.0, even negative margins.
+ 
+For NN 4.x and IE 4.x, 5.x
+Can't apply borders or margins to inline elements.
+DON'T put margin and border rules in same block element. 
+Put content in two containers.
+Outer container (td or div) has width and margin stated.
+Inner container (div or p, etc.) has border and padding stated.
+BUT can't use margin for TD, and don't use padding for TD either.
+
+And the following style will crash NN4.0 (for a DIV inside a TD)
+     padding: 2px 0 15px 15px; or padding: 2px; 
+so use a selector like div#whitepage not just #whitepage 
+For NN4 if you put padding in an inline element then it changes from inline to block.
+IE4 and IE5 ignore padding put in an inline element.
+
+Use this rule to have NN4 fill-in the background color for an element:
+border: 0.1px solid none;
+
+Global Style Colors
+
+backgrounds and borders
+Dark Green = #360;
+Medium Yellow Green = #cc0;
+Yellow = #ff3;
+matching cream = #f6ffc3; (websafe) #ffc; #ffb;
+
+links
+Dark Green = #360;
+medium brown = #960;
+darker red-brown = #630;
+dark brown = #440;
+
+Left button links
+Plant   background: #141; border: #cc0; or leaf green #6d0;
+Fungus  background: #440; border: #ea0; 
+
+/* for some reason NN4 can't apply a white; or #fff; background to a span
+But white; does work for an A background.  So can use #ffe;
+
+Use these selectors for global styles: body, table, td, th
+because body styles not always inherited into tables by all browsers.
+Cells in NN4.0 don't inherit styles from the table, e.g., link styles. 
+But don't place font sizes here!!
+----------------------------*/
+
+html, body {margin: 0; padding: 0; color: black; background: white; }
+table, td, th {color: black; background: white;}
+table, td, th, div, p {font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;}
+table td { vertical-align: top;}
+img {border: 0;}
+
+/* basic link style */   
+a:link { color: #360; text-decoration: underline;}
+a:visited { color: #630; text-decoration: underline;}
+a:hover, a:focus {color: #960; text-decoration: underline;}
+
+/*----------------------------
+Full width tables (width and border ignored by NN4.0)
+border-bottom: 4px solid #360;
+----------------------------*/
+#header { width: 100%; margin:0; 
+ color: #360; background: #cc0;}
+
+#pagelinks {width: 100%; margin:0; 
+ color: #cc0; background: #360;}
+ 
+#main { width: 100%; margin:0;}
+
+#footer { width: 100%; color: #360; background: white; margin:0; }
+
+/*----------------------------
+Hide these elements from NN4, 
+but display them via the linked CSS
+----------------------------*/
+#quickform {display: none;}
+
+/*----------------------------
+Top Header Styles 
+----------------------------*/
+
+#header td {height: 60px; vertical-align: bottom;}
+#head1 {width: 240px; color: #360; background: #cc0; } 
+#head2 h1 {display: none;} 
+#head2 { color: #360; background: #cc0; font-size: 85%; }
+#head2 div { padding-bottom: 7px; }
+/* Netscape 4 and IE 6 don't apply padding correctly to <td>, so used a <div> inside */
+#head3 { color: #360; 
+ background: #f6ffc3 url(img/top.gif) left bottom no-repeat;
+ font-size: 75%; border-right: 1px solid #360;}
+#head3 div {text-align: right; padding-right: 20px;}
+
+/*----------------------------
+Footer Styles
+
+----------------------------*/
+
+#footer td {} 
+/* the following TD IDs are more specific
+   and work in NN4 and IE4 */
+
+#topfoot {padding-top: 15px; text-align: center; font-size: 75%;}
+#footlinks {padding-top: 3px; padding-bottom: 3px; text-align: center; font-size: 75%;}
+#copyright {padding-bottom: 25px; text-align: center; font-size: 75%}
+
+/*----------------------------
+Table PageLinks Styles   
+----------------------------*/
+
+#pagelinks td {background: #ffb; color: #360;
+ font-size: 95%; vertical-align: bottom;}
+#pagelinks .borderline {background: #360; color: white;}
+
+.searchlink a, .taxonlinks a, .splinks a {background: #ffb; color: #360;}
+
+.searchlink a { padding-left: 15px; font-weight: bold;}
+
+.taxonlinks .family, .taxonlinks .genus { font-weight: bold; }
+/* this partial bolding in link is causing extra pixel bottom border in Mozilla */
+
+.taxonlinks { padding-left: 15px; text-align: left; }
+.splinks {padding-right: 15px; text-align: right; font-weight: bold;}
+
+#thispage, #specimens .specimens, #description .description, #photos .photos {
+ background: #ffe; color: black; text-decoration: none; }
+/* for some reason NN4 can't apply a white or #fff background here */
+
+/*----------------------------
+Left Bar Styles  
+.leftbar is also used in footer table
+----------------------------*/
+td.leftbar { width: 90px; 
+ background: #ffb; color: black;
+ } /* these colors are for NN4 */
+
+/*----------------------------
+Left Menu Styles  
+----------------------------*/
+#sidenav { font-size: 85%; } /* NN4 crashes with padding here */
+
+/* these colors are for NN4 */
+#sidenav a { background: #ffb; color: black;
+ text-decoration: underline;
+ text-align: left;
+ padding: 5px;
+} /* this padding is for NN4, to make links display as blocks */
+
+
+/*----------------------------
+Page Content Styles  
+----------------------------*/
+
+
+/*----- font size control -----see also #taxon below-------*/
+	#content p {font-size: 90%; } 
+	.small {font-size: 80%;}
+	#content p.small {font-size: 75%;} 
+	#content #references {font-size: 75%;}
+	#synonyms {font-size: 80%;}
+	
+	/* warning- font sizes will cascade into nested elements,
+	 unless that element has a more specific identifier.
+	 Note: a DIV does not inherit font size from a parent P,
+	 but a SPAN will inherit font size from a P.
+	 But with NN4 only the first span element will inherit the P styles. */
+
+	.google {font-size: 90%; margin-top: 10px;} 
+	/* Google is on Description page and Photos page */
+
+	#content .taxoncode {font-size: 70%; text-align: right; margin:0;}
+/*---------------------------------------------------------*/
+
+p {margin: 0.5em 0 0.5em 0;}
+
+
+.partName{font-weight: bold; color: #841;}
+.part{ display: block; margin-left: 10px;}
+.glossary {display: block; margin-left: 10px;}
+
+.simsp{display: block; margin-left: 10px; }
+
+
+.center {text-align: center;}
+/* links in center get default page style links, or add style here */
+/* .center contains Google links on Photos page */
+
+
+
+#photohead {width: 100%; margin: 10px 0;}
+td.helpright {width: 200px; font-size: 80%; text-align: center; vertical-align: bottom; }
+
+table#gallery {width: 100%; margin: 10px 0;}
+table#gallery td {width: 150px; text-align: center;}
+table#gallery img {border: 0;}
+
+table#sppage {width: 100%; }
+td.leftcol { } /* can set width here */
+
+td.rightcol { width: 250px; text-align: center;} /* can set width here */
+td.rightcol .disclaimer {text-align: center; margin-top: 10px; }
+
+.rating {text-align: right; color: red; }
+ .rating a:link, .rating a:visited {color: red;  text-decoration: none;}
+ .rating a:hover, .rating a:focus {color: #960;  text-decoration: underline;}
+.concern {text-align: right; color: blue; }
+ .concern a:link, .concern a:visited {color: blue;  text-decoration: none;}
+ .concern a:hover, .concern a:focus {color: #960;  text-decoration: underline;}
+
+#taxon {font-size: 130%; font-weight: bold; margin: 0; } 
+/* contains the following spans.
+Note that the author font-size is 70% of the 130% which equals 91% */
+#taxon .genus, #taxon .epithet {  text-decoration: underline;}
+#taxon .rank { }
+#taxon .author {font-size: 70%; font-weight: normal;}
+#taxon a:link, #taxon a:visited {color: #360; text-decoration: none;}
+#taxon a:hover, #taxon a:focus {color: #960; text-decoration: underline;}
+
+
+.mapbox {text-align: center;
+	margin: 0; margin-top: 10px;}
+	
+#maptaxon {font-weight: bold; }
+#maptaxon .genus, #maptaxon .epithet { font-style: italic;}
+#maptaxon .rank { }
+
+.maptext, .maptitle, #mapclick1, #mapclick2 {
+ font: bold 90% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;}
+
+
+#common {}
+/* Common Names - use default text style */
+
+
+.heading {font-weight: bold; }
+.heading-concern {font-weight: bold; color: blue; }
+
+
+.bgmdgr {background: #360; color: white;}

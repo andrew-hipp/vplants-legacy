@@ -1,0 +1,11 @@
+[Mon Nov 26 12:51:41 CST 2007] [NORMAL][main] START: CACS
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] FINISH: CACS
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] *************************************************************************
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Total Run Time= 			3.705 seconds
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Total Run Time= 			0 minutes, 3 seconds
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Taxon Pages Processed = 		16
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Specimen Pages Processed = 		26
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Specimen Page Inserts = 		26
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] Total Errors = 			0
+[Mon Nov 26 12:51:45 CST 2007] [NORMAL][main] *************************************************************************

@@ -1,0 +1,27 @@
+[Sun Mar 04 03:00:02 CST 2007] [NORMAL][main] START: MOR1
+[Sun Mar 04 03:00:16 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=1629]: 
+	[Ljava.lang.StackTraceElement;@d1fa5
+[Sun Mar 04 03:00:28 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	[Ljava.lang.StackTraceElement;@e0a386
+[Sun Mar 04 03:00:58 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	[Ljava.lang.StackTraceElement;@940f82
+[Sun Mar 04 03:00:59 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	[Ljava.lang.StackTraceElement;@89e2f1
+[Sun Mar 04 03:01:27 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	[Ljava.lang.StackTraceElement;@273f4e
+[Sun Mar 04 03:01:43 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	[Ljava.lang.StackTraceElement;@ec42e0
+[Sun Mar 04 03:01:55 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	[Ljava.lang.StackTraceElement;@423606
+[Sun Mar 04 03:01:55 CST 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8985]: 
+	[Ljava.lang.StackTraceElement;@15926d1
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] FINISH: MOR1
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] *************************************************************************
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Total Run Time= 			128.117 seconds
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Total Run Time= 			2 minutes, 8 seconds
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Taxon Pages Processed = 		2770
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Specimen Pages Processed = 		39550
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Specimen Page Inserts = 		0
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Specimen Page Updates = 		25
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] Total Errors = 			8
+[Sun Mar 04 03:02:10 CST 2007] [NORMAL][main] *************************************************************************

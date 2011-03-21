@@ -1,0 +1,402 @@
+/* styles for vPlants.org*/
+
+
+/*----------------------------
+Global Styles 
+----------------------------*/
+body	{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+  	background-color: #fff;
+	}
+p, div, ul, ol  {
+             /* redundant selectors to help NS4 not forget */
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000;
+   font-size : 12px;
+   margin-top: 0; 
+   padding-top: 0;
+    }
+ul {
+             /* redundant selectors to help NS4 not forget */
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px 0px 0px 30px;
+	padding: 0px 0px 5px 0px;
+    }
+/* main heading */	
+h1 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 17px;
+	color: #cc0;
+	padding:0;
+	margin: 0 0 20px 0;
+	}
+h2 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	color: #360;
+	padding:0;
+	margin-bottom: 5px;
+	}	
+	
+
+
+/* text that is not within a <p> tag.
+Usually found in tables */	
+.text {	
+	font-family: Arial, Helvetica, sans-serif;
+   color: #000;
+   font-size : 12px;
+   }	  
+
+/* default link style */   
+a:link, a:visited {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	color: #360;
+	text-decoration: underline;
+}
+a:hover{
+	color: #960;
+	text-decoration: none;
+}
+a:active {
+	color: #960;
+	text-decoration: none;
+}
+
+/* bullet character style
+use in td cell */
+.bullet {
+	color: #cc0;
+	font-size: 12px;
+	}
+
+/* Contacts, Site Map, Other Links
+------td cell style */
+.topnav{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 10px;
+	}
+/* link styles */	
+a.topnav:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	}
+a.topnav:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+	}
+a.topnav:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: underline;
+	}	
+a.topnav:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c00;
+	text-decoration: none;
+	}	
+	
+/* 	Credit given to - Top Right links */
+a.creditlink:link, a.creditlink:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 10px;
+	text-decoration: none;
+	}
+a.creditlink:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #960;
+	text-decoration: underline;
+	}	
+a.creditlink:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #960;
+	text-decoration: none;
+	}	
+
+#top {
+	background-image:url("http://www.vplants.org/img/top.gif");
+	background-color: #ffc;
+	background-repeat: no-repeat;
+}	
+/* background colors dark green */			
+.bgdkgr {
+	background: #336600;
+}
+/* background colors Medium Green */
+.bgmdgr {
+	background: #CCCC00;
+}	
+
+/* footer - td cell style */	
+.footer{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 11px;
+	padding: 40px 0 40px 0px;
+	}
+/* Link styles */	
+a.footlink:link, a.footlink:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 11px;
+	text-decoration: none;
+	}
+a.footlink:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #960;
+	text-decoration: underline;
+	}	
+a.footlink:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #960;
+	text-decoration: none;
+	}		
+
+/*--------------------------------------
+Home Page Styles
+--------------------------------------*/	
+#home .footer{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 11px;
+	padding: 0 0 40px 0px;
+	}	
+#home p {
+	font-family: Arial, Helvetica, sans-serif;
+   color: #fff;
+   font-size : 14px;
+   line-height: 20px;
+   margin-top: 0; 
+   padding-top: 0;
+   font-weight: bold;
+    }	
+	
+/*Home sidebar Labels for search fields*/	
+.sidebarLabel {
+	font-family: Arial, Helvetica, sans-serif;
+   color: #360;
+   font-size : 11px;
+   font-weight: bold;
+   margin-top: 0; 
+   padding-top: 5px;
+    }
+	
+
+/*heading in sidebar for search*/
+.homeSearchHead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #360;
+	font-weight: bold;
+}
+	
+/* Used on Home page for Advanced Search link */	
+a.search:link, a.search:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 11px;
+	text-decoration: underline;
+}
+a.search:hover{
+	color: #960;
+	text-decoration: underline;
+}
+a.search:active{
+	color: #960;
+	text-decoration: underline;
+}
+
+
+/* disclaimer window styles */
+#disclaimer h1 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 0 5px 0;
+	margin:0;
+}
+#disclaimer .borderbox {
+	border: 1px solid #cc0;
+	width: 380px;
+	}
+a.close:link, a.close:visited {
+	font-weight: bold;
+	text-decoration: none;
+	}
+a.close:hover {
+	text-decoration: underline;
+	color: #960;
+	}	
+	
+/*----------------------------
+styles for search section
+---------------------------*/
+
+/* headings on Search page */
+#search h2 {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 13px;
+	color: #360;
+	padding:0;
+	margin: 0;
+	}	
+
+/* Used on Results page to indent results */	
+#search blockquote {
+	margin: 0px 0 20px 20px;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+   color: #000;
+   font-size : 12px;
+	}
+
+/* Used as Specimen head */
+.specimenhead {
+	font-family: arial, helvetical, sans-serif;
+	color: #360;
+	font-size: 13px;
+	font-weight: bold;
+	}		
+a.specimenhead:link, a.specimenhead:visited {
+	font-family: arial, helvetical, sans-serif;
+	color: #360;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	}		
+a.specimenhead:hover {
+	font-family: arial, helvetical, sans-serif;
+	color: #960;
+	text-decoration: none;
+	}	
+	
+/* used on Speciman Detail page 
+for download information */	
+.smtxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+} 
+
+
+/*--------------------------
+form field styles 
+---------------------------*/	
+/* text fields */	
+input.txt{
+	border:1px solid #360;
+	display:block;
+	color:#360;
+	 background: #fff;
+	padding-left:3px;
+	padding-right:3px;
+	font-family:verdana, arial, sans-serif;
+	font-size:11px;
+	}
+	
+/* buttons */	
+input.button {
+  background: #cc0;
+  border-top: solid 1px #ff9;
+  border-left: solid 1px #ff9;
+  border-bottom: solid 1px #360;
+  border-right: solid 1px #360;
+  display:block;
+  color: #000;
+  padding-left:3px;
+  padding-right:3px;
+  font-family:verdana, arial, sans-serif;
+  font-size:11px;
+}
+
+/* dropdown lists */
+select{
+	background: #fff;
+	border:1px solid #360;
+	display:block;
+	color:#360;
+	padding-left:3px;
+	padding-right:3px;
+	font-family:verdana, arial, sans-serif;
+	font-size:11px;
+	}
+
+/*--------------------------------------
+syles for browse section
+--------------------------------------*/
+/*  td cell style for alphabet   */
+.browse {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 12px;
+}
+
+/*   style for ON alphabet  */
+.browseOn {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 3px 0 3px;
+}
+
+/*   style for alphabet links  */
+a.browse:link {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 3px 0 3px;
+	}
+a.browse:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #cc0;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 0 3px 0 3px;
+	}
+a.browse:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	background-color: #360;
+	padding: 0 3px 0 3px;
+	}	
+a.browse:active {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #c00;
+	text-decoration: none;
+	}
+	
+/*  stlye for listed names   */	
+.browseListText {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+   }	
+a.browseListLink:link, a.browseListLink:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #360;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+	text-decoration: underline;
+   }	   
+a.browseListLink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #960;
+	font-size: 12px;
+	padding: 1px 2px 1px 2px;
+	text-decoration: none;
+   }	   

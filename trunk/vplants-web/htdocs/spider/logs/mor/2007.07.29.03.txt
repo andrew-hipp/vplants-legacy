@@ -1,0 +1,43 @@
+[Sun Jul 29 03:00:02 CDT 2007] [NORMAL][main] START: MOR1
+[Sun Jul 29 03:00:11 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=1629]: 
+	[Ljava.lang.StackTraceElement;@d1fa5
+[Sun Jul 29 03:00:20 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	[Ljava.lang.StackTraceElement;@888e6c
+[Sun Jul 29 03:00:20 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7473]: 
+	[Ljava.lang.StackTraceElement;@bad8a8
+[Sun Jul 29 03:00:47 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	[Ljava.lang.StackTraceElement;@134eb84
+[Sun Jul 29 03:00:47 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	[Ljava.lang.StackTraceElement;@1250ff2
+[Sun Jul 29 03:00:48 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7456]: 
+	[Ljava.lang.StackTraceElement;@166f9b9
+[Sun Jul 29 03:00:48 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9025]: 
+	[Ljava.lang.StackTraceElement;@44d990
+[Sun Jul 29 03:01:02 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7452]: 
+	[Ljava.lang.StackTraceElement;@191e4c
+[Sun Jul 29 03:01:14 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	[Ljava.lang.StackTraceElement;@1c0bee6
+[Sun Jul 29 03:01:14 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7476]: 
+	[Ljava.lang.StackTraceElement;@86d1da
+[Sun Jul 29 03:01:14 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5696]: 
+	[Ljava.lang.StackTraceElement;@1b5a40a
+[Sun Jul 29 03:01:14 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6010]: 
+	[Ljava.lang.StackTraceElement;@1ac13d7
+[Sun Jul 29 03:01:26 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	[Ljava.lang.StackTraceElement;@6d670a
+[Sun Jul 29 03:01:38 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	[Ljava.lang.StackTraceElement;@1645b9
+[Sun Jul 29 03:01:38 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8985]: 
+	[Ljava.lang.StackTraceElement;@81933a
+[Sun Jul 29 03:01:38 CDT 2007] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6020]: 
+	[Ljava.lang.StackTraceElement;@767fb3
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] FINISH: MOR1
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] *************************************************************************
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Total Run Time= 			109.431 seconds
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Total Run Time= 			1 minutes, 49 seconds
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Taxon Pages Processed = 		2781
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Specimen Pages Processed = 		39631
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Specimen Page Inserts = 		0
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Specimen Page Updates = 		1
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] Total Errors = 			16
+[Sun Jul 29 03:01:52 CDT 2007] [NORMAL][main] *************************************************************************

@@ -1,0 +1,32 @@
+Script started on Sat 04 Dec 2004 09:06:39 AM CST
+]0;root@oak:/var/www/vplants/htdocs[root@oak htdocs]# ls -l
+[00mtotal 2908
+-rw-r--r--    1 vplants  vplants      3524 May 27  2004 [00mabout_notes.html[00m
+-rw-r--r--    1 vplants  vplants      4001 Nov  6 11:54 [00mabout_others.html[00m
+-rw-r--r--    1 vplants  vplants      4091 Nov  6 11:54 [00mabout_partners.html[00m
+-rw-r--r--    1 vplants  vplants      5035 Nov  6 11:55 [00mabout_project.html[00m
+drwxr-xr-x    2 vplants  vplants      4096 Aug  2 16:49 [00;34mcss[00m
+-rw-r--r--    1 vplants  vplants      2560 Apr 16  2004 [00mdisclaimer.html[00m
+-rw-r--r--    1 root     root         5555 Nov  6 11:55 [00mfeedback.html[00m
+-rw-r--r--    1 vplants  vplants      5796 Nov  6 11:56 [00mfungi.html[00m
+drwxr-xr-x    3 vplants  vplants      4096 May 28  2004 [00;34mimg[00m
+-rw-r--r--    1 vplants  vplants      9333 Nov  6 11:56 [00mindex.html[00m
+drwxr-xr-x    2 vplants  vplants      4096 May 28  2004 [00;34mjs[00m
+-rw-r--r--    1 vplants  vplants      4246 Nov  6 11:56 [00mmap.html[00m
+lrwxrwxrwx    1 vplants  vplants        11 Apr 26  2004 [00;36mmetadata[00m -> [00;34mpr/metadata[00m
+-rw-r--r--    1 vplants  vplants      5178 Nov  6 11:57 [00mplantsincluded.html[00m
+drwxr-xr-x    7 vplants  vplants      4096 Nov  6 11:34 [00;34mpr[00m
+-rw-r--r--    1 root     root           51 May 26  2004 [00mrobots.txt[00m
+-rw-r--r--    1 vplants  vplants     13539 Nov  6 11:57 [00msearch.html[00m
+-rw-r--r--    1 root     root       782336 Aug 24 11:46 [00mspeciesPage.mdb[00m
+drwxr-xr-x    3 root     root         4096 Apr 26  2004 [00;34mspider[00m
+-rw-r--r--    1 root     root         2319 Nov  6 11:57 [00mtest.html[00m
+-rw-r--r--    1 root     root         3983 Nov  6 11:57 [00mthanks.html[00m
+-rw-r--r--    1 root     root            0 Dec  4 09:06 [00mtypescript[00m
+-rw-r--r--    1 vplants  vplants      8480 Aug 24 09:39 [00;35mvplantmap.gif[00m
+-rw-r--r--    1 vplants  vplants   2039296 Aug 26 18:12 [00mvplants_checklist.xls[00m
+-rw-r--r--    1 vplants  vplants     11206 Nov  6 11:57 [00mwhatis.html[00m
+drwxr-xr-x    2 root     root         4096 Jul 16 12:03 [00;34mxml[00m
+[m]0;root@oak:/var/www/vplants/htdocs[root@oak htdocs]# exit
+
+Script done on Sat 04 Dec 2004 09:06:46 AM CST
