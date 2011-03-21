@@ -1,0 +1,101 @@
+/* -Master Style Sheet for www.vplants.org
+=========================================================================
+version: 2006.035 
+last updated: 2006 June
+author: Patrick Leacock, The Field Museum, Chicago, Illinois.
+email: vplants@lactarius.com
+web site: http://www.lactarius.com/
+------------------------------------------------------------------------- */
+
+
+
+
+
+/* PRINT styles
+=========================================================
+These styles start from scratch because the other linked or imported CSS files are not designated for media print.
+
+Do not add any background styles because backgrounds are turned off by default when printing. 
+
+-------------------------------------------------------*/
+
+body {
+	color: #000;
+	background: #fff;
+	font: 12pt/1.3em Georgia, Garamond, "Times New Roman", Times, serif;
+	}
+#tagline {border-bottom: 2px solid #555; padding-bottom: .3em; margin-bottom: .5em;}
+#tagline strong {padding-right: 1em; font-size: 16pt;}
+.small {font-size: 9pt;}
+#sitefoot {font-size: 9pt; border-top: 1px solid #555;}
+
+
+#breadcrumbs, 
+#partners, 
+#headform, 
+#logo,  
+#sitemenu, 
+#pagemenu, 
+#submenu, 
+#simpleform, 
+#gomenu, 
+#footmenu, 
+.noprint, 
+.access {display: none;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0 0 .5em 0;
+	padding: 0;
+	}
+h1, h2 {
+	font-variant: small-caps;
+	}
+h1 {font-size: 18pt;}
+h2 {font-size: 16pt;}
+h3 {font-size: 14pt;}
+
+
+
+p {padding: 0; margin: .2em 0 .5em 0; }
+p+p {text-indent: 1em;}
+#sitefoot p {padding: 0; margin: 0;}
+#sitefoot p+p {text-indent: 0;}
+
+a {	text-decoration: none; 
+	color: #000;
+	border-bottom: 0;
+	}
+#content2 .box {font-size: 11pt;}
+#content2 .box a:after {
+	content: " (" attr(href) ") ";
+	font-size: 9pt;
+	}
+
+#content2 .box a[href^="/"]:after {
+	content: " (http://www.vplants.org" attr(href) ") ";
+	}
+
+#wrapper1 {
+	position: relative;
+	}
+
+body.description #content1, body.description #sitefoot {
+	margin-right: 280px; /* right column width plus 28px gutter */ 
+	}
+body.description #content2 {
+	position: absolute; 
+	top: 0;
+	right: 0;
+	width: 252px;
+	}
+.box {
+	margin-top: 10px;
+	padding: 10px 0 0 15px;
+	border-top: 1px solid #555;
+	border-left: 1px solid #555;
+	}
+
+
+
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>vPlants - QA Search for Plants</title>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="vplants, vplants.org, plant, plants, herbarium, herbaria, collections, specimens, museum, arboretum, botanic garden, natural history, ecology, distribution" />
+<meta name="description" content="vPlants offers thousands of plant and fungus specimens for the Chicago Region, USA, with images and descriptions." />
+<meta name="author" content="The vPlants Project" />
+<meta http-equiv="content-language" content="en-us" />
+<meta content="General" name="rating" />
+<meta content="Living Document" name="doc-class" />
+<meta content="Copyright (c) 2001-2005 The vPlants Project" name="copyright" />
+
+<link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
+<link rel="start" title="Home page" href="/" />
+<link rel="search" title="Search this site" http://www.vplants.org/search.html">
+<link rel="help" title="Access features of this site" href="/access.html" />
+
+<link href="css/basic.css" rel="stylesheet" type="text/css" media="screen"  />
+<style type="text/css" media="screen, print">@import "css/vp.css";</style>
+<link href="css/print.css" rel="stylesheet" type="text/css"  media="print"  />
+<script src="js/basic.js" type="text/javascript"></script>
+
+<style type="text/css" media="screen, print">
+div#content1 { 
+	margin: 0 15px 10px 7.9em;
+	padding: 12px 0 0 0;
+	width: 560px;
+	}
+div#footer { 
+	padding: 20px 0 50px 0; 
+	}
+table h3 {
+	border-top: 2px solid #360;
+	margin-top: 10px;
+	padding: 5px 0;
+	}
+div#simpleform {
+	width: 450px;
+	text-align: right;
+	}
+div#simpleform fieldset {
+	padding-right: 100px;
+	}
+div#simpleform .texts input {
+	width: 12em;
+	}
+</style>
+
+</head>
+
+<body id="vplants" class="search" >
+<!-- Body ID allows user styling of vPlants pages. 
+Body CLASS allows author styling of that page. -->
+<a class="zero" id="top" name="top"></a>
+
+<div id="header" class="clearfix">
+<div id="logo"><a tabindex="2" 
+ href="/"
+ title="vPlants.org Home."><img src="img/logo.gif" 
+ width="240" height="60" alt="vPlants" /></a></div>
+<p class="hide">
+<a href="#tabmenu">Skip to tab menu.</a>
+</p>
+<div id="partners"><ul><li><a tabindex="50"
+ href="about_partners.html#morton" 
+ title="Read about this partner.">The Morton Arboretum</a></li><li><a 
+ href="about_partners.html#field" 
+ title="Read about this partner.">The Field Museum</a></li><li><a 
+ href="about_partners.html#botanic" 
+ title="Read about this partner.">Chicago Botanic Garden</a></li><li><a 
+ href="about_partners.html#additional" 
+ title="Read about other partners.">Additional Partners</a></li></ul></div>
+
+
+<div id="tagline"><h1>vPlants.org</h1>
+ <p><a href="about_herbarium.html" 
+ title="What is a Herbarium?">A Virtual Herbarium of the Chicago Region</a></p></div>
+</div><!-- End of #header -->
+
+
+<div id="tabs" class="clearfix">
+<p class="hide">
+<a id="tabmenu" name="tabmenu" ></a>
+<a href="#primary">Skip to page content.</a>
+</p>
+<!-- each of the following either is a link or has
+  <li class="thispage"><span title="You are here: page title.">page title</span></li>   -->
+<ul id="tabsleft">
+<li class="thispage">
+<span title="You are here: Plant QA Search.">Plant QA Search</span></li>
+<li>
+<span title="Fungus Search.">Fungus QA Search (not yet available)</span></li>
+
+</ul>
+</div><!-- End of #tabs -->
+
+<div id="main1" class="clearfix"><div id="main2" class="clearfix">
+<!-- PAGE CONTENT STARTS --><a class="zero" id="content" name="content"></a>
+<div id="content1"><!-- start of primary content -->
+<p class="hide">
+<a id="primary" name="primary"></a>
+<a href="#secondary">Skip to related pages links.</a>
+</p>
+
+<h2 >QA Search for Plants</h2>
+<h3>Provides access to check Description Pages in QA folder.</h3>
+<p>
+Enter text in any of the following fields then click Search button (at bottom).
+</p>
+
+
+
+<div id="simpleform">
+<form
+ name="simple"
+ method="post"
+ action="/xsql/plants/searchqa_elements_test.xsql">
+
+<fieldset><legend title="Enter name of plant in one or more of the search fields.">
+QA Name Search</legend>
+
+
+<div class="texts">
+<p><label for="family" accesskey="4" 
+ title="Example: Ulmaceae.">Family: 
+<input id="family" name="family" type="text" maxlength="40" 
+ tabindex="103" title="Enter name of a family [one word, can use first several letters]." value="" /></label>
+</p>
+<p><label for="genus"  
+ title="Example: Ulmus.">Genus: 
+<input id="genus" name="genus" type="text" maxlength="30" 
+ tabindex="104" title="Enter name of a genus [one word, can use first several letters]." value="" /></label>
+</p>
+<p><label for="species" 
+ title="Example: americana.">Species Epithet: 
+<input id="species" name="species" type="text" maxlength="30" 
+ tabindex="105" title="Enter the species epithet, or subspecies, or variety [one word]." value="" /></label>
+</p>
+<p><label for="common" 
+ title="Example: american elm.">Common Name: 
+<input id="common" name="common" type="text" maxlength="50" 
+ tabindex="106" title="Enter a common name [can use more than one word]." value="" /></label>
+</p>
+</div>
+
+<p class="actions">
+<input id="submit" name="submit" type="submit" value="Search"
+ tabindex="107" title="Perform Search." />
+</p>
+<p>
+[ Fungus data not yet available. ]
+</p>
+</fieldset>
+
+</form>
+</div>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</div><!-- end of #content1 -->
+
+
+</div><!-- end of #main2 -->
+
+<div id="menu"><!-- start of #menu -->
+<p class="hide">
+<a id="sitemenu" name="sitemenu"></a>
+<a href="#footmenu">Skip to footer and access key menu.</a>
+</p>
+
+<!--
+ For current directory use, example:
+<li 
+ class="plant head thismenu"><a  
+ href="plants/index.html"
+ title="Plant directory.">Plants</a></li>
+ 
+ For current page, index of that directory use, example:
+ <li
+ class="home thismenu thispage"><span
+ title="You are here: Home Page.">Home</span></li>
+-->
+<ul><li 
+ class="search"><a tabindex="500"
+ href="/search.html"
+ title="Advanced Search.">Search</a></li><li 
+ class="home"><a  
+ href="/"
+ title="Home Page.">Home</a></li><li><a 
+ href="about.html" 
+ title="About vPlants and its partners.">About Us</a></li><li 
+ class="plant head"><a 
+ href="plants/index.html"
+ title="Plant directory.">Plants</a></li><li 
+ class="fungus head"><a 
+ href="fungi/index.html"
+ title="Fungus directory.">Fungi</a></li><li><a 
+ href="documents/index.html"
+ title="View or download files and working documents.">Documents</a></li><li><a 
+ href="biblio.html"
+ title="List of Books and other literature.">References</a></li><li><a 
+ href="links.html"
+ title="Links to related web sites.">Links</a></li><li><a 
+ href="help.html" 
+ title="Help and Frequently Asked Questions.">Help FAQ</a></li><li><a 
+ href="feedback.html"
+ title="Please provide feedback!">Feedback</a></li><li><a 
+ href="contact.html"
+ title="Contact information.">Contact Us</a></li><li><a 
+ href="sitemap.html"
+ title="List of pages on this website.">Site Map</a></li><li><a 
+ href="access.html" 
+ title="Accessibility features of this site." accesskey="0">Accessibility Statement</a></li></ul>
+
+
+</div><!-- end of #menu --></div><!-- end of #main1 -->
+
+
+</body>
+</html>

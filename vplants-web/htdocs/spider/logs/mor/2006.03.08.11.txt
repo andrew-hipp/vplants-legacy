@@ -1,0 +1,46 @@
+[Wed Mar 08 11:26:53 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 11:30:37 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 11:30:37 CST 2006] [ERROR][main] Database Connect: 
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:268)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.vplants.bot.vPlantsSpider.databaseConnect(vPlantsSpider.java:278)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:105)
+
+[Wed Mar 08 11:38:14 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 11:38:14 CST 2006] [ERROR][main] Database Connect: 
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:268)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.vplants.bot.vPlantsSpider.databaseConnect(vPlantsSpider.java:278)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:105)
+
+[Wed Mar 08 11:43:14 CST 2006] [NORMAL][main] START: MOR1
+[Wed Mar 08 11:43:14 CST 2006] [ERROR][main] Database Connect: 
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:200)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:188)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:268)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:251)
+	at java.lang.ClassLoader.loadClassInternal(ClassLoader.java:319)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:164)
+	at org.vplants.bot.vPlantsSpider.databaseConnect(vPlantsSpider.java:278)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:105)
+

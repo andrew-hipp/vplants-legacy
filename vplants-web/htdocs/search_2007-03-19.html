@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us"><head>
+<title>vPlants - Advanced Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="vplants, vplants.org, plant, plants, herbarium, herbaria, collections, specimens, museum, arboretum, botanic garden, natural history, ecology, distribution">
+<meta name="description" content="vPlants offers thousands of plant and fungus specimens for the Chicago Region, USA, with images and descriptions.">
+<link rel="stylesheet" href="css/master.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="css/fullform.css" type="text/css" media="screen, projection, print">
+<!-- CSS for Internet Explorer Windows browsers 7.1 and below are handled in separate file -->
+<!--[if lte IE 7.1]>
+  <link href="css/iewin_lte_71.css" rel="stylesheet" type="text/css" media="screen, projection">
+<![endif]-->
+<link rel="stylesheet" href="css/print.css"  type="text/css" media="print">
+</head>
+
+<body id="vplants-org" class="search" ><div id="bodywrap">
+<!-- Body ID "CSS signature" allows the user site-wide styling of vPlants pages. 
+Body CLASS allows author styling of that page. -->
+
+<div id="sitehead">
+<a id="pagetop" name="pagetop"></a>
+
+<div id="breadcrumbs">
+You are here:
+<a href="/">Home</a> &#187;
+<strong>Search</strong>
+</div>
+
+<p class="access"><a href="#pagecontent" accesskey="2" title="Skip to page content.">[Skip to page content]</a></p>
+<p class="access"><a href="#menu1" title="Skip to menu one.">[Skip to primary menu]</a></p>
+
+<div id="partners"><ul><li><a 
+ href="/about/partner_mor.html" 
+ title="Read about this partner.">The Morton Arboretum</a></li><li><a 
+ href="/about/partner_f.html" 
+ title="Read about this partner.">The Field Museum</a></li><li><a 
+ href="/about/partner_chic.html" 
+ title="Read about this partner.">Chicago Botanic Garden</a></li><li><a 
+ href="/about/partner_other.html" 
+ title="Read about other partners.">Additional Partners</a></li></ul></div>
+
+<div id="logo"><a href="/" title="vPlants.org Home."><img src="img/logo2h.gif" alt="vPlants.org Home."></a></div>
+
+<p id="tagline"><a href="/topics/" title="What is a Herbarium?">A Virtual Herbarium of the Chicago Region</a></p>
+
+</div><!-- End of #sitehead -->
+
+<div id="wrapper1"><!-- for navigation and content -->
+<!-- PAGE CONTENT STARTS -->
+
+<div id="content"><!-- start of primary content -->
+<a id="pagecontent" name="pagecontent"></a>
+
+<h1>Advanced Search for Specimens</h1>
+
+<!-- start form -->
+<div id="fullform">
+<form
+ name="advanced"
+ method="post"
+ onsubmit="return submitform();" 
+ action="/xsql/common/search.xsql">
+<!-- onsubmit="return submitform();" -->
+ <table  summary="Advanced search form."><tr ><td >
+<p>Choose plant or fungus collections. Enter values in any of the boxes or fields. 
+ [ <a href="help/search.html" 
+   title="Help with Searching.">Help</a> ]</p>
+</td><td class="rightcol" >
+<p class="actions">
+<input id="reset1" name="reset" type="reset" value="Reset" 
+ title="Clear all fields.">
+<input id="submit1" name="submit" type="submit" value="Search"
+ title="Perform Search.">
+</p>
+</td></tr><tr ><td >
+
+<fieldset class="radio"><legend title="Must choose either plants or fungi.">Select Group</legend>
+<p class="radios"><strong title="Select Plant or Fungus.">Group:</strong>
+<input id="plant" name="db" type="radio" checked="checked" 
+ tabindex="101" value="plants"
+ onclick="JavaScript:document.advanced.substratum.disabled=true;
+ document.advanced.substratum.value=''">
+<label for="plant" title="Select Plant Collections.">Plants</label>
+<input id="fungus" name="db" type="radio" 
+ tabindex="102" value="fungi"
+ onclick="JavaScript:document.advanced.substratum.disabled=false"/>
+<label for="fungus" title="Select Fungus Collections.">Fungi</label>
+</p>
+</fieldset>
+
+<fieldset><legend title="Enter name in one or more of the search fields.">Taxon Names</legend>
+
+<p><label for="family" accesskey="4" 
+ title="Example: Ulmaceae">Family: 
+<input id="family" name="family" type="text" maxlength="50" 
+ tabindex="105" title="Enter name of a family [one word, can use first several letters]." value="">
+</label></p>
+<p><label for="genus"  
+ title="Example: Ulmus">Genus: 
+<input id="genus" name="genus" type="text" maxlength="50" 
+ tabindex="106" title="Enter name of a genus [one word, can use first several letters]." value="">
+</label></p>
+<p><label for="species" 
+ title="Example: americana">Species Epithet: 
+<input id="species" name="species" type="text" maxlength="50" 
+ tabindex="107" title="Enter the species epithet, or subspecies, or variety [one word]." value="">
+</label></p>
+<p><label class="small" for="infrasp" 
+ title="Example: leave blank">Subspecies/Variety/Forma: 
+<input id="infrasp" name="ssp" type="text" maxlength="50" 
+ tabindex="108" title="Enter a name for an infraspecies [one word]." value="">
+ <!-- when function is modified then change this to name="infrasp"  -->
+</label></p>
+<p><label for="common" 
+ title="Example: American elm">Common Name: 
+<input id="common" name="common" type="text" maxlength="50" 
+ tabindex="109" title="Enter a common name [can use more than one word]." value="">
+</label></p>
+
+</fieldset>
+
+<fieldset><legend title="Enter values in one or more of the search fields.">Collector and Date</legend>
+
+<p><label for="lname" 
+ title="Example: Thieret">Last Name: 
+<input id="lname" name="lname" type="text" maxlength="40" 
+ tabindex="111" title="Enter last name for a person." value="">
+</label></p>
+
+<p><label for="fname" 
+ title="Example: J">First Initial: 
+<select id="fname" name="fname"
+ tabindex="112" title="Select first initial.">
+ <option value=""></option>
+ <option value="A">A</option>
+ <option value="B">B</option>
+ <option value="C">C</option>
+ <option value="D">D</option>
+ <option value="E">E</option>
+ <option value="F">F</option>
+ <option value="G">G</option>
+ <option value="H">H</option>
+ <option value="I">I</option>
+ <option value="J">J</option>
+ <option value="K">K</option>
+ <option value="L">L</option>
+ <option value="M">M</option>
+ <option value="N">N</option>
+ <option value="O">O</option>
+ <option value="P">P</option>
+ <option value="Q">Q</option>
+ <option value="R">R</option>
+ <option value="S">S</option>
+ <option value="T">T</option>
+ <option value="U">U</option>
+ <option value="V">V</option>
+ <option value="W">W</option>
+ <option value="X">X</option>
+ <option value="Y">Y</option>
+ <option value="Z">Z</option>
+</select>
+</label></p>
+
+<p><label for="year" 
+ title="Example: 1952">Year (4 digits): 
+<input id="year" name="year" type="text" maxlength="4" size="4"
+ tabindex="114" title="Enter year." value="">
+</label></p>
+
+<p><label for="month" 
+ title="Example: May">Month: 
+<select id="month" name="month" 
+ tabindex="115" title="Select month.">
+ <option value=""></option>
+ <option value="01">Jan</option>
+ <option value="02">Feb</option>
+ <option value="03">Mar</option>
+ <option value="04">Apr</option>
+ <option value="05">May</option>
+ <option value="06">Jun</option>
+ <option value="07">Jul</option>
+ <option value="08">Aug</option>
+ <option value="09">Sep</option>
+ <option value="10">Oct</option>
+ <option value="11">Nov</option>
+ <option value="12">Dec</option>
+</select>
+</label></p>
+
+<p><label for="day" 
+ title="Example: 04">Day (01 to 31): 
+<input id="day" name="day" type="text" maxlength="2" size="2"
+ tabindex="116" title="Enter day of month (2 digits)." value="">
+</label></p>
+
+<p class="small">Older collections may only have the Year.</p>
+</fieldset>
+
+<fieldset class="inputlong" ><legend title="Can limit search to a particular data source.">Institution</legend>
+
+<p><label for="filter" 
+ title="Example: only The Field Museum">Data:  
+<select id="filter" name="filter" 
+ tabindex="121" title="Select Institution.">
+ <option value="">All Institutions</option>
+ <option value="CHIC">only Chicago Botanic Garden</option>
+ <option value="F">only The Field Museum</option>
+ <option value="MOR">only The Morton Arboretum</option>
+</select>
+</label>
+</p>
+</fieldset>
+</td><td class="rightcol" >
+
+<fieldset><legend title="Enter values in one or more of the search fields.">Location and Habitat</legend>
+
+<p><label for="state" 
+ title="Example: Indiana">U.S.A. State: 
+<select id="state" name="state" 
+ tabindex="131" title="Select state.">
+ <option value=""></option>
+ <option value="IL">Illinois</option>
+ <option value="IN">Indiana</option>
+ <option value="MI">Michigan</option>
+ <option value="WI">Wisconsin</option>
+</select>
+</label>
+</p>
+
+<p>
+<a class="small" href="/map_county.html">See map.</a>
+<label for="county" 
+ title="Example: LaPorte">*County: 
+<select id="county" name="county"
+ tabindex="132" title="Select county.">
+ <option value=""></option>
+ <option value="Berrien">Berrien, MI</option>
+ <option value="Boone">Boone, IL</option>
+ <option value="Cook">Cook, IL</option>
+ <option value="DeKalb">DeKalb, IL</option>
+ <option value="DuPage">DuPage, IL</option>
+ <option value="Grundy">Grundy, IL</option>
+ <option value="Jasper">Jasper, IN</option>
+ <option value="Kane">Kane, IL</option>
+ <option value="Kankakee">Kankakee, IL</option>
+ <option value="Kendall">Kendall, IL</option>
+ <option value="Kenosha">Kenosha, WI</option>
+ <option value="Lake">Lake, *</option>
+ <option value="LaPorte">LaPorte, IN</option>
+ <option value="McHenry">McHenry, IL</option>
+ <option value="Milwaukee">Milwaukee, WI</option>
+ <option value="Newton">Newton, IN</option>
+ <option value="Porter">Porter, IN</option>
+ <option value="Racine">Racine, WI</option>
+ <option value="Starke">Starke, IN</option>
+ <option value="St. Joseph">St. Joseph, IN</option>
+ <option value="Walworth">Walworth, WI</option>
+ <option value="Waukesha">Waukesha, WI</option>
+ <option value="Will">Will, IL</option>
+</select>
+</label></p>
+
+<p><label for="city" 
+ title="Example: Springville">**City/Town/Township: 
+<input id="city" name="city" type="text" maxlength="50" 
+ tabindex="133" title="Enter name for city, town, or township." value="">
+</label></p>
+
+<p><label for="locality" 
+ title="Example: Hanson Road">**Locality:
+<input id="locality" name="locality" type="text" maxlength="50" 
+ tabindex="134" title="Enter other location information." value="">
+</label></p>
+
+<p><label for="habitat" 
+ title="Example: stream bottom">**Habitat:
+<input id="habitat" name="habitat" type="text" maxlength="50" 
+ tabindex="135" title="Enter habitat information." value="">
+</label></p>
+
+<p class="small">*For Lake County, choose State: Illinois or Indiana.</p>
+<p class="small">**At present, <strong>City/Town</strong> and <strong>Habitat</strong> contain data only for collections of The Field Museum. For other institutions this information is found in the <strong>Locality</strong> field. You may need to search each field one at a time.</p>
+</fieldset>
+
+<fieldset class="inputshort"><legend title="Enter values in one or more of the search fields.">Township, Range, Section</legend>
+
+<p ><label for="twp" 
+ title="Example: 38">Township <span class="small">number</span> N/S:
+<input id="twp" name="twp" type="text" maxlength="3" 
+ tabindex="141" title="Enter number for township (without direction)." value="">
+</label></p>
+
+<p ><label for="range" 
+ title="Example: 3">Range <span class="small">number</span> E/W:
+<input id="range" name="range" type="text" maxlength="3" 
+ tabindex="142" title="Enter number for range (without direction)." value="">
+</label></p>
+
+<p ><label for="section" 
+ title="Example: 32">Section <span class="small">number (1 - 36)</span>:
+<input id="section" name="section" type="text" maxlength="2" 
+ tabindex="143" title="Enter number for section." value="">
+</label></p>
+
+<p class="small">The majority of records do not have this information.</p>
+</fieldset>
+
+<fieldset><legend title="Enter value in search field.">Fungus data only</legend>
+
+<p><label for="substratum" 
+ title="Example: wood">Substrate <span class="small">(growing on)</span>: 
+
+<input id="substratum" name="substratum" type="text" maxlength="50" 
+ tabindex="151" title="Enter text for substrate." disabled="disabled" value="">
+
+</label></p>
+<p class="small">Try separate searches: ground, soil, dirt; or lawn, grass; or wood, log, branch, twig; or leaves, leaf.</p>
+</fieldset>
+
+<p class="actions">
+<input id="submit" name="submit" type="submit" value="Search"
+ tabindex="190" title="Perform Search.">
+</p>
+</td></tr>
+
+</table>
+</form>
+</div><!-- End form -->
+
+</div><!-- end of #content -->
+
+<div id="sitemenu"><a id="menu1" name="menu1"></a>
+<h5 class="access">Primary Menu <a href="#menu2" title="Skip this menu.">[Skip]</a></h5>
+<ul class="home"><li><a 
+class="start" href="/" 
+title="Home page.">Home</a></li></ul>
+<ul class="plant"><li><a 
+class="start" href="/plants/" 
+title="Plants start page.">Plants</a></li></ul>
+<ul class="fungus"><li><a 
+class="start" href="/fungi/" 
+title="Fungi start page.">Fungi</a></li></ul>
+<ul class="tools"><li><span 
+title="You are here: Advanced search for plants or fungi.">Search</span></li><li><a 
+class="help" href="/help/" 
+title="Help and user guide.">Help Guide</a></li><li><a 
+class="topics" href="/topics/" 
+title="Collections, habitats, and more.">Topics</a></li><li><a 
+class="resources" href="/resources/" 
+title="Documents, books, and links.">Resources</a></li></ul>
+</div><!-- end of #sitemenu -->
+
+<div id="pagemenu"><a id="menu2" name="menu2"></a>
+<h5 class="access">Secondary Menu <a href="#menu3" title="Skip this menu.">[Skip]</a></h5>
+<ul id="pageset1"><li class="thispage"><span 
+title="You are here: Advanced Search.">Search</span></li>
+<!-- <li><a 
+href="gid.html" 
+title="GID Quick Find.">GID</a></li> -->
+</ul>
+<span class="filler">&nbsp;</span>
+</div><!-- End of #pagemenu -->
+
+</div><!-- end of #wrapper1 -->
+
+<div id="sitefoot"><a id="menu4" name="menu4"></a>
+<h5 class="access">Footer Menu</h5>
+<ul id="footmenu"><li><a href="/" accesskey="1" title="Home page.">Home</a></li><li><a href="/help/" accesskey="6" title="Help and user guide.">Help Guide</a></li><li><a href="/sitemap.html" accesskey="7" title="Table of contents.">Site Map</a></li><li><a href="/about/contact.html" accesskey="8" title="Contact information.">Contact Us</a></li><li><a href="/about/feedback.html" accesskey="9" title="Please provide feedback!">Feedback</a></li><li><a href="/access.html" accesskey="0" title="Accessibility features of this site.">Accessibility Statement</a></li></ul>
+<p id="funds">Funded by <a href="http://www.imls.gov" title="Go to IMLS web site.">Institute of Museum and Library Services (IMLS)</a></p>
+<p id="citation">Citation: <span class="helptext" title="This is how you list this web site as a reference.">The vPlants Project. vPlants: A Virtual Herbarium of the Chicago Region. http://www.vplants.org</span></p>
+<p id="copyright">Copyright &#169; 2001&#8211;2006 The vPlants Project, All Rights Reserved.</p>
+<p><a href="/about/partner_mor.html" title="Read about this partner.">The Morton Arboretum</a>, <a href="/about/partner_f.html" title="Read about this partner.">The Field Museum</a>, <a href="/about/partner_chic.html" title="Read about this partner.">Chicago Botanic Garden</a>, <a href="/about/partner_other.html" title="Read about other partners.">Additional Partners</a></p>
+<p class="access"><a href="#pagetop" accesskey="3" title="Back to top of page.">[Back to top of page]</a></p>
+</div><!-- End #sitefoot -->
+
+</div><!-- End of #bodywrap -->
+</body>
+</html>

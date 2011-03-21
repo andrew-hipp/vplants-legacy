@@ -1,0 +1,16 @@
+
+
+
+<h3>Why are the fungus description pages missing the Regional Status section?</h3>
+
+<p>
+There is very little known about the pre-settlement distribution of fungi for the Chicago Region and much of North America.  Whether a particular fungus species is native or not to a region is speculation and most are assumed to be native.  In some cases, particularly with plant diseases, such as Dutch Elm Disease, and other microfungi, we know that these fungi are introduced from other parts of the world.  Currently, vPlants is only including macrofungi (mushrooms, brackets, and other large fungi); none of these are listed as invasive species.  Recent observations in Illinois suggest that at least one mushroom species may be extending its range northward or becoming more common with climate change.
+</p>
+
+
+<h3>Are there any endangered, threatened, or special concern fungi?</h3>
+
+<p>
+Yes, there are threatened and endangered mushrooms and other fungi in different parts of the world.  Many European countries have Red Lists of T&amp;E (threatened and endangered) fungi.  Many fungi in the Pacific Northwest are T&amp;E listed. Here in the Midwest, the only state that has T&amp;E listed fungi is Minnesota.  None are yet listed for Illinois, Indiana, Wisconsin, or Michigan.
+As with the plants, if any fungi become listed for our region then vPlants will add the Regional Conservation Status section for those species.
+</p>

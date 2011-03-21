@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!--Index Layer-->
+<index xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "http://www.vplants.org/metadata/vpindex.xsd">
+	<herbcd>MOR</herbcd>
+	<taxon>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=2</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=32</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=42</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=51</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=64</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=124</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=654</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=678</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=697</link>
+		<link>http://www.mortonarb.org/vplants/NameLookup?nameid=698</link>
+	</taxon>
+</index>

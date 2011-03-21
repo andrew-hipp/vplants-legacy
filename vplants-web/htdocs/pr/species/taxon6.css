@@ -1,0 +1,156 @@
+/* styles for vPlants.org Taxon Pages by Leacock March 2004*/
+
+
+/*----------------------------
+Global Styles -- where different from basic.css
+----------------------------*/
+/* for Netscape 4.x DON'T put margin and border rules in same element */
+
+/*----------------------------
+Taxon navigation 
+----------------------------*/
+p  { 
+        margin: 10px 0 10px 0;
+        }
+.pagetext{
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #000;
+  font-size : 90%;
+        }
+        
+.part{
+        margin-left: 2px;
+
+}
+.partName{
+        font: bold 100% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #141;
+}
+        
+.simsp{
+        margin-left: 10px;
+}
+
+
+.taxonomy{
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #000;
+        margin: 0 0 10px 0;
+        }
+.taxonomy a:link, .taxonomy a:visited {
+        color: #360;
+        text-decoration: none;
+        }
+.taxonomy a:hover{
+        color: #960;
+        text-decoration: underline;
+        }       
+.taxonomy a:active {
+        color: #960;
+        text-decoration: none;
+        }       
+        
+.rating {
+        text-align: right;
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        font-size: 120%;
+        padding: 0px;
+        color: #f00;
+        }
+.concern {
+        text-align: right;
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        font-size: 120%;
+        padding: 0px;
+        color: blue;
+        }
+.taxon {
+        font: bold 140% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        padding: 0px;
+        color: #000;
+        }
+.taxon a:link, .taxon a:visited {
+        color: #030;
+        text-decoration: none;
+        }
+.taxon a:hover, .taxon a:active {
+        color: #960;
+        text-decoration: none;
+}
+.author {
+        font: normal 70% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #000;    
+        }
+.common {
+        /* Common Names : use default text style */
+        }
+.credit {
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        font-size: 70%;
+        text-align: right;
+        padding-right: 8px;
+        background: #fff;
+        border-right: 1px solid #360;
+        border-bottom: 1px solid #360;
+        }
+
+.small {
+        font-size: 80%;
+    }
+                
+.heading {
+        font: bold 100% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+    }
+.heading_concern {
+        font: bold 100% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: blue;
+    }
+
+p a:link, .info a:link {
+        color: #360;
+        text-decoration: underline;
+}
+p a:visited, .info a:visited {
+        color: #630;
+        text-decoration: underline;
+}
+
+p a:hover, p a:active, .info a:hover, .info a:active  {
+        color: #960;
+        text-decoration: underline;
+}
+
+
+.greenline {
+        margin: 0 0 5px 0;
+        }
+
+.notice {
+        font: bold small-caps 105% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #360;
+    }
+                
+.mapbox {
+        text-align: center;
+        background: #ffc;
+        border: 1px solid #360;
+        margin: 10px 0 0 0;
+        }
+        
+.maptaxon {
+        font: italic bold 100% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        }
+.maptext {
+        font: bold small-caps 100% Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        line-height: 1.1;
+        }
+
+
+.disclaimer {
+        text-align: center;
+        font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+        color: #000;
+        font-size: 12px;
+        margin: 10px 0 0 0;
+        }
+        

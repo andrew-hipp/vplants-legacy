@@ -1,0 +1,75 @@
+<html>
+<form name="Plant Clinic-A Garden Question - The Morton Arboretum" 
+    method="post" 
+    action="/cgi-bin/FormMail.pl">
+
+ <input type="hidden" name="recipient" value="ahipp@mortonarb.org">
+ <input type="hidden" name="subject" value="vPlants Feedback Form">
+ <input type="hidden" name="redirect" value="/thanks.html">
+
+ <table width="95%" border="1" cellspacing="1" cellpadding="1">
+  <tr>
+   <td width="22%"><font face="Times New Roman, Times, serif">Your Name:</font></td>
+   <td width="78%">
+    <input type="text" name="yourname" maxlength="60">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%">Are you a Member?</td>
+   <td width="78%"> 
+    <input type="radio" name="member" value="Yes">
+    Yes 
+    <input type="radio" name="member" value="No">
+    No </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">Address:</font></td>
+   <td width="78%"> 
+    <textarea name="address" cols="40" rows="4"></textarea>
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">City/State/Zip:</font></td>
+   <td width="78%"> 
+    <input type="text" name="citystatezip" maxlength="100">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">Country:</font></td>
+   <td width="78%"> 
+    <input type="text" name="country" maxlength="60">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">Phone:</font></td>
+   <td width="78%"> 
+    <input type="text" name="phone" maxlength="40">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">Fax:</font></td>
+   <td width="78%"> 
+    <input type="text" name="fax" maxlength="40">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">E-mail Address</font></td>
+   <td width="78%"> 
+    <input type="text" name="email" maxlength="100">
+   </td>
+  </tr>
+  <tr> 
+   <td width="22%"><font face="Times New Roman, Times, serif">Your Question:</font></td>
+   <td width="78%"> 
+    <textarea name="question" cols="40" rows="4"></textarea>
+   </td>
+  </tr>
+ </table>
+ <font face="Verdana, Arial, Helvetica, sans-serif"> 
+ <hr>
+ <p align="center"> <font face="Verdana, Arial, Helvetica, sans-serif"> 
+  <input type="submit" name="Submit" value="Submit">
+  </font></p>
+ </font> 
+</form>
+</html>

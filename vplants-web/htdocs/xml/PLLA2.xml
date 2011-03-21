@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<speciesPage xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "file:///C:/Work/vPlants2/spage.xsd">
+	<nameCd>PLLE2</nameCd>
+	<type>PLANT</type>
+	<desc>
+		<growthForm>Perennial herb</growthForm>
+		<size>20 cm to 1 meter tall</size>
+		<comments>Leaves are long, narrow and pointed; they reduce in size and length progressively up the stem. The base of the leaves sheath around the stem. Has 5-20 flowers creamy-white in color, strongly fragrant with fragrance produced mainly at dusk, each flower is subtended by a bract. The lower lip of the flower is deeply 3-lobed, the terminal lobe is short clawed, usually deeply notched in the center, long fringed, the lateral lobes fringed to the middle. Each flower has a thin 3-5 cm nectar spur.</comments>
+	</desc>
+	<similarSpecies>
+		<comments>Platanthera leucophaea is most likely to be confused with P. lacera which has the spur shorter than or equal to the ovary. In P. leucophaea the spur is much longer than the ovary. The closest relative is the western prairie fringed orchid (Platanthera praeclara), which occurs to the west of the Mississippi River and has a different pollinator (Sheviak and Bowles 1986).</comments>
+		<nameCds>
+			<nameCd>PLLA2</nameCd>
+		</nameCds>
+	</similarSpecies>
+	<flowering>Late June through early August.</flowering>
+	<habitatEcology>Almost exclusively in wet prairies and rare in bogs and marshes.</habitatEcology>
+	<notes>
+		<comments>Was once common throughout Midwestern wet prairies but is now found in fewer than 60 locations. Much of the populations have been lost through destruction or modification of habitat. Conservation research is underway to increase current population sizes and reintroduce this orchid in restored prairies. Hawkmoths are the only known pollinators for Platanthera leucophaea.</comments>
+		<links>
+			<link>
+				<linkUri>http://www.bowles.com/pl.html</linkUri>
+				<linkText>Additional notes from Marlin Bowles</linkText>
+			</link>
+		</links>
+	</notes>
+	<etymology>
+		<comments>Plat - anthera means flat anthers, from the Latin word platanus meaning flat or broad. Leucophaea means off-white, from the Latin words leuco, white and phaeo, dark or dim. </comments>
+	</etymology>
+	<furtherInfo>
+		<links>
+			<link>
+				<linkUri>http://ridgwaydb.mobot.org/cpcweb/CPC_ViewProfile.asp?CPCNum=3520</linkUri>
+				<linkText>Center for Plant Conservation - Endangered Plants</linkText>
+			</link>
+			<link>
+				<linkUri>http://www.natureserve.org/explorer/servlet/NatureServe?searchName=Platanthera+leucophaea</linkUri>
+				<linkText>NatureServe Explorer - Conservation Data</linkText>
+			</link>
+			<link>
+				<linkUri>http://wisplants.uwsp.edu/scripts/detail.asp?SpCode=plaleu</linkUri>
+				<linkText>Freckmann Herbarium, UW - Stevens Point </linkText>
+			</link>
+		</links>
+	</furtherInfo>
+	<references>
+		<reference>
+			<link>
+				<linkUri>http://ecos.fws.gov/docs/recovery_plans/1999/990929.pdf</linkUri>
+				<linkText>US Fish and Wildlife Service Recovery Plan by Marlin Bowles (PDF 63pp)</linkText>
+			</link>
+		</reference>
+		<reference>
+			<citation>Sheviak, C.J., and M.L. Bowles. 1986. The prairie fringed orchids: a pollinator-isolated species pair. Rhodora 88: 267-290.</citation>
+		</reference>
+		<reference>
+			<citation>Zettler, L.W., S.L. Stewart, M.L. Bowles, and K.A. Jacobs. 2001. Mycorrhizal fungi, and cold-assisted symbiotic germination of the Federally threatened eastern prairie fringed orchid, Platanthera leucophaea (Nuttall) Lindley. American Midland Naturalist 145:168-175.</citation>
+			<link>
+				<linkUri>http://www.bioone.org/bioone/?request=get-document&amp;issn=0003-0031&amp;volume=145&amp;issue=01&amp;page=0168</linkUri>
+				<linkText>Abstract.</linkText>
+			</link>
+		</reference>
+	</references>
+	<imageGallery>
+		<image>
+			<linkUri>http://www.vplants.org/platleuc.jpg</linkUri>
+		</image>
+		<image>
+			<linkUri>http://www.plantimages.com/pl.gif</linkUri>
+			<comments>Here is a great closeup of a stem.</comments>
+		</image>
+	</imageGallery>
+</speciesPage>

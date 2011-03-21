@@ -1,0 +1,755 @@
+[Thu Mar 22 11:53:17 CDT 2007] [NORMAL][main] START: F2
+[Thu Mar 22 11:53:19 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/ABORBIENDIST/1123565ABORBIENDIST.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:32 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANABRU/1116328AMANABRU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:35 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANBRUNBRUN/1087258AMANBRUNBRUN.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:35 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANBRUNBRUN/1116921AMANBRUNBRUN.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:36 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANBRUNPALL/1113480AMANBRUNPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:36 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANBRUNPALL/1116337AMANBRUNPALL.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:36 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANCECI/1116333AMANCECI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:38 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANCINECINE/1116227AMANCINECINE.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:38 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANCINECINE/1117127AMANCINECINE.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:41 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANCITRCITR/1087257AMANCITRCITR.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:42 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANFLAV1/1116335AMANFLAV1.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:48 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANFULV/1116340AMANFULV.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:50 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANMUSCFORM/1125135AMANMUSCFORM.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:51 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANT/1116244AMANPANT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:51 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANTMULT/1113486AMANPANTMULT.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:51 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANTMULT/1113494AMANPANTMULT.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:51 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANPANTMULT/1116836AMANPANTMULT.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:53:56 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AMANRUBEALBA/1113500AMANRUBEALBA.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:54:24 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/B/BOLE6PSEU/1116338BOLE6PSEU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:54:34 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CALVCYAT/1116339CALVCYAT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:54:35 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CALVCYATFRAG/1279072CALVCYATFRAG.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:54:53 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CLIT1GIBB/1116329CLIT1GIBB.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:54:53 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CLIT1GIBB/1116330CLIT1GIBB.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:07 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLDRYODRYO/1068552COLLDRYODRYO.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:13 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBN/1116332COLLSUBN.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:14 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBS2/1116331COLLSUBS2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:14 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COLLSUBS2/1116341COLLSUBS2.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:32 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/COPR3MICA/1116827COPR3MICA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:45 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CREPMALAMALA/1114789CREPMALAMALA.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:45 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CREPMALAMALA/1114813CREPMALAMALA.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:45 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CREPMALAMALA/1114814CREPMALAMALA.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:48 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CRINSETI/1116326CRINSETI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:53 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/C/CYST2AMIAAMIA/1125167CYST2AMIAAMIA.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 13, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:55:53 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/D/DACR1CHRY/1116343DACR1CHRY.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:56:16 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GALIRUFA/1116243GALIRUFA.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:56:38 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GRIFFRON/1116325GRIFFRON.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:56:41 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GYMN3SPEC/1116344GYMN3SPEC.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:56:45 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/G/GYRO2CAST/1116324GYRO2CAST.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:08 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/H/HYGR2CONI/1116854HYGR2CONI.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:28 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2MACU/1114791INOC2MACU.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:43 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCLACCPALL/1112772LACCLACCPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:43 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCLACCPALL/1114858LACCLACCPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:44 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCLACCPALL/1114859LACCLACCPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:44 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCLACCPALL/1120227LACCLACCPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:44 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCLACCPALL/1133951LACCLACCPALL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:45 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LACCOCHR/1116825LACCOCHR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:57:59 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/L/LECCHOLOAMER/1117090LECCHOLOAMER.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:58:46 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/M/MEGAPLAT/1116342MEGAPLAT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:59:09 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/M/MYCE1OLIDAMER/1014998MYCE1OLIDAMER.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 13, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:59:12 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/M/MYCE1SUBC1/1116323MYCE1SUBC1.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 11:59:49 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/P/PLEU4FIMBREGU/1207668PLEU4FIMBREGU.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 13, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:00:23 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/R/RESUAPPL/1116327RESUAPPL.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:00:54 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1CITR/1116242SCLE1CITR.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:00:57 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCUT1SCUT/1116245SCUT1SCUT.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:01:06 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/STER2HIRS/1116246STER2HIRS.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '4' of element 'latdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:01:14 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SUILAMER/1116336SUILAMER.xml]: 
+org.xml.sax.SAXParseException: cvc-type.3.1.3: The value '' of element 'longdir' is not valid.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:01:15 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SUILGRANSNEL/1322697SUILGRANSNEL.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:01:40 CDT 2007] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XANTAFFIMACU/1116872XANTAFFIMACU.xml]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_FUNGI"."SPECIMEN"."NAME_CD" (actual: 12, maximum: 10)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] FINISH: F2
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] *************************************************************************
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Total Run Time= 			511.544 seconds
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Total Run Time= 			8 minutes, 31 seconds
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Taxon Pages Processed = 		635
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Specimen Pages Processed = 		3013
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Specimen Page Inserts = 		3013
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] Total Errors = 			58
+[Thu Mar 22 12:01:49 CDT 2007] [NORMAL][main] *************************************************************************

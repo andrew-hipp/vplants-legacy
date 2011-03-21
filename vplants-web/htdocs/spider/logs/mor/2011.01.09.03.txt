@@ -1,0 +1,146 @@
+[Sun Jan 09 03:00:02 CST 2011] [NORMAL][main] START: MOR1
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	[Ljava.lang.StackTraceElement;@e64686
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9845]: 
+	[Ljava.lang.StackTraceElement;@1d1e730
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9890]: 
+	[Ljava.lang.StackTraceElement;@ad8659
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7169]: 
+	[Ljava.lang.StackTraceElement;@1d7fbfb
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9926]: 
+	[Ljava.lang.StackTraceElement;@5f6303
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10206]: 
+	[Ljava.lang.StackTraceElement;@e61fd1
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9432]: 
+	[Ljava.lang.StackTraceElement;@95cfbe
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9447]: 
+	[Ljava.lang.StackTraceElement;@b9e45a
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10145]: 
+	[Ljava.lang.StackTraceElement;@e0a386
+[Sun Jan 09 03:00:22 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9645]: 
+	[Ljava.lang.StackTraceElement;@b03be0
+[Sun Jan 09 03:00:23 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10785]: 
+	[Ljava.lang.StackTraceElement;@1326484
+[Sun Jan 09 03:00:38 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9886]: 
+	[Ljava.lang.StackTraceElement;@7976c1
+[Sun Jan 09 03:00:38 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10086]: 
+	[Ljava.lang.StackTraceElement;@df0438
+[Sun Jan 09 03:00:39 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10325]: 
+	[Ljava.lang.StackTraceElement;@14e113b
+[Sun Jan 09 03:00:39 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10645]: 
+	[Ljava.lang.StackTraceElement;@1493102
+[Sun Jan 09 03:00:39 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=4969]: 
+	[Ljava.lang.StackTraceElement;@8b8a47
+[Sun Jan 09 03:00:53 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	[Ljava.lang.StackTraceElement;@4b82d2
+[Sun Jan 09 03:00:53 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	[Ljava.lang.StackTraceElement;@2515
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9545]: 
+	[Ljava.lang.StackTraceElement;@20807c
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10247]: 
+	[Ljava.lang.StackTraceElement;@12696c2
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5543]: 
+	[Ljava.lang.StackTraceElement;@12462b3
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9745]: 
+	[Ljava.lang.StackTraceElement;@1c8b24d
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9506]: 
+	[Ljava.lang.StackTraceElement;@158689a
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9025]: 
+	[Ljava.lang.StackTraceElement;@10f0625
+[Sun Jan 09 03:00:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10788]: 
+	[Ljava.lang.StackTraceElement;@10c3a08
+[Sun Jan 09 03:01:11 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7771]: 
+	[Ljava.lang.StackTraceElement;@39060b
+[Sun Jan 09 03:01:11 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10288]: 
+	[Ljava.lang.StackTraceElement;@1d59d3c
+[Sun Jan 09 03:01:11 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10305]: 
+	[Ljava.lang.StackTraceElement;@3c9314
+[Sun Jan 09 03:01:12 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7814]: 
+	[Ljava.lang.StackTraceElement;@42a6eb
+[Sun Jan 09 03:01:25 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	[Ljava.lang.StackTraceElement;@539f0d
+[Sun Jan 09 03:01:25 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10266]: 
+	[Ljava.lang.StackTraceElement;@fbcb70
+[Sun Jan 09 03:01:26 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6509]: 
+	[Ljava.lang.StackTraceElement;@26dfcc
+[Sun Jan 09 03:01:26 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10705]: 
+	[Ljava.lang.StackTraceElement;@a974c7
+[Sun Jan 09 03:01:37 CST 2011] [ERROR][main] Spm Parse [http://redwood.mortonarb.org/xsql/metadata/vpdtl.xsql?id=166314]: 
+org.xml.sax.SAXParseException: An invalid XML character (Unicode: 0x19) was found in the element content of the document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Sun Jan 09 03:01:40 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	[Ljava.lang.StackTraceElement;@58f769
+[Sun Jan 09 03:01:40 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9449]: 
+	[Ljava.lang.StackTraceElement;@1eeb372
+[Sun Jan 09 03:01:41 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7896]: 
+	[Ljava.lang.StackTraceElement;@67ec28
+[Sun Jan 09 03:01:41 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10726]: 
+	[Ljava.lang.StackTraceElement;@1cb048e
+[Sun Jan 09 03:01:53 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	[Ljava.lang.StackTraceElement;@1249e1a
+[Sun Jan 09 03:01:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10405]: 
+	[Ljava.lang.StackTraceElement;@fffa61
+[Sun Jan 09 03:01:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10230]: 
+	[Ljava.lang.StackTraceElement;@fe087b
+[Sun Jan 09 03:01:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9693]: 
+	[Ljava.lang.StackTraceElement;@152f43b
+[Sun Jan 09 03:01:54 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9446]: 
+	[Ljava.lang.StackTraceElement;@52fecf
+[Sun Jan 09 03:01:55 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9265]: 
+	[Ljava.lang.StackTraceElement;@aaf063
+[Sun Jan 09 03:01:55 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10787]: 
+	[Ljava.lang.StackTraceElement;@14c352e
+[Sun Jan 09 03:01:55 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10786]: 
+	[Ljava.lang.StackTraceElement;@165cebb
+[Sun Jan 09 03:02:08 CST 2011] [ERROR][main] Spm Parse [http://redwood.mortonarb.org/xsql/metadata/vpdtl.xsql?id=166477]: 
+org.xml.sax.SAXParseException: An invalid XML character (Unicode: 0x13) was found in the element content of the document.
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1110)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Sun Jan 09 03:02:10 CST 2011] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9345]: 
+	[Ljava.lang.StackTraceElement;@142f703
+[Sun Jan 09 03:02:11 CST 2011] [ERROR][main] Spm Parse [http://redwood.mortonarb.org/xsql/metadata/vpdtl.xsql?id=165499]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_PLANTS"."SPECIMEN"."COLL_NBR" (actual: 21, maximum: 20)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Sun Jan 09 03:02:11 CST 2011] [ERROR][main] Spm Parse [http://redwood.mortonarb.org/xsql/metadata/vpdtl.xsql?id=165500]: 
+java.sql.SQLException: ORA-12899: value too large for column "VPLANTS_PLANTS"."SPECIMEN"."COLL_NBR" (actual: 21, maximum: 20)
+
+	at oracle.jdbc.dbaccess.DBError.throwSqlException(DBError.java)
+	at oracle.jdbc.ttc7.TTIoer.processError(TTIoer.java)
+	at oracle.jdbc.ttc7.Oall7.receive(Oall7.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.doOall7(TTC7Protocol.java)
+	at oracle.jdbc.ttc7.TTC7Protocol.executeFetch(TTC7Protocol.java)
+	at oracle.jdbc.driver.OracleStatement.executeNonQuery(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteOther(OracleStatement.java)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java)
+	at org.vplants.bot.query.SpmInsQuery.executeQuery(SpmInsQuery.java:141)
+	at org.vplants.bot.TaxonWorker.insert(TaxonWorker.java:297)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:259)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Sun Jan 09 03:02:11 CST 2011] [ERROR][main] Max Errors exceeded!

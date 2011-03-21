@@ -1,0 +1,40 @@
+[Tue Aug 24 09:08:39 CDT 2004] [NORMAL][main] START: 3
+[Tue Aug 24 09:08:40 CDT 2004] [ERROR][main] Select Job Details: No Parameters found for the given JOBID.
+[Tue Aug 24 09:09:01 CDT 2004] [NORMAL][main] START: 2
+[Tue Aug 24 09:09:02 CDT 2004] [ERROR][main] Select Job Details: No Parameters found for the given JOBID.
+[Tue Aug 24 09:11:23 CDT 2004] [NORMAL][main] START: MOR1
+[Tue Aug 24 09:12:17 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=139]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'common'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:12:40 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=276]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'common'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:15:57 CDT 2004] [NORMAL][main] START: MOR1
+[Tue Aug 24 09:16:36 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=139]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'common'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:16:51 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=276]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'common'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:07 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5523]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:07 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6689]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:07 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8570]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:07 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8571]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:07 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8584]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:08 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8646]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:08 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8658]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:08 CDT 2004] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8689]: 
+	org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content starting with element 'spm'. The content must match '((("":namecd),("":common){0-UNBOUNDED}),("":spm){0-UNBOUNDED})'.
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] FINISH: MOR1
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] *************************************************************************
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Total Run Time= 			490.697 seconds
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Total Run Time= 			8 minutes, 10 seconds
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Taxon Pages Processed = 		2738
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Specimen Pages Processed = 		39145
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Specimen Page Inserts = 		14
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Specimen Page Updates = 		309
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] Total Errors = 			10
+[Tue Aug 24 09:24:08 CDT 2004] [NORMAL][main] *************************************************************************

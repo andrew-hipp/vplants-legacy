@@ -1,0 +1,11 @@
+[Mon Jan 15 03:00:01 CST 2007] [NORMAL][main] START: F1
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] FINISH: F1
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] *************************************************************************
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Total Run Time= 			350.288 seconds
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Total Run Time= 			5 minutes, 50 seconds
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Taxon Pages Processed = 		1718
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Specimen Pages Processed = 		28971
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Specimen Page Inserts = 		0
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] Total Errors = 			0
+[Mon Jan 15 03:05:52 CST 2007] [NORMAL][main] *************************************************************************

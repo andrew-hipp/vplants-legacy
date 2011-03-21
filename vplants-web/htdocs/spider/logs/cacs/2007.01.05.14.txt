@@ -1,0 +1,43 @@
+[Fri Jan 05 14:46:08 CST 2007] [NORMAL][main] START: CACS
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/A/ACGRD.xml]: 
+	[Ljava.lang.StackTraceElement;@82701e
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/A/ADPE.xml]: 
+	[Ljava.lang.StackTraceElement;@18ee9d6
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/A/ASPLE.xml]: 
+	[Ljava.lang.StackTraceElement;@1dff3a2
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CATR7.xml]: 
+	[Ljava.lang.StackTraceElement;@1f42b49
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CAUM4.xml]: 
+	[Ljava.lang.StackTraceElement;@145e044
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CAUT.xml]: 
+	[Ljava.lang.StackTraceElement;@86c347
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CAVI4.xml]: 
+	[Ljava.lang.StackTraceElement;@17e6a96
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CAVI5.xml]: 
+	[Ljava.lang.StackTraceElement;@87a5cc
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CAVU2.xml]: 
+	[Ljava.lang.StackTraceElement;@1960f05
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CYDI3.xml]: 
+	[Ljava.lang.StackTraceElement;@b42cbf
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/C/CYPER.xml]: 
+	[Ljava.lang.StackTraceElement;@e5b723
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/D/DUAR3.xml]: 
+	[Ljava.lang.StackTraceElement;@15a8767
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/E/EQAR.xml]: 
+	[Ljava.lang.StackTraceElement;@6f7ce9
+[Fri Jan 05 14:46:09 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/E/EQFLL.xml]: 
+	[Ljava.lang.StackTraceElement;@171bbc9
+[Fri Jan 05 14:46:10 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/E/EQLI3.xml]: 
+	[Ljava.lang.StackTraceElement;@143c8b3
+[Fri Jan 05 14:46:10 CST 2007] [ERROR][main] Taxon Parse [http://collections.naturemuseum.org/metadata/E/EQUIS.xml]: 
+	[Ljava.lang.StackTraceElement;@12d7a10
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] FINISH: CACS
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] *************************************************************************
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Total Run Time= 			1.640 seconds
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Total Run Time= 			0 minutes, 1 seconds
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Taxon Pages Processed = 		16
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Specimen Pages Processed = 		0
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Specimen Page Inserts = 		0
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Specimen Page Updates = 		0
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] Total Errors = 			16
+[Fri Jan 05 14:46:10 CST 2007] [NORMAL][main] *************************************************************************

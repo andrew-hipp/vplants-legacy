@@ -1,0 +1,177 @@
+[Thu May 25 15:12:20 CDT 2006] [NORMAL][main] START: F2
+[Thu May 25 15:12:22 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AGARSUBR1/4256AGARSUBR1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:22 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114797INOC2FAST1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:22 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116025SCLE1AREO.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:23 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125356XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:23 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125361XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:23 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XYLO1FRUS/1125305XYLO1FRUS.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] FINISH: F2
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Total Run Time= 			2.781 seconds
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Total Run Time= 			0 minutes, 2 seconds
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		28
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		123
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] Total Errors = 			6
+[Thu May 25 15:12:23 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 15:49:24 CDT 2006] [NORMAL][main] START: F2
+[Thu May 25 15:49:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AGARSUBR1/4256AGARSUBR1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114797INOC2FAST1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116025SCLE1AREO.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125356XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:26 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125361XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:27 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XYLO1FRUS/1125305XYLO1FRUS.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] FINISH: F2
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Total Run Time= 			2.930 seconds
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Total Run Time= 			0 minutes, 2 seconds
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		28
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		123
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] Total Errors = 			6
+[Thu May 25 15:49:27 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 15:49:50 CDT 2006] [NORMAL][main] START: F2
+[Thu May 25 15:49:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/A/AGARSUBR1/4256AGARSUBR1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:52 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/I/INOC2FAST1/1114797INOC2FAST1.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:53 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/S/SCLE1AREO/1116025SCLE1AREO.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:53 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125356XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:53 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XERU1MEGA/1125361XERU1MEGA.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processUpdate(TaxonWorker.java:271)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:198)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:53 CDT 2006] [ERROR][main] Spm Parse [http://fm2.fmnh.org/vplants/fungi/metadata/X/XYLO1FRUS/1125305XYLO1FRUS.xml]: 
+java.lang.NullPointerException
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1132)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.TaxonWorker.processInsert(TaxonWorker.java:257)
+	at org.vplants.bot.TaxonWorker.processTaxonLink(TaxonWorker.java:189)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:208)
+
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] FINISH: F2
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] *************************************************************************
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Total Run Time= 			2.696 seconds
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Total Run Time= 			0 minutes, 2 seconds
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Taxon Pages Processed = 		28
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Specimen Pages Processed = 		123
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Specimen Page Inserts = 		0
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Specimen Page Updates = 		0
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] Total Errors = 			6
+[Thu May 25 15:49:53 CDT 2006] [NORMAL][main] *************************************************************************

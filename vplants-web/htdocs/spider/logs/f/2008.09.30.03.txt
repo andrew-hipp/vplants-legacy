@@ -1,0 +1,15 @@
+[Tue Sep 30 03:00:02 CDT 2008] [NORMAL][main] START: F2
+[Tue Sep 30 03:00:03 CDT 2008] [ERROR][main] Parsing Index Page [http://fm2.fieldmuseum.org/vplants/fungi/metadata/index.xml]: 
+java.io.FileNotFoundException: http://fm2.fieldmuseum.org/vplants/fungi/metadata/index.xml
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1147)
+	at java.net.URL.openStream(URL.java:1007)
+	at org.apache.xerces.impl.XMLEntityManager.startEntity(XMLEntityManager.java:740)
+	at org.apache.xerces.impl.XMLEntityManager.startDocumentEntity(XMLEntityManager.java:685)
+	at org.apache.xerces.impl.XMLDocumentScannerImpl.setInputSource(XMLDocumentScannerImpl.java:252)
+	at org.apache.xerces.parsers.StandardParserConfiguration.parse(StandardParserConfiguration.java:499)
+	at org.apache.xerces.parsers.StandardParserConfiguration.parse(StandardParserConfiguration.java:581)
+	at org.apache.xerces.parsers.XMLParser.parse(XMLParser.java:147)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1096)
+	at org.vplants.bot.XMLPipeline.parse(XMLPipeline.java:97)
+	at org.vplants.bot.vPlantsSpider.main(vPlantsSpider.java:169)
+

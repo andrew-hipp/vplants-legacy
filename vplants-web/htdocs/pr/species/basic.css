@@ -1,0 +1,143 @@
+/* styles for vPlants.org modified by Leacock March 2004 */
+
+/*----------------------------
+Navigator 4.x doesn't use relative URLs correctly from stylesheet
+So would be better to use Absolute URLs for background-image paths 
+or put stylesheet in the same directory as the html page.
+----------------------------*/
+
+/*----------------------------
+Global Styles 
+----------------------------*/
+body	{
+	margin:0;
+	padding:0;
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+  	background-color: #fff;
+	}
+/* background colors dark green */			
+.bgdkgr {
+	background: #360;
+}
+/* background colors Medium Green */
+.bgmdgr {
+	background: #cc0;
+}	
+div, p, ul, ol {
+             /* redundant selectors to help NS4 not forget */
+   font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+   margin-top: 0; 
+   padding-top: 0;
+    }
+/* default link style */   
+a:link, a:visited {
+	color: #360;
+	text-decoration: underline;
+}
+a:hover {
+	color: #960;
+	text-decoration: underline;
+}
+a:active {
+	color: #960;
+	text-decoration: none;
+}
+
+/*----------------------------
+Menus and Header and Footer Styles 
+----------------------------*/
+
+.subtitle {
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 9px;
+	}
+.subtitle a:link, .subtitle a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.subtitle a:hover, .subtitle a:active {
+	color: #ff3;
+	text-decoration: none;
+}
+
+.topnav {
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+	color: #fff;
+	font-size: 11px;
+	}
+.topnav a:link, .topnav a:visited {
+	color: #fff;
+	text-decoration: none;
+	}
+.topnav a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}	
+.topnav a:active {
+	color: #cc0;
+	text-decoration: none;
+	}	
+	
+#top {
+	background-image:url("img/top.gif");
+	background-color: #ffc;
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+	color: #360;
+	font-size: 12px;
+	} /* IE 6 doesn't apply padding correctly to <td>, so used a <div> inside */
+#top div {
+	padding: 0 15px 0 0;
+	}
+#top a:link, #top a:visited {
+	color: #360;
+	text-decoration: none;
+	}
+#top a:hover {
+	color: #960;
+	text-decoration: underline;
+	}	
+#top a:active {
+	color: #960;
+	text-decoration: none;
+	}	
+	
+.sidenav{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 12px;
+	padding: 3px 10px 3px 0;
+	border-top: 1px solid #cc0;
+	}
+.sidenav a:link, .sidenav a:visited {
+	color: #fff;
+	text-decoration: none;
+	}
+.sidenav a:hover{
+	color: #ff3;
+	text-decoration: none;
+	}	
+.sidenav a:active {
+	color: #cc0;
+	text-decoration: none;
+	}	
+
+.footer {
+	font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+	color: #360;
+	font-size: 12px;
+	}
+.footer a:link, .footer a:visited {
+	color: #360;
+	text-decoration: none;
+	}
+.footer a:hover {
+	color: #960;
+	text-decoration: underline;
+	}	
+.footer a:active {
+	color: #960;
+	text-decoration: none;
+	}
+	

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<!--Taxon Layer-->
+<taxon xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "http://www.vplants.org/metadata/vptaxon.xsd">
+	<namecd>BALE3</namecd>
+	<common>cream wild indigo</common>
+	<spm>
+		<spmid>13786</spmid>
+		<updttm>
+			<month>05</month>
+			<day>14</day>
+			<year>2001</year>
+			<hour>16</hour>
+			<min>38</min>
+		</updttm>
+		<link>http://www.mortonarb.org/vplants/AccLookup?acc=13786</link>
+	</spm>
+	<spm>
+		<spmid>136656</spmid>
+		<updttm>
+			<month>08</month>
+			<day>13</day>
+			<year>2000</year>
+			<hour>01</hour>
+			<min>09</min>
+		</updttm>
+		<link>http://www.mortonarb.org/vplants/AccLookup?acc=136656</link>
+	</spm>
+</taxon>

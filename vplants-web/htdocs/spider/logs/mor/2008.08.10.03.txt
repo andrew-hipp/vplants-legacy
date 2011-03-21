@@ -1,0 +1,51 @@
+[Sun Aug 10 03:00:02 CDT 2008] [NORMAL][main] START: MOR1
+[Sun Aug 10 03:00:28 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8827]: 
+	[Ljava.lang.StackTraceElement;@e020c9
+[Sun Aug 10 03:00:28 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9432]: 
+	[Ljava.lang.StackTraceElement;@e61fd1
+[Sun Aug 10 03:00:28 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9447]: 
+	[Ljava.lang.StackTraceElement;@1950198
+[Sun Aug 10 03:00:57 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5001]: 
+	[Ljava.lang.StackTraceElement;@1e2afb2
+[Sun Aug 10 03:00:57 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8809]: 
+	[Ljava.lang.StackTraceElement;@4b82d2
+[Sun Aug 10 03:00:58 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9545]: 
+	[Ljava.lang.StackTraceElement;@19518cc
+[Sun Aug 10 03:00:58 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9025]: 
+	[Ljava.lang.StackTraceElement;@14627a
+[Sun Aug 10 03:01:26 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5332]: 
+	[Ljava.lang.StackTraceElement;@17d7c7f
+[Sun Aug 10 03:01:26 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7476]: 
+	[Ljava.lang.StackTraceElement;@5878d2
+[Sun Aug 10 03:01:26 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5696]: 
+	[Ljava.lang.StackTraceElement;@52eef4
+[Sun Aug 10 03:01:26 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6010]: 
+	[Ljava.lang.StackTraceElement;@1d382ab
+[Sun Aug 10 03:01:44 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8861]: 
+	[Ljava.lang.StackTraceElement;@9b774e
+[Sun Aug 10 03:01:44 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9449]: 
+	[Ljava.lang.StackTraceElement;@232697
+[Sun Aug 10 03:01:57 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8829]: 
+	[Ljava.lang.StackTraceElement;@180e7a4
+[Sun Aug 10 03:01:57 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=8985]: 
+	[Ljava.lang.StackTraceElement;@107e9a8
+[Sun Aug 10 03:01:58 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9446]: 
+	[Ljava.lang.StackTraceElement;@88b858
+[Sun Aug 10 03:01:58 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6020]: 
+	[Ljava.lang.StackTraceElement;@19872ad
+[Sun Aug 10 03:01:58 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9265]: 
+	[Ljava.lang.StackTraceElement;@62974e
+[Sun Aug 10 03:02:13 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9345]: 
+	[Ljava.lang.StackTraceElement;@14c7deb
+[Sun Aug 10 03:02:13 CDT 2008] [ERROR][main] Taxon Parse [http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9525]: 
+	[Ljava.lang.StackTraceElement;@1d7f3f4
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] FINISH: MOR1
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] *************************************************************************
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Total Run Time= 			131.937 seconds
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Total Run Time= 			2 minutes, 11 seconds
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Taxon Pages Processed = 		2807
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Specimen Pages Processed = 		40790
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Specimen Page Inserts = 		0
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Specimen Page Updates = 		33
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] Total Errors = 			20
+[Sun Aug 10 03:02:13 CDT 2008] [NORMAL][main] *************************************************************************
