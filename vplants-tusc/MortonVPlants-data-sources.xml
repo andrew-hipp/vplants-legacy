@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE data-sources PUBLIC "Orion data-sources" "http://xmlns.oracle.com/ias/dtds/data-sources.dtd">
+<data-sources>
+  <data-source name="jdev-connection-mm" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/mmCoreDS" xa-location="jdbc/xa/mmXADS" ejb-location="jdbc/mmDS" pooled-location="jdbc/mmPooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="fswe" password="fswe" url="jdbc:oracle:thin:@actrs22.act.org:1521:dvlp" inactivity-timeout="30"/>
+  <data-source name="jdev-connection-Morton_Arboretum" class="com.evermind.sql.DriverManagerDataSource" location="jdbc/Morton_ArboretumCoreDS" xa-location="jdbc/xa/Morton_ArboretumXADS" ejb-location="jdbc/Morton_ArboretumDS" pooled-location="jdbc/Morton_ArboretumPooledDS" connection-driver="oracle.jdbc.driver.OracleDriver" username="vplants" password="lop13sy" url="jdbc:oracle:thin:@192.168.0.4:1521:vplants" inactivity-timeout="30"/>
+</data-sources>

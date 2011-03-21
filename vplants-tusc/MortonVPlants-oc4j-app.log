@@ -1,0 +1,3018 @@
+05/07/18 15:01:06 Started
+05/07/18 15:01:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:01:10 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:01:45 Started
+05/07/18 15:01:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:01:46 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:04:07 Started
+05/07/18 15:04:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:04:08 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:11:49 Started
+05/07/18 15:11:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:11:50 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:13:38 Started
+05/07/18 15:13:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:13:39 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:15:52 Started
+05/07/18 15:15:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:15:53 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:16:49 Started
+05/07/18 15:16:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:16:50 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:17:17 Started
+05/07/18 15:17:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:17:18 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:17:57 Started
+05/07/18 15:17:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:17:58 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:18:33 Started
+05/07/18 15:18:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:18:34 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:33:08 Started
+05/07/18 15:33:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:33:12 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:55:32 Started
+05/07/18 15:55:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:55:34 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:57:10 Started
+05/07/18 15:57:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:57:11 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:57:57 Started
+05/07/18 15:57:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:57:59 MortonVPlants-VPlants-webapp: Started
+05/07/18 15:59:07 Started
+05/07/18 15:59:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 15:59:08 MortonVPlants-VPlants-webapp: Started
+05/07/18 16:01:13 Started
+05/07/18 16:01:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 16:01:15 MortonVPlants-VPlants-webapp: Started
+05/07/18 16:12:39 Started
+05/07/18 16:12:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/18 16:12:40 MortonVPlants-VPlants-webapp: Started
+05/07/20 10:34:38 Started
+05/07/20 10:34:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 10:34:44 MortonVPlants-VPlants-webapp: Started
+05/07/20 10:38:57 Started
+05/07/20 10:39:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 10:39:00 MortonVPlants-VPlants-webapp: Started
+05/07/20 10:41:24 Started
+05/07/20 10:41:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 10:41:26 MortonVPlants-VPlants-webapp: Started
+05/07/20 10:43:25 Started
+05/07/20 10:43:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 10:43:26 MortonVPlants-VPlants-webapp: Started
+05/07/20 10:44:35 Started
+05/07/20 10:44:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 10:44:37 MortonVPlants-VPlants-webapp: Started
+05/07/20 15:18:30 Started
+05/07/20 15:18:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 15:18:33 MortonVPlants-VPlants-webapp: Started
+05/07/20 15:18:34 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/20 15:34:37 Started
+05/07/20 15:34:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 15:34:38 MortonVPlants-VPlants-webapp: Started
+05/07/20 15:52:06 Started
+05/07/20 15:52:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 15:52:07 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:00:04 Started
+05/07/20 16:00:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:00:08 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:00:49 Started
+05/07/20 16:00:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:00:52 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:00:56 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/20 16:06:07 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NoSuchMethodError: java.lang.String org.vplants.datahandler.DataBean.getCommonNames()
+	at org.vplants.tags.CommonNamesTag.doStartTag(CommonNamesTag.java:24)
+	at _vPlants._jspService(vPlants.jsp:20)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:567)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:302)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/20 16:06:17 Started
+05/07/20 16:06:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:06:19 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:06:32 Started
+05/07/20 16:06:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:06:33 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:08:41 Started
+05/07/20 16:08:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:08:43 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:12:06 Started
+05/07/20 16:12:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:12:07 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:12:39 Started
+05/07/20 16:12:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:12:40 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:16:52 Started
+05/07/20 16:16:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:16:54 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:40:06 Started
+05/07/20 16:40:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:40:09 MortonVPlants-VPlants-webapp: Started
+05/07/20 16:50:41 Started
+05/07/20 16:50:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 16:50:43 MortonVPlants-VPlants-webapp: Started
+05/07/20 17:03:32 Started
+05/07/20 17:03:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/20 17:03:34 MortonVPlants-VPlants-webapp: Started
+05/07/21 09:22:36 Started
+05/07/21 09:22:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 09:22:45 MortonVPlants-VPlants-webapp: Started
+05/07/21 10:09:34 Started
+05/07/21 10:09:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 10:09:39 MortonVPlants-VPlants-webapp: Started
+05/07/21 13:16:16 Started
+05/07/21 13:16:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 13:16:25 MortonVPlants-VPlants-webapp: Started
+05/07/21 13:19:07 Started
+05/07/21 13:19:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 13:19:09 MortonVPlants-VPlants-webapp: Started
+05/07/21 13:19:48 Started
+05/07/21 13:19:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 13:19:49 MortonVPlants-VPlants-webapp: Started
+05/07/21 13:58:34 Started
+05/07/21 13:58:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 13:58:35 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:01:25 Started
+05/07/21 14:01:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:01:27 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:02:13 Started
+05/07/21 14:02:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:02:14 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:03:14 Started
+05/07/21 14:03:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:03:17 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:04:06 Started
+05/07/21 14:04:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:04:07 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:05:19 Started
+05/07/21 14:05:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:05:20 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:05:40 Started
+05/07/21 14:05:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:05:41 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:06:25 Started
+05/07/21 14:06:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:06:27 MortonVPlants-VPlants-webapp: Started
+05/07/21 14:08:36 Started
+05/07/21 14:08:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/21 14:08:38 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:10:14 Started
+05/07/22 09:10:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:10:23 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:11:35 Started
+05/07/22 09:11:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:11:37 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:12:42 Started
+05/07/22 09:12:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:12:43 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:14:36 Started
+05/07/22 09:14:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:14:38 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:20:27 Started
+05/07/22 09:20:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:20:29 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:21:42 Started
+05/07/22 09:21:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:21:43 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:26:33 Started
+05/07/22 09:26:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:26:35 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:27:30 Started
+05/07/22 09:27:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:27:31 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:28:12 Started
+05/07/22 09:28:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:28:13 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:52:07 Started
+05/07/22 09:52:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:52:08 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:56:35 Started
+05/07/22 09:56:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:56:38 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:58:00 Started
+05/07/22 09:58:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:58:01 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:58:27 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/22 09:58:36 Started
+05/07/22 09:58:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:58:37 MortonVPlants-VPlants-webapp: Started
+05/07/22 09:59:35 Started
+05/07/22 09:59:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 09:59:37 MortonVPlants-VPlants-webapp: Started
+05/07/22 10:02:06 Started
+05/07/22 10:02:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 10:02:08 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:04:19 Started
+05/07/22 11:04:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:04:23 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:05:35 Started
+05/07/22 11:05:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:05:36 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:06:23 Started
+05/07/22 11:06:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:06:25 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:06:57 Started
+05/07/22 11:06:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:06:58 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:07:23 Started
+05/07/22 11:07:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:07:24 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:09:35 Started
+05/07/22 11:09:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:09:36 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:12:48 Started
+05/07/22 11:12:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:12:49 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:14:16 Started
+05/07/22 11:14:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:14:17 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:15:03 Started
+05/07/22 11:15:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:15:05 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:15:30 Started
+05/07/22 11:15:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:15:31 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:16:39 Started
+05/07/22 11:16:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:16:40 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:18:25 Started
+05/07/22 11:18:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:18:27 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:19:44 Started
+05/07/22 11:19:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:19:45 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:20:42 Started
+05/07/22 11:20:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:20:44 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:25:29 Started
+05/07/22 11:25:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:25:30 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:26:24 Started
+05/07/22 11:26:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:26:25 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:30:35 Started
+05/07/22 11:30:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:30:36 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:33:02 Started
+05/07/22 11:33:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:33:03 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:46:53 Started
+05/07/22 11:46:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:46:59 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:48:23 Started
+05/07/22 11:48:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:48:24 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:53:01 Started
+05/07/22 11:53:02 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:53:02 MortonVPlants-VPlants-webapp: Started
+05/07/22 11:54:24 Started
+05/07/22 11:54:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 11:54:25 MortonVPlants-VPlants-webapp: Started
+05/07/22 12:23:59 Started
+05/07/22 12:24:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 12:24:04 MortonVPlants-VPlants-webapp: Started
+05/07/22 12:25:23 Started
+05/07/22 12:25:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 12:25:24 MortonVPlants-VPlants-webapp: Started
+05/07/22 12:26:47 Started
+05/07/22 12:26:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 12:26:48 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:07:33 Started
+05/07/22 13:07:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:07:35 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:09:14 Started
+05/07/22 13:09:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:09:15 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:12:36 Started
+05/07/22 13:12:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:12:37 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:13:45 Started
+05/07/22 13:13:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:13:46 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:18:48 Started
+05/07/22 13:18:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:18:49 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:19:57 Started
+05/07/22 13:19:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:19:58 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:47:06 Started
+05/07/22 13:47:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:47:09 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:51:28 Started
+05/07/22 13:51:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:51:30 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:53:17 Started
+05/07/22 13:53:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:53:18 MortonVPlants-VPlants-webapp: Started
+05/07/22 13:54:38 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/22 13:54:53 Started
+05/07/22 13:54:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 13:54:54 MortonVPlants-VPlants-webapp: Started
+05/07/22 15:44:22 Started
+05/07/22 15:44:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 15:44:26 MortonVPlants-VPlants-webapp: Started
+05/07/22 15:48:28 Started
+05/07/22 15:48:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 15:48:30 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:00:43 Started
+05/07/22 16:00:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:00:44 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:02:26 Started
+05/07/22 16:02:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:02:27 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:03:09 Started
+05/07/22 16:03:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:03:11 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:07:09 Started
+05/07/22 16:07:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:07:11 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:07:42 Started
+05/07/22 16:07:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:07:43 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:08:29 Started
+05/07/22 16:08:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:08:30 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:10:55 Started
+05/07/22 16:10:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:10:56 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:12:00 Started
+05/07/22 16:12:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:12:01 MortonVPlants-VPlants-webapp: Started
+05/07/22 16:12:22 Started
+05/07/22 16:12:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/22 16:12:23 MortonVPlants-VPlants-webapp: Started
+05/07/25 16:24:20 Started
+05/07/25 16:24:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/25 16:24:24 MortonVPlants-VPlants-webapp: Started
+05/07/25 16:29:28 Started
+05/07/25 16:29:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/25 16:29:29 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:17:33 Started
+05/07/26 09:17:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:17:40 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:41:21 Started
+05/07/26 09:41:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:41:24 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:45:36 Started
+05/07/26 09:45:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:45:37 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:46:12 Started
+05/07/26 09:46:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:46:13 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:48:04 Started
+05/07/26 09:48:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:48:06 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:51:26 Started
+05/07/26 09:51:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:51:29 MortonVPlants-VPlants-webapp: Started
+05/07/26 09:54:45 Started
+05/07/26 09:54:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 09:54:46 MortonVPlants-VPlants-webapp: Started
+05/07/26 10:08:36 Started
+05/07/26 10:08:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 10:08:38 MortonVPlants-VPlants-webapp: Started
+05/07/26 10:39:07 Started
+05/07/26 10:39:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 10:39:12 MortonVPlants-VPlants-webapp: Started
+05/07/26 10:41:07 Started
+05/07/26 10:41:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 10:41:08 MortonVPlants-VPlants-webapp: Started
+05/07/26 11:06:22 Started
+05/07/26 11:06:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 11:06:24 MortonVPlants-VPlants-webapp: Started
+05/07/26 11:07:36 Started
+05/07/26 11:07:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 11:07:37 MortonVPlants-VPlants-webapp: Started
+05/07/26 11:11:35 Started
+05/07/26 11:11:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 11:11:37 MortonVPlants-VPlants-webapp: Started
+05/07/26 11:12:49 Started
+05/07/26 11:12:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 11:12:51 MortonVPlants-VPlants-webapp: Started
+05/07/26 11:20:33 Started
+05/07/26 11:20:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 11:20:34 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:20:25 Started
+05/07/26 13:20:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:20:31 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:29:15 Started
+05/07/26 13:29:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:29:17 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:33:11 Started
+05/07/26 13:33:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:33:14 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:36:25 Started
+05/07/26 13:36:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:36:26 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:36:26 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/26 13:36:42 Started
+05/07/26 13:36:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:36:43 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:46:06 Started
+05/07/26 13:46:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:46:08 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:46:31 Started
+05/07/26 13:46:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:46:33 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:46:33 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/26 13:46:39 Started
+05/07/26 13:46:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:46:40 MortonVPlants-VPlants-webapp: Started
+05/07/26 13:49:30 Started
+05/07/26 13:49:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 13:49:31 MortonVPlants-VPlants-webapp: Started
+05/07/26 14:05:59 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/26 14:05:59 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/26 14:05:59 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/26 14:05:59 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/26 14:22:08 Started
+05/07/26 14:22:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 14:22:10 MortonVPlants-VPlants-webapp: Started
+05/07/26 14:26:35 Started
+05/07/26 14:26:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 14:26:36 MortonVPlants-VPlants-webapp: Started
+05/07/26 14:30:43 Started
+05/07/26 14:30:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 14:30:45 MortonVPlants-VPlants-webapp: Started
+05/07/26 14:36:42 MortonVPlants-VPlants-webapp: JspServlet: unable to dispatch to requested page: oracle.jsp.parse.JspParseException: Line # 173,       <vplants:RegionalOccurrence /> 
+Error: vplants:RegionalOccurrence is not a registered tag in that namespace.
+	at oracle.jsp.parse.JspParseTag.parseNextTag(JspParseTag.java)
+	at oracle.jsp.parse.JspParseTagFile.parse(JspParseTagFile.java:184)
+	at oracle.jsp.parse.OracleJsp2Java.transform(OracleJsp2Java.java:154)
+	at oracle.jsp.runtimev2.JspPageCompiler.attemptCompilePage(JspPageCompiler.java:428)
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:303)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:483)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:540)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:302)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind.server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+
+05/07/26 14:36:46 MortonVPlants-VPlants-webapp: JspServlet: unable to dispatch to requested page: oracle.jsp.parse.JspParseException: Line # 173,       <vplants:RegionalOccurrence /> 
+Error: vplants:RegionalOccurrence is not a registered tag in that namespace.
+	at oracle.jsp.parse.JspParseTag.parseNextTag(JspParseTag.java)
+	at oracle.jsp.parse.JspParseTagFile.parse(JspParseTagFile.java:184)
+	at oracle.jsp.parse.OracleJsp2Java.transform(OracleJsp2Java.java:154)
+	at oracle.jsp.runtimev2.JspPageCompiler.attemptCompilePage(JspPageCompiler.java:428)
+	at oracle.jsp.runtimev2.JspPageCompiler.compilePage(JspPageCompiler.java:303)
+	at oracle.jsp.runtimev2.JspPageInfo.compileAndLoad(JspPageInfo.java:483)
+	at oracle.jsp.runtimev2.JspPageTable.compileAndServe(JspPageTable.java:540)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:302)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind.server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind.server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind.util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+
+05/07/26 14:40:56 Started
+05/07/26 14:40:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 14:40:58 MortonVPlants-VPlants-webapp: Started
+05/07/26 14:50:55 Started
+05/07/26 14:50:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/26 14:50:56 MortonVPlants-VPlants-webapp: Started
+05/07/27 09:57:52 Started
+05/07/27 09:58:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 09:58:01 MortonVPlants-VPlants-webapp: Started
+05/07/27 10:50:12 Started
+05/07/27 10:50:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 10:50:17 MortonVPlants-VPlants-webapp: Started
+05/07/27 13:29:46 Started
+05/07/27 13:29:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 13:29:54 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:10:43 Started
+05/07/27 14:10:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:10:44 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:13:01 Started
+05/07/27 14:13:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:13:03 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:15:54 Started
+05/07/27 14:15:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:15:55 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:19:57 Started
+05/07/27 14:19:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:19:58 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:21:54 Started
+05/07/27 14:21:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:21:55 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:22:37 Started
+05/07/27 14:22:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:22:38 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:23:44 Started
+05/07/27 14:23:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:23:45 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:27:26 Started
+05/07/27 14:27:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:27:27 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:29:03 Started
+05/07/27 14:29:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:29:04 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:43:21 Started
+05/07/27 14:43:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:43:23 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:46:58 Started
+05/07/27 14:47:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:47:00 MortonVPlants-VPlants-webapp: Started
+05/07/27 14:50:15 Started
+05/07/27 14:50:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 14:50:16 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:04:42 Started
+05/07/27 15:04:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:04:43 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:05:38 Started
+05/07/27 15:05:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:05:39 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:05:54 Started
+05/07/27 15:05:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:05:55 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:13:09 Started
+05/07/27 15:13:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:13:11 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:14:58 Started
+05/07/27 15:14:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:14:59 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:15:32 Started
+05/07/27 15:15:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:15:34 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:22:36 Started
+05/07/27 15:22:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:22:39 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:25:44 Started
+05/07/27 15:25:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:25:45 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:26:21 Started
+05/07/27 15:26:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:26:22 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:26:57 Started
+05/07/27 15:26:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:26:58 MortonVPlants-VPlants-webapp: Started
+05/07/27 15:27:26 Started
+05/07/27 15:27:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/27 15:27:27 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:08:12 Started
+05/07/28 10:08:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:08:15 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:13:42 Started
+05/07/28 10:13:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:13:43 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:36:24 Started
+05/07/28 10:36:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:36:30 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:38:48 Started
+05/07/28 10:38:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:38:50 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:39:50 Started
+05/07/28 10:39:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:39:51 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:40:41 Started
+05/07/28 10:40:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:40:42 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:45:31 Started
+05/07/28 10:45:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:45:33 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:46:30 Started
+05/07/28 10:46:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:46:31 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:48:10 Started
+05/07/28 10:48:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:48:12 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:51:52 Started
+05/07/28 10:51:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:51:53 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:52:47 Started
+05/07/28 10:52:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:52:48 MortonVPlants-VPlants-webapp: Started
+05/07/28 10:53:17 Started
+05/07/28 10:53:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 10:53:18 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:00:53 Started
+05/07/28 11:00:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:00:55 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:01:40 Started
+05/07/28 11:01:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:01:42 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:02:44 Started
+05/07/28 11:02:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:02:45 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:03:33 Started
+05/07/28 11:03:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:03:34 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:06:12 Started
+05/07/28 11:06:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:06:14 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:09:56 Started
+05/07/28 11:10:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:10:00 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:21:16 Started
+05/07/28 11:21:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:21:17 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:23:20 Started
+05/07/28 11:23:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:23:22 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:36:32 Started
+05/07/28 11:36:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:36:33 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:36:52 Started
+05/07/28 11:36:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:36:53 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:38:02 Started
+05/07/28 11:38:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:38:03 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:38:38 Started
+05/07/28 11:38:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:38:39 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:39:08 Started
+05/07/28 11:39:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:39:10 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:40:36 Started
+05/07/28 11:40:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:40:37 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:47:28 Started
+05/07/28 11:47:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:47:29 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:48:16 Started
+05/07/28 11:48:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:48:17 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:49:00 Started
+05/07/28 11:49:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:49:01 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:50:52 Started
+05/07/28 11:50:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:50:54 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:54:54 Started
+05/07/28 11:54:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:54:55 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:56:24 Started
+05/07/28 11:56:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:56:25 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:58:18 Started
+05/07/28 11:58:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:58:19 MortonVPlants-VPlants-webapp: Started
+05/07/28 11:59:18 Started
+05/07/28 11:59:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 11:59:20 MortonVPlants-VPlants-webapp: Started
+05/07/28 12:06:34 Started
+05/07/28 12:06:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 12:06:36 MortonVPlants-VPlants-webapp: Started
+05/07/28 12:09:55 Started
+05/07/28 12:09:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 12:09:57 MortonVPlants-VPlants-webapp: Started
+05/07/28 12:14:17 Started
+05/07/28 12:14:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 12:14:18 MortonVPlants-VPlants-webapp: Started
+05/07/28 13:15:11 Started
+05/07/28 13:15:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 13:15:19 MortonVPlants-VPlants-webapp: Started
+05/07/28 13:15:28 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:29)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 13:20:43 Started
+05/07/28 13:20:47 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 13:20:47 MortonVPlants-VPlants-webapp: Started
+05/07/28 13:21:17 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:29)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 13:37:50 Started
+05/07/28 13:37:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 13:37:55 MortonVPlants-VPlants-webapp: Started
+05/07/28 13:37:56 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:29)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 13:38:13 Started
+05/07/28 13:38:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 13:38:14 MortonVPlants-VPlants-webapp: Started
+05/07/28 13:38:14 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:03:33 Started
+05/07/28 14:03:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:03:35 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:03:42 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:29)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:06:25 Started
+05/07/28 14:06:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:06:26 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:06:28 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:08:56 Started
+05/07/28 14:08:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:08:58 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:09:00 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:31)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:59)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:10:25 Started
+05/07/28 14:10:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:10:26 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:10:28 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:15:09 Started
+05/07/28 14:15:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:15:12 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:15:16 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:18:19 Started
+05/07/28 14:18:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:18:21 MortonVPlants-VPlants-webapp: Started
+05/07/28 14:18:26 MortonVPlants-VPlants-webapp: Servlet error
+java.util.MissingResourceException: Can't find bundle for base name XMLSupportBean, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:804)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:773)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:511)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:22)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 14:20:57 Started
+05/07/28 14:20:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 14:20:58 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:08:09 Started
+05/07/28 15:08:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:08:17 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:13:01 Started
+05/07/28 15:13:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:13:04 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:15:42 Started
+05/07/28 15:15:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:15:43 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:31:20 Started
+05/07/28 15:31:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:31:26 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:31:35 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.locateInputFile(XMLSupportBean.java:93)
+	at org.vplants.utils.XMLSupportBean.populateSelf(XMLSupportBean.java:54)
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:44)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:39)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 15:41:25 Started
+05/07/28 15:41:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:41:29 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:41:44 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.locateInputFile(XMLSupportBean.java:93)
+	at org.vplants.utils.XMLSupportBean.populateSelf(XMLSupportBean.java:54)
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:44)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:39)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 15:44:46 Started
+05/07/28 15:44:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:44:48 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:44:51 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.locateInputFile(XMLSupportBean.java:94)
+	at org.vplants.utils.XMLSupportBean.populateSelf(XMLSupportBean.java:55)
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:42)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:37)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 15:46:48 Started
+05/07/28 15:46:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:46:49 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:50:29 Started
+05/07/28 15:50:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:50:33 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:53:00 Started
+05/07/28 15:53:02 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:53:02 MortonVPlants-VPlants-webapp: Started
+05/07/28 15:55:39 Started
+05/07/28 15:55:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 15:55:42 MortonVPlants-VPlants-webapp: Started
+05/07/28 16:00:03 Started
+05/07/28 16:00:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 16:00:06 MortonVPlants-VPlants-webapp: Started
+05/07/28 16:38:38 Started
+05/07/28 16:38:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 16:38:40 MortonVPlants-VPlants-webapp: Started
+05/07/28 16:40:08 Started
+05/07/28 16:40:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 16:40:09 MortonVPlants-VPlants-webapp: Started
+05/07/28 16:44:14 Started
+05/07/28 16:44:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 16:44:16 MortonVPlants-VPlants-webapp: Started
+05/07/28 16:44:23 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:62)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:37)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 19:02:06 Started
+05/07/28 19:02:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:02:15 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:02:38 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:59)
+	at org.vplants.utils.XMLSupportBean.<init>(XMLSupportBean.java:37)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:58)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:298)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/28 19:06:08 Started
+05/07/28 19:06:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:06:10 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:11:07 Started
+05/07/28 19:11:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:11:18 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:13:54 Started
+05/07/28 19:13:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:13:57 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:23:11 Started
+05/07/28 19:23:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:23:13 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:23:36 Started
+05/07/28 19:23:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:23:37 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:31:07 Started
+05/07/28 19:31:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:31:09 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:34:54 Started
+05/07/28 19:34:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:34:55 MortonVPlants-VPlants-webapp: Started
+05/07/28 19:36:14 Started
+05/07/28 19:36:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/28 19:36:15 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:07:58 Started
+05/07/29 09:08:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:08:07 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:23:35 Started
+05/07/29 09:23:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:23:40 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:26:09 Started
+05/07/29 09:26:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:26:11 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:31:34 Started
+05/07/29 09:31:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:31:39 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:46:45 Started
+05/07/29 09:46:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:46:52 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:48:18 Started
+05/07/29 09:48:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:48:22 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:48:58 Started
+05/07/29 09:49:02 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:49:02 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:56:44 Started
+05/07/29 09:56:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:56:46 MortonVPlants-VPlants-webapp: Started
+05/07/29 09:57:32 Started
+05/07/29 09:57:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 09:57:33 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:08:55 Started
+05/07/29 10:09:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:09:01 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:09:28 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/29 10:09:28 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/29 10:09:28 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/29 10:09:28 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/07/29 10:09:32 Started
+05/07/29 10:09:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:09:33 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:10:44 Started
+05/07/29 10:10:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:10:48 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:20:58 Started
+05/07/29 10:21:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:21:01 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:23:46 Started
+05/07/29 10:23:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:23:49 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:34:51 Started
+05/07/29 10:34:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:34:53 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:37:17 Started
+05/07/29 10:37:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:37:21 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:41:12 Started
+05/07/29 10:41:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:41:13 MortonVPlants-VPlants-webapp: Started
+05/07/29 10:49:34 Started
+05/07/29 10:49:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 10:49:35 MortonVPlants-VPlants-webapp: Started
+05/07/29 11:05:19 Started
+05/07/29 11:05:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 11:05:21 MortonVPlants-VPlants-webapp: Started
+05/07/29 11:16:04 Started
+05/07/29 11:16:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 11:16:06 MortonVPlants-VPlants-webapp: Started
+05/07/29 11:18:54 Started
+05/07/29 11:18:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 11:18:56 MortonVPlants-VPlants-webapp: Started
+05/07/29 11:20:21 Started
+05/07/29 11:20:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 11:20:23 MortonVPlants-VPlants-webapp: Started
+05/07/29 11:22:09 Started
+05/07/29 11:22:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 11:22:11 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:34:41 Started
+05/07/29 12:34:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:34:43 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:35:38 Started
+05/07/29 12:35:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:35:40 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:37:40 Started
+05/07/29 12:37:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:37:42 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:50:47 Started
+05/07/29 12:50:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:50:49 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:51:45 Started
+05/07/29 12:51:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:51:46 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:53:08 Started
+05/07/29 12:53:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:53:10 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:56:38 Started
+05/07/29 12:56:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:56:43 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:57:20 Started
+05/07/29 12:57:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:57:21 MortonVPlants-VPlants-webapp: Started
+05/07/29 12:58:12 Started
+05/07/29 12:58:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 12:58:13 MortonVPlants-VPlants-webapp: Started
+05/07/29 13:20:19 Started
+05/07/29 13:20:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 13:20:22 MortonVPlants-VPlants-webapp: Started
+05/07/29 15:17:34 Started
+05/07/29 15:17:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 15:17:37 MortonVPlants-VPlants-webapp: Started
+05/07/29 15:17:50 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.ClassCastException: java.lang.String
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:98)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:65)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:291)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/29 15:18:24 Started
+05/07/29 15:18:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 15:18:25 MortonVPlants-VPlants-webapp: Started
+05/07/29 15:18:31 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.ClassCastException: java.lang.String
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:98)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:65)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:291)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/29 15:29:25 Started
+05/07/29 15:29:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 15:29:27 MortonVPlants-VPlants-webapp: Started
+05/07/29 15:32:53 Started
+05/07/29 15:32:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 15:32:54 MortonVPlants-VPlants-webapp: Started
+05/07/29 15:34:09 Started
+05/07/29 15:34:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 15:34:11 MortonVPlants-VPlants-webapp: Started
+05/07/29 16:03:12 Started
+05/07/29 16:03:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 16:03:18 MortonVPlants-VPlants-webapp: Started
+05/07/29 16:03:29 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.locateInputFile(XMLSupportBean.java:137)
+	at org.vplants.utils.XMLSupportBean.populateSelf(XMLSupportBean.java:51)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:63)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:292)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/07/29 16:05:19 Started
+05/07/29 16:05:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/07/29 16:05:21 MortonVPlants-VPlants-webapp: Started
+05/08/01 09:53:27 Started
+05/08/01 09:53:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/01 09:53:36 MortonVPlants-VPlants-webapp: Started
+05/08/01 10:05:47 Started
+05/08/01 10:05:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/01 10:05:57 MortonVPlants-VPlants-webapp: Started
+05/08/02 09:26:34 Started
+05/08/02 09:26:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 09:26:46 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:27:12 Started
+05/08/02 10:27:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:27:18 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:28:49 Started
+05/08/02 10:28:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:28:50 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:33:59 Started
+05/08/02 10:34:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:34:04 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:41:22 Started
+05/08/02 10:41:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:41:24 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:46:26 Started
+05/08/02 10:46:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:46:28 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:47:23 Started
+05/08/02 10:47:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:47:24 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:52:11 Started
+05/08/02 10:52:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:52:13 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:56:59 Started
+05/08/02 10:57:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:57:01 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:57:09 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+	at java.util.ArrayList.RangeCheck(ArrayList.java)
+	at java.util.ArrayList.get(ArrayList.java:324)
+	at org.vplants.utils.DBSupportBean.getSimilarSpecLinks(DBSupportBean.java:42)
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:101)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:65)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:292)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/02 10:58:12 Started
+05/08/02 10:58:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:58:14 MortonVPlants-VPlants-webapp: Started
+05/08/02 10:59:25 Started
+05/08/02 10:59:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 10:59:27 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:18:50 Started
+05/08/02 11:18:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:18:52 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:19:41 Started
+05/08/02 11:19:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:19:43 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:22:17 Started
+05/08/02 11:22:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:22:18 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:24:02 Started
+05/08/02 11:24:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:24:04 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:25:57 Started
+05/08/02 11:26:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:26:00 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:27:35 Started
+05/08/02 11:27:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:27:37 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:30:32 Started
+05/08/02 11:30:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:30:36 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:34:33 Started
+05/08/02 11:34:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:34:35 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:40:16 Started
+05/08/02 11:40:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:40:18 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:43:55 Started
+05/08/02 11:43:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:43:57 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:45:08 Started
+05/08/02 11:45:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:45:11 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:51:40 Started
+05/08/02 11:51:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:51:43 MortonVPlants-VPlants-webapp: Started
+05/08/02 11:58:01 Started
+05/08/02 11:58:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 11:58:04 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:02:55 Started
+05/08/02 12:02:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:02:57 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:04:23 Started
+05/08/02 12:04:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:04:24 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:05:56 Started
+05/08/02 12:05:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:05:58 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:07:07 Started
+05/08/02 12:07:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:07:08 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:12:12 Started
+05/08/02 12:12:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:12:14 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:13:35 Started
+05/08/02 12:13:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:13:36 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:14:31 Started
+05/08/02 12:14:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:14:33 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:15:30 Started
+05/08/02 12:15:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:15:32 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:19:10 Started
+05/08/02 12:19:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:19:11 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:21:17 Started
+05/08/02 12:21:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:21:19 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:22:28 Started
+05/08/02 12:22:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:22:30 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:22:55 Started
+05/08/02 12:22:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:22:57 MortonVPlants-VPlants-webapp: Started
+05/08/02 12:23:41 Started
+05/08/02 12:23:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 12:23:42 MortonVPlants-VPlants-webapp: Started
+05/08/02 13:10:53 Started
+05/08/02 13:10:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 13:10:55 MortonVPlants-VPlants-webapp: Started
+05/08/02 13:58:18 Started
+05/08/02 13:58:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 13:58:20 MortonVPlants-VPlants-webapp: Started
+05/08/02 16:38:06 Started
+05/08/02 16:38:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 16:38:08 MortonVPlants-VPlants-webapp: Started
+05/08/02 16:52:14 Started
+05/08/02 16:52:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 16:52:16 MortonVPlants-VPlants-webapp: Started
+05/08/02 16:55:35 Started
+05/08/02 16:55:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 16:55:41 MortonVPlants-VPlants-webapp: Started
+05/08/02 16:59:17 Started
+05/08/02 16:59:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 16:59:21 MortonVPlants-VPlants-webapp: Started
+05/08/02 17:05:16 Started
+05/08/02 17:05:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 17:05:22 MortonVPlants-VPlants-webapp: Started
+05/08/02 17:07:03 Started
+05/08/02 17:07:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 17:07:04 MortonVPlants-VPlants-webapp: Started
+05/08/02 17:09:16 Started
+05/08/02 17:09:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 17:09:18 MortonVPlants-VPlants-webapp: Started
+05/08/02 17:09:50 Started
+05/08/02 17:09:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/02 17:09:51 MortonVPlants-VPlants-webapp: Started
+05/08/03 09:23:13 Started
+05/08/03 09:23:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 09:23:24 MortonVPlants-VPlants-webapp: Started
+05/08/03 09:30:19 Started
+05/08/03 09:30:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 09:30:24 MortonVPlants-VPlants-webapp: Started
+05/08/03 09:47:25 Started
+05/08/03 09:47:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 09:47:27 MortonVPlants-VPlants-webapp: Started
+05/08/03 09:48:30 Started
+05/08/03 09:48:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 09:48:32 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:13:03 Started
+05/08/03 10:13:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:13:04 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:14:25 Started
+05/08/03 10:14:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:14:27 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:15:35 Started
+05/08/03 10:15:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:15:37 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:28:21 Started
+05/08/03 10:28:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:28:23 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:30:11 Started
+05/08/03 10:30:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:30:12 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:34:56 Started
+05/08/03 10:34:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:34:58 MortonVPlants-VPlants-webapp: Started
+05/08/03 10:53:30 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/03 10:53:30 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/03 10:53:30 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/03 10:53:30 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/03 10:53:45 Started
+05/08/03 10:53:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 10:53:51 MortonVPlants-VPlants-webapp: Started
+05/08/03 11:19:52 Started
+05/08/03 11:19:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 11:19:53 MortonVPlants-VPlants-webapp: Started
+05/08/03 13:17:16 Started
+05/08/03 13:17:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 13:17:21 MortonVPlants-VPlants-webapp: Started
+05/08/03 13:33:34 Started
+05/08/03 13:33:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 13:33:37 MortonVPlants-VPlants-webapp: Started
+05/08/03 13:40:23 Started
+05/08/03 13:40:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/03 13:40:25 MortonVPlants-VPlants-webapp: Started
+05/08/04 09:55:48 Started
+05/08/04 09:56:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 09:56:01 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:03:05 Started
+05/08/04 10:03:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:03:10 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:04:26 Started
+05/08/04 10:04:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:04:27 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:10:22 Started
+05/08/04 10:10:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:10:24 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:11:05 Started
+05/08/04 10:11:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:11:06 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:37:02 Started
+05/08/04 10:37:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:37:09 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:38:46 Started
+05/08/04 10:38:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:38:48 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:39:32 Started
+05/08/04 10:39:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:39:35 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:41:23 Started
+05/08/04 10:41:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:41:24 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:42:11 Started
+05/08/04 10:42:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:42:12 MortonVPlants-VPlants-webapp: Started
+05/08/04 10:43:56 Started
+05/08/04 10:43:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 10:43:57 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:00:17 Started
+05/08/04 11:00:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:00:19 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:01:00 Started
+05/08/04 11:01:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:01:01 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:04:37 Started
+05/08/04 11:04:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:04:38 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:05:05 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:05:05 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:05:05 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:05:05 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:05:08 Started
+05/08/04 11:05:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:05:10 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:09:55 Started
+05/08/04 11:09:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:09:59 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:10:37 Started
+05/08/04 11:10:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:10:38 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:12:08 Started
+05/08/04 11:12:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:12:10 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:13:04 Started
+05/08/04 11:13:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:13:06 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:14:20 Started
+05/08/04 11:14:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:14:22 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:16:35 Started
+05/08/04 11:16:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:16:37 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:17:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:17:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:17:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:17:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 11:20:27 Started
+05/08/04 11:20:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:20:28 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:25:39 Started
+05/08/04 11:25:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:25:42 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:26:35 Started
+05/08/04 11:26:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:26:36 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:28:37 Started
+05/08/04 11:28:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:28:38 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:29:13 Started
+05/08/04 11:29:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:29:14 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:34:10 Started
+05/08/04 11:34:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:34:12 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:34:51 Started
+05/08/04 11:34:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:34:52 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:36:24 Started
+05/08/04 11:36:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:36:26 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:46:16 Started
+05/08/04 11:46:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:46:22 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:49:17 Started
+05/08/04 11:49:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:49:23 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:49:57 Started
+05/08/04 11:49:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:49:59 MortonVPlants-VPlants-webapp: Started
+05/08/04 11:59:33 Started
+05/08/04 11:59:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 11:59:38 MortonVPlants-VPlants-webapp: Started
+05/08/04 12:03:14 Started
+05/08/04 12:03:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 12:03:16 MortonVPlants-VPlants-webapp: Started
+05/08/04 12:03:44 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 12:03:44 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 12:03:44 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 12:03:44 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/04 12:03:49 Started
+05/08/04 12:03:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 12:03:50 MortonVPlants-VPlants-webapp: Started
+05/08/04 12:07:37 Started
+05/08/04 12:07:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 12:07:39 MortonVPlants-VPlants-webapp: Started
+05/08/04 12:09:56 Started
+05/08/04 12:10:02 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 12:10:02 MortonVPlants-VPlants-webapp: Started
+05/08/04 12:20:10 Started
+05/08/04 12:20:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/04 12:20:12 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:00:08 Started
+05/08/08 11:00:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:00:27 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:09:54 Started
+05/08/08 11:09:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:09:55 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:12:18 Started
+05/08/08 11:12:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:12:20 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:12:25 MortonVPlants-VPlants-webapp: com.evermind.server.http.NotFoundServlet: init
+05/08/08 11:13:42 Started
+05/08/08 11:13:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:13:43 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:14:24 Started
+05/08/08 11:14:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:14:26 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:19:35 Started
+05/08/08 11:19:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:19:36 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:23:03 Started
+05/08/08 11:23:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:23:04 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:24:12 Started
+05/08/08 11:24:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:24:13 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:24:50 Started
+05/08/08 11:24:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:24:51 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:36:24 Started
+05/08/08 11:36:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:36:26 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:41:13 Started
+05/08/08 11:41:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:41:14 MortonVPlants-VPlants-webapp: Started
+05/08/08 11:42:21 Started
+05/08/08 11:42:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 11:42:22 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:37:42 Started
+05/08/08 12:37:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:37:43 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:40:11 Started
+05/08/08 12:40:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:40:12 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:40:47 Started
+05/08/08 12:40:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:40:48 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:41:59 Started
+05/08/08 12:42:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:42:01 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:45:30 Started
+05/08/08 12:45:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:45:32 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:46:22 Started
+05/08/08 12:46:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:46:24 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:47:43 Started
+05/08/08 12:47:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:47:45 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:48:47 Started
+05/08/08 12:48:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:48:48 MortonVPlants-VPlants-webapp: Started
+05/08/08 12:49:18 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/08 12:49:18 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/08 12:49:18 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/08 12:49:18 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/08 12:49:19 Started
+05/08/08 12:49:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 12:49:20 MortonVPlants-VPlants-webapp: Started
+05/08/08 13:44:55 Started
+05/08/08 13:45:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 13:45:00 MortonVPlants-VPlants-webapp: Started
+05/08/08 13:47:50 Started
+05/08/08 13:47:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 13:47:51 MortonVPlants-VPlants-webapp: Started
+05/08/08 13:51:30 Started
+05/08/08 13:51:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 13:51:32 MortonVPlants-VPlants-webapp: Started
+05/08/08 13:52:23 Started
+05/08/08 13:52:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 13:52:25 MortonVPlants-VPlants-webapp: Started
+05/08/08 13:54:07 Started
+05/08/08 13:54:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 13:54:09 MortonVPlants-VPlants-webapp: Started
+05/08/08 14:15:14 Started
+05/08/08 14:15:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 14:15:21 MortonVPlants-VPlants-webapp: Started
+05/08/08 14:16:44 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:76)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:70)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:297)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/08 14:17:41 Started
+05/08/08 14:17:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 14:17:43 MortonVPlants-VPlants-webapp: Started
+05/08/08 14:54:24 Started
+05/08/08 14:54:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/08 14:54:33 MortonVPlants-VPlants-webapp: Started
+05/08/09 09:19:40 Started
+05/08/09 09:19:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 09:19:45 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:00:21 Started
+05/08/09 10:00:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:00:23 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:01:14 Started
+05/08/09 10:01:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:01:18 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:15:11 Started
+05/08/09 10:15:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:15:15 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:15:23 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:160)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:70)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:297)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/09 10:16:18 Started
+05/08/09 10:16:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:16:19 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:18:03 Started
+05/08/09 10:18:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:18:04 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:19:43 Started
+05/08/09 10:19:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:19:44 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:20:30 Started
+05/08/09 10:20:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:20:32 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:20:54 Started
+05/08/09 10:20:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:20:55 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:21:01 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:21:01 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:21:01 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:21:01 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:27:12 Started
+05/08/09 10:27:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:27:13 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:56:11 Started
+05/08/09 10:56:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:56:17 MortonVPlants-VPlants-webapp: Started
+05/08/09 10:56:56 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:56:56 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:56:56 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:56:56 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 10:56:58 Started
+05/08/09 10:57:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 10:57:00 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:11:06 Started
+05/08/09 11:11:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:11:08 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:16:05 Started
+05/08/09 11:16:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:16:07 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:18:32 Started
+05/08/09 11:18:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:18:34 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:19:43 Started
+05/08/09 11:19:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:19:44 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:20:49 Started
+05/08/09 11:20:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:20:50 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:29:17 Started
+05/08/09 11:29:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:29:18 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:29:48 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:164)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:72)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/09 11:29:48 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/09 11:30:21 Started
+05/08/09 11:30:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:30:24 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:30:31 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:164)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:72)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/09 11:31:13 Started
+05/08/09 11:31:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:31:14 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:31:20 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:164)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:72)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:299)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/09 11:32:46 Started
+05/08/09 11:32:47 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:32:47 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:33:22 Started
+05/08/09 11:33:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:33:24 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:51:03 Started
+05/08/09 11:51:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:51:05 MortonVPlants-VPlants-webapp: Started
+05/08/09 11:51:43 Started
+05/08/09 11:51:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 11:51:45 MortonVPlants-VPlants-webapp: Started
+05/08/09 12:09:20 Started
+05/08/09 12:09:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 12:09:25 MortonVPlants-VPlants-webapp: Started
+05/08/09 12:19:46 Started
+05/08/09 12:19:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 12:19:48 MortonVPlants-VPlants-webapp: Started
+05/08/09 12:30:11 Started
+05/08/09 12:30:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 12:30:13 MortonVPlants-VPlants-webapp: Started
+05/08/09 12:31:13 Started
+05/08/09 12:31:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 12:31:14 MortonVPlants-VPlants-webapp: Started
+05/08/09 12:31:26 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:95)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:77)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:304)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/09 12:32:56 Started
+05/08/09 12:32:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/09 12:32:57 MortonVPlants-VPlants-webapp: Started
+05/08/11 11:31:54 Started
+05/08/11 11:32:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 11:32:09 MortonVPlants-VPlants-webapp: Started
+05/08/11 11:37:49 Started
+05/08/11 11:37:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 11:37:53 MortonVPlants-VPlants-webapp: Started
+05/08/11 11:58:28 Started
+05/08/11 11:58:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 11:58:34 MortonVPlants-VPlants-webapp: Started
+05/08/11 12:08:11 Started
+05/08/11 12:08:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 12:08:16 MortonVPlants-VPlants-webapp: Started
+05/08/11 12:08:24 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at org.vplants.utils.XMLSupportBean.populateXmlBean(XMLSupportBean.java:95)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:78)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:305)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 13:24:29 Started
+05/08/11 13:24:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:24:32 MortonVPlants-VPlants-webapp: Started
+05/08/11 13:24:45 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.IllegalArgumentException: file parameter must not be null
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:150)
+	at org.vplants.utils.XMLSupportBean.populateSelf(XMLSupportBean.java:62)
+	at org.vplants.datahandler.DataBean.populateBean(DataBean.java:77)
+	at org.vplants.datahandler.DataBean.setGid(DataBean.java:305)
+	at _vPlants._jspService(vPlants.jsp:7)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 13:54:39 Started
+05/08/11 13:54:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:54:41 MortonVPlants-VPlants-webapp: Started
+05/08/11 13:56:16 Started
+05/08/11 13:56:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:56:17 MortonVPlants-VPlants-webapp: Started
+05/08/11 13:56:41 Started
+05/08/11 13:56:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:56:43 MortonVPlants-VPlants-webapp: Started
+05/08/11 13:57:23 Started
+05/08/11 13:57:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:57:24 MortonVPlants-VPlants-webapp: Started
+05/08/11 13:57:55 Started
+05/08/11 13:57:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 13:57:57 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:14:19 Started
+05/08/11 14:14:25 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:14:25 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:14:32 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:15:18 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:15:25 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:15:28 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:15:31 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:15:35 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:16:40 Started
+05/08/11 14:16:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:16:41 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:18:02 Started
+05/08/11 14:18:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:18:04 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:18:42 Started
+05/08/11 14:18:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:18:44 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:19:09 Started
+05/08/11 14:19:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:19:11 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:19:15 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/11 14:19:15 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/11 14:19:15 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/11 14:19:15 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/11 14:26:26 Started
+05/08/11 14:26:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:26:33 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:28:01 Started
+05/08/11 14:28:04 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:28:04 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:28:15 MortonVPlants-VPlants-webapp: Servlet error
+java.io.FileNotFoundException
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:504)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:28:36 Started
+05/08/11 14:28:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:28:38 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:28:39 MortonVPlants-VPlants-webapp: Servlet error
+java.io.FileNotFoundException
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:504)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/08/11 14:53:29 Started
+05/08/11 14:53:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:53:34 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:54:11 Started
+05/08/11 14:54:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:54:12 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:55:00 Started
+05/08/11 14:55:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:55:01 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:55:47 Started
+05/08/11 14:55:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:55:49 MortonVPlants-VPlants-webapp: Started
+05/08/11 14:56:32 Started
+05/08/11 14:56:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/11 14:56:34 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:00:08 Started
+05/08/12 10:00:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:00:12 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:02:24 Started
+05/08/12 10:02:29 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:02:29 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:03:41 MortonVPlants-VPlants-webapp: com.evermind.server.http.NotFoundServlet: init
+05/08/12 10:31:20 Started
+05/08/12 10:31:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:31:26 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:37:09 Started
+05/08/12 10:37:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:37:10 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:45:56 Started
+05/08/12 10:45:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:45:58 MortonVPlants-VPlants-webapp: Started
+05/08/12 10:46:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/12 10:46:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/12 10:46:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/12 10:46:25 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/12 10:46:31 Started
+05/08/12 10:46:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/12 10:46:33 MortonVPlants-VPlants-webapp: Started
+05/08/15 09:59:17 Started
+05/08/15 09:59:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 09:59:26 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:00:05 Started
+05/08/15 10:00:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:00:09 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:02:29 Started
+05/08/15 10:02:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:02:32 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:03:24 Started
+05/08/15 10:03:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:03:26 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:05:10 Started
+05/08/15 10:05:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:05:11 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:06:24 Started
+05/08/15 10:06:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:06:26 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:06:44 Started
+05/08/15 10:06:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:06:46 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:07:00 Started
+05/08/15 10:07:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:07:01 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:07:09 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:09 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:09 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:09 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:32 Started
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:07:34 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/08/15 10:24:31 Started
+05/08/15 10:24:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:24:33 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:43:22 Started
+05/08/15 10:43:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:43:28 MortonVPlants-VPlants-webapp: Started
+05/08/15 10:56:07 Started
+05/08/15 10:56:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 10:56:12 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:05:07 Started
+05/08/15 11:05:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:05:08 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:07:19 Started
+05/08/15 11:07:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:07:21 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:10:53 Started
+05/08/15 11:10:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:10:55 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:18:48 Started
+05/08/15 11:18:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:18:49 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:21:53 Started
+05/08/15 11:21:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:21:54 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:25:35 Started
+05/08/15 11:25:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:25:36 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:29:13 Started
+05/08/15 11:29:15 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:29:15 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:32:28 Started
+05/08/15 11:32:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:32:30 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:42:11 Started
+05/08/15 11:42:12 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:42:12 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:49:47 Started
+05/08/15 11:49:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:49:51 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:49:51 Started
+05/08/15 11:49:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:49:53 MortonVPlants-VPlants-webapp: Started
+05/08/15 11:59:48 Started
+05/08/15 11:59:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 11:59:53 MortonVPlants-VPlants-webapp: Started
+05/08/15 12:07:10 Started
+05/08/15 12:07:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 12:07:11 MortonVPlants-VPlants-webapp: Started
+05/08/15 12:24:08 Started
+05/08/15 12:24:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 12:24:10 MortonVPlants-VPlants-webapp: Started
+05/08/15 12:49:45 Started
+05/08/15 12:49:47 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 12:49:47 MortonVPlants-VPlants-webapp: Started
+05/08/15 13:39:09 Started
+05/08/15 13:39:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 13:39:14 MortonVPlants-VPlants-webapp: Started
+05/08/15 13:54:19 Started
+05/08/15 13:54:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 13:54:34 MortonVPlants-VPlants-webapp: Started
+05/08/15 13:55:00 Started
+05/08/15 13:55:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 13:55:03 MortonVPlants-VPlants-webapp: Started
+05/08/15 14:14:00 Started
+05/08/15 14:14:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 14:14:01 MortonVPlants-VPlants-webapp: Started
+05/08/15 14:14:30 Started
+05/08/15 14:14:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 14:14:31 MortonVPlants-VPlants-webapp: Started
+05/08/15 14:23:01 Started
+05/08/15 14:23:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 14:23:05 MortonVPlants-VPlants-webapp: Started
+05/08/15 18:54:17 Started
+05/08/15 18:54:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/15 18:54:24 MortonVPlants-VPlants-webapp: Started
+05/08/16 12:16:12 Started
+05/08/16 12:16:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 12:16:23 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:31:26 Started
+05/08/16 14:31:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:31:31 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:32:45 Started
+05/08/16 14:32:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:32:46 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:39:55 Started
+05/08/16 14:39:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:39:56 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:50:16 Started
+05/08/16 14:50:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:50:17 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:53:49 Started
+05/08/16 14:53:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:53:53 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:55:40 Started
+05/08/16 14:55:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:55:42 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:58:15 Started
+05/08/16 14:58:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:58:17 MortonVPlants-VPlants-webapp: Started
+05/08/16 14:59:22 Started
+05/08/16 14:59:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 14:59:24 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:15:29 Started
+05/08/16 15:15:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:15:30 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:16:20 Started
+05/08/16 15:16:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:16:22 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:17:55 Started
+05/08/16 15:17:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:17:57 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:19:34 Started
+05/08/16 15:19:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:19:35 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:21:15 Started
+05/08/16 15:21:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:21:16 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:22:34 Started
+05/08/16 15:22:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:22:35 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:30:29 Started
+05/08/16 15:30:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:30:31 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:32:05 Started
+05/08/16 15:32:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:32:06 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:33:26 Started
+05/08/16 15:33:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:33:27 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:36:39 Started
+05/08/16 15:36:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:36:41 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:39:27 Started
+05/08/16 15:39:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:39:28 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:41:45 Started
+05/08/16 15:41:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:41:46 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:43:48 Started
+05/08/16 15:43:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:43:49 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:45:40 Started
+05/08/16 15:45:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:45:41 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:51:26 Started
+05/08/16 15:51:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:51:28 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:53:19 Started
+05/08/16 15:53:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:53:21 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:54:20 Started
+05/08/16 15:54:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:54:22 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:55:52 Started
+05/08/16 15:56:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:56:00 MortonVPlants-VPlants-webapp: Started
+05/08/16 15:57:08 Started
+05/08/16 15:57:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 15:57:10 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:01:15 Started
+05/08/16 16:01:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:01:16 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:04:40 Started
+05/08/16 16:04:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:04:41 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:05:57 Started
+05/08/16 16:05:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:05:58 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:08:21 Started
+05/08/16 16:08:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:08:22 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:09:12 Started
+05/08/16 16:09:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:09:13 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:10:04 Started
+05/08/16 16:10:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:10:05 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:10:57 Started
+05/08/16 16:10:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:10:59 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:11:43 Started
+05/08/16 16:11:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:11:45 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:12:25 Started
+05/08/16 16:12:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:12:27 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:19:18 Started
+05/08/16 16:19:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:19:21 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:20:12 Started
+05/08/16 16:20:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:20:13 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:20:55 Started
+05/08/16 16:20:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:20:56 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:21:39 Started
+05/08/16 16:21:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:21:41 MortonVPlants-VPlants-webapp: Started
+05/08/16 16:51:27 Started
+05/08/16 16:51:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 16:51:30 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:07:59 Started
+05/08/16 17:08:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:08:05 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:15:19 Started
+05/08/16 17:15:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:15:23 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:16:51 Started
+05/08/16 17:16:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:16:53 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:20:32 Started
+05/08/16 17:20:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:20:34 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:21:20 Started
+05/08/16 17:21:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:21:21 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:37:27 Started
+05/08/16 17:37:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:37:39 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:38:29 Started
+05/08/16 17:38:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:38:31 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:49:57 Started
+05/08/16 17:49:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:49:59 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:53:35 Started
+05/08/16 17:53:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:53:41 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:55:30 Started
+05/08/16 17:55:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:55:31 MortonVPlants-VPlants-webapp: Started
+05/08/16 17:57:35 Started
+05/08/16 17:57:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/16 17:57:37 MortonVPlants-VPlants-webapp: Started
+05/08/17 09:35:52 Started
+05/08/17 09:35:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 09:35:57 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:04:35 Started
+05/08/17 11:04:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:04:43 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:12:16 Started
+05/08/17 11:12:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:12:18 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:17:31 Started
+05/08/17 11:17:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:17:33 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:20:41 Started
+05/08/17 11:20:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:20:42 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:24:55 Started
+05/08/17 11:24:57 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:24:57 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:27:09 Started
+05/08/17 11:27:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:27:10 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:40:34 Started
+05/08/17 11:40:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:40:35 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:41:34 Started
+05/08/17 11:41:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:41:35 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:42:40 Started
+05/08/17 11:42:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:42:41 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:44:25 Started
+05/08/17 11:44:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:44:26 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:45:13 Started
+05/08/17 11:45:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:45:14 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:46:10 Started
+05/08/17 11:46:11 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:46:11 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:53:33 Started
+05/08/17 11:53:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:53:34 MortonVPlants-VPlants-webapp: Started
+05/08/17 11:57:40 Started
+05/08/17 11:57:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 11:57:41 MortonVPlants-VPlants-webapp: Started
+05/08/17 12:00:41 Started
+05/08/17 12:00:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 12:00:42 MortonVPlants-VPlants-webapp: Started
+05/08/17 12:01:42 Started
+05/08/17 12:01:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 12:01:44 MortonVPlants-VPlants-webapp: Started
+05/08/17 12:02:44 Started
+05/08/17 12:02:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 12:02:45 MortonVPlants-VPlants-webapp: Started
+05/08/17 12:12:32 Started
+05/08/17 12:12:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 12:12:37 MortonVPlants-VPlants-webapp: Started
+05/08/17 13:24:30 Started
+05/08/17 13:24:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 13:24:32 MortonVPlants-VPlants-webapp: Started
+05/08/17 13:29:20 Started
+05/08/17 13:29:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 13:29:22 MortonVPlants-VPlants-webapp: Started
+05/08/17 13:31:39 Started
+05/08/17 13:31:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 13:31:41 MortonVPlants-VPlants-webapp: Started
+05/08/17 13:43:59 Started
+05/08/17 13:44:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 13:44:01 MortonVPlants-VPlants-webapp: Started
+05/08/17 13:48:33 Started
+05/08/17 13:48:34 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 13:48:34 MortonVPlants-VPlants-webapp: Started
+05/08/17 14:44:58 Started
+05/08/17 14:45:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/17 14:45:10 MortonVPlants-VPlants-webapp: Started
+05/08/18 09:51:25 Started
+05/08/18 09:51:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 09:51:32 MortonVPlants-VPlants-webapp: Started
+05/08/18 09:56:42 Started
+05/08/18 09:56:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 09:56:43 MortonVPlants-VPlants-webapp: Started
+05/08/18 10:39:25 Started
+05/08/18 10:39:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 10:39:26 MortonVPlants-VPlants-webapp: Started
+05/08/18 10:42:18 Started
+05/08/18 10:42:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 10:42:20 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:04:28 Started
+05/08/18 11:04:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:04:33 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:06:42 Started
+05/08/18 11:06:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:06:43 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:21:24 Started
+05/08/18 11:21:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:21:28 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:26:06 Started
+05/08/18 11:26:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:26:07 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:30:36 Started
+05/08/18 11:30:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:30:38 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:39:04 Started
+05/08/18 11:39:06 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:39:06 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:50:41 Started
+05/08/18 11:50:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:50:42 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:52:55 Started
+05/08/18 11:52:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:52:56 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:54:17 Started
+05/08/18 11:54:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:54:18 MortonVPlants-VPlants-webapp: Started
+05/08/18 11:55:41 Started
+05/08/18 11:55:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 11:55:43 MortonVPlants-VPlants-webapp: Started
+05/08/18 12:00:35 Started
+05/08/18 12:00:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 12:00:36 MortonVPlants-VPlants-webapp: Started
+05/08/18 12:06:21 Started
+05/08/18 12:06:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 12:06:22 MortonVPlants-VPlants-webapp: Started
+05/08/18 12:51:13 Started
+05/08/18 12:51:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 12:51:19 MortonVPlants-VPlants-webapp: Started
+05/08/18 12:56:22 Started
+05/08/18 12:56:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 12:56:24 MortonVPlants-VPlants-webapp: Started
+05/08/18 12:58:17 Started
+05/08/18 12:58:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 12:58:18 MortonVPlants-VPlants-webapp: Started
+05/08/18 13:00:06 Started
+05/08/18 13:00:07 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 13:00:07 MortonVPlants-VPlants-webapp: Started
+05/08/18 13:13:41 Started
+05/08/18 13:13:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 13:13:46 MortonVPlants-VPlants-webapp: Started
+05/08/18 13:38:21 Started
+05/08/18 13:38:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/18 13:38:23 MortonVPlants-VPlants-webapp: Started
+05/08/22 10:10:02 Started
+05/08/22 10:10:19 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 10:10:19 MortonVPlants-VPlants-webapp: Started
+05/08/22 10:12:33 Started
+05/08/22 10:12:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 10:12:35 MortonVPlants-VPlants-webapp: Started
+05/08/22 11:42:34 Started
+05/08/22 11:42:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 11:42:38 MortonVPlants-VPlants-webapp: Started
+05/08/22 11:45:16 Started
+05/08/22 11:45:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 11:45:18 MortonVPlants-VPlants-webapp: Started
+05/08/22 11:46:20 Started
+05/08/22 11:46:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 11:46:21 MortonVPlants-VPlants-webapp: Started
+05/08/22 11:48:47 Started
+05/08/22 11:48:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 11:48:49 MortonVPlants-VPlants-webapp: Started
+05/08/22 13:23:27 Started
+05/08/22 13:23:28 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 13:23:28 MortonVPlants-VPlants-webapp: Started
+05/08/22 13:27:31 Started
+05/08/22 13:27:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/22 13:27:37 MortonVPlants-VPlants-webapp: Started
+05/08/23 10:05:31 Started
+05/08/23 10:05:32 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 10:05:32 MortonVPlants-VPlants-webapp: Started
+05/08/23 11:05:37 Started
+05/08/23 11:05:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 11:05:38 MortonVPlants-VPlants-webapp: Started
+05/08/23 11:13:51 Started
+05/08/23 11:13:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 11:13:53 MortonVPlants-VPlants-webapp: Started
+05/08/23 11:48:51 Started
+05/08/23 11:48:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 11:48:56 MortonVPlants-VPlants-webapp: Started
+05/08/23 12:03:33 Started
+05/08/23 12:03:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 12:03:43 MortonVPlants-VPlants-webapp: Started
+05/08/23 13:45:32 Started
+05/08/23 13:45:36 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 13:45:36 MortonVPlants-VPlants-webapp: Started
+05/08/23 13:54:21 Started
+05/08/23 13:54:22 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/23 13:54:22 MortonVPlants-VPlants-webapp: Started
+05/08/24 10:36:50 Started
+05/08/24 10:36:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/24 10:36:52 MortonVPlants-VPlants-webapp: Started
+05/08/25 09:03:12 Started
+05/08/25 09:03:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/08/25 09:03:13 MortonVPlants-VPlants-webapp: Started
+05/09/01 13:14:08 Started
+05/09/01 13:14:23 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/01 13:14:23 MortonVPlants-VPlants-webapp: Started
+05/09/01 15:52:38 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/01 15:52:38 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/01 15:52:38 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/01 15:52:38 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/09 09:37:47 Started
+05/09/09 09:37:52 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 09:37:52 MortonVPlants-VPlants-webapp: Started
+05/09/09 09:42:39 Started
+05/09/09 09:42:40 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 09:42:40 MortonVPlants-VPlants-webapp: Started
+05/09/09 10:10:46 Started
+05/09/09 10:10:47 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 10:10:47 MortonVPlants-VPlants-webapp: Started
+05/09/09 10:16:31 Started
+05/09/09 10:16:33 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 10:16:33 MortonVPlants-VPlants-webapp: Started
+05/09/09 10:43:07 Started
+05/09/09 10:43:08 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 10:43:08 MortonVPlants-VPlants-webapp: Started
+05/09/09 11:15:18 Started
+05/09/09 11:15:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 11:15:20 MortonVPlants-VPlants-webapp: Started
+05/09/09 11:20:36 Started
+05/09/09 11:20:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 11:20:38 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:01:43 Started
+05/09/09 12:01:45 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:01:45 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:09:41 Started
+05/09/09 12:09:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:09:42 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:11:57 Started
+05/09/09 12:11:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:11:58 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:19:20 Started
+05/09/09 12:19:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:19:21 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:20:17 Started
+05/09/09 12:20:18 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:20:18 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:21:02 Started
+05/09/09 12:21:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:21:03 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:28:23 Started
+05/09/09 12:28:24 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:28:24 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:29:43 Started
+05/09/09 12:29:44 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:29:44 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:38:40 Started
+05/09/09 12:38:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:38:41 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:57:19 Started
+05/09/09 12:57:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:57:20 MortonVPlants-VPlants-webapp: Started
+05/09/09 12:59:58 Started
+05/09/09 12:59:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 12:59:59 MortonVPlants-VPlants-webapp: Started
+05/09/09 13:05:49 Started
+05/09/09 13:05:51 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 13:05:51 MortonVPlants-VPlants-webapp: Started
+05/09/09 13:07:57 Started
+05/09/09 13:07:58 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 13:07:58 MortonVPlants-VPlants-webapp: Started
+05/09/09 13:10:40 Started
+05/09/09 13:10:41 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 13:10:41 MortonVPlants-VPlants-webapp: Started
+05/09/09 13:34:16 Started
+05/09/09 13:34:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 13:34:17 MortonVPlants-VPlants-webapp: Started
+05/09/09 13:45:09 Started
+05/09/09 13:45:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 13:45:10 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:14:13 Started
+05/09/09 14:14:14 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 14:14:14 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:19:37 Started
+05/09/09 14:19:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 14:19:38 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:21:19 Started
+05/09/09 14:21:21 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 14:21:21 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:22:28 Started
+05/09/09 14:22:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 14:22:30 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:23:45 Started
+05/09/09 14:23:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/09 14:23:46 MortonVPlants-VPlants-webapp: Started
+05/09/09 14:33:49 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/09 14:33:49 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/09 14:33:49 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/09 14:33:49 MortonVPlants-VPlants-webapp: Connection reset by peer: socket write error
+05/09/12 09:22:40 Started
+05/09/12 09:22:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 09:22:42 MortonVPlants-VPlants-webapp: Started
+05/09/12 09:29:49 Started
+05/09/12 09:29:50 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 09:29:50 MortonVPlants-VPlants-webapp: Started
+05/09/12 10:07:36 Started
+05/09/12 10:07:37 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 10:07:37 MortonVPlants-VPlants-webapp: Started
+05/09/12 11:49:46 Started
+05/09/12 11:49:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 11:49:49 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:26:29 Started
+05/09/12 12:26:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:26:31 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:27:54 Started
+05/09/12 12:27:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:27:55 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:29:47 Started
+05/09/12 12:29:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:29:48 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:30:37 Started
+05/09/12 12:30:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:30:38 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:38:37 Started
+05/09/12 12:38:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:38:38 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:43:28 Started
+05/09/12 12:43:30 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:43:30 MortonVPlants-VPlants-webapp: Started
+05/09/12 12:45:34 Started
+05/09/12 12:45:35 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 12:45:35 MortonVPlants-VPlants-webapp: Started
+05/09/12 13:04:57 Started
+05/09/12 13:04:59 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 13:04:59 MortonVPlants-VPlants-webapp: Started
+05/09/12 13:26:47 Started
+05/09/12 13:26:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 13:26:49 MortonVPlants-VPlants-webapp: Started
+05/09/12 14:16:01 Started
+05/09/12 14:16:10 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 14:16:10 MortonVPlants-VPlants-webapp: Started
+05/09/12 14:28:01 Started
+05/09/12 14:28:02 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 14:28:02 MortonVPlants-VPlants-webapp: Started
+05/09/12 14:32:08 Started
+05/09/12 14:32:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/12 14:32:09 MortonVPlants-VPlants-webapp: Started
+05/09/13 09:34:53 Started
+05/09/13 09:34:54 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 09:34:54 MortonVPlants-VPlants-webapp: Started
+05/09/13 09:49:02 Started
+05/09/13 09:49:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 09:49:03 MortonVPlants-VPlants-webapp: Started
+05/09/13 09:51:02 Started
+05/09/13 09:51:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 09:51:03 MortonVPlants-VPlants-webapp: Started
+05/09/13 09:55:46 Started
+05/09/13 09:55:46 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 09:55:46 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:01:19 Started
+05/09/13 10:01:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:01:20 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:22:19 Started
+05/09/13 10:22:20 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:22:20 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:25:30 Started
+05/09/13 10:25:31 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:25:31 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:26:52 Started
+05/09/13 10:26:53 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:26:53 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:26:53 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:192)
+	at java.lang.Thread.run(Thread.java:534)
+05/09/13 10:46:02 Started
+05/09/13 10:46:03 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:46:03 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:52:12 Started
+05/09/13 10:52:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:52:13 MortonVPlants-VPlants-webapp: Started
+05/09/13 10:57:38 Started
+05/09/13 10:57:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 10:57:39 MortonVPlants-VPlants-webapp: Started
+05/09/13 11:31:41 Started
+05/09/13 11:31:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 11:31:42 MortonVPlants-VPlants-webapp: Started
+05/09/13 11:49:08 Started
+05/09/13 11:49:09 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 11:49:09 MortonVPlants-VPlants-webapp: Started
+05/09/13 11:53:48 Started
+05/09/13 11:53:49 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 11:53:49 MortonVPlants-VPlants-webapp: Started
+05/09/13 11:54:59 Started
+05/09/13 11:55:00 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 11:55:00 MortonVPlants-VPlants-webapp: Started
+05/09/13 12:40:37 Started
+05/09/13 12:40:38 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 12:40:38 MortonVPlants-VPlants-webapp: Started
+05/09/13 12:41:26 Started
+05/09/13 12:41:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 12:41:27 MortonVPlants-VPlants-webapp: Started
+05/09/13 12:44:55 Started
+05/09/13 12:44:56 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 12:44:56 MortonVPlants-VPlants-webapp: Started
+05/09/13 12:48:04 Started
+05/09/13 12:48:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 12:48:05 MortonVPlants-VPlants-webapp: Started
+05/09/13 13:02:15 Started
+05/09/13 13:02:16 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/13 13:02:16 MortonVPlants-VPlants-webapp: Started
+05/09/16 09:56:52 Started
+05/09/16 09:56:55 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 09:56:55 MortonVPlants-VPlants-webapp: Started
+05/09/16 09:58:16 Started
+05/09/16 09:58:17 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 09:58:17 MortonVPlants-VPlants-webapp: Started
+05/09/16 09:58:17 MortonVPlants-VPlants-webapp: Servlet error
+java.lang.NullPointerException
+	at _vPlants._jspService(vPlants.jsp:4)
+	at com.orionserver[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].http.OrionHttpJspPage.service(OrionHttpJspPage.java:57)
+	at oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java:347)
+	at oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java:509)
+	at oracle.jsp.runtimev2.JspServlet.service(JspServlet.java:413)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java:65)
+	at oracle.security.jazn.oc4j.JAZNFilter.doFilter(Unknown Source)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java:649)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java:322)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java:790)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:270)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].server.http.HttpRequestHandler.run(HttpRequestHandler.java:112)
+	at com.evermind[Oracle Application Server Containers for J2EE 10g (10.1.2.0.0)].util.ReleasableResourcePooledExecutor$MyWorker.run(ReleasableResourcePooledExecutor.java:186)
+	at java.lang.Thread.run(Thread.java:534)
+05/09/16 10:06:41 Started
+05/09/16 10:06:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 10:06:42 MortonVPlants-VPlants-webapp: Started
+05/09/16 10:16:12 Started
+05/09/16 10:16:13 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 10:16:13 MortonVPlants-VPlants-webapp: Started
+05/09/16 10:50:38 Started
+05/09/16 10:50:39 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 10:50:39 MortonVPlants-VPlants-webapp: Started
+05/09/16 10:55:01 Started
+05/09/16 10:55:01 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 10:55:01 MortonVPlants-VPlants-webapp: Started
+05/09/16 10:58:04 Started
+05/09/16 10:58:05 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 10:58:05 MortonVPlants-VPlants-webapp: Started
+05/09/16 11:06:25 Started
+05/09/16 11:06:26 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 11:06:26 MortonVPlants-VPlants-webapp: Started
+05/09/16 11:12:47 Started
+05/09/16 11:12:48 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 11:12:48 MortonVPlants-VPlants-webapp: Started
+05/09/16 11:30:42 Started
+05/09/16 11:30:43 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 11:30:43 MortonVPlants-VPlants-webapp: Started
+05/09/16 11:56:26 Started
+05/09/16 11:56:27 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 11:56:27 MortonVPlants-VPlants-webapp: Started
+05/09/16 12:38:24 Started
+05/09/16 12:38:42 MortonVPlants-VPlants-webapp: JDevOJSP: init
+05/09/16 12:38:42 MortonVPlants-VPlants-webapp: Started
