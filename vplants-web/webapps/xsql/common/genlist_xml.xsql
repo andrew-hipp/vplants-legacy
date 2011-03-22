@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<GENERA connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql" idx="A">
+<xsql:include-param name="idx"/>
+<HDR>
+<xsql:query rowset-element="" row-element="">
+select distinct genus as letter from (
+  select substr(genus,1,1) as genus from checklist
+) order by letter
+</xsql:query>
+</HDR>
+
+<DTL>
+<xsql:query rowset-element="GENERA" row-element="GENUS">
+SELECT DISTINCT
+	CHK.GENUS, CHK.FAMILY_NAME
+FROM
+	CHECKLIST GRP,
+	CHECKLIST CHK
+WHERE
+	CHK.GENUS LIKE '{@idx}%' AND
+	CHK.GROUP_ID = GRP.GROUP_ID
+ORDER BY
+        CHK.GENUS
+</xsql:query>
+</DTL>
+
+</GENERA>

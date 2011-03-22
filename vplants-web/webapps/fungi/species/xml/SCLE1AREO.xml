@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> <speciesPage> <NAME_CD>SCLE1AREO</NAME_CD> <group>FUNGUS</group> <desc> <growthForm>Puffball shaped</growthForm> <size>1 - 2.5 cm broad, 1 - 3 cm high</size> <parts> <part> <partName>Fruitbody</partName> <partText>with thin-walled skin (&amp;lt; 1 mm); surface tan, covered with tiny, brown, flat scales.  When mature it opens by a pore at the top. </partText> </part> <part> <partName>Interior</partName> <partText>firm to hard when young, may be whitish but is soon purplish gray; when mature the spore mass is dark brown and powdery.</partText> </part> <part> <partName>Base</partName> <partText>short, stem-like, typically has branched, whitish cords that bind to the soil. </partText> </part> <part> <partName>Microscopic features</partName> <partText>Spores 10 - 18 &amp;micro;m (including spines), brown, surface spiny but not reticulate.</partText> </part> </parts> </desc> <similarSpecies> <comments>This species differs from our other scaly &lt;i&gt;Scleroderma&lt;/i&gt; species by the small size of the fruitbody, the thin wall, and the spores.  &lt;i&gt;Scleroderma verrucosum&lt;/i&gt; differs by having spores 7 - 11.6 &amp;micro;m.  True puffballs, such as &lt;i&gt;Lycoperdon&lt;/i&gt;, have a thinner outer skin and a pure white inside when young.  &lt;i&gt;Lycoperdon pyriforme&lt;/i&gt; has white cords at the base but grows on wood and has smooth spores.</comments> <nameCds> <simNmCd>SCLE1VERR</simNmCd> <simNmCd>SCLE1CITR</simNmCd> <simNmCd>LYCOPYRI</simNmCd> </nameCds><links>
+<link>
+<linkUri/> 
+<linkText/>
+</link> 
+</links> </similarSpecies> 
+<fruiting>July to September; rarely June or October.</fruiting> <habitatEcology>Common in hardwood forest, oak woodland, and oak savanna.   Solitary or gregarious on soil or wood. Mycorrhizal partner with oak (and possibly other hosts) in our region.</habitatEcology> <notes> <comments>Sclerodermas are called earthballs or false puffballs and are related to boletes. This small &lt;em&gt;Scleroderma&lt;/em&gt; species was also named &lt;em&gt;S. lycoperdoides&lt;/em&gt; because it resembles a &lt;em&gt;Lycoperdon&lt;/em&gt; (a true puffball).</comments>
+<links>
+<link>
+<linkUri/> 
+<linkText/>  
+</link> 
+</links> </notes> 
+<etymology> <comments>"Sclero-derma" means "hard-skin."  Areolate refers to having a small area, as in a ring of color around each scale.  </comments>
+<links> 
+<link>
+<linkUri/> 
+<linkText/> 
+</link>  
+</links> </etymology> 
+<furtherInfo> <comments/> <links> <link> <linkUri>http://www.bioimages.org.uk/HTML/R151360.HTM</linkUri> <linkText>BioImages: The Virtual Field-Guide (UK)</linkText> </link> </links> </furtherInfo> <references> <reference> <citation>Phillips, Roger. 1991. Mushrooms of North America. Little, Brown and Company</citation> </reference> <reference> <citation>Guzmán, G. 1970. Monografia del género &lt;i&gt;Scleroderma&lt;/i&gt; Pers. emend. Fr. (Fungi - Basidiomycetes). Darwiniana 16: 233-407</citation> </reference> </references> <otherRecords> <ilBn/> <ilCk/> <ilDk/> <ilDp/> <ilGd/> <ilKd/> <ilKk/> <ilKn/> <ilLk/> <ilMh/> <ilWl/> <inJs/> <inLk/> <inLp/> <inNt/> <inPt/> <inSj/> <inSk/> <miBr/> <wiKs/> <wiMw/> <wiRc/> <wiWk/> <wiWw/> </otherRecords> <author>The Field Museum</author> <modificationDate>2006-05-29</modificationDate> </speciesPage> 

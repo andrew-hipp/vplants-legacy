@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<FAMILY_NAMES connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+<xsql:query rowset-element="" row-element="">
+
+SELECT DISTINCT
+	FAMILY_NAME
+FROM
+	CHECKLIST
+ORDER BY
+    FAMILY_NAME
+
+</xsql:query>
+
+</FAMILY_NAMES>

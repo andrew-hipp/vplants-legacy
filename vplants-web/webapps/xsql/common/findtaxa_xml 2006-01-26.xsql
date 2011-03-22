@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SEARCH connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+  <TYPE>Simple</TYPE>
+  <SCINAMES>
+    <xsql:ref-cursor-function skip-rows="{@paging-skip}" 
+                               max-rows="{@paging-max}">
+       AdvSearch.Find(family   => '{@family}',
+			genus => '{@genus}',
+                        species => '{@species}',
+			common => '{@common}')
+    </xsql:ref-cursor-function>
+  </SCINAMES>
+</SEARCH>

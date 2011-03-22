@@ -1,0 +1,685 @@
+NAME_CD	GROUP_ID	GENUS	SPECIES	AUTHOR	SSP	SSP_AUTHOR	VAR	VAR_AUTHOR	F	F_AUTHOR	FAMILY_NAME	ACCEPTED_IND	ACCEPTED_IND_IFUN	IFUN_URI
+ABORBIEN	1	Abortiporus	biennis	(Bull.) Singer							Meripilaceae	Y	N	
+ABORBIENDIST	1	Abortiporus	biennis	(Bull.) Singer			distortus	(Schwein.) Graff.			Meripilaceae	N	N	
+AGARABRU1	41	Agaricus	abruptibulbus	Peck							Agaricaceae	Y	N	
+AGARBERN	65	Agaricus	bernardii	Quél.							Agaricaceae	Y	N	
+AGARBITO	67	Agaricus	bitorquis	(Quél.) Sacc.							Agaricaceae	Y	N	213898
+AGARBRUN	71	Agaricus	brunnescens	Peck							Agaricaceae	Y	N	
+AGARCAMP2	74	Agaricus	campestris	L.							Agaricaceae	Y	N	356498
+AGARCOMP3	82	Agaricus	comptulus	Fr.							Agaricaceae	Y	N	
+AGARDIMI	89	Agaricus	diminutivus	Peck							Agaricaceae	Y	N	
+AGARMICR	119	Agaricus	micromegethus	Peck							Agaricaceae	Y	N	
+AGARPLAC	129	Agaricus	placomyces	Peck							Agaricaceae	Y	N	
+AGARPOCI	132	Agaricus	pocillator	Murr.							Agaricaceae	Y	N	
+AGARSILV2	153	Agaricus	silvicola	(Vittad.) Peck							Agaricaceae	Y	N	
+AGROACER	186	Agrocybe	acericola	(Pk.)Sing.							Bolbitiaceae	Y	N	
+AGROAEGE	187	Agrocybe	aegerita								Bolbitiaceae	Y	N	
+AGROAMAR	188	Agrocybe	amara								Bolbitiaceae	Y	N	
+AGROEREB	195	Agrocybe	erebia	(Fr.)Kuehn.							Bolbitiaceae	Y	N	
+AGROHOWE	199	Agrocybe	howeana								Bolbitiaceae	Y	N	
+AGROPALU	202	Agrocybe	paludosa								Bolbitiaceae	Y	N	
+AGROPEDI	203	Agrocybe	pediades	(Pers.:Fr.) Fayod							Bolbitiaceae	Y	N	
+AGROPRAE	204	Agrocybe	praecox	(Pers. ex Fr.) Fayod(Pers. ex Fr.) Fayod							Bolbitiaceae	Y	N	
+ALEU1AURA	232	Aleuria	aurantia	(Fr.)Fkl.							Pyronemataceae	Y	N	
+ALEU6OAKE	247	Aleurodiscus	oakesii	(Berkeley & Curtis) Hoehnel & Litschauer							Stereaceae	Y	N	
+AMANABRU	262	Amanita	abrupta	Pk.							Pluteaceae	Y	N	
+AMANAEST	263	Amanita	aestivalis	Singer ex Singer							Pluteaceae	Y	N	
+AMANBISP	282	Amanita	bisporigera	Atk.							Pluteaceae	Y	N	
+AMANBRUN	286	Amanita	brunnescens	G.F. Atk.							Pluteaceae	Y	N	
+AMANBRUNBRUN	288	Amanita	brunnescens				brunnescens				Pluteaceae	Y	N	
+AMANBRUNPALL	289	Amanita	brunnescens				pallida	Krieger			Pluteaceae	Y	N	
+AMANCECI	297	Amanita	ceciliae	(Berk. & Br.) Bas							Pluteaceae	Y	N	
+AMANCINE	299	Amanita	cinereoconia	Atkinson							Pluteaceae	Y	N	
+AMANCINECINE	300	Amanita	cinereoconia	Atkinson			cinereoconia				Pluteaceae	Y	N	
+AMANCITR	303	Amanita	citrina								Pluteaceae	Y	N	
+AMANCITRCITR	304	Amanita	citrina				citrina				Pluteaceae	Y	N	
+AMANFARI	322	Amanita	farinosa	Schw.							Pluteaceae	Y	N	
+AMANFLAV1	325	Amanita	flavoconia	G. F. Atk.							Pluteaceae	Y	N	
+AMANFLAV2	327	Amanita	flavorubescens	Atk.							Pluteaceae	Y	N	
+AMANFULV	334	Amanita	fulva	(Schff.)Seyot							Pluteaceae	Y	N	
+AMANGEMM	335	Amanita	gemmata	(Fr.) Bertil.							Pluteaceae	Y	N	
+AMANMAGN	360	Amanita	magnivelaris								Pluteaceae	Y	N	
+AMANMUSC	370	Amanita	muscaria	(L.)Pers.							Pluteaceae	Y	N	
+AMANMUSCFORM	373	Amanita	muscaria	Pers.			formosa	(Pers.:Fr.)Bertil.			Pluteaceae	Y	N	
+AMANOVOI	385	Amanita	ovoidea								Pluteaceae	Y	N	
+AMANPACH	386	Amanita	pachycolea								Pluteaceae	Y	N	
+AMANPANT	389	Amanita	pantherina	(DC.:Fr.)Kum.							Pluteaceae	Y	N	
+AMANPANTMULT	390	Amanita	pantherina				multisquamosa	(Peck) Jenkins			Pluteaceae	Y	N	
+AMANRUBE	419	Amanita	rubescens	(Pers.:Fr.) S.F. Gray							Pluteaceae	Y	N	
+AMANRUBEALBA	420	Amanita	rubescens				alba	Coker			Pluteaceae	Y	N	
+AMANSPRE	453	Amanita	spreta	(Peck) Saccardo							Pluteaceae	Y	N	
+AMANSUBP	460	Amanita	subphalloides								Pluteaceae	Y	N	
+AMANVAGI	471	Amanita	vaginata	(Bull.:Fr.) Vitt.							Pluteaceae	Y	N	
+AMANVERN	483	Amanita	verna								Pluteaceae	Y	N	
+AMANVIRO	489	Amanita	virosa	(Fr.) Bertillon in DeChambre							Pluteaceae	Y	N	
+ANELSEPU	503	Anellaria	sepulchralis								Bolbitiaceae	Y	N	
+APIOMORB	529	Apiosporina	morbosa	(Schw.) von Arx							Venturiaceae	Y	N	
+ARMI1BULB	556	Armillaria	bulbosa	(Barla) Kile & Watling							Marasmiaceae	Y	N	
+ARMI1CALV	562	Armillaria	calvescens	Berube &  Dessureault							Marasmiaceae	Y	N	
+ARMI1GALL	567	Armillaria	gallica	Marxmuller & Romagnesi							Marasmiaceae	Y	N	
+ARMI1MELL	574	Armillaria	mellea	(Vahl:Fr.) Kummer							Marasmiaceae	Y	N	
+ARMI1TABE	587	Armillaria	tabescens	(Scop.:Fr.) Emel							Marasmiaceae	Y	N	
+ARTOPYXI	1527	Artomyces	pyxidatus	(Pers. : Fr.) Jülich							Auriscalpiaceae	Y	N	
+ASTELYCO	650	Asterophora	lycoperdoides	(Bull. ex. Mer.) Dit. ex Fr.							Tricholomataceae	Y	N	
+ASTRHYGR	655	Astraeus	hygrometricus	(Pers.) Morgan							Sclerodermataceae	Y	N	
+AURI1AURI	673	Auricularia	auricula-judae	(Fr.) Schroet.							Auriculariaceae	Y	N	
+AURI7VULG	678	Auriscalpium	vulgare	S.F.Gray							Auriscalpiaceae	Y	N	
+BISPCITR	716	Bisporella	citrina	(Batsch:Fr.) Korf & Carpenter							Helotiaceae	Y	N	
+BOLBVARI	734	Bolbitius	variicolor								Bolbitiaceae	Y	N	
+BOLBVITE	736	Bolbitius	vitellinus	(Pers.:Fr.)Fr.							Bolbitiaceae	Y	N	
+BOLE1CHRY	738	Boletellus	chrysenteroides	(Snell)Sing.							Boletaceae	Y	N	
+BOLE6AURI	769	Boletus	auriporus	Peck							Boletaceae	Y	N	
+BOLE6BICO	772	Boletus	bicolor	Peck							Boletaceae	Y	N	
+BOLE6CAMP	784	Boletus	campestris	A.H. Smith & Thiers							Boletaceae	Y	N	
+BOLE6EDUL	805	Boletus	edulis	Bull.:Fr.							Boletaceae	Y	N	
+BOLE6FRAT	822	Boletus	fraternus	Pk.							Boletaceae	Y	N	
+BOLE6FROS	823	Boletus	frostii	Russell in Frost							Boletaceae	Y	N	
+BOLE6GRIS	830	Boletus	griseus	Frost in Pk.							Boletaceae	Y	N	
+BOLE6ILLU	841	Boletus	illudens	Peck							Boletaceae	Y	N	
+BOLE6INED	843	Boletus	inedulis	(Murr.)Murr.							Boletaceae	Y	N	
+BOLE6LURI3	858	Boletus	luridus	Schff.:Fr.							Boletaceae	Y	N	
+BOLE6ORNA	882	Boletus	ornatipes	Pk.							Boletaceae	Y	N	
+BOLE6PALL	885	Boletus	pallidus	Frost							Boletaceae	Y	N	
+BOLE6PARA	886	Boletus	parasiticus	Bulliard							Boletaceae	Y	N	
+BOLE6PECK	889	Boletus	peckii								Boletaceae	Y	N	
+BOLE6PSEU	899	Boletus	pseudosensibilis	Sm.&Thrs.							Boletaceae	Y	N	
+BOLE6PULV	903	Boletus	pulverulentus	Opatowski							Boletaceae	Y	N	
+BOLE6RUBE	916	Boletus	rubellus	Krombh.							Boletaceae	Y	N	
+BOLE6VERM	980	Boletus	vermiculosus	Pk.							Boletaceae	Y	N	
+BOVI1LONG	1015	Bovista	longispora								Agaricaceae	Y	N	
+BOVI1PILA	1018	Bovista	pila	Berk.& Curt.							Agaricaceae	Y	N	
+BOVI1PLUM	1019	Bovista	plumbea	Pers.:Pers.							Agaricaceae	Y	N	
+CALO1CORN	1064	Calocera	cornea	(Batsch:Fr.)Fr.							Dacrymycetaceae	Y	N	
+CALVCRAN	1090	Calvatia	craniformis	(Schw.) Fr.							Agaricaceae	Y	N	
+CALVCYAT	1092	Calvatia	cyathiformis	(Bosc) Morg.							Agaricaceae	Y	N	
+CALVCYATFRAG	1094	Calvatia	cyathiformis						fragilis	(Vitt.) Smith	Agaricaceae	Y	N	
+CALVGIGA	1105	Calvatia	gigantea	(Batsch) Lloyd							Agaricaceae	N	N	
+CALVRUBR	1115	Calvatia	rubroflava	(Cragin) Morg.							Agaricaceae	Y	N	
+CANT2CIBA	1166	Cantharellus	cibarius	Fr.							Cantharellaceae	Y	N	
+CANT2CINN	1170	Cantharellus	cinnabarinus	Schw.							Cantharellaceae	Y	N	
+CANT2IGNI	1180	Cantharellus	ignicolor	Pet.							Cantharellaceae	Y	N	
+CANT2INFU	1181	Cantharellus	infundibuliformis	(Scop.) Fr.							Cantharellaceae	Y	N	
+CANT2LATE	1183	Cantharellus	lateritius	(Berk.)Sing.							Cantharellaceae	Y	N	
+CANT2MINO	1186	Cantharellus	minor	Pk.							Cantharellaceae	Y	N	
+CANT2SUBP	1196	Cantharellus	subperforatus	A.H.Sm.							Cantharellaceae	Y	N	
+CHLO2AGAR	3263	Chlorophyllum	agaricoides	(Czern.) Vellinga							Agaricaceae	Y	N	
+CHLO2MOLY	1390	Chlorophyllum	molybdites	(Meyer:Fr.) Mass.							Agaricaceae	Y	N	
+CLAUBYSS	1457	Claudopus	byssisedus	(Pers.:Fr.) Gillet							Entolomataceae	Y	N	
+CLAV1VERM	1497	Clavaria	vermicularis	Mich.:Fr.							Clavariaceae	Y	N	
+CLAV2PIST	1506	Clavariadelphus	pistillaris	(Fr.) Donk							Gomphaceae	Y	N	
+CLAV3PURP	1521	Claviceps	purpurea	(Fr.) Tul.							Clavicipitaceae	Y	N	
+CLAV4PYXI	1527	Clavicorona	pyxidata	(Pers. : Fr.) Doty							Auriscalpiaceae	N	N	
+CLAV5CINE	1533	Clavulina	cinerea	(Bull.) J. Schröt.							Clavulinaceae	Y	N	
+CLAV5CRIS	1534	Clavulina	cristata	(Fr.) Schroet.							Clavulinaceae	Y	N	
+CLAV6CORN	1543	Clavulinopsis	corniculata	(Schaeff.:Fr.) Corner							Clavariaceae	Y	N	
+CLAV6FUSI	1545	Clavulinopsis	fusiformis	(Fries) Corner							Clavariaceae	Y	N	
+CLAV6PULC	1549	Clavulinopsis	pulchra								Clavariaceae	Y	N	
+CLIT1CLAV	1610	Clitocybe	clavipes	(Pers.:Fr.)Kum.							Tricholomataceae	Y	N	
+CLIT1DEAL	1630	Clitocybe	dealbata	(Fr.)Kum.							Tricholomataceae	Y	N	
+CLIT1GEOT	1670	Clitocybe	geotropa								Tricholomataceae	Y	N	
+CLIT1GIBB	1673	Clitocybe	gibba	(Pers.:Fr.) Kumm.							Tricholomataceae	Y	N	
+CLIT1NUDA	1742	Clitocybe	nuda	(Bull. ex Fr.) Big. & A.H.S.							Tricholomataceae	Y	N	
+CLIT1ODOR	1744	Clitocybe	odora	(Bull.:Fr.)Kum.							Tricholomataceae	Y	N	
+CLIT1PYXI	1787	Clitocybe	pyxidata	(Fr.) Singer							Tricholomataceae	Y	N	
+CLIT1REGU	1792	Clitocybe	regularis								Tricholomataceae	Y	N	
+CLIT3PRUN	1913	Clitopilus	prunulus	(Scop.:Fr.)Kum.							Entolomataceae	Y	N	
+COLL	12279	Collybia [uncertain placement]									Tricholomataceae [uncertain placement]	Y	N	
+COLLACER	4176	Collybia	acervata	(Fr.) Kummer							Omphalotaceae	N	N	
+COLLBIFO	4178	Collybia	biformis	(Peck) Singer							Omphalotaceae	N	N	
+COLLBUTY	10433	Collybia	butyracea	(Bull.:Fr.) Kummer							Omphalotaceae	N	N	
+COLLCONF	4180	Collybia	confluens	(Pers.:Fr.) Kummer							Omphalotaceae	N	N	
+COLLCOOK	1949	Collybia	cookei	(Bres.) J.D. Arnold							Tricholomataceae	Y	N	
+COLLDICH	4183	Collybia	dichrous	(Berk. & Curt.) Gilliam							Omphalotaceae	N	N	
+COLLDRYO	4184	Collybia	dryophila	(Bull.:Fr.) Kummer							Omphalotaceae	N	N	
+COLLDRYODRYO	4184	Collybia	dryophila	(Bull.:Fr.) Kummer			dryophila				Omphalotaceae	N	N	
+COLLPOLY	4202	Collybia	polyphylla	(Peck) Singer ex Halling							Omphalotaceae	N	N	
+COLLSEMI	4205	Collybia	semihirtipes	(Peck) Halling							Omphalotaceae	N	N	
+COLLSPON	4206	Collybia	spongiosa	(Berk. & Curt.) Singer							Omphalotaceae	N	N	
+COLLSUBN	4208	Collybia	subnuda	(Ellis ex Peck) Gilliam							Omphalotaceae	N	N	
+COLLSUBS2	4210	Collybia	subsulphurea	Peck							Omphalotaceae	N	N	
+COLT1CINN	1987	Coltricia	cinnamomea	(Jacq.) Murrill							Hymenochaetaceae	Y	N	
+CONIPUTE	2002	Coniophora	puteana	(Schum.:Fr.)Karst.							Coniophoraceae	Y	N	
+CONOCRIS1	2018	Conocybe	crispa	(Longyear)Sing.							Bolbitiaceae	Y	N	
+CONOLACT	2032	Conocybe	lactea	(Lange) Métrod							Bolbitiaceae	Y	N	
+CONOTENE	2054	Conocybe	tenera	(Schaeff.:Fr.) Fayod							Bolbitiaceae	Y	N	
+COPR1DISS	2093	Coprinellus	disseminatus	(Pers. : Fr.) J. E. Lange							Psathyrellaceae	Y	N	
+COPR1DOME	2094	Coprinellus	domesticus	(Bolton : Fr.) Vilgalys, Hopple &  Johnson							Psathyrellaceae	Y	N	
+COPR1EPHE2	2100	Coprinellus	ephemerus	(Bull. : Fr.) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR1HETE	2112	Coprinellus	heterosetulosus	(Watling) Vilgalys, Hopple & Johnson							Psathyrellaceae	Y	N	
+COPR1LANI	2123	Coprinellus	laniger	(Peck) 							Psathyrellaceae	Y	N	
+COPR1MICA	2130	Coprinellus	micaceus	(Bull. : Fr.) Vilgalys, Hopple & Johnson							Psathyrellaceae	Y	N	
+COPR1RADI1	2058	Coprinellus	radians	(Desm.) Vilgalys, Hopple & Johnson							Psathyrellaceae	Y	N	
+COPR1TRUN	2170	Coprinellus	truncorum	(Scop. : Fr.) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2ATRA	2074	Coprinopsis	atramentaria	(Bull. : Fr.) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2CINE	2085	Coprinopsis	cinerea	(Schaeff. : Fr.) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2INSI	2116	Coprinopsis	insignis	(Peck) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2LAGO2	2122	Coprinopsis	lagopus	(Fr. : Fr.) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2RADI2	2146	Coprinopsis	radiata	(Bolton) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2ROMA	2147	Coprinopsis	romagnesiana	(Singer) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR2VARI	2061	Coprinopsis	variegata	(Peck) Redhead, Vilgalys & Moncalvo							Psathyrellaceae	Y	N	
+COPR3	12278	Coprinus  [uncertain placement]									Coprinaceae [uncertain placement]	Y	N	
+COPR3ATRA	2074	Coprinus	atramentarius	(Bull. : Fr.) Fr.							Psathyrellaceae	N	N	
+COPR3CINE	2085	Coprinus	cinereus	(Schaeff.:Fr.) S.F.Gray							Psathyrellaceae	N	N	
+COPR3COMA	2086	Coprinus	comatus	(O. F. Müll. : Fr.) Pers.							Agaricaceae	Y	N	
+COPR3DISS	2093	Coprinus	disseminatus	(Pers.:Fr.) S.F. Gray							Psathyrellaceae	N	N	
+COPR3DOME	2094	Coprinus	domesticus								Psathyrellaceae	N	N	
+COPR3EBUL	2061	Coprinus	ebulbosus	Peck							Psathyrellaceae	N	N	
+COPR3EPHE2	2100	Coprinus	ephemerus	(Bull.:Fr.)Fr.							Psathyrellaceae	N	N	
+COPR3HETE	2112	Coprinus	heterosetulosus	Watling							Psathyrellaceae	N	N	
+COPR3INSI	2116	Coprinus	insignis	Peck							Psathyrellaceae	N	N	
+COPR3LAGO2	2122	Coprinus	lagopus	(Fr. : Fr.) Fr.							Psathyrellaceae	N	N	
+COPR3LANI	2123	Coprinus	laniger	Peck							Psathyrellaceae	N	N	
+COPR3MICA	2130	Coprinus	micaceus	(Bull. : Fr.) Fr.							Psathyrellaceae	N	N	
+COPR3OVAT	2086	Coprinus	ovatus	(Schaeff.) Fr.							Agaricaceae	N	N	
+COPR3PLIC	2142	Coprinus	plicatilis	(Curtis : Fr.) Fr.							Psathyrellaceae	N	N	
+COPR3QUAD	2061	Coprinus	quadrifidus	Peck							Psathyrellaceae	N	N	
+COPR3RADI1	2058	Coprinus	radians	(Desm.) Fr.							Psathyrellaceae	N	N	
+COPR3RADI2	2146	Coprinus	radiatus								Psathyrellaceae	N	N	
+COPR3ROMA	2147	Coprinus	romagnesianus	Singer							Psathyrellaceae	N	N	
+COPR3TRUN	2170	Coprinus	truncorum								Psathyrellaceae	N	N	
+COPR3VARI	2061	Coprinus	variegatus	Peck							Psathyrellaceae	N	N	
+CORD2OPHI	2197	Cordyceps	ophioglossoides	(Fr.)Link							Clavicipitaceae	Y	N	
+CORT2ALBO2	2234	Cortinarius	alboviolaceus	(Pers.:Fr.)Fr.							Cortinariaceae	Y	N	
+CORT2ARMI	2253	Cortinarius	armillatus	(Alb. & Schwein.) Fr.							Cortinariaceae	Y	N	
+CORT2AUTU	2268	Cortinarius	autumnalis	Peck							Cortinariaceae	Y	N	
+CORT2CAER	2291	Cortinarius	caerulescens								Cortinariaceae	Y	N	
+CORT2CLAR	2329	Cortinarius	claricolor								Cortinariaceae	Y	N	
+CORT2GENT1	2407	Cortinarius	gentilis	(Fr.) Fr.							Cortinariaceae	Y	N	
+CORT2IODE2	2444	Cortinarius	iodes	Berk.& Curt.							Cortinariaceae	Y	N	
+CORT2LILA	2460	Cortinarius	lilacinus	Pk.							Cortinariaceae	Y	N	
+CORT2MACU	2469	Cortinarius	maculipes	Peck							Cortinariaceae	Y	N	
+CORT2VIOL	2669	Cortinarius	violaceus	(Fr.)S.F.Gray							Cortinariaceae	Y	N	
+CRAT2CORN	2694	Craterellus	cornucopioides	(Fr.)Pers.							Cantharellaceae	Y	N	
+CRAT2FALL	2698	Craterellus	fallax	A.H. Sm.							Cantharellaceae	Y	N	
+CREPAPPL	2724	Crepidotus	applanatus	(Pers.) Kumm.							Cortinariaceae	Y	N	
+CREPCALO2	2737	Crepidotus	calolepis								Cortinariaceae	Y	N	
+CREPCROC2	2751	Crepidotus	crocophyllus	(Berk.)Sacc.							Cortinariaceae	Y	N	
+CREPFULV1	2765	Crepidotus	fulvifibrillosus								Cortinariaceae	Y	N	
+CREPFULV2	2766	Crepidotus	fulvotomentosus								Cortinariaceae	Y	N	
+CREPMALAMALA	2795	Crepidotus	malachius				malachius	(Berk. & M.A.Curtis) Sacc.			Cortinariaceae	Y	N	
+CREPMOLL2	2804	Crepidotus	mollis	(Schaeff.) Fr.							Cortinariaceae	Y	N	
+CREPSUBA1	2840	Crepidotus	subapplanatus	Hesler & Smith							Cortinariaceae	Y	N	
+CREPSUBM	2848	Crepidotus	submollis	Murrill							Cortinariaceae	Y	N	
+CREPVERS	2869	Crepidotus	versutus	Peck							Cortinariaceae	Y	N	
+CREPWAKE	2874	Crepidotus	wakefieldiae	Pilát							Cortinariaceae	Y	N	
+CRINSETI	2893	Crinipellis	setipes	(Peck) Singer							Marasmiaceae	Y	N	
+CRINZONA	2900	Crinipellis	zonata	(PecK) Patouillard							Marasmiaceae	Y	N	
+CRUCLAEV	2905	Crucibulum	laeve	(Bull.:DC.) Kambly							Nidulariaceae	Y	N	
+CYAT2STRI	2935	Cyathus	striatus	(Huds.) Willd. per Pers.							Nidulariaceae	Y	N	
+CYST2AMIAAMIA	2961	Cystoderma	amianthinum				amianthinum				Tricholomataceae	Y	N	
+CYST2GRAN2	2976	Cystoderma	granulosum	(Batsch:Fr.) Fayod							Tricholomataceae	Y	N	
+DACR1CHRY	3010	Dacrymyces	chrysospermus								Dacrymycetaceae	Y	N	
+DACR1DELI	3011	Dacrymyces	deliquescens	(Bull.) Duby							Dacrymycetaceae	Y	N	
+DACR1PALM	3014	Dacrymyces	palmatus	(Schw.)Bres.							Dacrymycetaceae	Y	N	
+DACR3SPAT	3019	Dacryopinax	spathularia	(Fr.)?							Dacrymycetaceae	Y	N	
+DAED1QUER	3020	Daedalea	quercina	L.:Fr.							Fomitopsidaceae	Y	N	
+DAED2CONF	3021	Daedaleopsis	confragosa	(Bolt.:Fr.)Schroet.							Polyporaceae	Y	N	
+DALDCONC	3023	Daldinia	concentrica	(Bolt.:Fr.)Ces.& DeNot.							Xylariaceae	Y	N	
+DALDGRAN	3024	Daldinia	grandis								Xylariaceae	Y	N	
+DALDVERN	3025	Daldinia	vernicosa								Xylariaceae	Y	N	
+DASY2VIRG1	3037	Dasyscyphus	virgineus	(Batsch) Gray							Hyaloscyphaceae	N	N	
+DEND3NIVO	3050	Dendrothele	nivosa	(Ber, & M.A. Curtis ex Höhn, and Litsch) P.A. Lemke							Corticiaceae	Y	N	
+DOASRANU	3206	Doassansia	ranunculina	Davis							Doassansiaceae	Y	N	
+DOASZIZA	3207	Doassansia	zizaniae	Davis							Doassansiaceae	Y	N	
+ENDO2AGAR	3263	Endoptychum	agaricoides	Czerniaiev							Agaricaceae	N	N	
+ENTO1ABOR	3271	Entoloma	abortivum	(Berk.& Curt.)Donk							Entolomataceae	Y	N	
+ENTO1DIMI	3331	Entoloma	diminutivum								Entolomataceae	Y	N	
+ENTO1INCA	3365	Entoloma	incana	(Fr.) Quél.							Entolomataceae	Y	N	
+ENTO1SERI	3443	Entoloma	sericatum	Britz.							Entolomataceae	Y	N	
+EXIDGLAN	3531	Exidia	glandulosa	Bull.:Fr.							Exidiaceae	Y	N	
+EXIDRECI	3533	Exidia	recisa	Fr.							Exidiaceae	Y	N	
+EXOBVACC	3537	Exobasidium	vaccinii	(Fkl.)Woronin							Exobasidiaceae	Y	N	
+FLAM2VELU	3554	Flammulina	velutipes	(Fries) Karsten							Marasmiaceae	Y	N	
+GALE2AUTU	3617	Galerina	autumnalis	(Peck) A.H. Sm. & Singer							Cortinariaceae	Y	N	
+GALE2MARG	3705	Galerina	marginata	(Batsch:Secr.)Kuehn.							Cortinariaceae	Y	N	
+GALE2UNIC	3806	Galerina	unicolor	(Fr.) Singer							Cortinariaceae	Y	N	
+GALIRUFA	3825	Galiella	rufa	(Schw.)Nannf.& Korf							Sarcosomataceae	Y	N	
+GANOAPPL	3826	Ganoderma	applanatum	(Pers.) Pat.							Ganodermataceae	Y	N	
+GANOLOBA	3828	Ganoderma	lobatum	(Schw.) Atk.							Ganodermataceae	Y	N	
+GANOLUCI	3829	Ganoderma	lucidum	(W. Curt.:Fr.) Karst.							Ganodermataceae	Y	N	
+GAST2LATE	3842	Gastrocybe	lateritia	Watling							Bolbitiaceae	Y	N	
+GEASCAMP	3857	Geastrum	campestre								Geastraceae	Y	N	
+GEASMINI	3866	Geastrum	minimum								Geastraceae	Y	N	
+GEASPECT	3867	Geastrum	pectinatum								Geastraceae	Y	N	
+GEASSACC	3874	Geastrum	saccatum	Fr.							Geastraceae	Y	N	
+GEASTRIP	3879	Geastrum	triplex	Junghuhn							Geastraceae	Y	N	
+GEASVULG	3873	Geastrum	rufescens	Persoon							Geastraceae	Y	N	
+GEOGDIFF	3894	Geoglossum	difforme	Fr.							Geoglossaceae	Y	N	
+GLOE3DICH	3936	Gloeoporus	dichrous	(Fr.) Bres.							Meruliaceae	Y	N	
+GRIFFRON	4025	Grifola	frondosa	(Dicks.:Fr.) S.F. Gray							Meripilaceae	Y	N	
+GYMN3AERU2	4037	Gymnopilus	aeruginosus								Cortinariaceae	Y	N	
+GYMN3LIQU	4105	Gymnopilus	liquiritiae	(Pers.:Fr.)Karst.							Cortinariaceae	Y	N	
+GYMN3LUTE1	4109	Gymnopilus	luteofolius								Cortinariaceae	Y	N	
+GYMN3MAGN2	4115	Gymnopilus	magnus	(Peck) Murrill							Cortinariaceae	Y	N	
+GYMN3PENE	4131	Gymnopilus	penetrans	(Fr.:Fr.) Murr.							Cortinariaceae	Y	N	
+GYMN3SAPI	4147	Gymnopilus	sapineus	(Fr.)Maire							Cortinariaceae	Y	N	
+GYMN3SPEC	4150	Gymnopilus	spectabilis	(Fr.) A.H. Smith							Cortinariaceae	Y	N	
+GYMN4ACER	4176	Gymnopus	acervatus	(Fries) Murrill							Omphalotaceae	Y	N	
+GYMN4BIFO	4178	Gymnopus	biformis	(Peck) Halling							Omphalotaceae	Y	N	
+GYMN4CONF	4180	Gymnopus	confluens	(Pers.:Fr.) Antonín et al.							Omphalotaceae	Y	N	
+GYMN4DICH	4183	Gymnopus	dichrous	(Berk. & Curt.) Halling							Omphalotaceae	Y	N	
+GYMN4DRYO	4184	Gymnopus	dryophilus	(Bull.:Fr.) Murrill							Omphalotaceae	Y	N	
+GYMN4POLY	4202	Gymnopus	polyphyllus	(Peck) Halling							Omphalotaceae	Y	N	
+GYMN4SEMI	4205	Gymnopus	semihirtipes	(Peck) Halling							Omphalotaceae	Y	N	
+GYMN4SPON	4206	Gymnopus	spongiosus	(Berk. & Curt.) Halling							Omphalotaceae	Y	N	
+GYMN4SUBN	4208	Gymnopus	subnudus	(Ellis ex Peck) Halling							Omphalotaceae	Y	N	
+GYMN4SUBS2	4210	Gymnopus	subsulphureus	(Peck) Murrill							Omphalotaceae	Y	N	
+GYRO1MERU	4231	Gyrodon	merulioides	(Schw.) Singer							Paxillaceae	Y	N	
+GYRO2CAST	4249	Gyroporus	castaneus	(Bull.:Fr.) Quél.							Gyroporaceae	Y	N	
+GYRO2CYAN	4250	Gyroporus	cyanescens	(Bulliard:Fr.) Quélet							Gyroporaceae	Y	N	
+GYRO2CYANCYAN	4251	Gyroporus	cyanescens				cyanescens				Gyroporaceae	Y	N	
+GYRO2CYANVIOL	4252	Gyroporus	cyanescens	(Bull.:Fr.) Quélet			violaceotinctus	Watling			Gyroporaceae	Y	N	
+GYRO2PURP	4254	Gyroporus	purpurinus	(Snell)Sing.							Gyroporaceae	Y	N	
+GYRO3CARO	4239	Gyromitra	caroliniana								Discinaceae	Y	N	
+GYRO3INFU	4243	Gyromitra	infula	(Schaeff.:Fr.) Quélet							Discinaceae	Y	N	
+HAPANIDU	4261	Hapalopilus	nidulans	(Fr.) Karst.							Hapalopilaceae	Y	N	
+HEBECRUS	4303	Hebeloma	crustuliniforme	(Bull.) Quél.							Bolbitiaceae	Y	N	
+HEBESACC	4410	Hebeloma	sacchariolens								Bolbitiaceae	Y	N	
+HEBESARC	4413	Hebeloma	sarcophyllum								Bolbitiaceae	Y	N	
+HEBESYRJ	4439	Hebeloma	syrjense	P. Karst.							Bolbitiaceae	Y	N	
+HELVACET	4493	Helvella	acetabulum	(Fr.) Quél.							Helvellaceae	Y	N	
+HELVATRA	4498	Helvella	atra	Homskj.:Fr.							Helvellaceae	Y	N	
+HELVCRIS	4504	Helvella	crispa	Fr.							Helvellaceae	Y	N	
+HELVELAS	4506	Helvella	elastica	Bull.:Fr.							Helvellaceae	Y	N	
+HELVLACT	4513	Helvella	lactea	Boud.							Helvellaceae	Y	N	
+HERICORA	4562	Hericium	coralloides	(Scop.:Fr.) Pers.							Hericiaceae	Y	N	
+HOHEALAC	4584	Hohenbuehelia	alachuana								Pleurotaceae	Y	N	
+HOHEATRO	4587	Hohenbuehelia	atrocaerulea	(Fr.:Fr.) Singer							Pleurotaceae	Y	N	
+HOHEPETA	4599	Hohenbuehelia	petaloides	(Bull.:Fr.)Schulz.							Pleurotaceae	Y	N	
+HUMA1HEMI	4626	Humaria	hemisphaerica	(Wigg.:Fr.)Fkl.							Pyronemataceae	Y	N	
+HYDN2AURA	4668	Hydnellum	aurantiacum	(Batsch:Fr.) Karst.							Bankeraceae	Y	N	
+HYDN2FERR	4685	Hydnellum	ferrugipes								Bankeraceae	Y	N	
+HYDN2SPON	4700	Hydnellum	spongiosipes	(Peck) Pouz.							Bankeraceae	Y	N	
+HYDN4OLIV	4706	Hydnochaete	olivacea	(Schw.) Bank.							Hymenochaetaceae	Y	N	
+HYDN9REPA	4730	Hydnum	repandum	L.:Fr.							Hydnaceae	Y	N	
+HYDR2FLOC	4752	Hydropus	floccipes								Tricholomataceae	Y	N	
+HYGR2CANT	4783	Hygrocybe	cantharellus	(Schw.:Fr.) Murrill							Tricholomataceae	Y	N	
+HYGR2CERA	4784	Hygrocybe	ceracea								Tricholomataceae	Y	N	
+HYGR2CHLO	4785	Hygrocybe	chlorophana	(Fr.) Wünsche							Tricholomataceae	Y	N	
+HYGR2CONI	4788	Hygrocybe	conica	(Scop.:Fr.) Kumm.							Tricholomataceae	Y	N	
+HYGR2LAET1	4796	Hygrocybe	laeta	(Pers.:Fr.) Kumm.							Tricholomataceae	Y	N	
+HYGR2MINI	4807	Hygrocybe	miniata								Tricholomataceae	Y	N	
+HYGR2PSIT	4818	Hygrocybe	psittacina	(Schaeff.:Fr.) Wünsche							Tricholomataceae	Y	N	
+HELVMACR	4520	Helvella	macropus	(Pers.:Fr.) Karst.							Helvellaceae	Y	N	
+HELVMITR	4524	Helvella	mitra	Morse							Helvellaceae	Y	N	
+HYGR2PUNI	4820	Hygrocybe	punicea	(Fr.) Kumm.							Tricholomataceae	Y	N	
+HYGR2UNGU	4835	Hygrocybe	unguinosa	(Fr.) Karst.							Tricholomataceae	Y	N	
+HYGR2VIRG	4837	Hygrocybe	virginea	(Wulf.:Fr.) Ort. & Watl.							Tricholomataceae	Y	N	
+HYGR3AURA	4840	Hygrophoropsis	aurantiaca	(Wulf.:Fr.) Maire							Hygrophoropsidaceae	Y	N	
+HYGR4BORE	4886	Hygrophorus	borealis	Peck							Tricholomataceae	Y	N	
+HYGR4EBUR2	4929	Hygrophorus	eburneus	(Bull.:Fr.) Fr.							Tricholomataceae	Y	N	
+HYGR4FULI	4949	Hygrophorus	fuligineus	Frost							Tricholomataceae	Y	N	
+HYGR4SORD2	5100	Hygrophorus	sordidus								Tricholomataceae	Y	N	
+HYPH4SUBL	5272	Hypholoma	sublateritium	(Cooke) Sacc.							Strophariaceae	Y	N	
+HYPO2AVEL	5284	Hypocrea	avellanea								Hypocreaceae	Y	N	
+HYPO5CHRY	5310	Hypomyces	chrysospermus	Tul. & C. Tul.							Hypocreaceae	Y	N	
+HYPO5HYAL	5312	Hypomyces	hyalinus	(Schw.:Fr.) Tul.							Hypocreaceae	Y	N	
+HYPO5LACT	5313	Hypomyces	lactifluorum	(Schwein.) Tul. & C. Tul.							Hypocreaceae	Y	N	
+HYPO5LUTE	5316	Hypomyces	luteovirens	(Fr.)Tul.							Hypocreaceae	Y	N	
+HYPO6ANNU	5333	Hypoxylon	annulatum	(Schwein. : Fr.) Mont.							Xylariaceae	Y	N	
+HYPO6FUSC	5339	Hypoxylon	fuscum	(Pers.:Fr.)Fr.							Xylariaceae	Y	N	
+HYPO6RUBI	5350	Hypoxylon	rubiginosum	(Pers.:Fr.) Fr.							Xylariaceae	Y	N	
+HYPO6SERP	5351	Hypoxylon	serpens								Xylariaceae	Y	N	
+HYPSTESS	5355	Hypsizygus	tessulatus	(Bull.:Fr.) Singer							Tricholomataceae	Y	N	
+INOC2ASTE	5404	Inocybe	asterospora	Quélet							Cortinariaceae	Y	N	
+INOC2CAES	5417	Inocybe	caesariata	(Fr.) Karst.							Cortinariaceae	Y	N	
+INOC2CALO	5419	Inocybe	calospora	Quel.							Cortinariaceae	Y	N	
+INOC2DECI2	5441	Inocybe	decipientoides	Peck							Cortinariaceae	Y	N	
+INOC2EUTH1	5451	Inocybe	eutheles	(Berk. & Br.) Sacc.							Cortinariaceae	Y	N	
+INOC2FIBR1	5456	Inocybe	fibrillosa								Cortinariaceae	Y	N	
+INOC2GEOP	5468	Inocybe	geophylla	(Sow.:Fr.) Kummer							Cortinariaceae	Y	N	
+INOC2LANU2	5503	Inocybe	lanuginosa	(Bull.:Fr.)Kum.							Cortinariaceae	Y	N	
+INOC2MACU	5515	Inocybe	maculata	Boud.							Cortinariaceae	Y	N	
+INOC2PALL2	5542	Inocybe	pallidipes	Ellis & Everh.							Cortinariaceae	Y	N	
+INOC2PYRI	5558	Inocybe	pyriodora	Fr.							Cortinariaceae	Y	N	
+INOC2RADI	5559	Inocybe	radiata	Peck							Cortinariaceae	Y	N	
+INOC2RIMO1	5564	Inocybe	rimosa	(Bull: Fr.) Kummer							Cortinariaceae	Y	N	
+INOC2SUBF1	5592	Inocybe	subfulva	Peck							Cortinariaceae	Y	N	
+INONRHEA	5639	Inonotus	rheades	(Pers.) Bondarzew & Singer							Hymenochaetaceae	Y	N	
+IRPELACT	5645	Irpex	lacteus	(Fr.:Fr.) Fr.							Steccherinaceae	Y	N	
+ISCHRESI	5651	Ischnoderma	resinosum	(Fr.) Karst.							Hapalopilaceae	Y	N	
+JAFNSEMI	5655	Jafnea	semitosta	(Berk. & Curtis) Korf							Pyronemataceae	Y	N	
+JUNGNITI	5658	Junghuhnia	nitida	(Pers.) Ryvarden							Steccherinaceae	Y	N	
+KUEHROST	5669	Kuehneromyces	rostratus	Singer & A.H.Sm.							Strophariaceae	Y	N	
+LACCAMET2	5673	Laccaria	amethystina	Cooke							Hydnangiaceae	Y	N	
+LACCBICO	5674	Laccaria	bicolor	(Maire) Orton							Hydnangiaceae	Y	N	
+LACCLACC	5678	Laccaria	laccata	(Scop.:Fr.) Cooke							Hydnangiaceae	Y	N	
+LACCLACCPALL	5679	Laccaria	laccata	(Scop.:Fr.) Cooke			pallidifolia	(Peck) Peck			Hydnangiaceae	Y	N	
+LACCOCHR	5688	Laccaria	ochropurpurea	(Berk.) Peck							Hydnangiaceae	Y	N	
+LACCTORT	5694	Laccaria	tortilis	(Bolt.) Cooke							Hydnangiaceae	Y	N	
+LACH2VIRG1	3037	Lachnella	virginea	(Batsch) W. Phillips							Hyaloscyphaceae	N	N	
+LACH4VIRG1	3037	Lachnum	virgineum	(Batsch) P. Karst.							Hyaloscyphaceae	Y	N	
+LACT2AQUI2	5746	Lactarius	aquizonatus	Kytövuori							Russulaceae	Y	N	
+LACT2ARGI	5749	Lactarius	argillaceifolius	Hesler &  A.H. Smith							Russulaceae	Y	N	
+LACT2CAMP	5781	Lactarius	camphoratus	(Bull.:Fr.) Fr.							Russulaceae	Y	N	
+LACT2CHRY	5789	Lactarius	chrysorheus	Fr.							Russulaceae	Y	N	
+LACT2CINE	5791	Lactarius	cinereus	Pk.							Russulaceae	Y	N	
+LACT2FUMO3	5848	Lactarius	fumosus	Pk.							Russulaceae	Y	N	
+LACT2GRIS	5867	Lactarius	griseus	Peck							Russulaceae	Y	N	
+LACT2HYGR	5877	Lactarius	hygrophoroides	Berk. & Curt.							Russulaceae	Y	N	
+LACT2LIGN2	5908	Lactarius	lignyotus	Fr. in Lindbl.							Russulaceae	Y	N	
+LACT2MUTA	5942	Lactarius	mutabilis	Peck							Russulaceae	Y	N	
+LACT2PERG	5982	Lactarius	pergamenus	Fr.							Russulaceae	Y	N	
+LACT2PIPE	5989	Lactarius	piperatus	(L.:Fr.) Persoon							Russulaceae	Y	N	
+LACT2PSAM	5998	Lactarius	psammicola	A. H. Smith							Russulaceae	Y	N	
+LACT2QUIE2	6025	Lactarius	quietus	(Fr.) Fr.							Russulaceae	Y	N	
+LACT2SUBS1	6080	Lactarius	subserifluus	Longyear							Russulaceae	Y	N	
+LACT2UVID	6111	Lactarius	uvidus	(Fr.)Fr.							Russulaceae	Y	N	
+LACT2VELL	6117	Lactarius	vellereus	(Fr.)Fr.							Russulaceae	Y	N	
+LACT2VINA2	6125	Lactarius	vinaceorufescens	A. H. Smith							Russulaceae	Y	N	
+LACT2VOLE	6129	Lactarius	volemus	(Fr.) Fr.							Russulaceae	Y	N	
+LACT2ZONA2	6141	Lactarius	zonarius	(St. Amans) Fries sensu Neuhoff							Russulaceae	Y	N	
+LAET2CINC	6150	Laetiporus	cincinnatus	(Morgan) Banik, Burdsall & Volk							Polyporaceae	Y	N	
+LAET2SULP	6153	Laetiporus	sulphureus	(Bull.:Fr.) Murr.							Polyporaceae	Y	N	
+LANGGIGA	1105	Langermannia	gigantea	(Batsch) Rostk.							Agaricaceae	Y	N	
+LASI1EQUI	6169	Lasiobolus	equinus	(Mull.) Karst.							Ascodesmidaceae	Y	N	
+LECCHOLO	6229	Leccinum	holopus	(Rostk.) Watl.							Boletaceae	Y	N	
+LECCHOLOAMER	6230	Leccinum	holopus				americanum				Boletaceae	Y	N	
+LECCINSI	6238	Leccinum	insigne	A.H. Smith, Thiers. & Watl.							Boletaceae	Y	N	
+LECCRUGO	6276	Leccinum	rugosiceps	(Pk.)Sing.							Boletaceae	Y	N	
+LECCSCAB	6277	Leccinum	scabrum	(Bull.:Fr.)S.F.Gray							Boletaceae	Y	N	
+LENT1MICH	6306	Lentaria	micheneri								Gomphaceae	Y	N	
+LENT2CAST	6312	Lentinellus	castoreus	(Fr.) Kuhner and Maire							Auriscalpiaceae	Y	N	
+LENT2COCH	6313	Lentinellus	cochleatus	(Pers.:Fr.) Karsten							Auriscalpiaceae	Y	N	
+LENT2URSI	6321	Lentinellus	ursinus	(Fr.) Kühner							Auriscalpiaceae	Y	N	
+LENT2VULP	6322	Lentinellus	vulpinus	(Sow.:Fr.) Kühner & Maire							Auriscalpiaceae	Y	N	
+LENT4PELL	6344	Lentinus	pelliculosus								Polyporaceae	Y	N	
+LENT4TIGR	6354	Lentinus	tigrinus	(Bull.:Fr.) Fr.							Polyporaceae	Y	N	
+LEOTLUBR	6361	Leotia	lubrica	Pers.:Fr.							Leotiaceae	Y	N	
+LEOTSTIP	6362	Leotia	stipitata								Leotiaceae	Y	N	
+LEPI2ACUT	6366	Lepiota	acutesquamosa	(Weinm.) Kumm.							Agaricaceae	Y	N	
+LEPI2CLYP1	6391	Lepiota	clypeolaria	(Bull.) Quél							Agaricaceae	Y	N	
+LEPI2COER	6393	Lepiota	coerulescens								Agaricaceae	Y	N	
+LEPI2CRIS2	6399	Lepiota	cristata	(Alb. & Schwein.) P. Kumm.							Agaricaceae	Y	N	
+LEPI2FELI	6413	Lepiota	felina	(Pers.:Fr.) Karst.							Agaricaceae	Y	N	
+LEPI2FISC	6414	Lepiota	fischeri	Kauffman							Agaricaceae	Y	N	
+LEPI2FRIE	6419	Lepiota	friesii	(Lasch) Quélet							Agaricaceae	Y	N	
+LEPI2JOSS	6436	Lepiota	josserandii	Bonorden & Boiffard							Agaricaceae	Y	N	
+LEPT2GRAC	6576	Leptonia	gracilipes	Pk.							Entolomataceae	Y	N	
+LEUC1NAUC	6714	Leucoagaricus	naucinus	(Fr.) Singer							Agaricaceae	Y	N	
+LEUC1RUBR	6715	Leucoagaricus	rubrotinctus	(Peck) Singer							Agaricaceae	Y	N	
+LEUC2BEEL	6719	Leucocoprinus	beelii								Agaricaceae	Y	N	
+LEUC2BIRN	6720	Leucocoprinus	birnbaumii	(Corda) Singer							Agaricaceae	Y	N	
+LEUC2CEPA	6721	Leucocoprinus	cepaestipes	(Sowerby:Fr.) Pat. Lange							Agaricaceae	Y	N	
+LEUC5ALBI2	6738	Leucopaxillus	albissimus	(Pk.)Sing.							Tricholomataceae	Y	N	
+LEUC5CERE	6751	Leucopaxillus	cerealis								Tricholomataceae	Y	N	
+LEUC5GRAC	6755	Leucopaxillus	gracillimus								Tricholomataceae	Y	N	
+LIMAGLIS	6779	Limacella	glischra	(Morg.)Murr.							Amanitaceae	Y	N	
+LYCO2ECHI	6830	Lycoperdon	echinatum	Pers.:Pers.							Agaricaceae	Y	N	
+LYCO2MARG	6846	Lycoperdon	marginatum	Vitt. in Moris & DeNot.							Agaricaceae	Y	N	
+LYCO2PECK	6854	Lycoperdon	peckii	Morgan							Agaricaceae	Y	N	
+LYCO2PERL	6856	Lycoperdon	perlatum	Pers.							Agaricaceae	Y	N	
+LYCO2PULC	6860	Lycoperdon	pulcherrimum								Agaricaceae	Y	N	
+LYCO2PYRI	6861	Lycoperdon	pyriforme	Schff.:Pers.							Agaricaceae	Y	N	
+LYCO2UMBR	6868	Lycoperdon	umbrinum	Pers.							Agaricaceae	Y	N	
+LYOPDECA	6889	Lyophyllum	decastes	(Fr.:Fr.) Sing.							Tricholomataceae	Y	N	
+MARA1NIGR1	11518	Marasmiellus	nigripes	(Schwein.) Singer							Marasmiaceae	N	N	
+MARA1NIGR1NIGR1	11518	Marasmiellus	nigripes	(Schwein.) Singer			nigripes				Marasmiaceae	N	N	
+MARA2	12294	Marasmius									Marasmiaceae	Y	N	
+MARA2ANDR	7067	Marasmius	androsaceus	(Fr.)Fr.							Marasmiaceae	Y	N	
+MARA2CAPI	7092	Marasmius	capillaris	Morgan							Marasmiaceae	Y	N	
+MARA2COHA	7104	Marasmius	cohaerens	(Fr.)Cke.& Quél.							Marasmiaceae	Y	N	
+MARA2DELE	7123	Marasmius	delectans	Morgan							Marasmiaceae	Y	N	
+MARA2EPIP	7129	Marasmius	epiphyllus								Marasmiaceae	Y	N	
+MARA2GRAM	7144	Marasmius	graminum	(Lib.) Berk.							Marasmiaceae	Y	N	
+MARA2LEPT	7168	Marasmius	leptopus								Marasmiaceae	Y	N	
+MARA2OREA	7197	Marasmius	oreades	(Bolton) Fr.							Marasmiaceae	Y	N	
+MARA2PULC	7217	Marasmius	pulcherripes	Peck							Marasmiaceae	Y	N	
+MARA2RESI	7227	Marasmius	resinosus								Marasmiaceae	Y	N	
+MARA2ROTU	7231	Marasmius	rotula	(Scop.:Fr.)Fr.							Marasmiaceae	Y	N	
+MARA2SCOR	7239	Marasmius	scorodonius	(Fr.)Fr.							Marasmiaceae	Y	N	
+MARA2SICC	7244	Marasmius	siccus	(Schw.)Fr.							Marasmiaceae	Y	N	
+MARA2STRI	7257	Marasmius	strictipes	(Peck) Singer							Marasmiaceae	Y	N	
+MARA2SULL	7266	Marasmius	sullivantii	Mont.							Marasmiaceae	Y	N	
+MEGAPLAT	7303	Megacollybia	platyphylla	(Pers.:Fr.) Kotl. & Pouz.							Tricholomataceae	Y	N	
+MELA3ALBO	7326	Melanoleuca	alboflavida	(Peck) Murr.							Tricholomataceae	Y	N	
+MELA6ECHI	7370	Melanophyllum	echinatum	(Roth ex Fr.) Sing.							Agaricaceae	Y	N	
+MICR1OLIV	7415	Microglossum	olivaceum	(Pers.:Fr.)Gill.							Geoglossaceae	Y	N	
+MICR1RUFU	7416	Microglossum	rufum	(Schw.)Underw.							Geoglossaceae	Y	N	
+MICR2PERF	7425	Micromphale	perforans	(Fr.)Sing.							Marasmiaceae	Y	N	
+MICR7COOK	1949	Microcollybia	cookei	(Bres.) Lennox							Tricholomataceae	N	N	
+MOLLMELA	7450	Mollisia	melaleuca								Dermateaceae	Y	N	
+MORCANGU1	7462	Morchella	angusticeps								Morchellaceae	Y	N	
+MORCCRAS1	7468	Morchella	crassipes	Pers. ex Fr.							Morchellaceae	Y	N	
+MORCDELI	7470	Morchella	deliciosa								Morchellaceae	Y	N	
+MORCESCU	7472	Morchella	esculenta	L. ex Fr.							Morchellaceae	Y	N	
+MORCSEMI	7476	Morchella	semilibera	(DC:Fr.) Lév.							Morchellaceae	Y	N	
+MULTMUCI	7494	Multiclavula	mucida	(Fr.) Petersen							Clavariaceae	Y	N	
+MUTIELEG	7498	Mutinus	elegans	(Montagne) Fischer							Phallaceae	Y	N	
+MUTIRAVE	7499	Mutinus	ravenelii	(Berk.& Curt.) Fischer							Phallaceae	Y	N	
+MYCE1ACIC	7503	Mycena	acicula	(Schaeff.) Fr.							Tricholomataceae	Y	N	
+MYCE1ALBI1	7508	Mycena	albiceps								Tricholomataceae	Y	N	
+MYCE1ALCA1	7513	Mycena	alcalina	(Fr.:Fr.) Kummer							Tricholomataceae	Y	N	
+MYCE1CAPI1	7549	Mycena	capillaripes	Pk.							Tricholomataceae	Y	N	
+MYCE1CHLO3	7559	Mycena	chlorinella								Tricholomataceae	Y	N	
+MYCE1CORT3	7586	Mycena	corticola	(Schumach) Quél.							Tricholomataceae	Y	N	
+MYCE1EPIP1	7607	Mycena	epipterygia	(Scop.:Fr.)S.F.Gray							Tricholomataceae	Y	N	
+MYCE1GALE	7633	Mycena	galericulata	(Fr.) S.F.Gray							Tricholomataceae	Y	N	
+MYCE1HAEM	7645	Mycena	haematopus	(Pers.:Fr.)Kum.							Tricholomataceae	Y	N	
+MYCE1HEMI	7649	Mycena	hemisphaerica	Peck							Tricholomataceae	Y	N	
+MYCE1INCL	7657	Mycena	inclinata	(Fr.) Quél.							Tricholomataceae	Y	N	
+MYCE1LEAI	7672	Mycena	leaiana	(Berk.)Sacc.							Tricholomataceae	Y	N	
+MYCE1LUTE3	7686	Mycena	luteopallens	(Peck) Saccardo							Tricholomataceae	Y	N	
+MYCE1OLIDAMER	7719	Mycena	olida				americana	A.H.Sm.			Tricholomataceae	Y	N	
+MYCE1PARA	7727	Mycena	parabolica								Tricholomataceae	Y	N	
+MYCE1PRAE2	7745	Mycena	praelonga								Tricholomataceae	Y	N	
+MYCE1PSEU6	7753	Mycena	pseudoinclinata	A. H. Smith							Tricholomataceae	Y	N	
+MYCE1PURA	7762	Mycena	pura	(Pers.) Sacc.							Tricholomataceae	Y	N	
+MYCE1SANG	7784	Mycena	sanguinolenta	(Alb.& Schw.:Fr.)Kum.							Tricholomataceae	Y	N	
+MYCE1SUBC1	7803	Mycena	subcaerulea	Peck							Tricholomataceae	Y	N	
+MYCE1VITI	7847	Mycena	vitilis								Tricholomataceae	Y	N	
+MYCE2CORI	7852	Mycenastrum	corium	(Guers.) Desv.							Mycenastraceae	Y	N	
+MYCO5ADUS	7858	Mycorrhaphium	adustum	(Schw.) M.Gees.							Steccherinaceae	Y	N	
+OLIG2CAES	8083	Oligoporus	caesius	(Schrad.:Fr.) Gilbn. & Ryv.							Polyporaceae	Y	N	
+OMPH4OLEA	8147	Omphalotus	olearius	(DC.:Fr.) Sing.							Omphalotaceae	Y	N	
+ORBI1XANT	8164	Orbilia	xanthostigma	(Fr.)Fr.							Orbiliaceae	Y	N	
+PACHCLYP	8204	Pachyella	clypeata	(Schw.)LeGal							Pezizaceae	Y	N	
+PANA2CAMP	8216	Panaeolus	campanulatus	(Bull.:Fr.)Quél.							Bolbitiaceae	Y	N	
+PANA2FIMI	8220	Panaeolus	fimicola								Bolbitiaceae	Y	N	
+PANA2PAPI	8224	Panaeolus	papilionaceus	(Bull.:Fr.) Quélet							Bolbitiaceae	Y	N	
+PANA2PHAL	8225	Panaeolus	phalaenarum								Bolbitiaceae	Y	N	
+PANA2RETI2	8227	Panaeolus	retirugis								Bolbitiaceae	Y	N	
+PANESTIP	8249	Panellus	stipticus	(Bull.) P. Karst							Tricholomataceae	Y	N	
+PARA1SPHA	8268	Paragyrodon	sphaerosporus	(Peck) Singer							Paxillaceae	Y	N	
+PARA2PLIC	2142	Parasola	plicatilis	(Curtis : Fr.) Redhead, Vilgalys & Hopple							Psathyrellaceae	Y	N	
+PAXI1INVO	8282	Paxillus	involutus	(Batsch:Fr.) Fr.							Paxillaceae	Y	N	
+PENI2AURA	8297	Peniophora	aurantiaca								Peniophoraceae	Y	N	
+PENI2CINE	8299	Peniophora	cinerea	(Pers.:Fr.) Cooke							Peniophoraceae	Y	N	
+PENI2INCA	8303	Peniophora	incarnata	(Pers.:Fr.)							Peniophoraceae	Y	N	
+PENI2RUFA	8306	Peniophora	rufa	(Fr. : Fr.) Boidin							Peniophoraceae	Y	N	
+PEREOHIE	8313	Perenniporia	ohiensis	(Berk.) Ryvarden							Polyporaceae	Y	N	
+PEZI2BADI1	8377	Peziza	badia	Pers.:Mer.							Pezizaceae	Y	N	
+PEZI2BADI2	8378	Peziza	badio-confusa	Korf							Pezizaceae	Y	N	
+PEZI2BRUN	8381	Peziza	brunneoatra	Desm.							Pezizaceae	Y	N	
+PEZI2DOMI	8386	Peziza	domiciliana	Cke.							Pezizaceae	Y	N	
+PEZI2REPA	8416	Peziza	repanda	Karsten fide Saccardo							Pezizaceae	Y	N	
+PEZI2SYLV	8423	Peziza	sylvestris	(Boud.)Sacc.& Trotter							Pezizaceae	Y	N	
+PHAL2IMPU	8501	Phallus	impudicus	L.:Pers.							Phallaceae	Y	N	
+PHAL2RAVE	8503	Phallus	ravenelii	Berk. & M.A.Curtis							Phallaceae	Y	N	
+PHEL1FERR2	8520	Phellinus	ferruginosus	(Schrad.:Fr.)Bourd. &Galz.							Hymenochaetaceae	Y	N	
+PHEL1GILV	8521	Phellinus	gilvus	(Schw.)Pat.							Hymenochaetaceae	Y	N	
+PHEL2CONF	8535	Phellodon	confluens	(Pers.)Pouz.							Bankeraceae	Y	N	
+PHLE1ALBI	8546	Phlebia	albida	Post in Fr.							Meruliaceae	Y	N	
+PHLE1RADI	8549	Phlebia	radiata	Fr.							Meruliaceae	Y	N	
+PHLE5FAGI	8556	Phleogena	faginea	(Fr.) Link							Phleogenaceae	Y	N	
+PHOL1ADIP	8572	Pholiota	adiposa								Strophariaceae	Y	N	
+PHOL1ALBO2	8581	Pholiota	albocrenulata	(Pk.)Sacc.							Strophariaceae	Y	N	
+PHOL1ANGU1	8586	Pholiota	angustifolia								Strophariaceae	Y	N	
+PHOL1AURI1	8593	Pholiota	aurivella								Strophariaceae	Y	N	
+PHOL1CARB	8612	Pholiota	carbonaria								Strophariaceae	Y	N	
+PHOL1CURV2	8627	Pholiota	curvipes								Strophariaceae	Y	N	
+PHOL1DEST	8632	Pholiota	destruens	(Brondeau) Gillet							Strophariaceae	Y	N	
+PHOL1LENT	8684	Pholiota	lenta	(Fr.)Sing.							Strophariaceae	Y	N	
+PHOL1LIMO	8685	Pholiota	limonella	(Peck) Sacc.							Strophariaceae	Y	N	
+PHOL1LUBR	8686	Pholiota	lubrica								Strophariaceae	Y	N	
+PHOL1LUTE4	8694	Pholiota	lutescens	A.H.Sm. & Hesler							Strophariaceae	Y	N	
+PHOL1POLY	8737	Pholiota	polychroa	(Berk.) A. H. Smith & Brodie							Strophariaceae	Y	N	
+PHOL1SPUM	8770	Pholiota	spumosa	(Fr.)Sing.							Strophariaceae	Y	N	
+PHOL1SQUA	8776	Pholiota	squarrosoides	(Peck) Sacc.							Strophariaceae	Y	N	
+PHYL2LEUC	8860	Phylloporus	leucomycelinus	Singer							Boletaceae	Y	N	
+PHYL2RHOD	8861	Phylloporus	rhodoxanthus	(Schw.) Bresadola							Boletaceae	Y	N	
+PHYL3NIDU	8918	Phyllotopsis	nidulans	(Pers.) Singer							Tricholomataceae	Y	N	
+PIPTBETU	8982	Piptoporus	betulinus	(Bull.:Fr.) Karst.							Fomitopsidaceae	Y	N	
+PISOTINC	8983	Pisolithus	tinctorius	(Mich.: Pers.) Coker & Couch							Sclerodermataceae	Y	N	
+PLEU4DRYI	9034	Pleurotus	dryinus	(Pers.) P. Kumm.							Pleurotaceae	Y	N	
+PLEU4FIMBREGU	9037	Pleurotus	fimbriatus				regularis	Kauffman			Pleurotaceae	Y	N	
+PLEU4OSTR2	9046	Pleurotus	ostreatus	(Jacq.:Fr.)P Kumm							Pleurotaceae	Y	N	
+PLEU4SAPI	9050	Pleurotus	sapidus	(Schulz. in Kalchb.)Sacc.							Pleurotaceae	Y	N	
+PLIC3CRIS	9066	Plicaturopsis	crispa	(Pers.) D. Reid							Atheliaceae	Y	N	
+PLUTAURA	9078	Pluteus	aurantiorugosus	(Trog) Sacc.							Pluteaceae	Y	N	
+PLUTCERV	9084	Pluteus	cervinus	(Schaeff.:Fr.) Kumm.							Pluteaceae	Y	N	
+PLUTCHRY	9089	Pluteus	chrysophlebius								Pluteaceae	Y	N	
+PLUTFULI	9101	Pluteus	fuliginosus								Pluteaceae	Y	N	
+PLUTGRAN	9104	Pluteus	granularis	Pk.							Pluteaceae	Y	N	
+PLUTLUTE	9124	Pluteus	lutescens	(Fr.) Bres.							Pluteaceae	Y	N	
+PLUTMAGN	9125	Pluteus	magnus								Pluteaceae	Y	N	
+PLUTNANU	9132	Pluteus	nanus								Pluteaceae	Y	N	
+PLUTPATR	9139	Pluteus	patricius	(R.Schulz in Kalchbr.) Boud.							Pluteaceae	Y	N	
+PLUTROME	9150	Pluteus	romellii	(Britz.) Sacc.							Pluteaceae	Y	N	
+PLUTSALI	9152	Pluteus	salicinus	(Pers.:Fr.)Kum.							Pluteaceae	Y	N	
+PLUTSETI	9155	Pluteus	seticeps	(GF Atk) Singer							Pluteaceae	Y	N	
+POLY4ALVE	9183	Polyporus	alveolaris	(DC.:Fr.) Bond. & Sing.							Polyporaceae	Y	N	
+POLY4ARCU	9184	Polyporus	arcularius	Batsch: Fr.							Polyporaceae	Y	N	
+POLY4BADI	9185	Polyporus	badius	Pers. and Schw.							Polyporaceae	Y	N	
+POLY4BRUM	9186	Polyporus	brumalis	Pers.:Fr.							Polyporaceae	Y	N	
+POLY4SQUA	9208	Polyporus	squamosus	Huds.:Fr.							Polyporaceae	Y	N	
+POLY4VARI2	9225	Polyporus	varius	Pers.:Fr.							Polyporaceae	Y	N	
+PORO1PEND	9275	Porodisculus	pendulus	(Schw.) 							Polyporaceae	Y	N	
+PSAT2AMMO	9338	Psathyrella	ammophila								Psathyrellaceae	Y	N	
+PSAT2ATOM1	9348	Psathyrella	atomata	(Fr.)Quél.							Psathyrellaceae	Y	N	
+PSAT2BATT	9363	Psathyrella	battarae	(Fr.) Konrad & Maubl.							Psathyrellaceae	Y	N	
+PSAT2CAND2	9380	Psathyrella	candolleana	(Fr.)Maire							Psathyrellaceae	Y	N	
+PSAT2COMM	9405	Psathyrella	communis	A.H.Sm.							Psathyrellaceae	Y	N	
+PSAT2HESL	9482	Psathyrella	hesleri	A.H.Sm.							Psathyrellaceae	Y	N	
+PSAT2SEMI	9656	Psathyrella	semivestita	(Berk. & Broome) A.H.Sm.							Psathyrellaceae	Y	N	
+PSAT2SPAD1	9674	Psathyrella	spadicea	(Schff.:Fr.)Sing.							Psathyrellaceae	Y	N	
+PSAT2SUBA5	9687	Psathyrella	subatrata								Psathyrellaceae	Y	N	
+PSAT2VELU1	9753	Psathyrella	velutina	(Pers.:Fr.)Sing.							Psathyrellaceae	Y	N	
+PSEU5DISS	2093	Pseudocoprinus	disseminatus	(Pers.:Fr.) Kühner							Psathyrellaceae	N	N	
+PSIL1AGRA	9789	Psilocybe	agrariella								Strophariaceae	Y	N	
+PSIL1AREN	9793	Psilocybe	arenulina								Strophariaceae	Y	N	
+PSIL1CERN	9816	Psilocybe	cernua								Strophariaceae	Y	N	
+PSIL1CONI	9821	Psilocybe	conica								Strophariaceae	Y	N	
+PSIL1GRAM	9839	Psilocybe	graminicola								Strophariaceae	Y	N	
+PSIL1MERD	9859	Psilocybe	merdaria								Strophariaceae	Y	N	
+PSIL1PALL	9872	Psilocybe	pallida								Strophariaceae	Y	N	
+PSIL1SABU	9885	Psilocybe	sabulosa								Strophariaceae	Y	N	
+PUNC2STRI	10069	Punctularia	strigosozonata	(Schw.)Tal.							Corticiaceae	Y	N	
+RAMA1AURE	10098	Ramaria	aurea	(Schff.:Fr.)Quél.							Ramariaceae	Y	N	
+RAMA1FLAC	10130	Ramaria	flaccida	(Fr.)Ricken							Ramariaceae	Y	N	
+RAMA1FORM	10139	Ramaria	formosa	(Fr.) Quel.							Ramariaceae	Y	N	
+RAMA1STRI	10184	Ramaria	stricta	(Pers.:Fr.)Quél.							Ramariaceae	Y	N	
+RESI2RHOD	10240	Resinomycena	rhododendri	(Peck) Redhead & Singer							Tricholomataceae	Y	N	
+RESUAPPL	10243	Resupinatus	applicatus	(Batsch:Fr.) S.F.Gray							Tricholomataceae	Y	N	
+RHOD1BUTY	10433	Rhodocollybia	butyracea	(Bull.:Fr.) Lennox							Omphalotaceae	Y	N	
+RHOD1MACUSCOR	10438	Rhodocollybia	maculata				scorzonerea	(Fr.) Lennox 			Omphalotaceae	Y	N	
+RUSSAERU1	10527	Russula	aeruginea	Lindblad							Russulaceae	Y	N	
+RUSSALBO2	10539	Russula	albonigra	(Krombh.) Fr.							Russulaceae	Y	N	
+RUSSCRUS	10621	Russula	crustosa	Peck							Russulaceae	Y	N	
+RUSSCYAN	10623	Russula	cyanoxantha	(Schaeffer) Fr.							Russulaceae	Y	N	
+RUSSDELI1	10630	Russula	delica								Russulaceae	Y	N	
+RUSSEMET1	10647	Russula	emetica	(Schaeffer) Persoon							Russulaceae	Y	N	
+RUSSFOET1	10667	Russula	foetens	Pers.							Russulaceae	Y	N	
+RUSSFOET2	10668	Russula	foetentula	Peck							Russulaceae	Y	N	
+RUSSFRAG3	10674	Russula	fragrantissima	Romagnesi							Russulaceae	Y	N	
+RUSSINTE	10702	Russula	integra	(Vittadini) Fries							Russulaceae	Y	N	
+RUSSMEXI	10730	Russula	mexicana	Burlingham							Russulaceae	Y	N	
+RUSSMODE	10733	Russula	modesta	Peck							Russulaceae	Y	N	
+RUSSNIGR3	10746	Russula	nigricans	Fries							Russulaceae	Y	N	
+RUSSPARV	10770	Russula	parvula	Burlingham							Russulaceae	Y	N	
+RUSSPECK	10773	Russula	peckii	Singer							Russulaceae	Y	N	
+RUSSPECT2	10775	Russula	pectinatoides	Peck							Russulaceae	Y	N	
+RUSSPSEU2	10795	Russula	pseudointegra								Russulaceae	Y	N	
+RUSSROSE3	10822	Russula	roseipes	(Secretan) Bresadola							Russulaceae	Y	N	
+RUSSRUBR2	10826	Russula	rubriceps	(Kauffman) Singer							Russulaceae	Y	N	
+RUSSSEPE	10835	Russula	seperina	Dupain							Russulaceae	Y	N	
+RUSSSILV	10838	Russula	silvicola	Shaffer							Russulaceae	Y	N	
+RUSSSQUA	10846	Russula	squalida	Peck							Russulaceae	Y	N	
+RUSSSUBP1	10871	Russula	subpunctata								Russulaceae	Y	N	
+RUSSSUBS1	10874	Russula	subsericeonitens	Murrill							Russulaceae	Y	N	
+RUSSSUBT	10877	Russula	subtilis	Burlingham							Russulaceae	Y	N	
+RUSSVARI1	10892	Russula	variata	Banning & Peck							Russulaceae	Y	N	
+RUSSVINA	10906	Russula	vinacea	Burlingham							Russulaceae	Y	N	
+RUSSVIRE	10912	Russula	virescens	(Schaeffer) Fries							Russulaceae	Y	N	
+RUTSPETI	10932	Rutstroemia	petiolorum	(Roberge)White							Rutstroemiaceae	Y	N	
+SARC4COCC	10956	Sarcoscypha	coccinea	(Fr.) Lamb.							Sarcoscyphaceae	Y	N	
+SARC4OCCI	10959	Sarcoscypha	occidentalis	(Sow.)Sacc.							Sarcoscyphaceae	Y	N	
+SCHI1COMM	10972	Schizophyllum	commune	Fr.							Schizophyllaceae	Y	N	
+SCHI2PARA	10977	Schizopora	paradoxa	(Schrad.:Fr.)Donk							Schizoporaceae	Y	N	
+SCLE1AREO	10984	Scleroderma	areolatum	Ehrenberg							Sclerodermataceae	Y	N	203292
+SCLE1CEPA	10986	Scleroderma	cepa	Pers.							Sclerodermataceae	Y	N	
+SCLE1CITR	10987	Scleroderma	citrinum	Pers.							Sclerodermataceae	Y	N	
+SCLE1HYPO	10993	Scleroderma	hypogaeum	Zeller							Sclerodermataceae	Y	N	
+SCLE1MACR	10995	Scleroderma	macrorhizon								Sclerodermataceae	Y	N	
+SCUT1ERIN	11013	Scutellinia	erinaceus	(Schwein.) Kuntze							Pyronemataceae	Y	N	
+SCUT1SCUT	11015	Scutellinia	scutellata	(L. ex St. Adams) Lamb.							Pyronemataceae	Y	N	
+SCUT1SETO	11016	Scutellinia	setosa								Pyronemataceae	Y	N	
+SEBAINCR	11020	Sebacina	incrustans	(Fr.)Tul.							Exidiaceae	Y	N	
+SECOAGAR	3263	Secotium	agaricoides	Hollós							Agaricaceae	N	N	
+SIMOCENT	11142	Simocybe	centunculus	(Fr.) Karst.							Cortinariaceae	Y	N	
+SPATVELU	11177	Spathularia	velutipes	Cke.& Farlow							Cudoniaceae	Y	N	
+STECFIMB	11286	Steccherinum	fimbriatum	(Pers.:Fr.) Erikss.							Steccherinaceae	Y	N	
+STECOCHR	11287	Steccherinum	ochraceum	(Fr.)S.F.Gray							Steccherinaceae	Y	N	
+STER2HIRS	11309	Stereum	hirsutum	Pers.							Stereaceae	Y	N	
+STER2OSTR	11312	Stereum	ostrea	(Blume & T. Nees:Fr.) Fr.							Stereaceae	Y	N	
+STER2SUBT	11317	Stereum	subtomentosum	Pouz.							Stereaceae	Y	N	
+STRO1CONF	11334	Strobilomyces	confusus	Sing.							Boletaceae	Y	N	
+STRO1FLOC	11336	Strobilomyces	floccopus	(Vahl.) P. Karst							Boletaceae	Y	N	
+STRO3CORO	11359	Stropharia	coronilla	(Bull.) Fr.							Strophariaceae	Y	N	
+STRO3RUGO	11375	Stropharia	rugosoannulata	Farlow							Strophariaceae	Y	N	
+STRO3SEMI1	11376	Stropharia	semiglobata	(Batsch:Fr.)Quél.							Strophariaceae	Y	N	
+STRO3STER	11383	Stropharia	stercoraria								Strophariaceae	Y	N	
+SUILAMER	11398	Suillus	americanus	(Pk.)Snell							Suillaceae	Y	N	
+SUILBREV	11402	Suillus	brevipes	(Peck) Kuntze							Suillaceae	Y	N	
+SUILCAST	11408	Suillus	castanellus	(Peck) Smith & Thiers							Suillaceae	Y	N	
+SUILFLAV	11415	Suillus	flavidus								Suillaceae	Y	N	
+SUILGLAN2	11422	Suillus	glandulosus	(Peck) Singer							Suillaceae	Y	N	
+SUILGRANSNEL	11424	Suillus	granulatus		snellii	Singer					Suillaceae	Y	N	
+SUILINTE	11434	Suillus	intermedius	(Smith & Thiers) Smith & Thiers							Suillaceae	Y	N	
+SUILLUTE2	11443	Suillus	luteus	(L.:Fr.)S.F.Gray							Suillaceae	Y	N	
+SUILSUBA	11469	Suillus	subaureus	(Pk.) Snell							Suillaceae	Y	N	
+SYZY2MYCE	11496	Syzygospora	mycetophila	(Pk.) Ginns							Syzygosporaceae	Y	N	
+TETRNIGR1	11518	Tetrapyrgos	nigripes	(Schwein.) E. Horak							Marasmiaceae	Y	N	
+THEL2ALBI	11523	Thelephora	albidobrunnea	Schw.							Thelephoraceae	Y	N	
+THEL2PALM	11532	Thelephora	palmata	Scop.:Fr.							Thelephoraceae	Y	N	
+THEL2VIAL	11536	Thelephora	vialis	Schw.							Thelephoraceae	Y	N	
+TRAMHIRS	11563	Trametes	hirsuta	(Wulf.:Fr.) Pilát							Polyporaceae	Y	N	
+TRAMTROG	11571	Trametes	trogii	Berk. in Trog.							Polyporaceae	Y	N	
+TRAMVERS	11572	Trametes	versicolor	(L.:Fr.) Pilát							Polyporaceae	Y	N	
+TREM2FOLI	11585	Tremella	foliacea	Pers.:Fr.							Tremellaceae	Y	N	
+TREM2FRON	11586	Tremella	frondosa								Tremellaceae	Y	N	
+TREM2FUCI	11587	Tremella	fuciformis	Berk.							Tremellaceae	Y	N	
+TREM2MESE	11589	Tremella	mesenterica	Retzius ex Hook.							Tremellaceae	Y	N	
+TREM2RETI	11590	Tremella	reticulata	(Berk.)Farlow							Tremellaceae	Y	N	
+TREM3CAND	11592	Tremellodendron	candidum	(Fr.)Atk.							Exidiaceae	Y	N	
+TREM3PALL	11593	Tremellodendron	pallidum	(Schw.) Burt							Exidiaceae	Y	N	
+TRIC1BIFO	11598	Trichaptum	biforme	(Fr.) Ryv.							Polyporaceae	Y	N	
+TRIC4HIRS	11612	Trichoglossum	hirsutum	(Pers.:Fr.)Boud.							Geoglossaceae	Y	N	
+TRIC5FULV3	11674	Tricholoma	fulvum	(DC.:Fr.)Sacc.							Tricholomataceae	Y	N	
+TRIC5POPU	11737	Tricholoma	populinum								Tricholomataceae	Y	N	
+TRIC5SEJU	11750	Tricholoma	sejunctum	(Fr.)Quél.							Tricholomataceae	Y	N	
+TUBAFURF	11861	Tubaria	furfuracea	(Pers.:Fr.) Gillet							Cortinariaceae	Y	N	
+TUBAPELL	11863	Tubaria	pellucida	(Bull.:Fr.)							Cortinariaceae	Y	N	
+TUBAPENT	11864	Tubaria	pentstemonis	Sing.							Cortinariaceae	Y	N	
+TUBE1DRYO	11872	Tuber	dryophilum	Tul.							Tuberaceae	Y	N	
+TULOSIMU	11934	Tulostoma	simulans	Lloyd							Tulostomataceae	Y	N	
+TYLOALBO	11946	Tylopilus	alboater	(Schw.)Murr.							Boletaceae	Y	N	
+TYLOBADI	11952	Tylopilus	badiceps	(Pk.)Sm.&Thrs.							Boletaceae	Y	N	
+TYLOFELL	11957	Tylopilus	felleus	(Bull.:Fr.)Karst.							Boletaceae	Y	N	
+TYLOINDE	11965	Tylopilus	indecisus	(Pk.)Murr.							Boletaceae	Y	N	
+TYLOPORP	11975	Tylopilus	porphyrosporus	(Fr.) Smith & Thiers							Boletaceae	Y	N	
+VASCPRAT	12136	Vascellum	pratense	(Pers.) Kreisel							Agaricaceae	Y	N	
+VOLVHYPO	12168	Volvariella	hypopithys	(Fr.:Karst.)Moser							Pluteaceae	Y	N	
+XANTAFFIMACU	12191	Xanthoconium	affine				maculosus	Singer			Boletaceae	Y	N	
+XERO2CAMP1	12208	Xeromphalina	campanella	(Batsch:Fr.) Kühner & Maire							Tricholomataceae	Y	N	
+XERO2KAUF	12217	Xeromphalina	kauffmanii	A.H. Smith							Tricholomataceae	Y	N	
+XERU1FURF	12223	Xerula	furfuracea	(Peck) Redhead, Ginns, & Shoemaker							Marasmiaceae	Y	N	
+XERU1MEGA	12225	Xerula	megalospora	(Clements) Redhead, Ginns & Shoemaker							Marasmiaceae	Y	N	
+XERU1RUBR	12229	Xerula	rubrobrunnescens	Redhead, Ginns, & Shoemaker							Marasmiaceae	Y	N	
+XYLACORN1	12231	Xylaria	corniformis								Xylariaceae	Y	N	
+XYLADIGI	12233	Xylaria	digitata	(L. ex Grev.) Grev.							Xylariaceae	Y	N	
+XYLAHYPO	12234	Xylaria	hypoxylon	(L. ex Hooker) Grev.							Xylariaceae	Y	N	
+XYLAPOLY	12239	Xylaria	polymorpha	(Pers. ex Mérat) Grev.							Xylariaceae	Y	N	
+XYLO1FRUS	12241	Xylobolus	frustulatus	(Pers.:Fr.) Boidin							Stereaceae	Y	N	
+TYLORUBR	11979	Tylopilus	rubrobrunneus	Mazzer & Smith							Boletaceae	Y	N	
+URNUCRAT	12034	Urnula	craterium	(Schwein.) Fr.							Sarcosomataceae	Y	N	

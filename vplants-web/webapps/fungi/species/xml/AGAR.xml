@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<speciesPage>
+<NAME_CD>AGAR</NAME_CD>
+<group>FUNGUS</group>
+<desc>
+<growthForm>Gilled mushroom</growthForm>
+<size>small to large</size>
+<parts>
+<part>
+<partName/>
+<partText/>
+</part>
+</parts>
+</desc>
+<similarSpecies>
+<comments>The related parasol mushrooms (&lt;em&gt;Chlorophyllum&lt;/em&gt;, &lt;em&gt;Lepiota&lt;/em&gt;, &lt;em&gt;Leucoagaricus&lt;/em&gt;, &lt;em&gt;Leucocoprinus&lt;/em&gt;, &lt;em&gt;Macrolepiota&lt;/em&gt;) have white or pale green spore prints, but some species stain yellow or reddish like some &lt;em&gt;Agaricus&lt;/em&gt;. &lt;em&gt;Amanita&lt;/em&gt; species have a white spore print and some form of universal veil.  These different groups can be easily confused when young or in button stage because in all of them the gills start out whitish or pale in color.
+
+</comments>
+<nameCds>
+<simNmCd>LEPI</simNmCd>
+<simNmCd>AMAN</simNmCd>
+</nameCds>
+<links>
+<link>
+<linkUri/>
+<linkText/>
+</link>
+</links>
+</similarSpecies>
+<fruiting>May to November.</fruiting>
+<habitatEcology>Most upland habitats.  The various species show preferences for certain habitats, such as fields, wood chips or mulch, woodlands, or certain types of trees. Solitary to gregarious, sometimes in fairy rings, on the ground. Saprobe on soil or on woody debris or other organic waste.</habitatEcology>
+<notes>
+<comments>The common store mushrooms: button mushroom, Portabella, and Crimini mushroom are different strains of the same species &lt;em&gt;Agaricus bisporus&lt;/em&gt;.  The cultivation of this mushroom began in France 400 years ago.  Not all species are edible --some of our native &lt;em&gt;Agaricus&lt;/em&gt; species are poisonous.</comments>
+<links>
+<link>
+<linkUri>http://botit.botany.wisc.edu/Toms_fungi/apr2001.html</linkUri>
+<linkText>Agaricus bisporus, Tom Volk, Fungus of the month</linkText>
+</link>
+<link>
+<linkUri>http://www.mushroomexpert.com/agaricus_bisporus.html</linkUri>
+<linkText>Agaricus bisporus, Michael Kuo, E. Ill. Univ., MushroomExpert.com</linkText>
+</link>
+<link>
+<linkUri>http://www.americanmushroom.org/</linkUri>
+<linkText>American Mushroom Institute (AMI)</linkText>
+</link>
+</links>
+</notes>
+<etymology>
+<comments>&lt;em&gt;Agaricon&lt;/em&gt; is an ancient Greek word for particular fungi, reportedly derived from Agara, the name of a Greek city which had abundant mushrooms nearby.    </comments>
+<links>
+<link>
+<linkUri/>
+<linkText/>
+</link>
+</links>
+</etymology>
+<furtherInfo>
+<comments/>
+<links>
+<link>
+<linkUri>http://www.mushroomexpert.com/agaricus.html</linkUri>
+<linkText>Michael Kuo, E. Ill. Univ., MushroomExpert.com</linkText>
+</link>
+<link>
+<linkUri>http://www.mykoweb.com/CAF/genera/Agaricus.html</linkUri>
+<linkText>Michael Wood &amp; Fred Stevens, California Fungi, MykoWeb.com</linkText>
+</link>
+</links>
+</furtherInfo>
+<references>
+<reference>
+<citation/>
+</reference>
+</references>
+<otherRecords>
+<ilBn/>
+<ilCk/>
+<ilDk/>
+<ilDp/>
+<ilGd/>
+<ilKd/>
+<ilKk/>
+<ilKn/>
+<ilLk/>
+<ilMh/>
+<ilWl/>
+<inJs/>
+<inLk/>
+<inLp/>
+<inNt/>
+<inPt/>
+<inSj/>
+<inSk/>
+<miBr/>
+<wiKs/>
+<wiMw/>
+<wiRc/>
+<wiWk/>
+<wiWw/>
+</otherRecords>
+<author>The Field Museum</author>
+<modificationDate>2006-06-12</modificationDate>
+</speciesPage>

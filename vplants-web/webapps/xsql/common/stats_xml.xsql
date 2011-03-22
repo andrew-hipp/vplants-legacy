@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<STATS connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+
+<SHEETS>
+<xsql:query rowset-element="" row-element="HERB_CNT">
+SELECT 
+	CD.CODE_TEXT HERB, 
+	COUNT(1) CNT
+FROM 
+	SPECIMEN SPM, CD_CODE CD
+WHERE
+	CD.CODE_ID = 1 AND
+	SPM.HERB_CD = CD.CODE_CD
+GROUP BY CD.CODE_TEXT
+ORDER BY CD.CODE_TEXT
+</xsql:query>
+
+<xsql:query rowset-element="" row-element="">
+SELECT 
+	COUNT(1) TOTAL
+FROM 
+	SPECIMEN SPM
+</xsql:query>
+</SHEETS>
+
+</STATS>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GENTAXON connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+
+<xsql:include-param name="gen"/>
+
+<xsql:query rowset-element="TAXON" row-element="">
+SELECT
+	CHK.GROUP_ID,
+	CHK.ACCEPTED_IND,
+	CHK.NAME_CD,
+	CHK.GENUS,
+	CHK.SPECIES,
+	CHK.AUTHOR,
+	DECODE(CHK.ACCEPTED_IND, 'Y', 1, null) HD_COUNT,
+	CHK.FAMILY_NAME,
+	DECODE(CHK.ACCEPTED_IND, 'Y', CNAME_FUNC(CHK.GROUP_ID), null) 
+		AS COMMON_NAME	
+FROM
+        CHECKLIST CHK
+WHERE
+	CHK.GENUS = '{@gen}' AND 
+	CHK.SPECIES IS NULL AND
+	CHK.ACCEPTED_IND = 'Y'
+</xsql:query>
+
+</GENTAXON>

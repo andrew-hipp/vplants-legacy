@@ -1,0 +1,16 @@
+CODE_ID	CODE_CD	CODE_TEXT
+2	E	endangered
+2	T	threatened
+2	R	rare
+2	SC	special concern
+2	X	extirpated
+2	WL	watch list
+2	SRE	state reintroduced
+1	MOR	MOR
+1	CHIC	CHIC
+1	F	F
+1	CAS	CAS
+2	SE	Illinois Endangered Species
+2	ST	Illinois Threatened Species
+2	FE	Federally Endangered Species
+2	FT	Federally Threatened Species

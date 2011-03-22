@@ -1,0 +1,41 @@
+NAME_CD	NAME	SOURCE_CD
+AGARABRU1	abruptly-bulbous Agaricus	T2
+AGARABRU1	abruptly bulbous mushroom	T2
+AGARABRU1	woodland Agaricus	T2
+AGARBITO	sidewalk mushroom	T2
+AGARBITO	urban agaric	T2
+AGARBITO	spring agaric	T2
+AGARBITO	pavement mushroom	T2
+AGARBITO	banded agaric	T2
+AGARBITO	torq	T2
+AGARCAMP2	pink bottom	T2
+AGARCAMP2	meadow mushroom	T2
+AGARCAMP2	common field mushroom	T2
+AGARDIMI	dimunitive Psalliota	T2
+AGARHALO	coast agaric	T2
+AGARMARI	sea-loving agaric	T2
+AGARMELE	western flat-topped agaric	T2
+AGARPLAC	flat-cap Agaricus	T2
+AGARPLAC	flat-capped psalliota	T2
+AGARPLAC	flat-cap mushroom	T2
+AGARPLAC	flat top	T2
+AGARRODM	Rodman's Psalliota	T2
+AGARSILV1	wood Psalliota	T2
+AGARSILV1	wood mushroom	T2
+AGARSILV2	woodland Agaricus	T2
+AGARSILV2	forest agaric	T2
+AGARSILV2	wood mushroom	T2
+AGARSUBR1	reddish Psalliota	T2
+AGARSYLV1	sylvan mushroom	T2
+AGARSYLV2	sylvan agaric	T2
+AGARSYLV2	sylvan mushroom	T2
+INOC2RIMO1	rimose fiber head	T2
+INOC2RIMO1	cracked Inocybe	T2
+INOC2RIMO1	straw-colored fiber head	T2
+INOC2RIMO1	striated Inocybe	T2
+SCLE1AREO	areolate earthball	T2
+SCLE1AREO	leopard-spotted earthball	T2
+STER2OSTR	false turkey-tail	T2
+THEL2PALM	fetid false coral	T2
+THEL2PALM	palmate thelephora	T2
+XERU1MEGA	lesser rooting Xerula	T2

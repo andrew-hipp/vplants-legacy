@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> <speciesPage> <NAME_CD>AGARBITO</NAME_CD> <group>FUNGUS</group> <desc> <growthForm>Gilled mushroom</growthForm> <size>cap 4 - 16 cm broad; stem 4 - 10 cm long, 10 - 35 mm thick</size> <parts> <part> <partName>Cap</partName> <partText>convex to flat, sometimes with center depressed, white or whitish, staining yellowish to tan with age.  Margin inrolled when young, eventually becoming upturned.  Surface dry, smooth, sometimes cracking to form scales.  Flesh thick, firm, white, not staining yellow with KOH. </partText> </part> <part> <partName>Gills</partName> <partText>free or nearly free, close, very narrow, whitish to grayish pink becoming deep reddish-brown, chocolate brown, and eventually blackish-brown. </partText> </part> <part> <partName>Partial veil</partName> <partText>membranous, thick, white, persistent at middle or base of stem, appearing as a double ring or  sheathing with the top edge flaring. </partText> </part> <part> <partName>Stem</partName> <partText>equal or slightly tapered to apex, base is typically pointed, white, smooth, sometimes with fine appressed scales toward the top.  Flesh solid, firm. </partText> </part> <part> <partName>Odor</partName> <partText>mild.</partText> </part> <part> <partName>Taste</partName> <partText>mild.</partText> </part> <part> <partName>Spore print </partName> <partText>chocolate brown. </partText> </part> <part> <partName>Microscopic features</partName> <partText>Spores 5 - 6.5 x 4 - 5.5 &amp;micro;m, elliptical, smooth.  Cystidia present and numerous.</partText> </part> </parts> </desc> <similarSpecies> <comments>The tightly inrolled cap margin typically leaves a second ring on the stem below the ring formed by the partial veil.  This feature plus the usually robust caps and thick stems will separate it from similar &lt;em&gt;Agaricus&lt;/em&gt; species that have smooth, white caps, and lack strong staining.</comments> <nameCds> <simNmCd>AGARCAMP2</simNmCd> </nameCds> 
+<links>
+<link>
+<linkUri/> 
+<linkText/>
+</link> 
+</links>
+</similarSpecies> <fruiting>May to August.</fruiting> <habitatEcology>Lawns and grassy areas and urban areas and city parks. Solitary to gregarious, sometimes clustered on the ground in lawns, grassy areas, and often next to sidewalks and trails. Soil saprobe that prefers hard-packed ground.</habitatEcology> <notes> <comments>&lt;i&gt;Agaricus bitorquis&lt;/i&gt; seems to prefer hard-packed or disturbed soil. The buttons start forming below ground so the mushrooms are typically covered with dirt when they emerge. It can fruit several times a year in the same location with ample rainfall.  This and other urban mushrooms can accumulate chemicals, toxins, and heavy metals from the surrounding soil. </comments> 
+<links>
+<link>
+<linkUri/> 
+<linkText/>
+</link> 
+</links>
+</notes> <etymology> <comments>&lt;em&gt;Agaricon&lt;/em&gt; is an ancient Greek word for particular fungi, reportedly derived from Agara, the name of a Greek city which had abundant mushrooms nearby.  &lt;i&gt;Bitorquis&lt;/i&gt; refers to the double ring.  </comments>
+<links>
+<link>
+<linkUri/> 
+<linkText/>
+</link> 
+</links>
+ </etymology> <furtherInfo> <comments/> <links> <link> <linkUri>http://www.mykoweb.com/CAF/species/Agaricus_bitorquis.html</linkUri> <linkText>Michael Wood &amp; Fred Stevens, California Fungi, MykoWeb.com</linkText> </link> <link> <linkUri>http://www.rogersmushrooms.com/gallery/DisplayBlock~bid~5480~gid~.asp</linkUri> <linkText>Roger Phillips rogersmushrooms.com</linkText> </link> </links> </furtherInfo> <references> <reference> <citation/> </reference> </references> <otherRecords> <ilBn/> <ilCk/> <ilDk/> <ilDp/> <ilGd/> <ilKd/> <ilKk/> <ilKn/> <ilLk/> <ilMh/> <ilWl/> <inJs/> <inLk/> <inLp/> <inNt/> <inPt/> <inSj/> <inSk/> <miBr/> <wiKs/> <wiMw/> <wiRc/> <wiWk/> <wiWw/> </otherRecords> <author>The Field Museum</author> <modificationDate>2006-05-31</modificationDate> </speciesPage> 

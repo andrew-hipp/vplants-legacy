@@ -1,0 +1,788 @@
+
+/* 
+This imported style sheet is not visible to version 4 browsers.
+
+TO DO....
+change img links from ../img/file.gif to /img/file.gif 
+
+testing.....  border: 1px solid red;
+
+*/
+
+body { 
+	min-width: 750px;
+	margin: 0;
+	padding: 0;
+	}
+/*
+.zero{
+	display: block;
+	height: 0;
+	}
+*/	/* used to hide empty anchors.
+	display: none; */
+
+.hide {
+	display: none;
+	}
+
+a.popup {
+	padding-right: 20px;
+	background: url(/img/window.gif) right center no-repeat;
+	}
+
+
+/* Tantek Box Model Hack used here for font-size */
+body, td, th { /* redundant rules for bad browsers  */
+	font-size: x-small; /* value for IE5 */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: small;   /* correct value */
+	}
+html>body, html>body td, html>body th {
+	font-size: small;
+	} /* correct value for Opera */
+
+h2, h2.taxon {
+	font-size: large; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: x-large;
+	}
+h1, h2 {
+	letter-spacing: -1px;
+	}
+html>body h2, html>body h2.taxon {font-size: x-large;}
+
+h3 {
+	font-size: medium; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: large;
+	}
+html>body h3 {font-size: large;}
+
+.large {
+	font-size: small; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: medium;
+	}
+html>body .large {font-size: medium;}
+
+.small, #partners, #menupartners, dt.namecode, dd.namecode, #colinks { 
+	font-size: xx-small;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: x-small;
+	}
+
+html>body .small, html>body #partners, html>body #menupartners, 
+html>body dt.namecode, html>body dd.namecode {font-size: x-small;}
+
+
+#header {
+	margin: 0; 
+	padding: 0; 
+	color: #360; 
+	background: url(/img/logo_back.gif) #dd7 left top no-repeat;
+	border-bottom: 5px solid #360; 
+	}
+#header a:link, #header a:visited {
+	color: #360; 
+	text-decoration: none;
+	}
+#header a:hover, #header a:focus {
+	color: #00f; 
+	text-decoration: underline;
+	}
+#logo	{
+	float: left; 
+	width: 240px; 
+	margin: 0; 
+	padding: 0; 
+	}
+#tagline h1 {
+	display: none;
+	}
+#tagline p {
+	padding-top: 25px; 
+	margin: 0;
+	}
+body.fungus #tagline p {
+	background: url(/img/plusfungi.gif) 240px top no-repeat;	
+	}
+
+#headerform { 
+	display: block;
+	float: right; 
+	margin: 0; 
+	height: 60px;
+	min-height: 60px;
+	text-align: right; 
+	background: url(/img/side_line.gif) #dd7 left top no-repeat;
+	padding-right: 10px;
+	width: 260px; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 250px; 
+	}
+body>#headerform {width: 250px;}
+head:first-child+body #headerform {height: auto;}/* hide from IE */
+
+
+#partners { 
+	display: block;
+	float: right; 
+	margin: 0; 
+	height: 60px;
+	min-height: 60px;
+	text-align: right; 
+	background: url(/img/side_line.gif) #dd7 left top no-repeat;
+	padding-right: 20px; 
+	width: 260px; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 240px; 
+	}
+body>#partners {width: 240px;}
+head:first-child+body #partners {height: auto;}/* hide from IE */
+
+div#partners ul { 
+	list-style-type: none; 
+	padding: 3px 0 0; 
+	margin: 0; 
+	}
+
+/* .............  Tabs - Secondary Menu control  ............ */
+
+
+#tabs {  /* float:left; width:100%; Can't have width 100% and padding in addition */
+	padding-left: 100px; 
+	background: #360;
+	line-height: normal;
+	}
+#tabs ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#tabs ul#viewtabs { 
+	float: right;
+	}
+
+#tabs li {
+	float:left;
+	margin:0;
+	margin-right: 2px; 
+	padding:0;
+	padding-right: 10px;
+	background: url(/img/tab2.gif) #ff8 no-repeat right top ; 
+	}
+
+#tabs a, #tabs .thispage span { 
+	display: block; 
+	font-weight: bold; 
+	color: #360; 
+	text-decoration: none; 
+	background: url(/img/tab1.gif) no-repeat left top;
+	padding: 0 0 1px 10px;
+	}
+#tabs .thispage span { 
+	padding-bottom: 2px;
+	} /* removes bottom pixel border of background color */
+
+#tabs #taxtabs a { 
+	font-weight: normal; 
+	}
+
+#tabs a, #tabs .thispage span {float:left;} /* For IE5 Mac */
+  /* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a, #tabs .thispage span {float:none;}
+  /* End IE5-Mac hack */
+
+#tabs a:link { 
+	color: #360; 
+	}
+#tabs a:visited { 
+	color: #960; 
+	}
+#tabs a:hover, #tabs a:active, #tabs a:focus { 
+	color: blue; 
+	text-decoration: underline; 
+	}
+#tabs li:hover { 
+	background-color: #fff; 
+	}
+#tabs .thispage { 
+	background-color: #fff; 
+	}
+#tabs .thispage span { 
+	color: #360; 
+	background-color: #fff; 
+	}
+
+/* Holly hack - Clearing a float container without source markup.
+   www.positioniseverything.net/easyclearing.html
+   Originally developed by Tony Aslett of csscreator.com
+   With IE5Mac workaround by Mark Hadley and Matt Keogh.
+   display: inline-table; is seen by all browsers, 
+   but intended only for IE-mac.
+*/
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-table;} 
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* ........ Main Content of Page - Postitioning control  ....... */
+
+/*   Don't set width and padding on same div */
+
+div#main1 { 
+	position: relative; 
+	padding: 0;
+	}
+/* Sets reference point for positioned columns, 
+  width of 100% needed to fix positioning bug in IE6 */
+
+div#main2 {
+	}
+
+/* original left margin setting
+div#content1 { 
+	margin: 0 275px 10px 7.9em;
+	padding: 12px 0 0 0;
+	}
+Below I've added the left green border to
+continue the left green navigation column.
+*/
+
+
+/* Margins set the main column between the left and right columns. */
+div#content1 { 
+	margin: 0 280px 0 7.2em;
+	padding: 12px 0 10px 20px;
+	}
+head:first-child+body #content1 { /* hide from IE */
+	margin-left: 0;
+	border-left: 7.2em solid #360;
+	padding-left: 20px;
+	}
+head:first-child+body #main2 { /* hide from IE */
+	border-bottom: 2px solid #360;
+	}
+
+/* ......... Right side of Page - #content2 control ............. */
+
+div#content2 { 
+	background: #fff;
+	position: absolute; 
+	top: 15px; 
+	right: 10px; 
+	width: 250px; 
+	padding: 0; 
+	margin: 0; 
+	text-align: center; 
+	}
+div#content2 img {
+	margin: auto;
+	} /* center images also */
+
+
+.box {
+	margin: 20px 0;
+	background: #ffc;
+	border: 1px solid #890;
+	}
+.box p {
+	margin: 10px 5px;
+	font-weight: bold;
+	line-height: 1.2;
+	}
+.box h3 { 
+	margin: 0;
+	border-bottom: 1px solid #890; 
+	padding: 10px 0;
+	}
+	
+#colinks {
+	text-align:left;
+	padding: 0 20px;
+	}
+
+/* .......... Primary Menu control  ............. */
+
+
+div#menu { 
+	width: 7.2em; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	background: #360; 
+	color: white; 
+	padding: 0; 
+	margin: 0; 
+	}
+
+div#menu ul { 
+	width: 7.2em; 
+	list-style-type: none; 
+	padding: 0; 
+	margin: 0; 
+	border-top: 1px solid #cc0; 
+	margin-left: -16px; /* fix for IE5 */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	margin-left: 0;
+	}
+body>div#menu ul {margin-left: 0;}
+
+
+div#menu li { 
+	display: block; 
+	width: 7.2em; 
+	padding: 0; 
+	margin: 0; 
+	border: 0; 
+	border-bottom: 1px solid #cc0; 
+	list-style: none; 
+	}
+
+div#menu a, div#menu div.thismenu { 
+	display: block; 
+	padding: 8px 5px;
+	line-height: 1; /* reduce border bug in Firefox */
+	background: #360; 
+	color: white; 
+	text-decoration: none; 
+	border: 0; 
+	border-left: 3px solid #360; 
+	border-right: 1px solid #360; 
+	width: 7.2em; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 6.1em; 
+	}
+html>body div#menu a, html>body div#menu div, div#menu div.thismenu {width: auto;}
+
+div#menu .head a { /* either plant or fungus */
+	border-left-width: 6px;
+	padding-left: 0.6em; 
+	width: 7.2em; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 5.7em;
+	}
+html>body div#menu .head a {width: auto;}
+
+div#menu .item a { /* either plant or fungus */
+	border-left-width: 6px;  
+	padding-left: 1.1em;
+	width: 7.2em; 
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 5.1em;
+	}
+html>body div#menu .item a {width: auto;}
+
+div#menu .search a { 
+	
+	}
+
+div#menu .plant a { 
+	background: #141; 
+	color: white; 
+	border-left-color: #ac0; 
+	}
+div#menu .fungus a { 
+	background: #440; 
+	color: white; 
+	border-left-color: #ea0; 
+	}
+
+div#menu a.thismenu, 
+ div#menu div.thismenu { 
+	background: #ff8; 
+	color: #000;
+	border-right: 1px solid #360; 
+	}
+div#menu div.thispage { 
+	background: #fff; 
+	color: #000;
+	border-right: 1px solid #fff; 
+	}
+
+div#menu a:hover, div#menu a:active, div#menu a:focus, 
+ div#menu a.thismenu:hover, div#menu a.thismenu:active, div#menu a.thismenu:focus { 
+	background: white; 
+	color: blue; 
+	text-decoration: underline; 
+	}
+
+div#menupartners { 
+	margin: 60px 0 60px 0;
+	}
+div#menupartners ul { 
+	width: auto; 
+	}
+div#menupartners li, div#menupartners a { 
+	width: auto;
+	color: #ffb;
+	}
+
+/* ........... content styles ............. */
+
+p.concern, p.rating {
+	text-align: right;
+	margin: 0 0 0.2em 0;
+	}
+.concern a:link, .concern a:visited {
+	font-weight: bold; 
+	color: #00b; 
+	text-decoration: none;
+	}
+.concern a:hover, .concern a:focus {
+	font-weight: bold; 
+	color: #00f; 
+	text-decoration: underline;
+	}
+.rating a:link, .rating a:visited {
+	font-weight: bold; 
+	color: #d00; 
+	text-decoration: none;
+	}
+.rating a:hover, .rating a:focus {
+	font-weight: bold; 
+	color: #00f; 
+	text-decoration: underline;
+	}
+
+
+em.genus, em.epithet {
+	font-style: italic; 
+	letter-spacing: 1px;
+	}
+h2.taxon .author {
+	font-size: 0.8em; 
+	font-style: normal; 
+	font-weight: normal;}
+
+
+ul, ol, li, dl, dt, dd {
+	line-height: 1.3;
+	}
+
+
+p {
+	margin: 0.5em 0;
+	}
+/* */
+dl {
+	margin: 0;
+	}
+
+dt.growth, dt.size {
+	display: none;
+	}
+
+/* Hide this from IE 5.0 (Win,Mac) but not 5.5 */
+dt/* */ { 
+	display: block;
+	color: #000;
+	clear: both;
+	float: left;
+	padding: 0 0.4em 0 0;
+	margin: 0;
+	}
+dd {
+	display: block;
+	margin: 0 0 0 1em;
+	padding: 0;
+	}
+dt, dd {
+	padding-top: 0.5em;
+	}
+dd + dd { /* CSS2 browsers, but not IE6 */
+	padding-left: 1em;
+	text-indent: -1em;
+	padding-top: 0;
+	}
+dl#descdef dt, dl#descdef dt + dd {
+	padding-top: 0;
+	}
+dl#descdef dt {
+	color: #841;
+	}
+dt#further, dt.refer {
+	float: none;
+	}
+dt#further + dd {
+	padding-top: 0;
+	}
+dd.refer { 
+	padding-top: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	}
+dd.growth, dd.size {
+	display: inline;
+	margin-left: 0;
+	}
+
+dt.namecode, dd.namecode {
+	margin-left: 0;
+	}
+dd.namecode {
+	border-bottom: 2px solid #890;
+	}
+
+em {
+	font-style: italic;
+	}
+
+strong {
+	font-weight: bold;
+	}
+
+cite {
+	font-style: italic;
+	}
+
+abbr, acronym {
+	border-bottom: 1px dashed #cc0; 
+	cursor: help;
+	}
+
+
+
+/* ........ Bottom of Page - footer control ............. */
+
+/* Orginal left margin setting
+div#footer { 
+	background: url(/img/leftbar94.gif) left top repeat-y; 
+	padding: 20px 0 50px 0; 
+	text-align: center;
+	border: 0;
+	}
+
+div#footer p, div#footer ul { 
+	margin: 0;
+	padding: 2px 10px 4px 105px;
+	}
+*/
+
+div#footer { 
+	border: 0;
+	padding: 20px 275px 50px 0; 
+	text-align: center;
+	}
+
+div#footer p, div#footer ul { 
+	margin: 0;
+	padding: 2px 10px 4px 10px;
+	}
+
+#footer a:link, #footer a:visited { 
+	text-decoration: none; 
+	}
+
+#footer a:hover, #footer a:active, #footer a:focus { 
+	text-decoration: underline; 
+	}
+
+#funds, #copyright { 
+	border-bottom: 1px solid #cc0; 
+	}
+
+
+#footlinks ul {
+	}
+#footlinks ul li { 
+	margin: 0;
+	padding: 0 3px;
+	display: inline; 
+	list-style-type: none; 
+	}
+
+.helptext { 
+	border-bottom: 1px dashed #cc0; 
+	cursor: help;
+	}
+
+
+
+/* .......... #simpleform styles ............. */
+
+
+.home div#simpleform { 
+	margin: 15px 0; 
+	margin-right: -10px; 
+	}
+
+html>body div#simpleform { 
+	}
+
+/* <p> is omitted from HTML in #menu version */
+#simpleform p { 
+	margin: 0.6em 0; 
+	}
+#headerform p { 
+	margin: 0; 
+	padding: 1px 0;
+	line-height: 0.9;
+	}
+#headerform, #headerform #simpleform, #headerform form { 
+	margin: 0;
+	}
+
+#simpleform fieldset { /* over-ride styles from basic.css */
+	width: auto;
+	margin: 0;
+	padding: 10px; 
+	}
+.home #simpleform fieldset {
+	margin: 5px 0 5px 0px;
+	}
+#simpleform fieldset {
+	margin: 5px 0 5px 0px;
+	}
+#simpleform fieldset, #simpleform legend {
+	border: 1px solid #890;
+	}
+#simpleform legend { 
+	background: #ff8;
+	color: #360;
+	padding: 0 10px;
+	}
+#simpleform label, #simpleform .radios span { 
+	font-weight: bold; 
+	}
+#simpleform .radios label { 
+	font-family: Optima, Arial, sans-serif; 
+	}
+#simpleform .texts input {
+	border: 1px solid #cc0; 
+	color: black; 
+	width: 7.6em; 
+	background: #fff; 
+	}
+#headerform #simpleform input.texts {
+	font-size: x-small; 
+	border: 1px solid #cc0; 
+	color: black; 
+	width: 8em; 
+	background: #ffd;
+	}
+#simpleform .texts input:focus, #headerform #simpleform input.texts:focus { 
+	border-color: #000;
+	background: #fff; 
+	}
+
+#simpleform .actions input { 
+	font-size: inherit; 
+	font-weight: bold; 
+	color: #360; 
+	background: #ff8; 
+	}
+#headerform input#submit {
+	font-size: x-small; 
+	font-weight: bold; 
+	color: #360; 
+	background: #ff8; 
+	}
+
+#simpleform .actions input:hover, #simpleform .actions input:focus, 
+input#submit:hover, input#submit:focus {
+	color: #000; 
+	background: #ffb; 	
+	}
+
+/* Home Page (and related pages) style changes */
+
+body.home {
+	color: #360; 
+	background: #ffb;
+	}
+body.home #main2 {/* 286 img height minus 84 offset is 202px */
+	background: url(/img/side_line.gif) #ffb right top repeat-y;
+	background-position: right 202px; 
+	} /* px doesn't work in Mozilla, NN6, 7; does work in Firefox and others */
+.home #tabs .thispage { 
+	background-color: #ffb; 
+	border-bottom-color: #ffb;
+	}
+.home #tabs .thispage span { 
+	color: #360; 
+	background-color: #ffb; 
+	}
+
+body.home #header {
+	}
+
+body.home #tagline {
+	padding-top: 9px; 
+	text-align: right;
+	}
+body.home #tagline img {
+	display: inline;
+	margin-right: 8px;
+	border: 1px solid #cc0; 
+	}
+
+body.home #floatimg {
+	display: block;
+	float: left;
+	width: 170px;
+	height: 250px;
+	border: 1px solid #cc0;
+	padding: 0;
+	margin: 5px 10px 7px 0;
+	}
+
+body.home ul.large { 
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+	list-style: none;
+	}
+
+body.home ul.large li { 
+	padding-left: 25px; 
+	background: url(/img/icon_16px.gif) 0 50% no-repeat; 
+	}
+
+body.home div#content2 {
+	text-align: right; 
+	}
+.maps img, .maps a {
+	display: inline;
+	margin-left: 5px;
+	}
+.maps img { 
+	border: 2px solid #cc0; 
+	}
+.maps a:link img { 
+	border-color: #650; 
+	}
+.maps a:visited img { 
+	border-color: #360; 
+	}
+.maps a:hover img, .maps a:active img, .maps a:focus img { 
+	border-color: #00f; 
+	}
+	
+body.home div#menu div.thispage { 
+	background: #ffb; 
+	color: #000;
+	border-right: 1px solid #ffb; 
+	}

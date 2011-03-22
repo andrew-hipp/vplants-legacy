@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<speciesPage> 
+<NAME_CD>AGARCAMP2</NAME_CD> 
+<group>FUNGUS</group> 
+
+<desc> <growthForm>Gilled mushroom</growthForm> 
+<size>cap 3 - 11 cm broad; stem 2 - 6 cm long, 10 - 25 mm thick.</size> 
+<parts> 
+<part> <partName>Cap</partName> <partText>convex to broadly convex, sometimes becoming flat with age,  white to pale gray.  Surface smooth, dry, sometimes covered with fine brownish-gray fibers or scales in dry conditions.  Flesh thick, white, unchanging when bruised or cut, may stain reddish-brown with age, not staining yellow with KOH.</partText> </part> 
+<part> <partName>Gills</partName> <partText>free, crowded to close, narrow, pink when young eventually becoming blackish-brown.</partText> </part> 
+<part> <partName>Partial veil</partName> <partText>may leave remnants on cap margin and forms a thin, membranous, quickly collapsing ring on the middle to upper part of stem that typically disappears with age. </partText> </part> 
+<part> <partName>Stem</partName> <partText>stout,  tapering to a pointed base, white, turning reddish-brown, smooth above ring, covered with fine fibers or hairs below; stuffed to hollow. </partText> </part> 
+<part> <partName>Odor</partName> <partText>mild.</partText> </part> 
+<part> <partName>Taste</partName> <partText>slightly of anise.</partText> </part> 
+<part> <partName>Spore print</partName> <partText>blackish-brown. </partText> </part> 
+<part> <partName>Microscopic features</partName> <partText>spores 6 - 8.5 x 4 - 5.5 &amp;micro;m, elliptical, smooth.</partText> </part> 
+</parts> 
+</desc> 
+
+<similarSpecies> 
+<comments>The most common, but not the only &lt;em&gt;Agaricus&lt;/em&gt; species in lawns.  &lt;em&gt;Agaricus bitorquis&lt;/em&gt; has thicker flesh, a double ring, and doesn't have the bright pink gills when young.  Other species have scaly or differently colored caps, or yellow staining, or stronger odors. </comments> 
+<nameCds> 
+<simNmCd>AGARBITO</simNmCd> 
+<simNmCd>AGARPLAC</simNmCd> 
+<simNmCd>AGARXANT2</simNmCd> 
+</nameCds> 
+<links> 
+<link> <linkUri>http://www.bluewillowpages.com/mushroomexpert/agaricus_xanthodermus.html</linkUri> <linkText>Agaricus xanthodermus</linkText> </link> 
+</links> 
+</similarSpecies> 
+
+<fruiting>July to November.</fruiting> 
+
+<habitatEcology>Common in lawns and grassy areas. Solitary to gregarious, sometimes in fairy rings, on soil. Soil saprobe that prefers lawns.</habitatEcology> 
+
+<notes> 
+<comments>Was also called "common mushroom, champignon, or hot-bed mushroom" when it was thought to be the same species as the common store mushroom &lt;i&gt;Agaricus bisporus&lt;/i&gt;, which is from the eastern Mediterranean.  This and other urban mushrooms can accumulate chemicals, toxins, and heavy metals from the surrounding soil. </comments> 
+<links>
+<link>
+<linkUri/> 
+<linkText/>  
+</link> 
+</links>
+</notes> 
+
+<etymology> <comments>&lt;em&gt;Agaricon&lt;/em&gt; is an ancient Greek word for particular fungi, reportedly derived from Agara, the name of a Greek city which had abundant mushrooms nearby.  &lt;em&gt;Campestris&lt;/em&gt; is derived from the same word as campus, meaning a field.  </comments> 
+<links> 
+<link>
+<linkUri/> 
+<linkText/> 
+</link>  
+</links>
+</etymology> 
+
+<furtherInfo>
+<comments/> 
+<links> <link> <linkUri>http://www.bluewillowpages.com/mushroomexpert/agaricus_campestris.html</linkUri> <linkText>Michael Kuo, E. Ill. Univ., MushroomExpert.com</linkText> </link> </links> </furtherInfo> 
+
+<references> <reference> <citation/> </reference> </references> 
+
+<otherRecords> <ilBn/> <ilCk/> <ilDk/> <ilDp/> <ilGd/> <ilKd/> <ilKk/> <ilKn/> <ilLk/> <ilMh/> <ilWl/> <inJs/> <inLk/> <inLp/> <inNt/> <inPt/> <inSj/> <inSk/> <miBr/> <wiKs/> <wiMw/> <wiRc/> <wiWk/> <wiWw/> </otherRecords> 
+
+<author>The Field Museum</author> 
+<modificationDate>2006-05-29</modificationDate> 
+</speciesPage> 

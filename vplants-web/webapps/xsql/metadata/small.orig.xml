@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<index xsi:noNamespaceSchemaLocation="http://www.vplants.org/metadata/vpindex.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<herbcd>MOR</herbcd> 
+ <taxon>
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=11</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=12</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=13</link> 
+ </taxon>
+</index>

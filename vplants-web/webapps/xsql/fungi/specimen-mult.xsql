@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="specimen.xsl"?>
+<SPECIMENS  xmlns:xsql="urn:oracle-xsql">
+  <xsql:if-param name="spmid1" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid1}&amp;herb={@herb1}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid2" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid2}&amp;herb={@herb2}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid3" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid3}&amp;herb={@herb3}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid4" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid4}&amp;herb={@herb4}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid5" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid5}&amp;herb={@herb5}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid6" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid6}&amp;herb={@herb6}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid7" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid7}&amp;herb={@herb7}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+  <xsql:if-param name="spmid8" exists="yes">
+    <xsql:include-xsql href="connect.xsql?pagename=specimen&amp;spmid={@spmid8}&amp;herb={@herb8}" xmlns:xsql="urn:oracle-xsql"/>
+  </xsql:if-param>
+</SPECIMENS>

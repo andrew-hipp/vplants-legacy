@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<SEARCH connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+  <TYPE>Advanced</TYPE>
+  <PARAMETERS>
+    <xsql:include-param name="db"/>
+    <xsql:include-param name="lname"/>
+    <xsql:include-param name="fname"/>
+    <xsql:include-param name="year"/>
+    <xsql:include-param name="month"/>
+    <xsql:include-param name="day"/>
+    <xsql:include-param name="state"/>
+    <xsql:include-param name="county"/>
+    <xsql:include-param name="city"/>
+    <xsql:include-param name="twp"/>
+    <xsql:include-param name="range"/>
+    <xsql:include-param name="section"/>
+    <xsql:include-param name="filter"/>
+    <xsql:include-param name="infrasp"/>
+    <xsql:include-param name="locality"/>
+    <xsql:include-param name="habitat"/>
+    <xsql:include-param name="substratum"/>
+  </PARAMETERS>
+  <SCINAMES>
+    <xsql:ref-cursor-function skip-rows="{@paging-skip}" 
+                               max-rows="{@paging-max}">
+         AdvSearch.Find(family   => '{@family}',
+			genus => '{@genus}',
+                        species => '{@species}',
+			common => '{@common}',
+                        lname => '{@lname}',
+                        fname => '{@fname}',
+                        year => '{@year}',
+                        month => '{@month}',
+                        day => '{@day}',
+                        state => '{@state}',
+                        county => '{@county}',
+                        city => '{@city}',
+                        twp => '{@twp}',
+                        range => '{@range}',
+                        section => '{@section}',
+                        filter => '{@filter}',
+                        infrasp => '{@infrasp}',
+                        locality => '{@locality}',
+                        habitat => '{@habitat}',
+                        substratum => '{@substratum}'
+	  )
+    </xsql:ref-cursor-function>
+  </SCINAMES>
+</SEARCH>
