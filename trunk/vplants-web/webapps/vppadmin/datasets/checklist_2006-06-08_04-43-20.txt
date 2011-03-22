@@ -1,0 +1,68 @@
+﻿NAME_CD	GROUP_ID	GENUS	SPECIES	AUTHOR	SSP	SSP_AUTHOR	VAR	VAR_AUTHOR	F	F_AUTHOR	FAMILY_NAME	ACCEPTED_IND	ACCEPTED_IND_IFUN	IFUN_URI
+AGAR	101	Agaricus		Fr.							Agaricaceae	Y	x	
+AGARABRU1	147	Agaricus	abruptibulbus	Peck							Agaricaceae	Y	x	
+AGARAMER	145	Agaricus	americanus								Agaricaceae	Y	x	
+AGARBERN	138	Agaricus	bernardii								Agaricaceae	Y	x	
+AGARBITO	132	Agaricus	bitorquis	Pilát							Agaricaceae	Y	x	
+AGARBRUN	141	Agaricus	brunnescens								Agaricaceae	Y	x	
+AGARCAMP1	134	Agaricus	campester	L.							Agaricaceae	N	x	356498
+AGARCAMP2	134	Agaricus	campestris	L.							Agaricaceae	Y	Y	416972
+AGARCOMP3	143	Agaricus	comptulus	Fr.							Agaricaceae	Y	x	
+AGARCOMT3	143	Agaricus	comtulus	Fr.							Agaricaceae	N	x	
+AGARDIMI	146	Agaricus	diminutivus	Peck							Agaricaceae	Y	x	
+AGAREDUL	132	Agaricus	edulis								Agaricaceae	N	x	
+AGARHALO	138	Agaricus	halophilus								Agaricaceae	N	x	
+AGARMARI	138	Agaricus	maritimus								Agaricaceae	N	x	
+AGARMELE	144	Agaricus	meleagris	J. Shaffer							Agaricaceae	Y	x	
+AGARMICR	142	Agaricus	micromegathus	Peck							Agaricaceae	Y	x	
+AGARPLAC	137	Agaricus	placomyces	Peck							Agaricaceae	Y	x	
+AGARPOCI	140	Agaricus	pocillator	Murr.							Agaricaceae	Y	x	
+AGARPRAE	144	Agaricus	praeclaresquamosus								Agaricaceae	N	x	
+AGARRODM	132	Agaricus	rodmanii	Peck							Agaricaceae	N	x	
+AGARSILV1	136	Agaricus	silvaticus	Schff. ex Vitt.							Agaricaceae	Y	x	
+AGARSILV2	139	Agaricus	silvicola	(Vitt.) Peck							Agaricaceae	Y	x	
+AGARSUBR1	148	Agaricus	subrufescens								Agaricaceae	Y	x	
+AGARSYLV1	136	Agaricus	sylvaticus	Schff. ex Vitt.							Agaricaceae	N	x	
+AGARSYLV2	139	Agaricus	sylvicola	(Vitt.) Peck							Agaricaceae	N	x	
+AGARXANT2	150	Agaricus	xanthodermus	Genevier							Agaricaceae	Y	x	
+COLLCIRRCOOK	1005	Collybia	cirrhata				cookei	Bresadola			Tricholomataceae	N	N	372663
+COLLCOOK	1005	Collybia	cookei	(Bres.) J.D. Arnold							Tricholomataceae	Y	Y	416229
+COLLMACUSCOR	9311	Collybia	maculata				scorzonerea	(Fr.) Gillet			Tricholomataceae	N	x	
+COLLRADIPUSI	13093	Collybia	radicata				pusilla	Peck			Tricholomataceae	N	x	
+COLLSCOR	9311	Collybia	scorzonerea	Fr.							Tricholomataceae	N	x	
+COLLSUBF	9311	Collybia	subflavifolia	(Murr.) Murr.							Tricholomataceae	N	x	
+COLLSUBN	3762	Collybia	subnuda	(Ellis ex Peck) Gilliam							Tricholomataceae	N	x	
+COLLTUBECOOK	1005	Collybia	tuberosa				cookei	(Bres.) Bon & Courtec.			Tricholomataceae	N	x	372663
+COLLUMBR	13093	Collybia	umbrina	Clements							Tricholomataceae	N	x	
+GYMN4SUBN	3762	Gymnopus	subnudus	(Ellis ex Peck) Halling							Tricholomataceae	Y	x	437643
+INOC2	4183	Inocybe		Fr:Fr.							Cortinariaceae	Y	x	
+INOC2FAST1	4209	Inocybe	fastigiata	(Schaeff.) Quél.							Cortinariaceae	N	x	
+INOC2RIMO1	4209	Inocybe	rimosa	(Bull: Fr.) Kummer							Cortinariaceae	Y	Y	240925
+LACT2CINEFAGE	6453	Lactarius	cinereus	Peck			fagetorum	Hesler & Smith			Russulaceae	Y	x	
+LEPI2	7391	Lepiota		S. F. Gray							Agaricaceae	Y	x	
+LEPI2ASPE	7398	Lepiota	aspera	(Pers.) Quélet							Agaricaceae	Y	Y	257505
+LEPI2FRIE	7398	Lepiota	friesii	(Lasch) Quélet							Agaricaceae	N	N	153080
+MARAPEROSUBN	3762	Marasmius	peronatus				subnudus	Ellis			Tricholomataceae	N	N	
+MARARUBR	3762	Marasmius	rubrophyllus	Pennington							Tricholomataceae	N	x	
+MARASUBN	3762	Marasmius	subnudus	Ellis ex Peck							Tricholomataceae	N	x	
+MICRCOOK	1005	Microcollybia	cookei	(Bres.) Lennox							Tricholomataceae	N	x	
+OUDERADIFURF	13092	Oudemansiella	radicata				furfuracea	Peck			Tricholomataceae	N	x	
+PSALCAMP	134	Psalliota	campestris	(L.) Quélet							Agaricaceae	N	x	102599
+PSALPLAC	137	Psalliota	placomyces	(Peck) Kauffman							Agaricaceae	N	x	
+RHOD1MACUSCOR	9311	Rhodocollybia	maculata				scorzonerea	(Fr.) Lennox 			Tricholomataceae	Y	x	
+SCLE1	9820	Scleroderma		Pers.:Fr.							Sclerodermataceae	Y	x	
+SCLE1AREO	9823	Scleroderma	areolatum	Ehrenb.							Sclerodermataceae	Y	Y	203292
+SCLE1LYCO	9823	Scleroderma	lycoperdoides	Schwein.							Sclerodermataceae	N	x	
+SCLE1VERR	9834	Scleroderma	verrucosum	Bull. ex Pers.							Sclerodermataceae	N	x	
+SCLE1VERR2	9823	Scleroderma	verrucosum	sensu Guzmán							Sclerodermataceae	N	x	
+STER2	10275	Stereum		Pers. ex S. F. Gray							Stereaceae	Y	x	
+STER2FASC	10287	Stereum	fasciatum	(Schw.) Fr.							Stereaceae	N	x	
+STER2LOBA	10287	Stereum	lobatum	(Kunze:Fr.) Fr.							Stereaceae	N	x	
+STER2OSTR	10287	Stereum	ostrea	(Blume & T. Nees:Fr.) Fr.							Stereaceae	Y	Y	180792
+THEL2	11000	Thelephora		Ehr.:Fr.							Thelephoraceae	Y	x	
+THEL2PALM	11004	Thelephora	palmata	Scop.:Fr.							Thelephoraceae	Y	Y	245584
+XERU1	13091	Xerula		Maire							Tricholomataceae	Y	x	
+XERU1FURF	13092	Xerula	furfuracea	(Peck) Redhead, Ginns, & Shoemaker							Tricholomataceae	Y	x	
+XERU1MEGA	13093	Xerula	megalospora	(Clements) Redhead, Ginns & Shoemaker							Tricholomataceae	Y	x	
+XERU1RADIFURF	13092	Xerula	radicata				furfuracea	(Peck) Dörfelt			Tricholomataceae	N	x	
+XERU1RUBR	13094	Xerula	rubrobrunnescens	Redhead, Ginns, & Shoemaker							Tricholomataceae	Y	x	

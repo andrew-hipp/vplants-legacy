@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<TAXON connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+
+<xsql:query rowset-element="SCINAME" row-element="">
+SELECT 
+        VP.GENUS,
+        VP.SPECIES,
+        VP.AUTHOR,
+        VP.SSP,
+        VP.SSP_AUTHOR,
+        VP.VAR,
+        VP.VAR_AUTHOR,
+	VP.F AS FMA,
+	VP.F_AUTHOR AS FMA_AUTHOR
+FROM 
+	CHECKLIST VP
+WHERE 
+	VP.GROUP_ID = '{@gid}' AND
+	VP.ACCEPTED_IND = 'Y'
+</xsql:query>
+
+<xsql:query rowset-element="SCINAME_DTL" row-element="">
+SELECT 
+	VP.FAMILY_NAME AS FAMILY,
+	CNAME_FUNC(VP.GROUP_ID) AS COMMON_NAME,
+	VP.INVASIVE,
+	RE_FUNC(VP.GROUP_ID) AS RE_STATUS
+FROM 
+	CHECKLIST VP
+WHERE 
+	VP.GROUP_ID = '{@gid}' AND
+	VP.ACCEPTED_IND = 'Y'
+</xsql:query>
+
+<xsql:query rowset-element="DTLS" row-element="DTL" sort="STATE, GEO.COUNTY, COLL.L_NAME, COLL.F_NAME">
+<xsql:include-param name="sort"/>
+SELECT
+    CD.CODE_TEXT HERB, 
+    SPM.HERB_CD, 
+    SPM.SPM_ID,
+    TO_CHAR(SPM.COLL_DATE, DECODE(SPM.COLL_DATE_MASK,
+              3, 'MM/DD/YYYY',
+              2, 'MM/YYYY',
+              1, 'YYYY',
+              null)) FMT_COLL_DATE,
+    COLL.F_NAME,
+    COLL.M_NAME,
+    COLL.L_NAME,
+    GEO.COUNTY AS COUNTY,
+    DECODE(GEO.STATE,
+	'Illinois', 'IL',
+	'Wisconsin', 'WI',
+	'Michigan', 'MI',
+	'Indiana', 'IN',
+	'[Indiana]', '[IN]',
+	'[Illinois]', '[IL]',
+	GEO.STATE) AS STATE,
+    DECODE(IMG.HERB_CD, null, 'N', 'Y') AS IMAGE
+FROM
+    CHECKLIST VP,
+    SPECIMEN SPM,
+    CD_CODE CD,
+    COLLECTOR COLL,
+    SITE_GEO GEO,
+    SPM_IMAGE IMG
+WHERE
+    VP.GROUP_ID = '{@gid}' AND
+    SPM.NAME_CD = VP.NAME_CD AND
+    CD.CODE_ID = 1 AND
+    CD.CODE_CD = SPM.HERB_CD AND
+    COLL.SPM_ID (+) = SPM.SPM_ID AND
+    COLL.HERB_CD (+) = SPM.HERB_CD AND
+    COLL.PRIMARY_IND (+) = 'Y' AND
+    GEO.SPM_ID (+) = SPM.SPM_ID AND
+    GEO.HERB_CD (+) = SPM.HERB_CD AND
+    IMG.SPM_ID (+) = SPM.SPM_ID AND
+    IMG.HERB_CD (+) = SPM.HERB_CD AND
+    IMG.TYPE_CD (+) = 'SP'
+ORDER BY 
+    {@sort}
+	
+</xsql:query>
+
+</TAXON>

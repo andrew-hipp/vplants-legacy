@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<SNIDX connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+
+<xsql:include-param name="gen"/>
+
+<xsql:query rowset-element="SCINAMES" row-element="SCINAME">
+SELECT
+	SRT.GENUS || SRT.SPECIES || SRT.SSP || SRT.VAR SN_SORT,
+        CHK.GROUP_ID,
+        CHK.ACCEPTED_IND AS USDA_ACCEPTED_IND,
+        CHK.NAME_CD,
+        CHK.GENUS,
+        CHK.SPECIES,
+        CHK.AUTHOR,
+        CHK.SSP,
+        CHK.SSP_AUTHOR,
+        CHK.VAR,
+        CHK.VAR_AUTHOR,
+	CHK.F AS FMA,
+	CHK.F_AUTHOR AS FMA_AUTHOR,
+	DECODE(CHK.ACCEPTED_IND, 'Y', 1, null) HD_COUNT,
+	CHK.FAMILY_NAME,
+	DECODE(CHK.ACCEPTED_IND, 'Y', CNAME_FUNC(CHK.GROUP_ID), null) 
+		AS COMMON_NAME	
+FROM
+        CHECKLIST CHK,
+	CHECKLIST SRT
+WHERE
+        CHK.GROUP_ID IN (
+          SELECT DISTINCT
+           C.GROUP_ID
+          FROM
+           CHECKLIST C,
+           CHECKLIST GRP,
+           SPECIMEN SP
+          WHERE
+           C.GENUS = '{@gen}' AND
+           GRP.GROUP_ID = C.GROUP_ID AND
+           GRP.NAME_CD = SP.NAME_CD
+        ) AND
+	SRT.GROUP_ID = CHK.GROUP_ID AND
+	SRT.ACCEPTED_IND = 'Y'
+ORDER BY
+        SN_SORT, GROUP_ID, USDA_ACCEPTED_IND DESC, GENUS, SPECIES, SSP, VAR
+</xsql:query>
+
+</SNIDX>

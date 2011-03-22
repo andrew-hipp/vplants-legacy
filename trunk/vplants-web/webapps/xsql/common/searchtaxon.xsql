@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../common/taxon.xsl"?>
+<xsql:include-xsql href="../{@db}/connect.xsql?pagename=../common/searchtaxon" xmlns:xsql="urn:oracle-xsql"/>

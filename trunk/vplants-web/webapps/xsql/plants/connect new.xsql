@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!--to change the database connection, change the name after dbconnection=-->
+<CONNECT>
+<xsql:include-xsql href="{@pagename}_xml.xsql?dbconnection=vplants_plants" xmlns:xsql="urn:oracle-xsql"/>
+<DATABASE>plants</DATABASE>
+</CONNECT>

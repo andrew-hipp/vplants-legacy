@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<VPHDR connection="pdata" xmlns:xsql="urn:oracle-xsql">
+
+<xsql:query rowset-element="" row-element="" null-indicator="yes">
+SELECT
+	SYMBOL AS NAMECD
+FROM
+	SN_SYMBOL
+WHERE
+	DTL_ID = {@id} AND
+	SYMBOL_CD = 'UA'
+</xsql:query>
+
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT
+	NAME
+FROM
+	SN_COMMON
+WHERE
+	DTL_ID = {@id}
+</xsql:query>
+
+<xsql:query rowset-element="" row-element="SPECIMEN" null-indicator="no">
+SELECT
+	IDX.HERB_NBR,
+	TO_CHAR(ACC.UPDATE_DTTM, 'MM') MONTH,
+	TO_CHAR(ACC.UPDATE_DTTM, 'DD') DAY,
+	TO_CHAR(ACC.UPDATE_DTTM, 'YYYY') YEAR,
+	TO_CHAR(ACC.UPDATE_DTTM, 'HH24') HOUR,
+	TO_CHAR(ACC.UPDATE_DTTM, 'MI') MIN
+FROM
+	CURR_SCINAME_VIEW CURR, 
+	ACC ACC,
+	ACC_INDEX IDX
+WHERE
+	CURR.SCINAME_ID = {@id} AND
+	CURR.ACC_NBR = ACC.ACC_NBR AND
+	ACC.BARCODE_ID IS NOT NULL AND
+	CURR.ACC_NBR = IDX.ACC_NBR
+ORDER BY IDX.HERB_NBR
+</xsql:query>
+
+</VPHDR>

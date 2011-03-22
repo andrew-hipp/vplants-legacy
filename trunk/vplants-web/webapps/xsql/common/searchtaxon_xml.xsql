@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<TAXON connection="{@dbconnection}" xmlns:xsql="urn:oracle-xsql">
+<xsql:query rowset-element="SCINAME" row-element="">
+SELECT
+        VP.GENUS,
+        VP.SPECIES,
+        VP.AUTHOR,
+        VP.SSP,
+        VP.SSP_AUTHOR,
+        VP.VAR,
+        VP.VAR_AUTHOR,
+	VP.F AS FMA,
+	VP.F_AUTHOR AS FMA_AUTHOR,
+        VP.FAMILY_NAME AS FAMILY,
+	CNAME_FUNC(VP.GROUP_ID) AS COMMON_NAME,
+	VP.INVASIVE,
+	RE_FUNC(VP.GROUP_ID) AS RE_STATUS
+FROM
+        CHECKLIST VP
+WHERE
+        VP.GROUP_ID = '{@gid}' AND
+        VP.ACCEPTED_IND = 'Y'
+</xsql:query>
+
+<xsql:ref-cursor-function
+        rowset-element="DTLS"
+        row-element="DTL"
+        skip-rows="{@paging-skip}"
+        max-rows="{@paging-max}"
+        sort="GEO.STATE, GEO.COUNTY, COLL.L_NAME, COLL.F_NAME">
+<xsql:include-param name="sort"/>
+         AdvTaxonSearch.Find(gid   => '{@gid}',
+                        lname => '{@lname}',
+                        fname => '{@fname}',
+                        year => '{@year}',
+                        month => '{@month}',
+                        day => '{@day}',
+                        state => '{@state}',
+                        county => '{@county}',
+                        city => '{@city}',
+                        twp => '{@twp}',
+                        range => '{@range}',
+                        section => '{@section}',
+                        filter => '{@filter}',
+			infrasp => '{@infrasp}',
+                        locality => '{@locality}',
+                        habitat => '{@habitat}',
+                        substratum => '{@substratum}',
+                        order_by => '{@sort}'
+	)
+</xsql:ref-cursor-function>
+
+</TAXON>

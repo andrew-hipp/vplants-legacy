@@ -1,0 +1,308 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>vplants</short-name>
+  <uri>/webapp/vplants</uri>
+  <display-name>vplants</display-name>
+  <description>A short description...</description>
+  <tag>
+    <name>SpeciesPage</name>
+    <tag-class>org.vplants.tags.SpeciesPageTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>SpeciesPage</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Group</name>
+    <tag-class>org.vplants.tags.GroupTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Group</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Desc</name>
+    <tag-class>org.vplants.tags.DescTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Desc</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>SimilarSpecies</name>
+    <tag-class>org.vplants.tags.SimilarSpeciesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>SimilarSpecies</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Flowering</name>
+    <tag-class>org.vplants.tags.FloweringTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Flowering</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Fruiting</name>
+    <tag-class>org.vplants.tags.FruitingTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Fruiting</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>HabitatEcology</name>
+    <tag-class>org.vplants.tags.HabitatEcologyTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>HabitatEcology</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Nativity</name>
+    <tag-class>org.vplants.tags.NativityTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Nativity</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Notes</name>
+    <tag-class>org.vplants.tags.NotesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Notes</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Etymology</name>
+    <tag-class>org.vplants.tags.EtymologyTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Etymology</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>FurtherInfo</name>
+    <tag-class>org.vplants.tags.FurtherInfoTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>FurtherInfo</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>References</name>
+    <tag-class>org.vplants.tags.ReferencesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>References</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>ImageGallery</name>
+    <tag-class>org.vplants.tags.ImageGalleryTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>ImageGallery</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>OtherRecords</name>
+    <tag-class>org.vplants.tags.OtherRecordsTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>OtherRecords</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>CommonNames</name>
+    <tag-class>org.vplants.tags.CommonNamesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>CommonNames</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Synonyms</name>
+    <tag-class>org.vplants.tags.SynonymsTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Synonyms</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>RegionalOccurence</name>
+    <tag-class>org.vplants.tags.RegionalOccurenceTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>RegionalOccurence</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Genus</name>
+    <tag-class>org.vplants.tags.GenusTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Genus</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Species</name>
+    <tag-class>org.vplants.tags.SpeciesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Species</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Author</name>
+    <tag-class>org.vplants.tags.AuthorTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Author</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Var</name>
+    <tag-class>org.vplants.tags.VarTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Var</display-name>
+    <description>A short description...</description>
+    <attribute>
+      <name>format</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>label</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>showAuthor</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Map</name>
+    <tag-class>org.vplants.tags.MapTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Map</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>NameCD</name>
+    <tag-class>org.vplants.tags.NameCdTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>NameCD</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>SubDescription</name>
+    <tag-class>org.vplants.tags.SubDescriptionTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>SubDescription</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Family</name>
+    <tag-class>org.vplants.tags.FamilyTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Family</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>GID</name>
+    <tag-class>org.vplants.tags.GIDTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>GID</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Images</name>
+    <tag-class>org.vplants.tags.ImagesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Images</display-name>
+    <description>A short description...</description>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>SubSpecies</name>
+    <tag-class>org.vplants.tags.SubSpeciesTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>SubSpecies</display-name>
+    <description>A short description...</description>
+    <attribute>
+      <name>format</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>label</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>showAuthor</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>Forma</name>
+    <tag-class>org.vplants.tags.FormaTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>Forma</display-name>
+    <description>A short description...</description>
+    <attribute>
+      <name>format</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>label</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>showAuthor</name>
+      <required>false</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <example>Brief snippet showing how to use this tag.</example>
+  </tag>
+  <tag>
+    <name>ModificationDate</name>
+    <tag-class>org.vplants.tags.ModificationDateTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>ModificationDate</display-name>
+    <description>Date the XML was modified</description>
+  </tag>
+  <tag>
+    <name>XmlAuthor</name>
+    <tag-class>org.vplants.tags.XmlAuthorTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>ModificationDate</display-name>
+    <description>Date the XML was modified</description>
+  </tag>
+  <tag>
+    <name>ConcernList</name>
+    <tag-class>org.vplants.tags.ConcernListTag</tag-class>
+    <body-content>empty</body-content>
+    <display-name>ConcernList</display-name>
+    <description>The Species' concern list</description>
+  </tag>
+</taglib>

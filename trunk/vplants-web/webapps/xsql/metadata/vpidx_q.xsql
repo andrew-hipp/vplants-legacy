@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<VPINDEX connection="pdata" xmlns:xsql="urn:oracle-xsql">
+
+<HERBCD>MOR</HERBCD>
+<xsql:query rowset-element="TAXON" row-element="" null-indicator="yes">
+SELECT DISTINCT
+        SCINAME_ID
+FROM
+        CURR_SCINAME_VIEW_GOLD
+</xsql:query>
+</VPINDEX>

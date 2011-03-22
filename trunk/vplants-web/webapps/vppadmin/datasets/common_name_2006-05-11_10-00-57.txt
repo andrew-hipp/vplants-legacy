@@ -1,0 +1,14 @@
+NAME_CD	NAME	SOURCE_CD
+AGARCAMP2	meadow mushroom	T1
+AGARCAMP2	pink bottom	T1
+AGARCAMP2	field mushroom	T1
+INOC2RIMO1	rimose fiber head	T1
+INOC2FAST1	fiber head	T1
+INOC2RIMO1	cracked Inocybe	T1
+INOC2RIMO1	striated Inocybe	T1
+INOC2RIMO1	straw-colored fiber head	T1
+SCLE1AREO	areolate earthball	T1
+SCLE1AREO	leopard-spotted earthball	T1
+THEL2PALM	palmate thelephora	T1
+THEL2PALM	fetid false coral	T1
+STER2OSTR	false turkey-tail	T1

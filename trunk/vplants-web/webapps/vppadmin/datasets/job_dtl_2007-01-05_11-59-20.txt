@@ -1,0 +1,7 @@
+JOB_ID	URI	THREADS	COMMIT_FREQ	MAX_ERRORS	UPDTTM_MODE_IND	SMART_MODE_IND	RUN_IND	LAST_VISIT_DTTM	DATABASE_ID
+MOR1	http://vplants.org/xsql/metadata/vpidx.xsql	1	10	50	Y	N	Y	2006-06-02 11:00:00.0	1
+CBG1	http://halsted.lib.uic.edu:7777/xsql/metadata/cbgidx.xsql	1	10	50	Y	N	Y	2003-09-20 00:00:00.0	1
+F1	http://fm2.fmnh.org/vplants/metadata/index.xml	1	10	999	Y	N	Y	2006-07-07 13:00:00.0	1
+MOR2	http://redwood.mortonarb.org/xsql/metadata/index.xml	1	10	50	Y	N	Y	2006-06-02 11:00:00.0	1
+F2	http://fm2.fieldmuseum.org/vplants/fungi/metadata/index.xml	1	10	999	Y	N	Y	2006-06-08 06:00:00.0	2
+CACS1	http://collections.naturemuseum.org/botany/metadata/index.xml	1	10	999	Y	N	Y	2006-06-08 06:00:00.0	1

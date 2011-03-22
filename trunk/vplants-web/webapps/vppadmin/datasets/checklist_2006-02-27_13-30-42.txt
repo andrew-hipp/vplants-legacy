@@ -1,0 +1,17 @@
+NAME_CD	GROUP_ID	GENUS	SPECIES	AUTHOR	SSP	SSP_AUTHOR	VAR	VAR_AUTHOR	F	F_AUTHOR	FAMILY_NAME	ACCEPTED_IND	ACCEPTED_IND_IFUN	IFUN_URI
+AGARCAMP2	134	Agaricus	campestris	Fr.							Agaricaceae	Y	Y	
+PSALCAMP	134	Psalliota	campestris	(Fr.) Quélet							Agaricaceae	N	N	
+AGARCAMP1	134	Agaricus	campester	Fr.							Agaricaceae	N	N	
+INOC2RIMO1	4209	Inocybe	rimosa	(Bull: Fr.) Kummer							Cortinariaceae	Y	Y	240925
+INOC2FAST1	4209	Inocybe	fastigiata	(Schaeff.) Quél.							Cortinariaceae	N	N	
+LEPI2FRIE	7398	Lepiota	friesii	(Lasch) Quélet							Agaricaceae	Y	Y	153080
+SCLE1AREO	9823	Scleroderma	areolatum	Ehrenb.							Sclerodermataceae	Y	Y	203292
+SCLE1LYCO	9823	Scleroderma	lycoperdoides	Schwein.							Sclerodermataceae	N	N	
+THEL2PALM	11004	Thelephora	palmata	Scop.:Fr.							Thelephoraceae	Y	Y	245584
+STER2OSTR	10287	Stereum	ostrea	(Blume & T. Nees:Fr.) Fr.							Stereaceae	Y	Y	180792
+STER2FASC	10287	Stereum	fasciatum	(Schw.) Fr.							Stereaceae	N	N	
+STER2LOBA	10287	Stereum	lobatum	(Kunze:Fr.) Fr.							Stereaceae	N	N	
+THEL2OSTR	10287	Thelephora	ostrea	Blume & T. Nees							Thelephoraceae	N	N	
+THEL2FASC	10287	Thelephora	fasciata	Schw.							Thelephoraceae	N	N	
+THEL2MOLL	10287	Thelephora	mollis	Lév.							Thelephoraceae	N	N	
+LACT2CINEFAGE	6453	Lactarius	cinereus	Peck			fagetorum	Hesler & Smith			Russulaceae	Y	Y	

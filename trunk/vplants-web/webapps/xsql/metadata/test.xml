@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<index xsi:noNamespaceSchemaLocation="http://www.vplants.org/metadata/vpindex.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<herbcd>MOR</herbcd> 
+<taxon>
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=5</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=6</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=7</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=9</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=10</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=11</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=12</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=13</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=14</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=32</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=33</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=34</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=35</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=36</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=37</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=38</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=39</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=62</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=63</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=108</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=109</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=113</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=114</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=148</link> 
+  <link>http://redwood.mortonarb.org/xsql/metadata/vphdr.xsql?id=149</link> 
+  </taxon>
+</index>

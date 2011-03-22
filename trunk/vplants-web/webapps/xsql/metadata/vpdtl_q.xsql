@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<VPDTL connection="pdata" xmlns:xsql="urn:oracle-xsql">
+
+<COLL_DATE>
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT
+	DECODE(COLL.COLL_DATE_MASK,
+	  1, null,
+	  4, null,
+	  TO_CHAR(COLL.COLL_DATE, 'MM')) MONTH,
+	DECODE(COLL.COLL_DATE_MASK,
+	  1, null,
+	  2, null,
+	  4, null,
+	  TO_CHAR(COLL.COLL_DATE, 'DD')) DAY,
+	DECODE(COLL.COLL_DATE_MASK,
+	  4, null,
+	  TO_CHAR(COLL.COLL_DATE, 'YYYY')) YEAR
+FROM
+	COLL_HDR COLL,
+	ACC_INDEX IDX
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	IDX.ACC_NBR = COLL.ACC_NBR
+</xsql:query>
+</COLL_DATE>
+
+<COLLECTORS>
+<xsql:query rowset-element="" row-element="COLL" null-indicator="no">
+SELECT
+	COLL.PRIMARY_IND,
+	SUBSTR(CON.FIRST_NAME,1,1) FIRST_NAME,
+	SUBSTR(CON.MIDDLE_NAME,1,1) MIDDLE_NAME,
+	CON.LAST_NAME
+FROM
+	ACC_INDEX IDX,
+	COLL_DTL COLL,
+	CONTACT CON
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	IDX.ACC_NBR = COLL.ACC_NBR AND
+	CON.CONTACT_ID = COLL.COLL_ID
+ORDER BY
+        COLL.PRIMARY_IND DESC, CON.LAST_NAME, CON.FIRST_NAME
+</xsql:query>
+</COLLECTORS>
+
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT
+	COLL_ACC_NBR
+FROM
+	COLL_HDR COLL,
+	ACC_INDEX IDX
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	IDX.ACC_NBR = COLL.ACC_NBR
+</xsql:query>
+
+<SITE>
+
+<SITE_DTL>
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT 
+CURSOR(
+select geo_cd, 
+decode(geo_name,
+'Illinois', 'IL',
+'Indiana', 'IN',
+'Michigan', 'MI',
+'Wisconsin', 'WI',
+geo_name) as geo_name
+from geopolitical
+where geo_cd in ('CO','ST')
+start with geo_id = SGEO.GEO_ID
+connect by PRIOR parent_id = geo_id
+order by level desc
+) SITE_GEO
+FROM  
+ACC_INDEX IDX,
+SITE_GEOPOLITICAL SGEO
+WHERE
+IDX.HERB_NBR = {@id} AND
+SGEO.ACC_NBR = IDX.ACC_NBR
+</xsql:query>
+
+<xsql:query rowset-element="" row-element="SITE_TRS" null-indicator="no">
+SELECT
+	TRS.TOWNSHIP,
+	DECODE(TRS.TOWNSHIP,
+	  NULL, NULL,
+	  TRS.TOWNSHIP_CD) TOWNSHIP_BEARING,
+	TRS.RANGE,
+	DECODE(TRS.RANGE,
+	  NULL, NULL,
+	  TRS.RANGE_CD) RANGE_BEARING,
+	TRS.SECTION,
+	TRS.SECTION_COMMENTS
+FROM
+	ACC_INDEX IDX,
+	SITE_SURVEY TRS,
+	ACC ACC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	TRS.ACC_NBR = IDX.ACC_NBR AND
+        ACC.ACC_NBR = IDX.ACC_NBR AND
+        ACC.SITE_SENSITIVE_IND = 'N'
+</xsql:query>
+
+<SITE_GPS>
+<xsql:query rowset-element="" row-element="" null-indicator="yes">
+SELECT
+	TO_CHAR(
+	DECODE(FORMAT_CD,
+	 'DD', LAT_D,
+	 'DM', LAT_D + (LAT_M/60),
+	 'DS', LAT_D + (LAT_M/60) + (LAT_S/3600)), '999.99999') LAT_DD,
+	LAT_DIR,
+	TO_CHAR(
+	DECODE(FORMAT_CD,
+	 'DD', LONG_D,
+	 'DM', LONG_D + (LONG_M/60),
+	 'DS', LONG_D + (LONG_M/60) + (LONG_S/3600)), '999.99999') LONG_DD,
+	LONG_DIR
+FROM
+	ACC_INDEX IDX,
+	SITE_GLOBAL GPS,
+	ACC ACC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	GPS.ACC_NBR = IDX.ACC_NBR AND
+	GPS.LL_METHOD_CD != 'NR' AND
+        ACC.ACC_NBR = IDX.ACC_NBR AND
+        ACC.SITE_SENSITIVE_IND = 'N'
+
+</xsql:query>
+</SITE_GPS>
+
+<xsql:query rowset-element="" row-element="" null-indicator="yes">
+SELECT
+	LOCALITY
+FROM
+	ACC_INDEX IDX,
+	SITE_LOCALITY TRS,
+	ACC ACC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	TRS.ACC_NBR = IDX.ACC_NBR AND
+        ACC.ACC_NBR = IDX.ACC_NBR AND
+        ACC.SITE_SENSITIVE_IND = 'N'
+</xsql:query>
+
+</SITE_DTL>
+</SITE>
+
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT 
+	DECODE(ACC.TYPE_SPEC_CD, 'NV', 'N', 'Y') TYPE_SPEC_IND
+FROM
+	ACC_INDEX IDX,
+	ACC ACC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	ACC.ACC_NBR = IDX.ACC_NBR
+</xsql:query>
+
+<SPMPG>
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT 
+ 	IDX.HERB_NBR,
+	DECODE(SRC.ACC_NBR, null, 'N', 'Y') SOURCE_IND,
+	DECODE(ASSOC.ACC_NBR, null, 'N', 'Y') ASSOC_IND,
+	DECODE(ACC.ACC_NBR, null, 'N', 'Y') ANNOT_IND
+FROM
+	ACC_INDEX IDX,
+	ACC_SCINAME ACC,
+	ACC_SOURCE SRC,
+	SITE_ASSOC ASSOC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	ACC.ACC_NBR (+) = IDX.ACC_NBR AND
+	ACC.TYPE_CD (+) = 'AN' AND
+	ACC.CURRENT_IND (+) = 'Y' AND
+	SRC.ACC_NBR (+) = IDX.ACC_NBR AND
+	ASSOC.ACC_NBR (+) = IDX.ACC_NBR
+</xsql:query>
+<xsql:query rowset-element="IMAGES" row-element="IMAGE" null-indicator="no">
+SELECT
+        DECODE(IMG.TYPE_CD,
+          'SH', 'full',
+          'SP', 'preview',
+          null) TYPE,
+        GET_IMAGE_URI(IMG.ROWID, 0) URI
+FROM
+        ACC_INDEX IDX,
+        IMAGE IMG
+WHERE
+        IDX.HERB_NBR = {@id} AND
+        IMG.ACC_NBR = IDX.ACC_NBR
+</xsql:query>
+</SPMPG>
+
+<CRDATE>
+<xsql:query rowset-element="" row-element="" null-indicator="no">
+SELECT 
+        TO_CHAR(ACC.CREATE_DTTM, 'MM') MONTH,
+        TO_CHAR(ACC.CREATE_DTTM, 'DD') DAY,
+        TO_CHAR(ACC.CREATE_DTTM, 'YYYY') YEAR
+FROM
+	ACC_INDEX IDX,
+	ACC ACC
+WHERE
+	IDX.HERB_NBR = {@id} AND
+	ACC.ACC_NBR = IDX.ACC_NBR
+</xsql:query>
+</CRDATE>
+
+</VPDTL>

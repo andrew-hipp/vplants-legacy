@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<VPINDEX connection="pdata" xmlns:xsql="urn:oracle-xsql">
+
+<HERBCD>MOR</HERBCD>
+<xsql:query rowset-element="TAXON" row-element="" null-indicator="yes">
+SELECT DISTINCT
+	CURR.SCINAME_ID AS SCINAME_ID
+FROM
+	VP_FAMILY VP,
+	SN_DTL SN,
+	ACC_SCINAME ACC,
+	CURR_SCINAME_VIEW CURR
+WHERE
+	VP.HDR_ID = SN.HDR_ID AND
+	SN.DTL_ID = ACC.SCINAME_ID AND
+	ACC.ACC_NBR = CURR.ACC_NBR
+</xsql:query>
+</VPINDEX>
