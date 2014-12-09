@@ -87,13 +87,13 @@ header("Content-Type: text/html; charset=".$charset);
 		<div id="content2"><!-- start of side content -->
 		<!-- any image width should be 250 pixels -->
  
-			<img src="../feature/panne.jpg" width="250" height="177" alt="">
+			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/panne.jpg" width="250" height="177" alt="">
 			<div class="box imgtext">
 			<p>A panne is a wet depression between dunes. It is one of many habitats that contribute to the diversity of life in the Chicago Region.</p>
 			</div>
 
 			<a href="/map.html" title="See State Map for Chicago Region."><img class="border"
-			 src="../img/map_grtlakes_250.jpg" width="250" height="212"
+			 src="<?php echo $clientRoot; ?>/images.vplants/img/map_grtlakes_250.jpg" width="250" height="212"
 			alt="The vPlants Region is located within four states at the south end of Lake Michigan." /></a>
 
 			<div class="box">
