@@ -26,7 +26,7 @@ header("Content-Type: text/html; charset=".$charset);
             	<p>For terms not listed here, see the <a href="index.html" title="Go to main glossary.">Plant Glossary</a>.</p>
 
 				<div class="plate">
-				<img src="plate12_comp.jpg" width="703" height="424"
+				<img src="<?php echo $clientRoot; ?>/images.vplants/plants/glossary/plate12_comp.jpg" width="703" height="424"
 				alt="Line drawings of plant features." 
 				title="Plate 12: Composites.">
 				</div>
