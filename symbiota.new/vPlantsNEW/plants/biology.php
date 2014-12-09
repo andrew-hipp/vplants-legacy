@@ -35,6 +35,28 @@ header("Content-Type: text/html; charset=".$charset);
 				<p>Plants are called primary producers because they form a foundation in food webs and act as starting points in the energy and carbon cycles of an ecosystem.  Some microorganisms, such as cyanobacteria are also producers, but animals and fungi are primary consumers (herbivores) or secondary consumers (carnivores) that rely on plants for food and chemical energy. Omnivores (such as many humans) eat both plants and animals.</p>
             </div>
         </div>
+		
+		<div id="content2"><!-- start of side content -->
+		<!-- any image width should be 250 pixels -->
+		 
+			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/home_250_170.jpg" width="250" height="170" alt="Meadow with flowers and trees in background." title="Habitat near Chicago." />
+			<div class="box imgtext">
+			<p>
+			Grasslands, woodlands, and wetlands, have many species of plants, all of them producing carbohydrates, amino acids, and other compounds, which form the basis of the food web. Algae in the lake do the same.
+			</p>
+			</div>
+			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/PARNA.na01.jpg" width="250" height="392" alt="">
+			<div class="box imgtext">
+			<p>
+			Three producers: <i>Gentiana</i>, <i>Parnassia</i>, and <i>Agalinis</i>.
+			Their flowers are for reproduction.
+			</p>
+			</div>
+
+
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+
+		</div><!-- end of #content2 -->
 
 	<?php
 	include($serverRoot."/footer.php");
