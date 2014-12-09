@@ -31,7 +31,7 @@ header("Content-Type: text/html; charset=".$charset);
 				 <a href="/plants/diversity.html" title="How many plants.">3,000 taxa</a>, approximately 1650 taxa (55% of flora) are native.  Considering the relatively small physical area of the Region, this is a surprisingly large number of species of vascular plants.
 				</p>
 
-				<div id="floatimg"><img src="<?php echo $clientRoot; ?>/images/vplants/feature/plant_170_250.jpg" width="170" height="250" alt="detail view of spore cases on leaf." title="Dryopteris marginalis (Photo by W. C. Burger)."></div>
+				<div id="floatimg"><img src="<?php echo $clientRoot; ?>/images.vplants/feature/plant_170_250.jpg" width="170" height="250" alt="detail view of spore cases on leaf." title="Dryopteris marginalis (Photo by W. C. Burger)."></div>
 
 				<p>
 				Vascular Plants are the majority of plants we see: wildflowers, grasses, trees, shrubs, vines, and ferns. Many plants are perennial, living for several years to hundreds of years. Other plants are annual or biennial, growing from seed and living one or two seasons.  Identification of plants is based on the whole organism, the reproductive structures (flowers, cones, or sporangia), the leaves, stems, and even the form of the roots.
