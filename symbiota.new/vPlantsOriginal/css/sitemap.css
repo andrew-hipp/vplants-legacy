@@ -1,0 +1,32 @@
+
+table.sitemap {width: 100%;}
+.sitemap td {vertical-align: top; width: 43%; }
+.sitemap td.rightcol {padding-left: 15px; width: 55%;}
+
+h2 {	font-size: 1.2em; 
+	border-left-width: 0.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.1em; 
+	padding-left: 22px;
+	background: #E9E975 url(../img/logo_icon.gif) 0 50% no-repeat;
+	color: #361;
+	margin: 0 0 0.5em 0;
+	border-top: 1px solid #993;
+	border-bottom: 1px solid #993;
+	}
+
+h2.plant {
+	color: #250;
+	background-image: url(../img/logo_icon_p.gif);
+	}
+h2.fungus {
+	margin-top: 1em;
+	color: #440;
+	background-image: url(../img/logo_icon_f.gif);
+	}
+h3 {border-top: 1px solid #993;}
+
+table.sitemap ul {margin: 0.5em 0; padding-left: 1em;}
+
+table.sitemap ul ul {margin: 0;}
