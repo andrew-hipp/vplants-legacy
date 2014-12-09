@@ -49,6 +49,61 @@ header("Content-Type: text/html; charset=".$charset);
 				</p>
             </div>
         </div>
+		
+		<div id="content2"><!-- start of side content -->
+		<!-- any image width should be 250 pixels -->
+ 
+			<div class="box">
+				<h3>Directory and Guides</h3>
+				<ul><li><a href="guide/"
+			 title="Identification guide">Guide to Plants</a></li>
+			<li><a href="/xsql/plants/famlist.xsql" 
+			 title="Index of families">Family Index</a></li>
+			<li><a href="/xsql/plants/genlist.xsql" 
+			 title="Index of genera">Genus Index</a></li>
+			<li><a href="/resources/biblio2.html" 
+			 title="Guides for Chicago Region">Plant References</a></li>
+			<li><a href="/resources/links2.html" 
+			 title="Links to websites">Plant Links</a></li></ul>
+			</div>
+
+			 <div id="simpleform">
+			  <form name="simple" method="post" action="/xsql/plants/findtaxa.xsql">
+			   <fieldset><legend title="Enter name of plant in one or more of the search fields.">Plant Search</legend>
+				<p><label for="family" accesskey="4" 
+				 title="Example: Ulmaceae.">Family:</label>
+				 <input class="texts" id="family" name="family" type="text" maxlength="30" 
+				  title="Enter name of a family [one word, can use first several letters]." 
+				  value=""></p>
+				<p><label for="genus"  
+				 title="Example: Ulmus.">Genus:</label> 
+				 <input class="texts" id="genus" name="genus" type="text" maxlength="30" 
+				  title="Enter name of a genus [one word, can use first several letters]." 
+				  value=""></p>
+				<p><label for="species" 
+				 title="Example: americana.">Species Epithet:</label> 
+				 <input class="texts" id="species" name="species" type="text" maxlength="30" 
+				  title="Enter the species epithet, or subspecies, or variety [one word]."
+				  value=""></p>
+				<p><label for="common" 
+				 title="Example: american elm.">Common Name:</label> 
+				 <input class="texts" id="common" name="common" type="text" maxlength="50" 
+				  title="Enter a common name [can use more than one word]." 
+				  value=""></p>
+				<p><input class="actions" id="submit" name="submit" type="submit" 
+				 value="Go" title="Perform Search."></p>
+			   </fieldset>
+			  </form>
+			 </div>
+
+			 <p class="large">
+			  <a href="/search.html" 
+			   title="Search by Location, Collector, and more.">Go to Advanced Search</a>
+			 </p>
+
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+
+		</div>
 
 	<?php
 	include($serverRoot."/footer.php");
