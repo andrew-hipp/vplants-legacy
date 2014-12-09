@@ -98,6 +98,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 				<dt id="uniseriate">Uniseriate</dt>
 				<dd>&#151; Having only one series, or row, of parts; having only one row of <a href="#phyllary">phyllaries</a> (bracts) on the involucre.</dd>
+				</dl>
             </div>
         </div>
 
