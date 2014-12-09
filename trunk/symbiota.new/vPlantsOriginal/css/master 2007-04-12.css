@@ -1,0 +1,1394 @@
+
+/* -TITLE 
+================================================================ 
+
+------------------------------------------------------------------------- */
+
+/* 
+Separate out advanced styles to imported CSS files.
+Leave basic styles in this linked Master.css for earlier browsers.
+Layout
+Typography
+Color
+etc.  Or put all these in one file.
+Print styles will be in a separate file.
+Keep IE windows styles in the Conditional Comment linked file.
+ */
+
+/* -Master Style Sheet for www.vplants.org
+================================================================
+version: 2006.036
+last updated: 2006 June
+author: Patrick Leacock, The Field Museum, Chicago, Illinois.
+email: vplants@lactarius.com
+web site: http://www.lactarius.com/
+
+The vPlants XHTML and CSS has been reworked from the previous 2005 November design. Navigation and layout has been modified. Most fixes and hacks for Internet Explorer Windows were moved to a separate file that is linked by an IE conditional comment.
+
+----------------------------------------
+This style sheet is linked with media="screen, projection" therefore Netscape 4 cannot read this style sheet.  Only browsers version 5 and above get CSS.
+
+I am not adding specific fixes for the following browsers (but some problems were solved when I added fixes for older Internet Explorer):
+Netscape 6 (several problems with CSS2 styles)
+Opera versions 7 and earlier.
+
+----------------------------------------
+Things I've found and need to remember:
+
+Netscape 7 needs element name (instead of just the class) for hover to be applied:
+div.box:hover a {this works}
+.box:hover a {this does not work} 
+
+Netscape 7 (at least on anchors) needs background image position to use same value types:
+0 50% no-repeat; {this works}  
+left 50% no-repeat; {this does not work, image won't be applied} 
+
+Netscape 7 may not apply any top margin to h1 when it is the first element in a DIV.
+
+NOTE for Mozilla browsers (at least Netscape 7 and Firefox earlier than 1.5): 
+line-height: 1.2; is *NOT* applied but line-height: 1.2em; *IS* applied 
+(at least in the case of my vertical navigation links).
+
+IE has a large (1.5em?) default line-height for list items.
+------------------------------------------------------------------------- */
+
+
+
+/* -Typography, common element styles, accessibility features
+================================================================ 
+"Lucida Grande" - Mac OS X
+Verdana - modern Windows, Mac OS X and older Mac OS's
+Lucida - UNIX
+Arial - old Windows (but avoid otherwise)
+Helvetica - old UNIX
+sans-serif - if all else fails
+
+Tahoma
+Trebuchet
+
+Don't use: "Trebuchet MS" (sans-serif, too narrow for body text, okay for headers)
+
+Geneva
+
+"Trebuchet MS" and "Bitstream Vera Sans" -- Don't use these because capital I lacks horizontals and looks like lowercase L.  We need to distinguish IL, Illinois, IN, Indiana, etc.
+
+charcoal - good looking Mac font
+Georgia - most Mac and Windows; legible even at small sizes
+"New Century Schoolbook" - most UNIX
+Times - old systems (but avoid on Mac, no italics)
+serif - if all else fails
+
+for printing:
+Times and Times New Roman were designed for the print medium
+
+May need to set font-size for table TD for Netscape and IE Windows that have problem with inheritance in tables.
+------------------------------------------------------------------------- */
+
+#vplants-org .access {
+	position: absolute; 
+	left: -999em; /* still there for screen readers */
+	margin: 0;
+	padding: 0;
+	height: 0; /* these three rules to prevent gaps in layout. */
+	} 
+
+* { /* remove browser defaults for all elements */
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	}
+html, body { 
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: #fff;
+	font: 1em "Lucida Grande", Verdana, Lucida, Arial, Helvetica, sans-serif;
+	} 
+
+p, td, ul, ol, li, dl, dt, dd { 
+	font: 100% "Lucida Grande", Verdana, Lucida, Arial, Helvetica, sans-serif;
+	} 
+td, th { 
+	font-size: 0.9em;
+	} 
+h1 { 
+	margin: 0 0 .2em 0;
+	}/* use body font. vPlants logo font is very close to Verdana */
+h2, h3 { 
+	clear: both;
+	margin: 1em 0 .2em 0;
+	font-family: charcoal, Georgia, "New Century Schoolbook", Times, serif;
+	}
+
+ 
+h1 { font-size: 1.4em; font-weight: normal; word-spacing: .2em; }
+h2 { font-size: 1.25em; font-weight: normal; }
+h3 { font-size: 1.1em; font-weight: normal; }
+h4 { font-size: .9em; font-weight: normal; }
+h5 { font-size: .8em; font-weight: normal; }
+h6 { font-size: .7em; font-weight: normal; }
+
+p, #content table, #content1 table  { 
+	margin: .2em 0 1em 0; /* to compliment that of headers */
+	}
+p {font-size: .9em;}
+td p {font-size: 1em;}
+.small { font-size: .8em; }/* this could be nested in p so have it more than .7em */
+p.small, dl.small { font-size: .7em; }
+
+code, pre, tt, kbd {
+	font-family: "Andale Mono", monaco, "Courier New", monospace;
+	font-weight: normal;
+	} /* "Andale Mono",  "Bitstream Vera Sans Mono", (too frilly)  */
+
+a {text-decoration: underline;}
+a:link {color: #361;} /* green */
+a:visited {color: #306;} /* standard purple */
+	/* If I put this rule last than IE6 does only purple, and not blue. */
+a:hover, a:focus, a:active {color: #00f;} /* standard blue */
+	/* All links will be blue in IE6 whether visited or not. */
+
+abbr, acronym {/* element has... title="gives full name of abbr" */
+	border-bottom: 1px dashed #ACBD4E; 
+	cursor: help;}/* IE 5 and 6 shows dotted borders as dashed */
+.helptext { /* used in footer citation */
+	border-bottom: 1px dashed #ACBD4E; 
+	cursor: help;}
+cite {font-style: normal;
+	border-bottom: 1px dotted #ACBD4E; 
+	cursor: default;}
+em, i {font-style: italic;}
+/* quote insertion not supported by IE6. Use &#8220; and &#8221; instead of q in HTML.
+    q {quotes: '\201C'  '\201D' '\2018' '\2019'}  */
+img {border: 0;}
+td img {display: block;} /* avoid added vertical whitespace in early Gecko browsers */
+strong {font-weight: bold;}
+sup {vertical-align: super; font-size: 70%;}
+sub {vertical-align: sub; font-size: 70%;}
+dt	{font-weight: bold;}
+
+hr {
+	background: #cc0; /* For Mozilla */
+	color: #cc0; /* For IE */
+	border: none;
+	height: 1px;
+	margin: 10px 0;
+	}
+
+/* -sitehead = Page Header
+================================================================ 
+
+See -FORMS section for #headform
+------------------------------------------------------------------------- */
+
+#sitehead {
+	min-height: 60px;
+	color: #361; 
+	background: #E9E975 url(../img/side_line_flip.gif) right top no-repeat;
+	}
+.boxless #sitehead {background-image: url(../img/side_line.gif);}
+
+#breadcrumbs { /* you are here navigation */
+	min-height: 18px;
+	margin: 0 260px 0 0;
+	padding-left: .5em;
+	line-height: 1.5em;
+	font-size: .7em;
+	border-bottom: 1px solid #cc0;
+	}
+
+#sitehead a:link, #sitehead a:visited {
+	color: #361; 
+	text-decoration: none;
+	}
+#sitehead a:visited:hover {
+	color: #306; /* standard purple */
+	}
+#sitehead a:hover, #sitehead a:focus, #sitehead a:active {
+	color: #00f; /* standard blue */
+	text-decoration: underline;
+	}
+
+/* for Em-scaling logo use 
+	240px divided by 16px/em = 15em
+	60px = 3.75em 
+	Apply this to the div, the logo image, and the anchor */
+
+#logo, #logo a, #logo img {width: 15em; height: 3.75em;}
+#logo {float: left;}
+#logo a {display: block;}/* needed for hover effect (see next) */
+#logo a:hover {/* yellow=F9F983, cream=F7F7AB, dd7=color for home page */
+	background-color: #F7F7AB;
+	}
+
+#tagline {
+	margin: 0 260px 0 0; /* keeps line from overlapping right side */
+	padding: 27px 5px 0 0; /* space for the plusfungi gif */
+	font-size: .8em;
+	}
+#tagline strong { display: none; }/* vplants.org - used when printing */
+
+
+/* rest of styles for header form are below under FORMS */
+
+
+
+
+
+
+/* PAGE LAYOUT and positioning of columns 
+================================================================ 
+Don't set width and padding on same div or will need to fix box model for IE.
+
+If I put min-width on HTML, I may not get a horizontal scrollbar in small windows for Firefox.  Do not make min-width more than 774px or you will get horizontal scroll bars on 800 x 600 screens. Max-width uses em in order to scale layout with font size for better line length reading of text.
+
+
+	=============  3 columns =================================
+	column source order:  #content1, #content2, menu
+	column display order: menu 1 2 
+	#wrapper1 encloses all content and menus.
+	#content1wrap encloses only #content1.
+	
+	For two content columns use #content1wrap, #content1, #content2
+	For single content column use #content only.
+	
+	Use #wrapper0 instead of #wrapper1 for
+	single content column and NO menu 1 use 
+------------------------------------------------------------------------- */
+/* min-width: 760px; */
+body { min-width: 47em; max-width: 60em;} 
+
+#bodywrap {
+	margin-right: 15px;
+	position: relative; 
+	}/* positioning context for anything outside of content  */
+
+#wrapper1, #wrapper0 { /* 8em is left col width plus 1 gutter */
+	clear: both; 
+	border-left: 6.4em solid #360; /* left col width */
+	position: relative; /* need this for positioning of navigation */
+	padding-top: 2.5em; /* space for tab navigation */
+	/* If padding-left used here then IE reduces width of enclosed #pagemenu */
+	padding-bottom: 10px; /* bottom gutters */
+	}
+#wrapper0 {
+	border-left: .4em solid #360; /* no left menu column */
+	}
+body.withsubmenu #wrapper1 {
+	padding-top: 4em; /* space for double tab navigation */
+	}
+
+body.sidepale #wrapper1 { 
+	background: transparent url(../img/side_pale.gif) right top repeat-y;
+	}
+body.sidepaleline #wrapper1 { 
+	background: transparent url(../img/side_pale_line.gif) right top repeat-y;
+	}
+div#sitemenu {
+	width: 6.4em; /* left col width */
+	position: absolute;
+	top: 4px; /* match top border of #pagemenu */
+	margin-top: 1.6em; /* approximate height of #pagemenu plus a bit */
+	left: -6.4em;
+	}
+
+div#pagemenu {/* move to top of content */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; /* extend all the way across and fix height bug in Mozilla */
+	background: #360;
+	border-top: 4px solid #360;
+	}
+
+div#submenu { 
+	position: absolute;
+	top: 1.6em; /* put under #pagemenu */
+	left: 0;
+	}
+
+#content, #content1 {/* left gutter */
+	padding-left: 1.6em; 
+	}
+
+/* A List Apart, No. 183, June 15, 2004 
+Creating Liquid Layouts with Negative Margins, by Ryan Brill */
+#content1wrap {
+	width: 100%; 
+	float: left;
+	margin-right: -252px; /* may need extra pixel here */
+	}
+#content1 {/* no width, fluid center column */ 
+	margin-right: 280px; /* right column width plus 28px gutter */ 
+	}
+#content2 {/* not using negative margin here so may avoid Netscape problem with long column */
+	float: right;
+	width: 252px;  /* right col width, don't put width and padding on same element */
+	}
+
+
+/*	========== EASY-CLEARING =========================
+	Clearing a float container without source markup.
+	www.positioniseverything.net/easyclearing.html
+	Originally developed by Tony Aslett of csscreator.com
+
+Pseudo-elements are CSS2. The pseudo-element :after generates HTML content after the targeted element. This generated content (a period) is used to clear the floats, and make the parent element (DIV) extend down to contain the floats, and fill in any background.
+
+	http://mrclay.org/index.php/2006/03/23/ie7-compatible-easyclearing-2/
+	The font-size:0; was added by some to fix a space problem in Firefox,
+	but this causes a gap in some versions earlier than Firefox 1.501
+
+Instead of adding class="clearfix" in the HTML to the affected DIVs, I am targeting those elements directly where needed. This transfers all the markup to the CSS and lets me target any DIV or other element in the future if the design changes, without having to add a class to the HTML.
+
+See elsewhere for the second part of the easy-clearing method for IE that does not support generated content (:before and :after):
+1) hacks at end of this file for IE 5 Mac.
+2) the IE-only CSS file for IE Windows browsers (5, 6, 7.0)
+
+This doesn't work for Netscape 6 Windows, unless you make #pagemenu position: relative;
+But then Netscape 7 has extra line gap under tabs.  A fix for Netscape and older IE is to insert non-floated content into the end of the #pagemenu div, which is what I have done.
+=====================================================*/
+
+#sitehead:after, #pagemenu:after, #wrapper0:after, #wrapper1:after, #wrapper2:after {
+	content: "."; 
+	display: block;
+	height: 0;
+	clear: both; 
+	visibility: hidden;
+	}
+
+
+/* -pagemenu = TABS 
+================================================================ 
+Local navigation tabs. One or two sets, the 2nd floated right.
+------------------------------------------------------------------------- */
+
+#pagemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+#pagemenu ul#pageset1 {
+	float: left;
+	margin-left: .3em; /* 6.7em left column width plus an offset for first tab */
+	}
+#wrapper0 #pagemenu ul#pageset1 {
+	float: left;
+	margin-left: 6.3em; /* left column width minus border plus an offset for first tab */
+	}
+
+#pagemenu ul#pageset2 {
+	float: right;
+	}
+#pagemenu li {
+	font-size: .8em;
+	float:left;
+	white-space: nowrap;
+	margin: 1px 2px 0 0; 
+	padding: 0;
+	background: #F7F7AB url(../img/tab_tr.gif) right top no-repeat;
+	}
+#pagemenu ul a, #pagemenu ul span { 
+	display: block;
+	white-space: nowrap;
+	font-weight: bold;
+	text-decoration: none; 
+	background: transparent url(../img/tab_tl.gif) left top no-repeat;
+	padding: 0 10px 1px 10px;
+	line-height: 1.5em; /* controls tab height */
+	}
+#pagemenu li:hover {background-color: #ffd;}
+#pagemenu li a:hover {text-decoration: underline;}
+#pagemenu li.thismenu {border-bottom: 1px solid #ACBD4E;} 
+
+#pagemenu li.thispage { 
+	background-color: #fff; 
+	margin-top: 0;
+	padding-bottom: 2px;
+	} /* Removing the top margin on LI moves the current tab and its text up, while the new padding compensates, plus moves the UL up by 1 pixel revealing the background color under the other tabs to give them bottom borders.  Previously I used a negative margin-top, but IE lost the top edge of the raised tab under the border; and Opera didn't raise the other tabs.  */
+
+
+
+/* -submenu = series of ordered pages
+================================================================ 
+Positioning of menu is already done above.
+
+------------------------------------------------------------------------- */
+
+#submenu {
+	margin-left: 1.6em;
+	padding: 5px 0;	
+	}
+#submenu ol {
+	display: inline;
+	list-style: none;
+	font-size: .8em;
+	}
+#submenu li {
+	display: inline;
+	margin: 0;
+	padding: 0 .5em;
+	color: #306; /* same as visited links */
+	font-weight: bold;
+	border-left: 1px solid #650;
+	}
+#submenu li.first {
+	border-left: none;
+	padding-left: 0;
+	}
+#submenu a, #gomenu a {
+	text-decoration: none;
+	border-bottom: 1px dotted #361;
+	}
+div#gomenu { 
+	clear: both;
+	margin: 10px 0;
+	color: #306; /* same as visited links */
+	font-size: .8em;
+	font-weight: bold;
+	}
+
+/* -sitemenu = Left Column main navigation
+================================================================ 
+#sitemenu is primary navigation. Positioning of menu is already done above.
+
+
+Don't set font-size on UL, it will compound and also change relative em width settings.
+
+line-height: 1em; may make height more consistent across browsers, 
+but then list items overlap in IE 5.01 Win
+------------------------------------------------------------------------- */
+
+div#sitemenu { 
+	
+	}
+
+div#sitemenu ul {/* all ULs 1.5em*/
+	/* assigning width here messes up IE 5 windows.
+	Actually we only need width declared for any fly-out submenus. */
+	z-index: 5; /* bring menus on top of content that follows in html */
+	margin: 0 0 .5em 0; 
+	padding: 0; 
+	list-style: none; 
+	border-top: 1px solid #993;
+	}
+
+div#sitemenu li { 
+	position: relative;
+	margin: 0; 
+	padding: 0; /* because borders are on anchors */
+	color: #fff; 
+	 /*background-color: #360; do color here rather than UL to prevent a Netscape bug */
+	} /* don't put borders on LI when using popup menus, be nice to IE */
+
+/* set font-size on anchor instead of LI so it can't be compounded smaller in submenus */
+div#sitemenu li a, div#sitemenu li span {
+	display: block; 
+	font-size: .8em; 
+	margin: 0;
+	padding: .3em 0 .3em .7em;  /* was .3em 0 .3em .4em;  */
+	border-left: .7em solid #993; /* was .4em */
+	border-right: .1em solid #993; 
+	border-bottom: 1px solid #993;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1.2em; /* MUST include em unit to prevent missing border bug in Netscape and older Firefox */
+	} 
+
+div#sitemenu ul.tools {
+	border-top: 0;
+	margin-top: 1.5em;
+	}
+div#sitemenu ul.tools li a, div#sitemenu ul.tools li span {
+	margin-bottom: 1px;
+	padding: .3em 0 .3em .8em; 
+	border: 0;
+	}
+
+
+div#sitemenu li a.start, div#sitemenu li span.start {
+	border-left-width: .2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.1em; /* less than this and Netscape 7 looses some borders */
+	padding-left: 22px;
+	background: #E9E975 url(../img/logo_icon.gif) 0 50% no-repeat;
+	color: #361;
+	}
+
+/* span used for current html page instead of anchor link */
+div#sitemenu li span, div#sitemenu li span.start { 
+	background-color: #fff; 
+	color: #333;
+	border-right-color: #fff; 
+	}
+
+div#sitemenu .plant .start {
+	color: #250;
+	background-image: url(../img/logo_icon_p.gif);
+	}
+div#sitemenu .fungus .start {
+	color: #440;
+	background-image: url(../img/logo_icon_f.gif);
+	}
+
+div#sitemenu ul.plant li {
+	background-color: #250;
+	}
+div#sitemenu ul.fungus li {
+	background-color: #440; 
+	}
+
+/* these link colors need to over-ride the above li:hover values. */
+
+#vplants-org div#sitemenu a:visited:hover, 
+#vplants-org div#sitemenu a:visited:focus, 
+#vplants-org div#sitemenu a:visited:active {
+	color: #306; /* standard purple */
+	}/* If this rule put last than IE 6 does only purple, and not blue. */
+/* For a:visited:hover or a:hover:visited IE 5.01, 5.5 Win sees :visited only because it doesn't understand :hover; so visited links (not hovered) will be purple and not white. */
+
+#vplants-org div#sitemenu a:hover, 
+#vplants-org div#sitemenu a:focus, 
+#vplants-org div#sitemenu a:active { 
+	color: #00f; /* standard blue */
+	background-color: #ffd;
+	}/* If this rule last than IE does all links blue whether visited or not. */
+
+/* you are here #F7F7AB */
+body.home.start #sitemenu .home a.start, 
+body.plants.start #sitemenu .plant a.start, 
+body.fungi.start #sitemenu .fungus a.start, 
+body.index #sitemenu a.index, 
+body.guide #sitemenu a.guide, 
+body.topics #sitemenu a.topics,  
+body.glossary #sitemenu a.glossary, 
+body.documents #sitemenu a.documents, 
+body.resources #sitemenu a.resources, 
+body.search #sitemenu a.search,
+body.about #sitemenu a.about,
+body.contact #sitemenu a.contact,
+body.links #sitemenu a.links,
+body.sitemap #sitemenu a.sitemap,
+body.news #sitemenu a.news,
+body.help #sitemenu a.help
+	{ 
+	color: #361;
+	background-color: #eec; /* #ffd; */ 
+	border-right-color: #fff;
+	}
+body.home #sitemenu .home a.start, 
+body.about #sitemenu .home a.start,
+body.sitemap #sitemenu .home a.start,
+body.plants #sitemenu .plant a.start, 
+body.fungi #sitemenu .fungus a.start
+	{ 
+	color: #361;
+	background-color: #F7F7AB;
+	}
+
+/* -content1 = Center Column
+================================================================ 
+See other sections below for specialized content such as on Description pages.
+------------------------------------------------------------------------- */
+
+
+/* class="taxon" is used when taxon name is in a header. */
+.taxon {
+	font-family: charcoal, Georgia, "New Century Schoolbook", Times, serif;
+	font-weight: bold;		
+	}
+.taxon .author {
+	font-size: 0.8em; 
+	font-style: normal; 
+	font-weight: normal;
+	}
+.genus, .epithet {
+	font-style: italic; 
+	/* letter-spacing: 1px; */
+	}
+.infra {
+ } /* can contain .epithet and .author */
+
+p.concern, p.rating {
+	font-size: 0.8em;
+	font-weight: bold; 
+	text-align: right;
+	margin: 0;
+	}
+.concern, .concern a:link, .concern a:visited {
+	color: #00b; 
+	text-decoration: none;
+	}
+.concern a:hover, .concern a:focus {
+	color: #00f; 
+	text-decoration: underline;
+	}
+.rating, .rating a:link, .rating a:visited {
+	color: #d00; 
+	text-decoration: none;
+	}
+.rating a:hover, .rating a:focus {
+	color: #00f; 
+	text-decoration: underline;
+	}
+
+
+#floatimg {
+	display: block;
+	float: left;
+	width: 170px;
+	height: 250px;
+	border: 1px solid #cc0;
+	padding: 0;
+	margin: 5px 10px 7px 0;
+	}
+
+
+body.guide .floatimg {
+	display: block;
+	float: right;
+	padding: 0;
+	margin: 0 0 7px 10px;
+	}
+body.guide table.key {
+ width: 100%;
+	clear: both; 
+	border-left: 1px solid #440; 
+	border-bottom: 1px solid #440; 
+}
+
+body.guide table.key caption, body.guide table.key th {
+	text-align: left;
+}
+body.guide table.key caption {
+	font-weight: bold;
+	padding-bottom: .6em;
+}
+body.plants.guide table.key .keydivision td {
+	border-top: 3px solid #250; 
+	border-bottom: 1px solid #bb0; 
+	background-color: #eec; /* #ffd; */ 
+}
+body.plants.guide table.key .keychoice td {
+	border-top: 1px solid #250; 
+}
+body.fungi.guide table.key .keydivision td {
+	border-top: 3px solid #440; 
+	border-bottom: 1px solid #bb0; 
+	background-color: #eec; /* #ffd; */ 
+}
+body.fungi.guide table.key .keychoice td {
+	border-top: 1px solid #440; 
+}
+
+body.guide table.key h3 {
+	font-weight: bold;
+}
+
+body.guide table.key.blocks td {
+	border: 1px solid #250; 
+	vertical-align: top;
+}
+body.guide table.key.blocks td.empty {
+	border: 0;
+}
+body.fungi.guide table.key.blocks td {
+	border-color: #440;
+}
+body.guide table.key.blocks td div {
+	width: 300px;
+}
+
+div.plate {
+	border: 1px solid #cc0;
+	text-align: center;
+	margin: 0 0 20px 0;
+	}
+
+/* Definition lists */
+dl {
+	font-size: 0.8em;
+	margin: 0 0 10px 0;
+	}
+dl dl {
+	font-size: 1em;
+	}
+
+dt/* */ { /* Hide this from IE 5.0 (Win,Mac) but not 5.5 */
+	display: block;
+	color: #333;
+	clear: left;
+	float: left;
+	padding: 0 0.4em 0 0;
+	margin: 0;
+	}
+
+dd {
+	display: block;
+	margin: 0 0 0 1em;
+	padding: 0;
+	}
+dt, dd {
+	padding-top: 0.2em;
+	}
+dd + dd { /* CSS2 browsers, but not IE6 */
+	padding-left: 1em;
+	text-indent: -1em;
+	padding-top: 0;
+	}
+dt a, dt a:link, dt a:visited {
+	color: #333;
+	text-decoration: none;
+	}
+dt a:hover, dt a:focus {
+	color: #00f; 
+	text-decoration: underline;
+	}
+
+/* Description Pages 
+   -------------------------------------- */
+.descrip dl {
+	margin: 0;
+	}
+dt.growth, dt.size {
+	display: none;
+	}
+dd.growth, dd.size {
+	display: inline;
+	margin-left: 0;
+	}
+dl#descdef dt, dl#descdef dt + dd {
+	padding-top: 0;
+	}
+dl#descdef dt {
+	color: #841;
+	}
+dt#etym {
+	float: none;
+	} /* temp fix to prevent floating up into Notes when Notes empty. */
+dt#further, dt.refer {
+	float: none;
+	}
+dt#further + dd {
+	padding-top: 0;
+	}
+dd.refer { 
+	padding-top: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+	}
+dt.namecode, dd.namecode {
+	margin-left: 0;
+	}
+dd.namecode {
+	border-bottom: 2px solid #890;
+	}
+dt.namecode, dd.namecode { 
+	font-size: xx-small;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-size: x-small;
+	}
+
+.box.map ul {
+	font-size: 0.9em;
+	list-style-type: disc;
+	margin: 0 10px 0 0;
+	padding: 0 0 0 30px; 
+	}
+.box.map ul ul {
+	list-style-type: circle;
+	}
+.box.map li {
+	padding: 0 0 0 1em;
+	margin: 0;
+	}
+
+
+
+/* end Description page styles 
+   -------------------------------------- */
+
+#content1 ul, #content1 ol, #content ul, #content ol  { 
+	font-size: .9em;
+	padding: 0 0 0 1em; /* for bullets */ 
+	margin: 0 0 0 1em; 
+	}
+
+.floatleft {
+	display: block;
+	float: left;
+	}
+.floatright {
+	display: block;
+	float: right;
+	}
+
+.large {font-size: 1em;}
+#content1 ul.large {font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
+	list-style: none;
+	}
+
+#content1 ul.large li { 
+	padding: 0 0 .1em 25px; 
+	background: url(../img/icon_16px.gif) 0 50% no-repeat; 
+	}
+
+
+body.prototypes td {
+	font-size: .8em;
+	}
+
+td, th { padding: .3em;}
+
+tr.odd {
+	background: #eee;
+	} 
+tr.highlight {
+	background: #fefec6;
+	} 
+tbody.rowhover tr:hover {
+	background: #FEFEC6; /* #F7F7B4; */
+	color: #000;
+	}/* the tbody element must be added to the XHTML table */
+
+table#speclist {
+	width: 100%;
+	border: 1px solid #999;
+	}
+#speclist caption {
+	font-size: .85em;
+	padding: .3em;
+	text-align: left;
+	}
+#speclist thead th {
+	border-bottom: 1px solid #999;
+	}
+#speclist th input {/* make buttons look like links */
+	border: none;
+	background: none;
+	font-weight: bold;
+	color: #361;
+	border-bottom: 1px solid #361;
+	}
+#speclist th input:hover {/* imitate link hover */
+	color: #00f;
+	border-bottom: 1px solid #00f;
+	cursor: pointer; /* hand cursor */
+	}
+#speclist th, #speclist td {
+	font-size: .8em;
+	text-align: center;
+	}
+#speclist td img {
+	margin-left: auto;
+	margin-right: auto;
+	}
+#speclist td a {
+	display: block;
+	width: 4em;
+	border: 1px solid #999;
+	line-height: 24px; /* height of cam.gif minus 2px(borders) */
+	}
+
+.selectspecs {
+	font-size: .8em;
+	float: right;
+	padding: .3em;
+	border: 1px solid #999;
+	background: #eee;
+	margin: 0;
+	}
+	
+
+
+ul#searchvars {
+	display: block;
+	list-style: none;
+	font-size: .8em;
+	margin-bottom: .5em;
+	padding: 5px;
+	background: #eee;
+	color: #555;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	}
+#searchvars li {
+	display: inline;
+	margin: 0;
+	padding: 0 .5em;
+	border-left: 1px solid #999;
+	white-space: nowrap;
+	}
+#searchvars li.first {
+	border-left: none;
+	padding-left: 0;
+	}
+
+#searchvars li strong {
+	color: #000;
+	}
+
+
+
+
+
+
+
+/* -content2 = Right Column
+================================================================ 
+See -FORMS section for #simpleform
+------------------------------------------------------------------------- */
+
+
+
+.box {
+	font-size: .9em; /* scale down h3 h4 p ul */
+	width: 252px;
+	background: #FEFEC6 url(../img/box2_body.gif) left bottom no-repeat;
+	margin: 15px 0;
+	padding-bottom: 1px; 
+	}/* padding forces Firefox 1.5 to keep margin bottoms of content inside box div */
+#content2 .box:first-child {margin-top: 0;}
+
+#content2 p, #content2 dl { /* any paragraphs whether in a box or not */
+	margin: 10px 10px 10px 20px;
+	}
+#content2 img + img { /* any images whether in a box or not */
+	margin-top: 10px;
+	}
+/* any image not in a box or div (child of content2)
+#content2>img { 
+	border: 1px solid #cc0;
+	} */
+.boxless #content2 p {font-size: .8em; margin: 10px 8px;} 
+.boxless #bodywrap {background: url(../img/side_pale_line.gif) #fff right top repeat-y;} 
+.boxless #sitefoot {background: #fff;}
+
+#content2 h6 {
+	margin: 5px 10px 5px 20px;
+	}
+
+.box h3 { 
+	margin: 0; 
+	padding: 10px 5px 5px 20px;
+	border-bottom: 1px solid #cc0;
+	background: transparent url(../img/box2_head.gif) 0 0 no-repeat;
+	}
+
+.box h4 {
+	margin: 5px 0;
+	padding-left: 20px;
+	background: transparent url(../img/arrow_down.gif) 4px 70% no-repeat;
+	}
+
+.box ul {
+	margin: 5px 10px 5px 0;
+	padding: 0; 
+	list-style: none;
+	}
+.box li {
+	margin: 0;
+	padding: 3px 0 3px 30px; /* left padding for wrapped lines of li */
+	}
+.box li a {
+	margin-left: -34px; /*  negative amount of li padding plus extra width of background gif */
+	padding-left: 24px; /* 24px bring link back to right */
+	}
+
+.box a {text-decoration: none;} 
+div.box:hover a {text-decoration: underline;}
+
+/* backup for non-hover browsers and tabbing */
+.box a:hover, .box a:focus, .box a:active {text-decoration: underline;}
+
+.box li a[title]:hover { /* for links that follow  */
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	}
+.box li a[title~="External"]:visited:hover { /* external visited links */
+	background-image: url(../img/link_external_v.gif);
+	}
+.box li a[title~="External"]:hover { /* external links */
+	background-image: url(../img/link_external.gif);
+	}
+.box li a[title~="View"]:hover { /* view internal links */
+	background-image: url(../img/link_internal.gif);
+	}
+.box li a[title~="Document"]:hover { /* document links */
+	background-image: url(../img/link_doc.gif);
+	}
+.box li a[title~="Word"]:hover { /* document links */
+	background-image: url(../img/link_word.gif);
+	}
+.box li a[title~="Text"]:hover { /* document links */
+	background-image: url(../img/link_text.gif);
+	}
+.box li a[title~="PDF"]:hover { /* document links */
+	background-image: url(../img/link_pdf.gif);
+	}
+.box li a[title~="XLS"]:hover { /* document links */
+	background-image: url(../img/link_xls.gif);
+	}
+.box li a[title~="XML"]:hover { /* document links */
+	background-image: url(../img/link_xml.gif);
+	}
+.box li a[title~="Image"]:hover { /* document links */
+	background-image: url(../img/link_image.gif);
+	}
+
+.box.imgtext {/* does not have background image so needs borders */
+	width: 250px;
+	margin-top: 0;
+	background: #fff;
+	border: 1px solid #cc0;
+	padding: 0;
+	} /* can put paragraphs before and/or after the image */
+
+/* -------------------------
+top left corner doesn't work when image is first.
+Because image is in a nested division it gets raised above the box div so then the bottom rounded corner ends up behind the image corner.
+.box.imgtext:before {
+	content: url(../img/box2_tl.gif);
+	display: block;
+	margin: -1px 0 -9px -1px;
+	}
+.box.imgtext:after {
+	text-align: left;
+	clear: both;
+	content: url(../img/box2_bl.gif);
+	display: block;
+	margin: -8px 0 -1px -1px;
+	}
+ -------------------------------------- */
+/* note: if you don't have a negative top margin (less 1px image border width) to offset the height of the gif then the gif effectively adds padding (equal to height of gif less bottom margin) inside bottom of box. */
+/*
+#content2 #simpleform:after {
+	text-align: left;
+	clear: both;
+	content: url(../img/box2_bl.gif);
+	display: block;
+	margin: -10px 0 0 0;
+	} no clue why this needs different margins than box, possibly has something to do with fieldset, even though it has no bottom margin. */
+
+
+
+
+
+
+/*  -FORMS
+================================================================ 
+#partners is at top right of some pages
+#headform is at top right of most pages.
+#simpleform is in #content2 column.
+Home page and start pages and advanced search page have modified styles.
+------------------------------------------------------------------------- */
+
+#headform, #partners {
+	min-height: 60px;
+	min-width: 260px;
+	width: 15em;
+	float: right;
+	margin-top: -18px; /* offsets height of breadcrumbs div */
+	text-align: right;
+	color: #361;
+	}
+.home #partners {margin-top: 0;}
+.home #partners ul {	margin-top: 3px;}
+#partners ul {
+	margin: 5px 35px 0 0; 
+	padding: 0; 
+	list-style: none; 
+	font-size: .7em;
+	}
+#partners li {
+	margin: 0; 
+	padding: 0; 
+	line-height: 1.2em;/* cancels IE default */
+	}
+#headform form {
+	position: relative; /* context for button */
+	padding: 3px 35px 0 10px;
+	}
+#headform h5 {
+	float: left;
+	text-align: left;
+	line-height: 1em;
+	font-weight: bold;
+	margin: -3px 0 0 0; 
+	padding: 3px 0 0 0;
+	}
+#headform p { 
+	font-size: .7em;
+	margin: 0; 
+	padding: 2px 0 0 0;
+	}
+#headform label {
+	}
+#headform  input.texts {
+	border: 1px solid #ACBD4E;
+	color: #333;
+	background: #FEFEC6;
+	width: 8em;
+	}
+#headform input.texts:focus { 
+	border-color: #333;
+	background: #fff; 
+	}
+#headform input.actions {
+	position: absolute;
+	bottom: 0;
+	right: 2px; 
+	width: 30px; /* Go button looks better wider than default. */
+	}
+/* :BUGS: Originally had the following postioning for button:
+	#headform input.actions {
+		margin-left: 2px;
+		margin-right: -32px;
+		margin-top: -5px;
+		width: 30px;
+	}
+In Opera 8.54, the button disappears when clicking different parts of form. Doesn't matter if I use padding or margin for right side of form. This doesn't happen when I use absolute positioning which may be more scalable. But then with IE 6 and 7 the whole form disappears when window resized. This is caused by giving the form "position: relative;" -- is this a problem because its container is floated?  So the workaround is to use the negative margin method for IE 5, 6, 7 (in IE style sheet).  */
+
+/* -------------------------------------- */
+
+#simpleform { 
+	font-size: 1em;
+	text-align: right;
+	color: #361;
+	margin: 15px 0;
+	}
+#simpleform p { 
+	margin: 0.6em 0; padding: 0;
+	}
+#simpleform fieldset {
+	margin: 0;
+	padding: 10px 0 10px 5px; 
+	/* background: #FEFEC6; */
+	}
+#simpleform fieldset, #simpleform legend {
+	border: 1px solid #cc0;
+	}
+#simpleform legend { 
+	background: #F7F7AB;
+	color: #361;
+	padding: 0 10px; 
+	font-weight: bold;
+	font-size: .9em;
+	}
+#simpleform label {
+	font-weight: bold; 
+	}
+
+#simpleform input.texts {
+	border: 1px solid #ACBD4E; 
+	color: #333;  
+	width: 8em; 
+	background: #ffe; 
+	}
+#simpleform input.texts:focus { 
+	border-color: #333;
+	background: #fff; 
+	}
+#simpleform input.actions {
+	padding: 0 5px;
+	}
+
+
+
+/* -sitefoot = FOOTER
+================================================================ 
+IF the above columns are all floated, you can't apply a margin top to the division that is cleared (or not cleared) under the floats, unless you use easy-clearing on a wrapper division containing all the floated columns.
+------------------------------------------------------------------------- */
+
+#sitefoot { 
+	/* clear: both; also need this to get border-top to show */
+	padding: 0; 
+	padding-bottom: 20px; 
+	text-align: center;
+	font-size: .8em; 
+	} /* if border-top here then doesn't show in IE 5.0 Win */
+
+ul#footmenu {
+	margin: 0 0 15px 0;
+	padding: 0;
+	color: #361;
+	background-color: #FEFEC6;
+	border-top: 1px solid #360;
+	border-bottom: 1px solid #360;
+	}
+ul#footmenu li:first-child {
+	border-left: 1px solid #360;
+	}
+ul#footmenu li {
+	display: inline;
+	}
+ul#footmenu a {
+	line-height: 1.6em;
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #360;
+	} 
+
+#sitefoot p { 
+	margin: 0;
+	padding: 2px 10px 4px 10px;
+	}
+
+#sitefoot a:link, #sitefoot a:visited { 
+	text-decoration: none; 
+	}
+
+div#sitefoot:hover a {text-decoration: underline;}
+
+/* backup for non-hover browsers and tabbing */
+#sitefoot a:hover, #sitefoot a:focus, #sitefoot a:active {text-decoration: underline;}
+
+#funds { 
+	border-bottom: 1px solid #ACBD4E; 
+	}
+
+
+
+
+/* - BODY CLASS specific changes
+================================================================ 
+Design changes for Plants and Fungi pages
+------------------------------------------------------------------------- */
+
+body.plants #wrapper1, body.plants #wrapper0, body.plants #pagemenu, body.plants #sitefoot { 
+	border-color: #250;
+	}
+body.plants #pagemenu {
+	background: #250;
+	}
+
+
+body.fungi #wrapper1, body.fungi #wrapper0, body.fungi #pagemenu, body.fungi #sitefoot { 
+	border-color: #440;
+	}
+body.fungi #pagemenu {
+	background: #440;
+	}
+
+
+
+body.fungi #tagline {
+	background: transparent url(../img/plusfungi2.gif) 240px 0 no-repeat;
+	}
+/* 
+body.fungi #sitehead { 
+	background-image: url(../img/top_f_line.gif);
+	}
+ */
+body.fungi #pagemenu li {
+	background-image: url(../img/tab2_tr_f.gif);
+	}
+body.fungi #pagemenu ul a, body.fungi #pagemenu ul span { 
+	background-image: url(../img/tab2_tl_f.gif);
+	}
+
+body.fungi .box h3 { 
+	background-image: url(../img/box2_head_f.gif);
+	}
+
+
+
+
+
+
+
+
+/* CSS for Macintosh Internet Explorer 5 
+================================================================ 
+Contained within Mac-only hack designed by Tantek �elik. 
+http://www.stopdesign.com/examples/ie5mac-bpf/
+"It's constructed from a special pair of CSS comments, between which you may place CSS rules that only IEmac (version 5.x) will read, such as a width on a normally widthless float, or the inline-table IEmac fix of the Holly Hack. No browser later than Nav 4 has any problem with this hack being present."
+
+Part of : Clearing a float container without source markup.
+"display: inline-block;" is needed for IE-Mac. This IE5Mac workaround, by Alex Robinson, www.fu2k.org/alex/css/cssjunk/FloatInlineBlock.html has replaced the use of inline-table (previous IE5Mac workaround by Mark Hadley and Matt Keogh).  
+**DOESN'T seem to work for site header, so set the height explicitly.
+The easy-clearing does not work for the Tab menu in IE 5 MAC so I added a span into the div to make it expand.  If I can fix the clearing then I can remove the extra span markup.
+
+The styles below cancel and modify the styles given above.
+Because IE 5 Mac has layout problems it gets a similar but fixed width layout.
+The left column width of 6.4em at the font used is very close to the 100px used below.
+
+Remember that IE Mac understands child selector ">".
+
+BUG to FIX: IE Mac extends this link all across the background of the tab links.
+#pagemenu a#help {display: block; height: 1.3em;}
+Giving it a specified width on the non-floated a#help doesn't fix the problem.
+
+Logo image replacement canceled for IE Mac because I didn't find solution that would force the anchor to take expand to the size of the image.
+
+A List Apart, Sliding Doors of CSS, by Douglas Bowman, 20 October 2003
+Navigation Tabs fix for ONLY IE 5 Mac: to prevent the tabs from being stretched full width,
+we float the anchor inside the link also. (done for #pagemenu)
+
+------------------------------------------------------------------------- */
+
+
+/* === Start rules seen only by IE 5 Mac. Don't put any comments below!! === */
+/*\*//*/
+
+
+#sitehead, #pagemenu, #wrapper0, #wrapper1, #wrapper2 {display: inline-block;}  
+
+#headform, #partners {height: 60px; width: 260px; float: right; margin-top: 0;}
+#headform form, #partners ul {position: relative; top: -1.25em;}
+#headform form h5 {display: inline-block; margin-top: -1.25em;}
+#headform input.actions {position: absolute; top: 50px; right: 2px;}
+
+#sitehead {height: 80px;}
+#sitehead #breadcrumbs {height: 19px; white-space: nowrap;}
+#logo, #logo a, #logo img {width: 260px; height: 60px;}
+#tagline {white-space: nowrap;}
+body.fungi #tagline {
+	background-position: 260px 0 no-repeat;
+	}
+#bodywrap {margin-right: 0; width: 760px;}
+#wrapper1 {
+	border-left: 100px solid #360;
+	padding-top: 2em;
+	padding-left: 15px; 
+	padding-right: 0; 
+	margin-right: 0;
+	position: static; 
+	}
+#wrapper0 {
+	border-left: 5px solid #360;
+	}
+body.withsubmenu #wrapper1 {padding-top: 4em;}
+div#sitemenu {
+	width: 100px; 
+	position: absolute;
+	top: 5em; 
+	margin-top: 1.7em;
+	left: 0;
+	}
+
+
+div#pagemenu {
+	top: 5em;
+	left: 100px;
+	float: left; 
+	width: 660px;
+	clear: both;
+	}
+#pagemenu ul a, #pagemenu ul span {float:left;}
+#pagemenu a#help {display: block; height: 1.3em; padding-left: 1px;}
+
+
+div#submenu {top: 6.6em; left: 100px; padding: 5px 0;}
+
+
+#sitefoot a:link, #sitefoot a:visited {text-decoration: underline;}
+div.box a {text-decoration: underline;} 
+div.box:hover a {text-decoration: underline;}
+
+/* */
+/* === end rules for IE 5 Mac === */ 

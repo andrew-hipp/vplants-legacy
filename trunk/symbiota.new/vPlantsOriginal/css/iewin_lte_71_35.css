@@ -1,0 +1,224 @@
+
+/* temp rules to make sure css active */
+html>body h2 {background: green;} /* IE 7 */
+* html #vplants-org h2 {background: yellow;}  /* IE 5 and 6 windows */
+h2 {background: red;} /* if red there is a CSS problem */
+
+/* ======================================== Last updated 2006 April 
+   www.vplants.org CSS by Patrick Leacock, The Field Museum, Chicago, Illinois.
+
+   CSS for Internet Explorer Windows only versions 5.x, 6.x, and 7
+   !! Internet Explorer MAC does not read conditional comments so does not see this CSS file.
+	 
+   The following hacks, fixes, and work-arounds are all explained more fully on other Web sites, some noted below.
+
+   The HTML must have a correct DOCTYPE etc. so that Internet Explorer processes the page in standard or strict mode rather than quirks mode. 
+
+   Then this page is linked by this conditional comment in <head> of <html>. This comment is placed AFTER the MAIN CSS link (for all browsers) and BEFORE the PRINT CSS link.
+
+<!--  css for IE browsers 7.1 and below are handled in separate file -->
+<!--[if lte IE 7.1]>
+<link href="../css/iewin_lte_71.css" rel="stylesheet" type="text/css" media="all" />
+<![endif]-->
+
+   For IE lt 7 -- The universal selector "* html" 
+   targets only IE (versions 5.x and 6.x, Win and Mac).
+======================================= */
+
+
+/* Load the Windows IE-only behavior file that adds :hover capability.
+   Created by Peter Nederlof, http://www.xs4all.nl/~peterned/csshover.html
+   This rule would be ignored by non-windows IE browsers. 
+   This proprietary declaration will prevent this IE CSS file from validating,
+*/
+
+* html body {behavior:url(csshover.htc);}  /*  for IE 5 and 6 windows */
+
+
+
+/*	============= 3 columns ===================================
+*/
+
+
+
+* html #content1wrap {
+	margin-right: -280px; /* older browsers (IE5 and 6 win) need this instead of -252px */
+	}
+* html #content1 {/* no width, fluid center column */ 
+	margin-right: 305px; /* right column width plus gutter */
+	}
+
+
+
+
+
+
+
+
+
+
+/* because min-width is not understood by IE 5 and 6,
+set the width to constrain text and improve position of floated h5 */
+#headform {
+	width: 260px; 
+	}
+
+/* lighter color because input :focus color change not supported  */
+#headform  input.texts {
+	background: #ffd; 
+	width: 7em; /* less width keeps lines from wrapping when user sets text size "Larger" */
+	}
+
+#headform p { /* IE 5 6 7 seems to already have padding between the input boxes (inside the p's) */
+	padding: 0;
+	}
+
+/* In IE 6 and 7 the form disappears on resizing window if position: relative, so change this. */
+#headform form {
+	position: static;
+	} 
+#headform input.actions {
+	position: static;
+	margin-left: 2px;
+	margin-right: -32px; /* move it outside of paragraph */
+	margin-top: -5px; /* prevent button from pushing down paragraph */
+	width: 30px; /* Go button looks better wider than default. */
+	}
+
+
+/* ======================================= 
+elements needing a clear fix to enclose floats 
+
+See the MAIN CSS file for the first part of this hack. This second part of the hack is for IE browsers that do not support generated content (:before and :after pseudo-elements).
+	
+	Clearing a float container without source markup.
+	With Holly Hack for IE by Big John and Holly Bergevin.
+	See www.positioniseverything.net/easyclearing.html
+	Originally developed by Tony Aslett of www.csscreator.com
+	
+	"display: inline-block;" is seen by all browsers, but needed for IE-Mac. This IE5Mac workaround, by Alex Robinson, www.fu2k.org/alex/css/cssjunk/FloatInlineBlock.html has replaced the use of inline-table (previous IE5Mac workaround by Mark Hadley and Matt Keogh). And inline-block also triggers "haslayout" for IE 7 (negating the need for zoom:1; or some other hack), then display: block; corrects the DIV display without turning off haslayout. See www.tanfa.co.uk/archives/show.asp?var=300 (2006 February 02).
+
+	Instead of adding class="clearfix" in the HTML to the affected DIVs,
+	I am targeting those elements directly in the CSS where needed by their ID #name.
+
+	The Tan Hack "* html" targets only IE (versions 5.x and 6.x, Windows and Mac).
+	The Holly Hack "{height: 1%;}" is aimed at IE6-win (it's within code hidden from IE-mac).
+	Then "{display: block;}" (also hidden from IE-mac) replaces inline-block for non-IE-Mac browsers. 
+ ======================================= */
+
+
+#sitehead, #pagemenu, #submenu, #wrapper1, #wrapper2 {display: inline-block;}  
+
+/* Holly Hack Targets IE Win only \*/
+* html #sitehead, * html #pagemenu, * html #submenu, * html #wrapper1, #wrapper2 {height: 1%;}
+#sitehead, #pagemenu, #submenu, #wrapper1, #wrapper2 {display: block;}
+/* End Holly Hack */
+
+
+/* ========================================================= */
+
+
+
+
+
+/* make IE expand the floated anchor block to fill the width of the list item */
+* html #pagemenu ul a, * html #pagemenu ul span {width: .1em;}
+
+
+/*  The IE Doubled Float-Margin Bug
+IE 5 and 6 windows will double the margin in the floated direction.
+Fix by Steve Clason and Big John (www.positioniseverything.net/design/):
+Simply place {display: inline;} on the float which stops the IE behavior.
+The property display: is otherwise ignored by all browsers unless the value is none.
+ */
+* html #pagemenu ul#pageset1 {display: inline;}
+
+
+
+
+
+/* Hide rule from IE 5.0 Win and Mac -- The Comment After Selector Hack.
+Page 44 in CSS Hacks and Filters by Jeffrey W. Lowery
+But since this is in IE-only style sheet it is already hidden from IE Mac.
+So the following rule will be seen by IE Win 5.5, 6, and 7.  */
+
+div#sitemenu ul ul/* */ {
+
+ 	} 
+
+/* Show rules only to IE 5.0, 5.5 Win
+From dithered.com (CSS Filters) and also Mar Orlygsson (mar.anomy.net) 26 jan 2004.
+Property NOT seen by IE 6, all other browsers fine. But since this is in IE-only style sheet and the star-html hack is used in combination then the next rules target only IE 5.0 and 5.5 win. */
+
+* html div#sitemenu a, * html div#sitemenu a:visited {
+	color /**/: #000;
+	background-color /**/: #ffb; 
+	}/* simplify link colors because hover etc. not applied correctly */
+* html div#sitemenu a:hover {
+	color /**/: #00f;
+	background-color /**/: #ffc; 
+	}/* simplify link colors because hover etc. not applied correctly */
+
+
+
+/* trigger list or anchors to display block, 1st selector needed also by IE 7 */
+div#sitemenu li a,
+* html #submenu li,
+* html #footmenu li a { 
+	height: 1%;
+	}
+
+
+
+/* background gif helps ensure hover capability is full width of link box */
+div#sitemenu a {
+	background-image: url(../img/clear.gif);
+	}
+
+
+/*  
+In IE the :hover and pseudo-classes do NOT add specifity weight to the rule.
+With IE 6 the first rule has equal weight to the second rule,
+so the second rule is applied, even when hovering.  
+In Firefox the first rule is applied when hovering.
+So to make this work the first rule needs more weight for IE6.
+ */
+
+
+
+
+
+
+/* IE through IE7 applies background above fieldset, outside border (behind legend) */
+#simpleform fieldset {border: none;}
+#simpleform {border: 1px solid #cc0; background: #fefec6;}
+
+
+
+/* ===
+IE 5 can't position background properly even on single line.
+IE 6 and 7 can't position background image on anchor correctly either, when the link wraps to a second line.
+=== */
+.box li a:hover, .box:hover a {
+	background: none;
+	}
+#content2 .box li a[title]:hover {
+	background: none;
+	}
+
+
+
+
+
+html>body .access { /* IE7 ignores position: absolute; left: -999em; */
+	 display: none;
+	/*  Fix for IE 7 */
+	} 
+
+/* IE 5 bases 100% table width on the width of the parent DIV of #content.
+But there is no easy fix, because tables behave differently depending
+on whether the page content layout is one column or two columns.
+Tables set at 100% wide are double screen wide when in #content1 column (one of two columns).
+ */
+
+

@@ -1,0 +1,188 @@
+/* - Print Style Sheet for www.vplants.org
+=========================================================================
+last updated: 2007 December
+author: Patrick Leacock, The Field Museum, Chicago, Illinois.
+email: pleacock@fieldmuseum.org
+web site: http://www.lactarius.com/
+------------------------------------------------------------------------- */
+
+
+
+
+
+/* PRINT styles
+=========================================================
+These styles start from scratch because the other linked or imported CSS files are not designated for media print.
+
+Older browsers such as Netscape 4 will not see a print stylesheet.
+
+Do not add any background styles because backgrounds are usually turned off by default when printing. 
+
+Floated elements will not print past the first page in Netscape 6.x or Mozilla (ca. 2002).
+
+Eric Meyer: 
+Unfortunately, some browsers have trouble handling padding appropriately, 
+so it’s currently a better idea to move things around with margins whenever possible.
+
+-------------------------------------------------------*/
+
+body {
+	color: #000;
+	background: #fff;
+	font: 12pt/1.3em Georgia, Garamond, "Times New Roman", Times, serif;
+	}
+#tagline {text-align: center; border-bottom: 2px solid #555; padding-bottom: .3em; margin-bottom: .5em;}
+#tagline strong {padding-right: 1em; font-size: 16pt;}
+.small {font-size: 9pt;}
+
+
+
+#breadcrumbs, 
+#partners, 
+#headform, 
+#logo,  
+#sitemenu, 
+#pagemenu, 
+#submenu, 
+#simpleform, 
+#gomenu, 
+#footmenu, 
+.noprint, 
+.access {display: none;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0 0 .5em 0;
+	padding: 0;
+	}
+h1 {
+	font-family: Verdana, Lucida, Helvetica, Arial, sans-serif;
+	}
+h2, h3 {
+	font-variant: small-caps;
+	}
+ 
+h1 { font-size: 1.4em; font-weight: normal; word-spacing: .2em; }
+h2 { font-size: 1.25em; font-weight: normal; }
+h3 { font-size: 1.1em; font-weight: normal; }
+h4 { font-size: .9em; font-weight: normal; }
+h5 { font-size: .8em; font-weight: normal; }
+h6 { font-size: .7em; font-weight: normal; }
+
+p {padding: 0; margin: .2em 0 .5em 0; }
+p+p {text-indent: 1em;}
+#sitefoot p {padding: 0; margin: 0;}
+#sitefoot p+p {text-indent: 0;}
+
+a {	text-decoration: underline; 
+	color: #250;
+	border-bottom: 0;
+	}
+#sitehead a, #sitefoot a {
+	text-decoration: none; 
+	}
+
+#content1 a[href^="http:"]:after {
+	content: " (" attr(href) ") ";
+	font-size: .8em;
+	}
+
+#floatimg {
+	display: block;
+	float: left;
+	width: 170px;
+	height: 250px;
+	border: 1px solid #cc0;
+	padding: 0;
+	margin: 5px 10px 7px 0;
+	}
+body.guide .floatimg {
+	display: block;
+	float: right;
+	padding: 0;
+	margin: 0 0 7px 10px;
+	}
+.floatleft {
+	display: block;
+	float: left;
+	}
+.floatright {
+	display: block;
+	float: right;
+	}
+
+.large {font-size: 1em;}
+
+td {vertical-align: top; }
+
+#wrapper1 {
+	position: relative;
+	}
+
+.box {
+	font-size: 11pt;
+	margin-top: 10px;
+	padding: 10px 0 0 15px;
+	border: 1px solid #555;
+	}
+
+/*  -------- this does not help for relative links such as href="guide/"
+#content2 .box a[href^="/"]:after {
+	content: " (http://www.vplants.org" attr(href) ") ";
+	font-size: .8em;
+	}
+---------- */
+#content2 .box a:after {
+	content: " (http://www.vplants.org/" attr(href) ") ";
+	font-size: .8em;
+	}
+#content2 .box a[href^="/"]:after {
+	content: " (http://www.vplants.org" attr(href) ") ";
+	font-size: .8em;
+	}/* give vplants for all links then change external ones back. */
+#content2 a[href^="http:"]:after {
+	content: " (" attr(href) ") ";
+	font-size: .8em;
+	}
+
+#content2>* {
+	margin-left: 280px;
+	}
+
+#content2>*:first-child { 
+	display: block;
+	margin: 0 0 10px 0;
+	border: 1px solid #cc0;
+	float: left;
+	clear: left;
+	}
+#content2 img { 
+	margin: 0 0 10px 0;
+	border: 1px solid #cc0;
+	float: left;
+	clear: left;
+	}
+/* -------------
+#content2 *+img+* { 
+	clear: left;
+	}
+---------- */
+#sitefoot { 
+	clear: both;
+	margin-top: 0em;
+	font-size: 9pt; 
+	border-top: 1px solid #555;
+	text-align: center;
+	}
+
+
+/*  Description pages ------------ */
+body.description #content1, body.description #sitefoot {
+	margin-right: 280px; /* right column width plus 28px gutter */ 
+	}
+body.description #content2 {
+	position: absolute; 
+	top: 0;
+	right: 0;
+	width: 252px;
+	}

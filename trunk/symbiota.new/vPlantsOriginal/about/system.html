@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us"><head>
+<title>vPlants - System Overview</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="vplants, vplants.org, plant, plants, herbarium, herbaria, collections, specimens, museum, arboretum, botanic garden, natural history, ecology, distribution">
+<meta name="description" content="vPlants offers thousands of plant and fungus specimens for the Chicago Region, USA, with images and descriptions.">
+<link rel="stylesheet" href="../css/master.css" type="text/css" media="screen, projection">
+<!--[if lte IE 7.1]>
+  <link href="../css/iewin_lte_71.css" rel="stylesheet" type="text/css" media="screen, projection">
+<![endif]-->
+<link rel="stylesheet" href="../css/print.css"  type="text/css" media="print">
+</head>
+
+<body id="vplants-org" class="about" ><div id="bodywrap">
+
+<div id="sitehead">
+<a id="pagetop" name="pagetop"></a>
+
+<div id="breadcrumbs">
+You are here:
+<a href="/">Home</a> &#187;
+<a href="/about/">About Us</a> &#187;
+<strong>System Overview</strong>
+</div>
+
+<p class="access"><a href="#pagecontent" accesskey="2" title="Skip to page content.">[Skip to page content]</a></p>
+<p class="access"><a href="#menu1" title="Skip to menu one.">[Skip to primary menu]</a></p>
+<div id="partners"><ul><li><a href="/about/partner_mor.html" title="Read about this partner.">The Morton Arboretum</a></li><li><a href="/about/partner_f.html" title="Read about this partner.">The Field Museum</a></li><li><a href="/about/partner_chic.html" title="Read about this partner.">Chicago Botanic Garden</a></li><li><a href="/about/partner_other.html" title="Read about other partners.">Additional Partners</a></li></ul></div>
+<div id="logo"><a href="/" title="vPlants.org Home."><img src="../img/logo2h.gif" alt="vPlants.org Home."></a></div>
+<p id="tagline"><strong>vPlants.org</strong> <a href="/topics/" 
+  title="What is a Herbarium?">A Virtual Herbarium of the Chicago Region</a></p>
+</div><!-- End of #sitehead -->
+
+<div id="wrapper1">
+
+<div id="content"><a id="pagecontent" name="pagecontent"></a>
+
+<h1>System Overview</h1>
+
+<h2>vPlants: The Chicago Regional Virtual Herbarium as a model multi-institutional plant data resource</h2>
+<p>
+vPlants (<a href="http://www.vplants.org/">www.vplants.org</a>) is a collaborative, on-line herbarium for the greater Chicago Region. The site holds data entered from specimen labels for over 72,000 herbarium specimens housed at major Chicago Region herbaria. The public interface includes background information and the ability to query the database by species, habitat, collectors, collection sites, and other data. An expansion completed in 2006 builds on the database through additions of more broadly usable Web pages, species descriptions, expanded taxonomic coverage to include fungi, and the addition of new partners.
+</p>
+<p>Participating herbaria post their data in XML format, which are read at regular intervals by a Web agent. These data are normalized and stored in an Oracle database. The system is highly expansible: the only requirement of participating collections is that they be able to post data in the required format. The system is tolerant of nomenclatural discrepancies (via synonyms in the checklist) and allows for links to images and supplemental data.</p>
+<img src="../img/architecture.jpg" width="663" height="313" alt="The vPlants portal gathers metadata from partner servers.">
+
+<p class="small"><strong>Technical architecture of vPlants.</strong> Each <i>vPlants</i> partner publishes Metadata on the Web describing their herbarium specimens. On a weekly basis, a Web agent (depicted here as a spider) is dispatched from the Portal to harvest the metadata, storing it in a searchable format on the Portal.</p>
+<p></p>
+<p></p>
+
+<p>In the updated version, species descriptions are stored on the server in XML format, and species pages are generated on demand using JSP technology. A photo gallery is generated for each species based on photos that are available on the server. The system is set up so that content changes are immediately visible to the public.</p>
+
+<h2>vPlants Metadata Overview</h2>
+<p>Specimen metadata published by each participating vPlants institution are structured for efficient gathering and storage by the portal's robot (or spider). The metadata consist of three hierarchical layers of XML documents, each described by its own XML Schema. The template is depicted in the following diagram:</p>
+
+<img src="../img/metadata_layers.gif" width="632" height="409" alt="XML files stored in 3 levels of folders.">
+
+<dl>
+<dt>Layer 1</dt>
+<dd>serves as a starting point or table of contents for each site's metadata, guiding teh portal's robot to the metadata in Layer 2 via uniform resource identifiers (URI; hyperlinks).</dd>
+<dt>Layer 2</dt>
+<dd>documents are keyed by the institution's currently accepted scientific names, one document for each unique scientific name. Common names, vPlants taxon ID codes, and specimen ID codes are associated with each name. Specimen ID codes display a "last modified" timestamp and URI to their detailed specimen document in Layer 3. Before visiting the detailed document, the robot checks the timestamp to determine if the document's data has been modified since the last visit.</dd>
+<dt>Layer 3</dt>
+<dd>documents are keyed by a unique specimen ID, one document for each unique specimen ID. Detailed specimen information such as collectors, site location, and annotations are provided in the document.</dd>
+</dl>
+ 
+
+<div id="gomenu">Next &#187; <a href="partner_mor.html">Partners</a></div>
+
+</div><!-- end of #content -->
+
+
+
+<div id="sitemenu"><a id="menu1" name="menu1"></a>
+<h5 class="access">Primary Menu <a href="#menu2" title="Skip this menu.">[Skip]</a></h5>
+<ul><li class="home"><a 
+ class="start" href="/" 
+ title="Home page.">Home</a></li><li><a 
+ class="about" href="/about/"
+ title="About vPlants and its partners.">About Us</a></li><li><a 
+ class="sitemap" href="/sitemap.html"
+ title="Table of contents.">Site Map</a></li></ul>
+<ul class="plant"><li><a 
+ class="start" href="/plants/" 
+ title="Plants start page.">Plants</a></li></ul>
+<ul class="fungus"><li><a 
+ class="start" href="/fungi/" 
+ title="Fungi start page.">Fungi</a></li></ul>
+<ul class="tools"><li><a accesskey="5" 
+ class="search" href="/search.html" 
+ title="Advanced search for plants or fungi.">Search</a></li><li><a 
+ class="help" href="/help/" 
+ title="Help and user guide.">Help Guide</a></li><li><a 
+ class="topics" href="/topics/" 
+ title="Collections, habitats, and more.">Topics</a></li><li><a 
+ class="resources" href="/resources/" 
+ title="Documents, books, and links.">Resources</a></li></ul>
+</div><!-- end of #sitemenu -->
+
+<div id="pagemenu"><a id="menu2" name="menu2"></a>
+<h5 class="access">Secondary Menu <a href="#menu4" title="Skip this menu.">[Skip]</a></h5>
+<ul id="pageset1"><li><a 
+ href="index.html" 
+ title="About this site.">vPlants</a></li><li class="thispage"><span 
+ title="You are here: How vPlants operates.">System&nbsp;Overview</span></li><li><a 
+ href="partner_mor.html" 
+ title="vPlants partners.">Partners</a></li><li><a
+ href="contact.html"
+ title="Contact information.">Contact&nbsp;Us</a></li><li><a 
+ href="feedback.html" 
+ title="Please provide feedback!">Feedback</a></li><li><a 
+ href="credits.html" 
+ title="The people of vPlants.">Credits</a></li></ul>
+<span class="filler">&nbsp;</span>
+</div><!-- End of #pagemenu -->
+
+</div><!-- end of #wrapper1 -->
+
+<div id="sitefoot"><a id="menu4" name="menu4"></a>
+<h5 class="access">Footer Menu</h5>
+<ul id="footmenu"><li><a href="/" accesskey="1" title="Home page.">Home</a></li><li><a href="/help/" accesskey="6" title="Help and user guide.">Help Guide</a></li><li><a href="/sitemap.html" accesskey="7" title="Table of contents.">Site Map</a></li><li><a href="/about/contact.html" accesskey="8" title="Contact information.">Contact Us</a></li><li><a href="/about/feedback.html" accesskey="9" title="Please provide feedback!">Feedback</a></li><li><a href="/access.html" accesskey="0" title="Accessibility features of this site.">Accessibility Statement</a></li></ul>
+<p id="funds">Funded by <a href="http://www.imls.gov" title="Go to IMLS web site.">Institute of Museum and Library Services (IMLS)</a></p>
+<p id="citation">Citation: <span class="helptext" title="This is how you list this web site as a reference.">The vPlants Project. vPlants: A Virtual Herbarium of the Chicago Region. http://www.vplants.org</span></p>
+<p id="copyright">Copyright &#169; 2001&#8211;2009 The vPlants Project, All Rights Reserved.</p>
+<p><a href="/about/partner_mor.html" title="Read about this partner.">The Morton Arboretum</a>, <a href="/about/partner_f.html" title="Read about this partner.">The Field Museum</a>, <a href="/about/partner_chic.html" title="Read about this partner.">Chicago Botanic Garden</a>, <a href="/about/partner_other.html" title="Read about other partners.">Additional Partners</a></p>
+<p class="access"><a href="#pagetop" accesskey="3" title="Back to top of page.">[Back to top of page]</a></p>
+</div><!-- End #sitefoot -->
+
+</div><!-- End of #bodywrap -->
+</body>
+</html>

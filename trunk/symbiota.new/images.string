@@ -1,0 +1,1 @@
+<img style="" src="<?php echo $clientRoot; ?>/images/vplants/<image filename here>" />
