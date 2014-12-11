@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?> Home</title>
+	<title><?php echo $defaultTitle?>Home</title>
 	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
 	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
@@ -23,7 +23,7 @@ header("Content-Type: text/html; charset=".$charset);
             <h1></h1>
 
             <div style="margin:20px;">
-            	Description and introduction of project
+            	 Description
             </div>
         </div>
 
