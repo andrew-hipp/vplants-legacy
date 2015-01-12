@@ -85,7 +85,7 @@
 									<a href="<?php echo $clientRoot; ?>/plants/guide/index.php" >Guide</a>
 								</li>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/glossary/index.php" >Glossary</a>
+									<a href="<?php echo $clientRoot; ?>/plants/glossary/index.php" >Glossary</a>
 								</li>
 								<li>
 									<a href="<?php echo $clientRoot; ?>/plants/biology.php" >Biology</a>
