@@ -82,6 +82,12 @@
 							<a href="<?php echo $clientRoot; ?>/plants/index.php" >About Plants</a>
 							<ul>
 								<li>
+									<a href="<?php echo $clientRoot; ?>/plants/guide/index.php" >Guide</a>
+								</li>
+								<li>
+									<a href="<?php echo $clientRoot; ?>/projects/glossary/index.php" >Glossary</a>
+								</li>
+								<li>
 									<a href="<?php echo $clientRoot; ?>/plants/biology.php" >Biology</a>
 								</li>
 								<li>
@@ -104,12 +110,6 @@
 								</li>
 								<li>
 									<a href="<?php echo $clientRoot; ?>/plants/concern.php" >Special Concern</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/guide/index.php" >Guide</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/glossary/index.php" >Glossary</a>
 								</li>
 							</ul>
 						</li>
