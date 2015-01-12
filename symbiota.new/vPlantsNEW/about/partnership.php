@@ -22,7 +22,7 @@ header("Content-Type: text/html; charset=".$charset);
         <div  id="innertext">
             <h1>vPlants Partnership</h1>
 			<div style="margin:20px;">
-				<p>Describe collaboration with links to founding institutions (Morton, FM, CBC). Link to additional partners at bottom.</p>
+				<p>Under construction. Describe collaboration with links to founding institutions (Morton, FM, CBC). Link to additional partners at bottom.</p>
 
             	<p> 
 					The Morton Arboretum, a 1,700-acre botanical garden of trees and other plants, displays more than 3,300 kinds of plants from throughout the north temperate zone. These living collections are combined with 700 acres of oak woodland, reconstructed prairie, rare species habitat, and wetlands, presenting a showcase of horticultural and native plant diversity. The Arboretum and its staff are actively involved in regional, national and international conservation efforts.
