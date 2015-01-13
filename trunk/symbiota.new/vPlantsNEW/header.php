@@ -85,6 +85,9 @@
 							<a href="<?php echo $clientRoot; ?>/plants/index.php" >About Plants</a>
 							<ul>
 								<li>
+									<a href="<?php echo $clientRoot; ?>/plants/chicagoplants.php" >Chicago Region Plants</a>
+								</li>
+								<li>
 									<a href="<?php echo $clientRoot; ?>/plants/guide/index.php" >Guide</a>
 								</li>
 								<li>
