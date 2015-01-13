@@ -62,8 +62,11 @@ header("Content-Type: text/html; charset=".$charset);
 			  </p>
 			 </div>
 			 
-			 <a href="map.html" title="See State Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images.vplantsimg/map_grtlakes_250.jpg" width="250" height="212"
+			 <a href="<?php echo $clientRoot; ?>/about/map.html" title="See State Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images.vplantsimg/map_grtlakes_250.jpg" width="250" height="212"
 			  alt="The vPlants Region is located within four states at the south end of Lake Michigan."></a>
+			  
+			 <a href="/about/map_county.html" title="See County Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images.vplantsimg/map_vplants.gif" width="250" height="212"
+			  alt="Map of the vPlants Chicago Region showing counties included."></a>
 			 
 			<div class="box">
 			 <h3>Related Web Sites</h3>
