@@ -65,6 +65,9 @@
 							<a href="<?php echo $clientRoot; ?>/about/index.php" >About Us</a>
 							<ul>
 								<li>
+									<a href="<?php echo $clientRoot; ?>/about/vplants.php" >vPlants Project</a>
+								</li>
+								<li>
 									<a href="<?php echo $clientRoot; ?>/about/chicago.php" >Chicago Region</a>
 								</li>
 								<li>
