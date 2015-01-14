@@ -124,12 +124,16 @@ td.footer{
 
 /*Left menu components*/
 div.menu {
+    float: left;
+	width: 15%;
+	height: 150px;
+	background-color: #999;
+	margin-bottom: 10px;
+    margin-top: 10px;
 	background-color:	white;
-	margin:			15px;
-	border:   			1px solid #CCCCFF;
+	border:   		1px solid #CCCCFF;
 	padding-bottom:   	25px;
 	overflow:   		hidden;
-	width:   			150px;
 	border-radius:		0.5em 0.5em 1.5em 0.5em;
 	-moz-border-radius:	0.5em 0.5em 1.5em 0.5em;
 	-khtml-border-radius: 0.5em 0.5em 1.5em 0.5em;
@@ -181,11 +185,12 @@ div.menuitem a:hover {
 /*Central div in the middle center table div */
 #innertext{
 	font-size: 14px;
-	width:100%;
+	width:75%;
+    float: left;
 	min-height:400px;
 	margin-top:8px;
 	margin-bottom:0px;
-	margin-left:0px;
+	margin-left:20px;
 	margin-right:0px;
 }
 
@@ -441,16 +446,19 @@ div#submenu {
 /* A List Apart, No. 183, June 15, 2004 
 Creating Liquid Layouts with Negative Margins, by Ryan Brill */
 #content1wrap {
-	width: 100%; 
+    	width: 100%; 
 	float: left;
 	margin-right: -252px; /* may need extra pixel here */
+    	margin-top: 10px;
 	}
-#content1 {/* no width, fluid center column */ 
-	margin-right: 280px; /* right column width plus 28px gutter */ 
+#content1 {
+    	float: left;
+	width: 75%;
+	margin-bottom: 10px;
 	}
-#content2 {/* not using negative margin here so may avoid Netscape problem with long column */
-	float: right;
-	width: 252px;  /* right col width, don't put width and padding on same element */
+#content2 {
+	float: left;
+	width: 10%; 
 	}
 
 #sitehead:after, #pagemenu:after, #wrapper0:after, #wrapper1:after, #wrapper2:after {
