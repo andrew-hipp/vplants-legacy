@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Special Concern</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -29,7 +29,7 @@ header("Content-Type: text/html; charset=".$charset);
 				</p>
 
 				<p>
-				For The vPlants Project, we have compiled a list of <a href="/resources/plant_concern.html" 
+				For The vPlants Project, we have compiled a list of <a href="../resources/plant_concern.php" 
 				title="See this document">Chicago Region Plants of Concern</a> that are listed for any of the four states of the area (Illinois, Indiana, Michigan, Wisconsin), plus the federal listed species.  View further information about this list as well as visit the state and federal web sites using the links on this page.
 				</p>
 
@@ -44,7 +44,7 @@ header("Content-Type: text/html; charset=".$charset);
 			<div class="box document">
 			<h3>vPlants Documents</h3>
 			<ul><li>
-			<a href="/resources/plant_concern.html" 
+			<a href="../resources/plant_concern.php" 
 			title="Document information">Chicago Region Plants of Concern</a>
 			</li></ul>
 			</div>
@@ -94,7 +94,7 @@ header("Content-Type: text/html; charset=".$charset);
 			</li></ul>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 

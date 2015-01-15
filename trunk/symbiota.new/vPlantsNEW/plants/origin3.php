@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Invasive Plants</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -31,19 +31,19 @@ header("Content-Type: text/html; charset=".$charset);
 		
 		<div id="content2">
 
-			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/LYSA2.jpg" width="250" height="366" alt="purple flowered plant in wetland" title="Lythrum salicaria">
+			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/LYSA2.jpg" width="250" height="366" alt="purple flowered plant in wetland" title="Lythrum salicaria">
 			<div class="box imgtext">
-			<p>Purple loosestrife, <a href="/plants/species/species.jsp?gid=24671"><i>Lythrum salicaria</i></a>, is an incredibly harmful invasive plant that was introduced to North America from Eurasia and has spread into wetlands across the continent.</p>
+			<p>Purple loosestrife, <a href="../plants/species/species.jsp?gid=24671"><i>Lythrum salicaria</i></a>, is an incredibly harmful invasive plant that was introduced to North America from Eurasia and has spread into wetlands across the continent.</p>
 			</div>
 
 			<div class="box document">
 			<h3>Related Documents</h3>
 			<ul><li>
-			<a href="/resources/plant_invasive.html">Chicago Region Invasive Plant List</a>
+			<a href="../resources/plant_invasive.php">Chicago Region Invasive Plant List</a>
 			</li></ul>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 

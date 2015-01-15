@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Disjuncts</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -58,55 +58,55 @@ header("Content-Type: text/html; charset=".$charset);
 			<div class="box">
 			<h3>Atlantic Coastal Plain Disjunct Plants</h3>
 			<p>
-			<a href="/plants/species/species.jsp?gid=14337"><i>Eleocharis melanocarpa</i></a>
+			<a href="../plants/species/species.jsp?gid=14337"><i>Eleocharis melanocarpa</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=34285"><i>Rhexia virginica</i></a>
+			<a href="../plants/species/species.jsp?gid=34285"><i>Rhexia virginica</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=34552"><i>Rhynchospora macrostachya</i></a>
+			<a href="../plants/species/species.jsp?gid=34552"><i>Rhynchospora macrostachya</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=35569"><i>Sabatia campanulata</i></a>
+			<a href="../plants/species/species.jsp?gid=35569"><i>Sabatia campanulata</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=41587"><i>Utricularia radiata</i></a>
+			<a href="../plants/species/species.jsp?gid=41587"><i>Utricularia radiata</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=41591"><i>Utricularia subulata</i></a>
+			<a href="../plants/species/species.jsp?gid=41591"><i>Utricularia subulata</i></a>
 			</p>
 			</div>
 
 			<div class="box">
 			<h3>Boreal Plants</h3>
 			<p>
-			<a href="/plants/species/species.jsp?gid=2596"><i>Arctostaphylos uva-ursi</i></a>
+			<a href="../plants/species/species.jsp?gid=2596"><i>Arctostaphylos uva-ursi</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=6241"><i>Callitriche verna</i></a>
+			<a href="../plants/species/species.jsp?gid=6241"><i>Callitriche verna</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=7416"><i>Carex limosa</i></a>
+			<a href="../plants/species/species.jsp?gid=7416"><i>Carex limosa</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=10762"><i>Cornus canadensis</i></a>
+			<a href="../plants/species/species.jsp?gid=10762"><i>Cornus canadensis</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=24540"><i>Lycopodiella inundata</i></a>
+			<a href="../plants/species/species.jsp?gid=24540"><i>Lycopodiella inundata</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=31025"><i>Pinus banksiana</i></a>
+			<a href="../plants/species/species.jsp?gid=31025"><i>Pinus banksiana</i></a>
 			</p>
 			</div>
 
 			<div class="box">
 			<h3>Western Plains Plants</h3>
 			<p>
-			<a href="/plants/species/species.jsp?gid=21526"><i>Lactuca ludoviciana</i></a>
+			<a href="../plants/species/species.jsp?gid=21526"><i>Lactuca ludoviciana</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=23476"><i>Lithospermum incisum</i></a>
+			<a href="../plants/species/species.jsp?gid=23476"><i>Lithospermum incisum</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=27790"><i>Opuntia macrorhiza</i></a>
+			<a href="../plants/species/species.jsp?gid=27790"><i>Opuntia macrorhiza</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=34114"><i>Ranunculus rhomboideus</i></a>
+			<a href="../plants/species/species.jsp?gid=34114"><i>Ranunculus rhomboideus</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=35570"><i>Sabatia campestris</i></a>
+			<a href="../plants/species/species.jsp?gid=35570"><i>Sabatia campestris</i></a>
 			</p><p>
-			<a href="/plants/species/species.jsp?gid=37722"><i>Sisyrinchium campestre</i></a>
+			<a href="../plants/species/species.jsp?gid=37722"><i>Sisyrinchium campestre</i></a>
 			</p>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 

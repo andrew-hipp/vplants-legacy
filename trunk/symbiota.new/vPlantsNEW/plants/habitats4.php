@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Wetlands</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -97,7 +97,7 @@ header("Content-Type: text/html; charset=".$charset);
 		
 		<div id="content2">
 
-			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/cowles.jpg" width="250" height="195" alt="Cowles Bog" />
+			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/cowles.jpg" width="250" height="195" alt="Cowles Bog" />
 			<div class="box imgtext">
 			<p>
 			An early spring view of forested swamp, at the Cowles Bog Wetland Complex in the Indiana Dunes National Lakeshore, Porter, Indiana
@@ -127,7 +127,7 @@ header("Content-Type: text/html; charset=".$charset);
 			</div>
 
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 

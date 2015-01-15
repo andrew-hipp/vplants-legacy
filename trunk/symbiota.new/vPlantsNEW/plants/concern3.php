@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - The Listing of Plants</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -29,19 +29,19 @@ header("Content-Type: text/html; charset=".$charset);
 		
 		<div id="content2">
 
-			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/CIPI.jpg" width="250" height="337" alt="thistle growing in sand." title="Cirsium pitcheri" />
+			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/CIPI.jpg" width="250" height="337" alt="thistle growing in sand." title="Cirsium pitcheri" />
 			<div class="box imgtext">
-			<p>Pitcher's thistle, <i>Cirsium pitcheri</i>, is Federally listed as Threatened.  Its required habitat of open dune faces has become rarer through loss to development. <a href="/plants/species/species.jsp?gid=9488"><i>C. pitcheri</i> description </a></p>
+			<p>Pitcher's thistle, <i>Cirsium pitcheri</i>, is Federally listed as Threatened.  Its required habitat of open dune faces has become rarer through loss to development. <a href="../plants/species/species.jsp?gid=9488"><i>C. pitcheri</i> description </a></p>
 			</div>
 
 			<div class="box">
 			<h3>Related Pages</h3>
 			<ul><li>
-			<a href="concern.html">Regional Lists</a>
+			<a href="concern.php">Regional Lists</a>
 			</li></ul>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 

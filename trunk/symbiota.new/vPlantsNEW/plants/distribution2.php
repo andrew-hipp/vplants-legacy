@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Endemics</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -56,13 +56,13 @@ header("Content-Type: text/html; charset=".$charset);
 			<div class="box document">
 			<h3>Chicago Region Endemics</h3>
 			<ul><li>
-			<a href="/plants/species/species.jsp?gid=40209"><i>Thismia americana</i></a>
+			<a href="../plants/species/species.jsp?gid=40209"><i>Thismia americana</i></a>
 			</li><li>
-			<a href="/plants/species/species.jsp?gid=20393"><i>Iliamna remota</i></a>
+			<a href="../plants/species/species.jsp?gid=20393"><i>Iliamna remota</i></a>
 			</li><li>
 			</div>
 
-			<img src="<?php echo $clientRoot; ?>/images.vplants/feature/V0030621F.jpg" width="250" height="361" alt="1912 specimen of Kankakee Mallow.">
+			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/V0030621F.jpg" width="250" height="361" alt="1912 specimen of Kankakee Mallow.">
 			<div class="box imgtext">
 			<p>Specimen of the endemic Kankakee mallow, <i>Iliamna remota</i>, collected by E. J. Hill in 1912.
 			</p></div>
@@ -70,19 +70,19 @@ header("Content-Type: text/html; charset=".$charset);
 			<div class="box">
 			<h3>Great Lakes Endemics</h3>
 			<ul><li>
-			<a href="/plants/species/species.jsp?gid=9488"><i>Cirsium pitcheri</i></a>
+			<a href="../plants/species/species.jsp?gid=9488"><i>Cirsium pitcheri</i></a>
 			</li><li>
-			<a href="/plants/species/species.jsp?gid=20155"><i>Hypericum kalmianum</i></a>
+			<a href="../plants/species/species.jsp?gid=20155"><i>Hypericum kalmianum</i></a>
 			</li><li>
-			<a href="/plants/species/species.jsp?gid=91011"><i>Iris lacustris</i></a>
+			<a href="../plants/species/species.jsp?gid=91011"><i>Iris lacustris</i></a>
 			</li><li>
-			<a href="/plants/species/species.jsp?gid=6064"><i>Cakile edentula</i> var. <i>lacustris</i></a>
+			<a href="../plants/species/species.jsp?gid=6064"><i>Cakile edentula</i> var. <i>lacustris</i></a>
 			</li><li>
-			<a href="/plants/species/species.jsp?gid=38060"><i>Solidago simplex</i> ssp. <i>randii</i> var. <i>gillmanii</i></a>
+			<a href="../plants/species/species.jsp?gid=38060"><i>Solidago simplex</i> ssp. <i>randii</i> var. <i>gillmanii</i></a>
 			</li><li>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 
