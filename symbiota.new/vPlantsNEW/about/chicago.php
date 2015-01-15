@@ -18,6 +18,39 @@ header("Content-Type: text/html; charset=".$charset);
 	$displayLeftMenu = "true";
 	include($serverRoot."/header.php");
 	?> 
+		<!-- Left menu begins -->
+		<div class="menu">
+			<div class="menuheader">
+				<a href="<?php echo $clientRoot; ?>/about/index.php">
+					About Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/vplants.php">
+					vPlants Project
+				</a>
+			</div>
+			<div class="menuitem">
+				<strong>Chicago Region</strong>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/partnership.php">
+					vPlants Partnership
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/contact.php">
+					Contact Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/credits.php">
+					Credits
+				</a>
+			</div>
+		</div>
+		<!-- Left menu ends -->
+		
         <!-- This is inner text! -->
         <div  id="innertext">
             <h1>The Chicago Region</h1>
@@ -53,19 +86,19 @@ header("Content-Type: text/html; charset=".$charset);
 
 			<div class="box">
 			  <h3>Chicago Region</h3>
-			  <p><img src="<?php echo $clientRoot; ?>/images.vplants/img/map_na.gif" width="210" height="210" 
+			  <p><img src="<?php echo $clientRoot; ?>/images/vplants/img/map_na.gif" width="210" height="210" 
 			   alt="Map of North America showing location of Chicago Region."
 			   title="Map of North America showing location of Chicago Region.">
 			  </p>
 			  <p>
-			   <img class="float" src="<?php echo $clientRoot; ?>/images.vplants/img/map_color_box.gif" width="20" height="20" alt="Green Box"> Region covered by vPlants
+			   <img class="float" src="<?php echo $clientRoot; ?>/images/vplants/img/map_color_box.gif" width="20" height="20" alt="Green Box"> Region covered by vPlants
 			  </p>
 			</div>
 			 
-			<p><a href="<?php echo $clientRoot; ?>/about/map.php" title="See State Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images.vplantsimg/map_grtlakes_250.jpg" width="250" height="212"
+			<p><a href="<?php echo $clientRoot; ?>/about/map.php" title="See State Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images/vplants/img/map_grtlakes_250.jpg" width="250" height="212"
 			  alt="The vPlants Region is located within four states at the south end of Lake Michigan."></a></p>
 			  
-			<p><a href="<?php echo $clientRoot; ?>/about/map_county.php" title="See County Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images.vplantsimg/map_vplants.gif" width="250" height="212"
+			<p><a href="<?php echo $clientRoot; ?>/about/map_county.php" title="See County Map for Chicago Region."><img class="border" src="<?php echo $clientRoot; ?>/images/vplants/img/map_vplants.gif" width="250" height="212"
 			  alt="Map of the vPlants Chicago Region showing counties included."></a></p>
 			 
 			<div class="box">
