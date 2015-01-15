@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - County Map</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<title><?php echo $defaultTitle?> About Us - Chicago Region - County Map</title>
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -18,6 +18,47 @@ header("Content-Type: text/html; charset=".$charset);
 	$displayLeftMenu = "true";
 	include($serverRoot."/header.php");
 	?> 
+		<!-- Left menu begins -->
+		<div class="menu">
+			<div class="menuheader">
+				<a href="<?php echo $clientRoot; ?>/about/index.php">
+					About Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/vplants.php">
+					vPlants Project
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/chicago.php">
+				Chicago Region
+				</a>
+			</div>
+				<div class="submenuitem">
+					<a href="<?php echo $clientRoot; ?>/about/map.php">State Map</a>
+				</div>
+				<div class="submenuitem">
+					<strong>County Map</strong>
+				</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/partnership.php">
+					vPlants Partnership
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/contact.php">
+					Contact Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/credits.php">
+					Credits
+				</a>
+			</div>
+		</div>
+		<!-- Left menu ends -->
+		
         <!-- This is inner text! -->
         <div  id="innertext">
             <h1>County Map for Chicago Region</h1>
@@ -25,7 +66,7 @@ header("Content-Type: text/html; charset=".$charset);
             <div style="margin:20px;">
             	 <p>Map of the 24 counties included in the Chicago Region for vPlants. Please be aware when searching records that there is a Lake County in Illinois as well as a Lake County in Indiana.</p>
  
-				 <img class="floatleft" src="<?php echo $clientRoot; ?>/images.vplants/img/map_vplants.gif" width="490" height="484" alt="Map of the vPlants Chicago Region showing counties included">
+				 <img class="floatleft" src="<?php echo $clientRoot; ?>/images/vplants/img/map_vplants.gif" width="490" height="484" alt="Map of the vPlants Chicago Region showing counties included">
 
 
 				 <div class="floatleft">
