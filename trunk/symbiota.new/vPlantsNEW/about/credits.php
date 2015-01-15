@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?> Credits</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<title><?php echo $defaultTitle?> About Us - Credits</title>
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -18,6 +18,41 @@ header("Content-Type: text/html; charset=".$charset);
 	$displayLeftMenu = "true";
 	include($serverRoot."/header.php");
 	?> 
+		<!-- Left menu begins -->
+		<div class="menu">
+			<div class="menuheader">
+				<a href="<?php echo $clientRoot; ?>/about/index.php">
+					About Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/vplants.php">
+					vPlants Project
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/chicago.php">
+					Chicago Region
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/partnership.php">
+					vPlants Partnership
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/contact.php">
+					Contact Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<strong>
+					Credits
+				</strong>
+			</div>
+		</div>
+		<!-- Left menu ends -->
+		
         <!-- This is inner text! -->
         <div  id="innertext">
             <h1>Credits</h1>
@@ -99,6 +134,60 @@ header("Content-Type: text/html; charset=".$charset);
 				</dl>
             </div>
         </div>
+		
+		<!-- start of side content -->
+		<div id="content2">
+			<!-- any image width should be 250 pixels -->
+
+			<div class="box">
+			<h3>vPlants funded by</h3>
+			<ul><li><a href="http://www.imls.gov">Institute of Museum and Library Services</a></li>
+			</ul>
+			</div>
+
+			<div class="box">
+			<h3>Image Contributors</h3>
+
+			<h4>Chicago Botanic Garden</h4>
+			<ul><li>
+			...
+			</li></ul>
+
+			<h4>Field Museum of Natural History</h4>
+			<ul><li>
+			Bil Alverson
+			</li><li>
+			William Burger
+			</li><li>
+			Patrick Leacock
+			</li><li>
+			Gayle Tonkovich
+			</li></ul>
+
+			<h4>Illinois Mycological Association</h4>
+			<ul><li>
+			John Denk
+			</li></ul>
+
+			<h4>Illinois Natural History Survey</h4>
+			<ul><li>
+			Dan Busemeyer
+			</li>
+
+			<h4>The Morton Arboretum</h4>
+			<ul><li>
+			...
+			</li></ul>
+
+			<h4>University of Illinois, Urbana</h4>
+			<ul><li>
+			Malcolm Sargent
+			</li></ul>
+			</div>
+
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
+
+		</div><!-- end of #content2 -->
 
 	<?php
 	include($serverRoot."/footer.php");
