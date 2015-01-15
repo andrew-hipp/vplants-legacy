@@ -178,6 +178,19 @@ div.menuitem a:hover {
 	color: 	#00008B;
 }
 
+div.submenuitem {
+    font-size: .7em;
+    margin-left: 15px;
+}
+
+div.submenuitem a {
+	color: #669999;
+}
+
+div.submenuitem a:hover {
+	color: 	#00008B;
+}
+
 /*Central div in the middle center table div */
 #innertext{
 	font-size: 14px;
