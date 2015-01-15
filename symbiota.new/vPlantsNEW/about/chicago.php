@@ -33,6 +33,12 @@ header("Content-Type: text/html; charset=".$charset);
 			<div class="menuitem">
 				<strong>Chicago Region</strong>
 			</div>
+				<div class="submenuitem">
+					<a href="<?php echo $clientRoot; ?>/about/map.php">State Map</a>
+				</div>
+				<div class="submenuitem">
+					<a href="<?php echo $clientRoot; ?>/about/map_county.php">County Map</a>
+				</div>
 			<div class="menuitem">
 				<a href="<?php echo $clientRoot; ?>/about/partnership.php">
 					vPlants Partnership
