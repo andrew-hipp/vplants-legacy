@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Topics - Synonyms</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -23,7 +23,7 @@ header("Content-Type: text/html; charset=".$charset);
             <h1>Scientific names</h1>
 
             <div style="margin:20px;">
-            	<p>Scientific names are the official names that follow published naming rules (codes of nomenclature, see <a href="names.html">Taxonomy</a>) that uniquely identify a specific organism or a group of related organisms, such as a genus or family (e.g. the genus <i>Ulmus</i> and the family Ulmaceae). The scientific names for genera, species, subspecies, varieties, and formas are always Latinized words, and thus always appear in italics (or underlined). Family names and other ranks above genus are not italicized but rather identified by their ending. Family names end with "-aceae".
+            	<p>Scientific names are the official names that follow published naming rules (codes of nomenclature, see <a href="names.php">Taxonomy</a>) that uniquely identify a specific organism or a group of related organisms, such as a genus or family (e.g. the genus <i>Ulmus</i> and the family Ulmaceae). The scientific names for genera, species, subspecies, varieties, and formas are always Latinized words, and thus always appear in italics (or underlined). Family names and other ranks above genus are not italicized but rather identified by their ending. Family names end with "-aceae".
 				</p>
 
 				<h2>The Binomial</h2>
@@ -43,7 +43,7 @@ header("Content-Type: text/html; charset=".$charset);
 				In order to be completely clear about the scientific name of a species or lower level taxon, the author &#151; the name(s) or standard abbreviation(s) of the person(s) who first published that name combination &#151; should also be added after the end of the epithet, for example <i>Rhus copalina</i> L., or <i>R. copalina</i> var. <i>latifolia</i> Engl. 
 				</p>
 
-				<img src="<?php echo $clientRoot; ?>/images.vplants/feature/sciname.gif" width="400" height="97" alt="diagram of the parts of a scientific name.">
+				<img src="<?php echo $clientRoot; ?>/images/vplants/feature/sciname.gif" width="400" height="97" alt="diagram of the parts of a scientific name.">
 
 				<p>When a taxon name is moved to a different genus, the specific epithet is transferred to that new genus. The original taxon author(s) is placed in parentheses and the author(s) making the new combination is placed after that. For example, in 1849 Berkeley and Curtis described a small tan mushroom with a spongy stem base. The name history for this species is as follows. The first three names are synonyms of the fourth name <i>Gymnopus spongiosus</i>, which is the currently accepted name. 
 				<ol>
@@ -99,7 +99,7 @@ header("Content-Type: text/html; charset=".$charset);
 			</ul>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 
