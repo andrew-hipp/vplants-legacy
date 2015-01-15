@@ -18,6 +18,41 @@ header("Content-Type: text/html; charset=".$charset);
 	$displayLeftMenu = "true";
 	include($serverRoot."/header.php");
 	?> 
+		<!-- Left menu begins -->
+		<div class="menu">
+			<div class="menuheader">
+				<a href="<?php echo $clientRoot; ?>/about/index.php">
+					About Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/vplants.php">
+					vPlants Project
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/chicago.php">
+					Chicago Region
+				</a>
+			</div>
+			<div class="menuitem">
+				<strong>
+					vPlants Partnership
+				</strong>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/contact.php">
+					Contact Us
+				</a>
+			</div>
+			<div class="menuitem">
+				<a href="<?php echo $clientRoot; ?>/about/credits.php">
+					Credits
+				</a>
+			</div>
+		</div>
+		<!-- Left menu ends -->
+		
         <!-- This is inner text! -->
         <div  id="innertext">
             <h1>vPlants Partnership</h1>
