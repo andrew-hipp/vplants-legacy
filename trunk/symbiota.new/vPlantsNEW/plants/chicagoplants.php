@@ -101,7 +101,7 @@ header("Content-Type: text/html; charset=".$charset);
 			   title="Search by Location, Collector, and more.">Go to Advanced Search</a>
 			 </p>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div>
 
