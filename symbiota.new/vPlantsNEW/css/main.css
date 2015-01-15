@@ -191,6 +191,29 @@ div.submenuitem a:hover {
 	color: 	#00008B;
 }
 
+/*Index pages components*/
+div.indexheading { 
+	color: #773;
+    font-size: 1.2em;
+}
+div.indexheading a { 
+	color: #773;
+    font-size: 1em;
+}
+div.indexheading a:hover {
+	color: 	#00008B;
+}
+div.indexdescription {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+div.indexdescription p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
 /*Central div in the middle center table div */
 #innertext{
 	font-size: 14px;
