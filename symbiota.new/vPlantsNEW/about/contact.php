@@ -80,10 +80,10 @@ header("Content-Type: text/html; charset=".$charset);
 
 			<div class="box">
 			<h3>vPlants is growing</h3>
-			<p ><img src="../feature/250_prairie.jpg" width="210" height="291" alt="Prairie near Chicago."></p>
+			<p ><img src="<?php echo $clientRoot; ?>/images/vplants/feature/250_prairie.jpg" width="210" height="291" alt="Prairie near Chicago."></p>
 			</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 		</div><!-- end of #content2 -->
 
