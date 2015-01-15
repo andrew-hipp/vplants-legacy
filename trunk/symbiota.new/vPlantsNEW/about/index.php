@@ -80,15 +80,13 @@ header("Content-Type: text/html; charset=".$charset);
 		<!-- start of side content -->
 		<div id="content2">
 			<!-- any image width should be 250 pixels -->
-
-			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/herb_south.jpg" width="250" height="225" alt="Older gray metal herbarium cabinets, placed end to end in rows.">
-			<p>Cabinets in the old south herbarium of the Field Museum.</p>
-
+	
+			<!--image here?-->
+				
 			<div class="box">
-			 <h3>Features in production</h3>
+			 <h3></h3>
 			 <p>
-			  <a href="/news/" 
-			   title="See description pages and more."><img src="<?php echo $clientRoot; ?>/images/vplants/feature/prototype_210.jpg" width="210" height="291" alt="Thumbnail image of prototype description page."></a>
+			  ...
 			 </p>
 			<ul><li>
 
