@@ -28,8 +28,6 @@ header("Content-Type: text/html; charset=".$charset);
 
 				<p>Most habitats are classified by the plants that grow there. Different plants require varying conditions of air and soil moisture, amount of sunlight, temperature range, and soil type. These environmental or abiotic (non-living) factors determine which plants grow and survive in a particular place. The plants, in turn, provide the living structure of the habitat, whether it is hardwood forest, oak savanna, tall-grass prairie, or sedge meadow. The major plants of a habitat modify the environment.  For example, woodland trees provide shade and may raise soil moisture, allowing other plants to grow there. The entire plant community supports the diversity of other organisms, such as animals, fungi, and micro-organisms, within that community.  In short, plants define the community.</p>
 				
-				<h2>Plant Habitats</h2>
-				
 				<div class="indexheading"><a href="<?php echo $clientRoot; ?>/plants/habitats2.php">Woodlands</a></div>
 				<div class="indexdescription"><p>Add description here...<a href="<?php echo $clientRoot; ?>/plants/habitats2.php">Learn more</a></p></div>
 				
