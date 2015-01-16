@@ -109,7 +109,7 @@
 									<a href="<?php echo $clientRoot; ?>/plants/distribution.php" >Distribution</a>
 								</li>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/names.php" >Naming</a>
+									<a href="<?php echo $clientRoot; ?>/plants/names.php" >Names</a>
 								</li>
 								<li>
 									<a href="<?php echo $clientRoot; ?>/plants/collections.php" >Collections</a>
