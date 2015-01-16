@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?>vPlants - Glossary Poaceae</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -23,10 +23,10 @@ header("Content-Type: text/html; charset=".$charset);
             <h1>Glossary for Poaceae</h1>
 
             <div style="margin:20px;">
-            	<p>For terms not listed here, see the <a href="index.html" title="Go to main glossary.">Plant Glossary</a>.</p>
+            	<p>For terms not listed here, see the <a href="index.php" title="Go to main glossary.">Plant Glossary</a>.</p>
 
 				<div class="plate">
-				<img src="<?php echo $clientRoot; ?>/images.vplants/plants/glossary/plate12_grass.jpg" width="703" height="367"
+				<img src="<?php echo $clientRoot; ?>/images/vplants/plants/glossary/plate12_grass.jpg" width="703" height="367"
 				alt="Line drawings of plant features." 
 				title="Plate 12: Grasses.">
 				</div>

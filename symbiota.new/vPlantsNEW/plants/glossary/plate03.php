@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?> vPlants - Plate 3 - Leaf Shapes</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -24,13 +24,13 @@ header("Content-Type: text/html; charset=".$charset);
 
             <div style="margin:20px;">
             	<p>
-				<a href="index.html">Glossary List</a> | 
-				<a href="plate02.html">Previous Plate</a> | 
-				<a href="plate04.html">Next Plate</a>
+				<a href="index.php">Glossary List</a> | 
+				<a href="plate02.php">Previous Plate</a> | 
+				<a href="plate04.php">Next Plate</a>
 				</p>
 
 				<div class="plate">
-				<img src="<?php echo $clientRoot; ?>/images.vplants/plants/glossary/plate03.jpg" width="725" height="1055" 
+				<img src="<?php echo $clientRoot; ?>/images/vplants/plants/glossary/plate03.jpg" width="725" height="1055" 
 				alt="Line drawings of plant features." 
 				title="Plate 3: Leaf Shapes.">
 				<h2>Plate 3: Leaf Shapes</h2>
