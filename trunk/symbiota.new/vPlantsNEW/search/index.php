@@ -22,8 +22,9 @@ header("Content-Type: text/html; charset=".$charset);
         <div  id="innertext">
             <h1>Search</h1>
 			<div style="margin:20px;">
+				<!-- add in chicago region search link using search tool but with pre-chosen parameters
 				<div class="indexheading"><a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Chicago Region</a></div>
-            	<div class="indexdescription"><p>Search only the Chicago region.</p></div>
+            	<div class="indexdescription"><p>Search only the Chicago region.</p></div> -->
 			
 				<div class="indexheading"><a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Collections</a></div>
             	<div class="indexdescription"><p>Search all collections.</p></div>
