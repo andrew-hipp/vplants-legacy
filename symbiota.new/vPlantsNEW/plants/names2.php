@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Topics - Synonyms</title>
+	<title><?php echo $defaultTitle?>About Plants - Names - Scientific Names</title>
 	<link href="../css/base.css" type="text/css" rel="stylesheet" />
 	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
@@ -20,7 +20,7 @@ header("Content-Type: text/html; charset=".$charset);
 	?> 
         <!-- This is inner text! -->
         <div  id="innertext">
-            <h1>Scientific names</h1>
+            <h1>Scientific Names</h1>
 
             <div style="margin:20px;">
             	<p>Scientific names are the official names that follow published naming rules (codes of nomenclature, see <a href="names.php">Taxonomy</a>) that uniquely identify a specific organism or a group of related organisms, such as a genus or family (e.g. the genus <i>Ulmus</i> and the family Ulmaceae). The scientific names for genera, species, subspecies, varieties, and formas are always Latinized words, and thus always appear in italics (or underlined). Family names and other ranks above genus are not italicized but rather identified by their ending. Family names end with "-aceae".
