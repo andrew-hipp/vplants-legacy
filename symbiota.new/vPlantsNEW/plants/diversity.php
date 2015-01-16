@@ -64,7 +64,7 @@ header("Content-Type: text/html; charset=".$charset);
 				</a>
 			</div>
 			<div class="menuitem">
-				<a href="<?php echo $clientRoot; ?>/plants/naming.php">
+				<a href="<?php echo $clientRoot; ?>/plants/names.php">
 					Naming
 				</a>
 			</div>
