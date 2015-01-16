@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once('../../config/symbini.php');
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
 	<title><?php echo $defaultTitle?> vPlants - Plant Glossary</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -79,24 +79,24 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Stemless, or apparently so.</dd>
 
 				<dt id="achene">Achene</dt>
-				<dd>&#151; A hard, one-seeded, <a href="#indehiscent">indehiscent</a> <a href="#nutlet">nutlet</a> with a tight <a href="#pericarp">pericarp</a>. [<a href="plate11.html" 
-				title="Plate 11">Plate 11</a> and <a href="plate12.html" 
+				<dd>&#151; A hard, one-seeded, <a href="#indehiscent">indehiscent</a> <a href="#nutlet">nutlet</a> with a tight <a href="#pericarp">pericarp</a>. [<a href="plate11.php" 
+				title="Plate 11">Plate 11</a> and <a href="plate12.php" 
 				title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="acicular">Acicular</dt>
-				<dd>&#151; Needle-like. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Needle-like. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="acorn">Acorn</dt>
-				<dd>&#151; The specialized fruit of members of the <a href="#genus">genus</a> <em>Quercus</em> (oaks) that is composed of a nut with a cap of overlapping rows of <a href="#scale">scales</a> [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; The specialized fruit of members of the <a href="#genus">genus</a> <em>Quercus</em> (oaks) that is composed of a nut with a cap of overlapping rows of <a href="#scale">scales</a> [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="actinomorphic">Actinomorphic</dt>
-				<dd>&#151; <a href="#radiallysymmetrical">Radially symmetrical</a>; capable of being bisected into two or more similar planes.  Same as <a href="#regular">regular</a>[<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; <a href="#radiallysymmetrical">Radially symmetrical</a>; capable of being bisected into two or more similar planes.  Same as <a href="#regular">regular</a>[<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="acuminate">Acuminate</dt>
-				<dd>&#151; Tapering to a slender tip. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Tapering to a slender tip. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="acute">Acute</dt>
-				<dd>&#151; Sharp-pointed. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Sharp-pointed. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="adaxial">Adaxial</dt>
 				<dd>&#151; Said of a surface facing toward the <a href="#axis">axis</a> of the structure to which it is attached.</dd>
@@ -114,7 +114,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Said of structures originating above ground.</dd>
 
 				<dt id="aggregated">Aggregated</dt>
-				<dd>&#151; Crowded together. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; Crowded together. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="allopatric">Allopatric</dt>
 				<dd>&#151; Occupying different, though sometimes adjacent, regions.</dd>
@@ -123,10 +123,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Sands, silts, et cetera deposited by gradually moving water.</dd>
 
 				<dt id="alternate">Alternate</dt>
-				<dd>&#151; One after the other along an <a href="#axis">axis</a>; not <a href="#opposite">opposite</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; One after the other along an <a href="#axis">axis</a>; not <a href="#opposite">opposite</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="ament">Ament</dt>
-				<dd>&#151; A dry, usually <a href="#elongate">elongate</a> often drooping, scaly <a href="#spike">spike</a> bearing <a href="#imperfect">imperfect</a> flowers; a <a href="#catkin">catkin</a>. A frequent feature of woody plants. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A dry, usually <a href="#elongate">elongate</a> often drooping, scaly <a href="#spike">spike</a> bearing <a href="#imperfect">imperfect</a> flowers; a <a href="#catkin">catkin</a>. A frequent feature of woody plants. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="anastomose">Anastomose</dt>
 				<dd>&#151; To interconnect, such as the <a href="#vein">veins</a> of a leaf.</dd>
@@ -156,13 +156,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; On the side away from the main stem; <a href="#abaxial">abaxial</a>.</dd>
 
 				<dt id="anther">Anther</dt>
-				<dd>&#151; The pollen-bearing portion of the <a href="#stamen">stamen</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; The pollen-bearing portion of the <a href="#stamen">stamen</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="anthesis">Anthesis</dt>
 				<dd>&#151; Time of the year during which the <a href="#anther">anthers</a> are <a href="#dehiscence">dehiscing</a> and the <a href="#stigma">stigmas</a> are receptive to pollen; in a looser sense, the time of flowering.</dd>
 
 				<dt id="antrorse">Antrorse</dt>
-				<dd>&#151; Directed forward or upward. [<a href="plate06.html" title=Plate 06>Plate 6</a>]</dd>
+				<dd>&#151; Directed forward or upward. [<a href="plate06.php" title=Plate 06>Plate 6</a>]</dd>
 
 				<dt id="aparinaceous">Aparinaceous</dt>
 				<dd>&#151; Scratchy; clingy.</dd>
@@ -171,13 +171,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having no petals.</dd>
 
 				<dt id="apex">Apex</dt>
-				<dd>&#151; The tip; end. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; The tip; end. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="apical">Apical</dt>
 				<dd>&#151; Pertaining to the <a href="#apex">apex</a>.</dd>
 
 				<dt id="apiculate">Apiculate</dt>
-				<dd>&#151; Abruptly short-pointed. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Abruptly short-pointed. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="apiculus">Apiculus</dt>
 				<dd>&#151; Abruptly short-<a href="#beak">beaked</a> or pointed.</dd>
@@ -192,7 +192,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Cobweb-like.</dd>
 
 				<dt id="arcuate">Arcuate</dt>
-				<dd>&#151; Arching. [<a href=plate05.html title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Arching. [<a href=plate05.php title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="areola">Areola</dt>
 				<dd>&#151; A small space on or near the surface of some <a href="#vegetative">vegetative</a> organ, usually formed by <a href="#anastomosing">anastomosing</a> <a href="#vein">veins</a>.</dd>
@@ -207,7 +207,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having an <a href="#aril">aril</a>.</dd>
 
 				<dt id="aristate">Aristate</dt>
-				<dd>&#151; <a href="#awn">Awned</a>; tipped by a stiff <a href="#bristle">bristle</a>. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; <a href="#awn">Awned</a>; tipped by a stiff <a href="#bristle">bristle</a>. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="aromatic">Aromatic</dt>
 				<dd>&#151; Having a fragrant smell, sometimes only if broken or crushed.</dd>
@@ -219,7 +219,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A joint.</dd>
 
 				<dt id="ascending">Ascending</dt>
-				<dd>&#151; Growing or directed in an upward direction, or at least tending to. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Growing or directed in an upward direction, or at least tending to. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="asymmetrical">Asymmetrical</dt>
 				<dd>&#151; Unequally developed on either side of a common <a href="#axis">axis</a>.  Opposite of <a href="#symmetrical">symmetrical</a>.</dd>
@@ -231,13 +231,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having small, usually <a href="#resinous">resinous</a>, dots or <a href="#gland">glands</a>.</dd>
 
 				<dt id="attenuate">Attenuate</dt>
-				<dd>&#151; Gradually tapered to a slender tip. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Gradually tapered to a slender tip. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="auricle">Auricle</dt>
 				<dd>&#151; An ear-shaped appendage or <a href="#lobe">lobe</a> (such often being quite small).</dd>
 
 				<dt id="auriculate">Auriculate</dt>
-				<dd>&#151; With an ear-shaped flange or <a href="#lobe">lobe</a>. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; With an ear-shaped flange or <a href="#lobe">lobe</a>. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="autecology">Autecology</dt>
 				<dd>&#151; Pertaining to the ecology of an individual <a href="#species">species</a>.</dd>
@@ -259,7 +259,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="barbellate">Barbellate</dt>
-				<dd>&#151; Beset with fine barbs. [<a href="plate06.html" 
+				<dd>&#151; Beset with fine barbs. [<a href="plate06.php" 
 				title="Plate 06">Plate 6</a>] </dd>
 
 				<dt id="barren">Barren</dt>
@@ -275,7 +275,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A slender <a href="#terminal">terminal</a> <a href="#process">process</a>, usually abruptly differentiated from the general outline of the organ from which it originates; usually applied to fruits and <a href="#pistil">pistils</a>.</dd>
 
 				<dt id="berry">Berry</dt>
-				<dd>&#151; A usually fleshy or pulpy fruit, typically with two or more seeds developed from a single <a href="#ovary">ovary</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A usually fleshy or pulpy fruit, typically with two or more seeds developed from a single <a href="#ovary">ovary</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="biconvex">Biconvex</dt>
 				<dd>&#151; <a href="#convex">Convex</a> on both surfaces. </dd>
@@ -290,26 +290,26 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#cleft">Cleft</a> into two parts, usually at the summit of some organ.</dd>
 
 				<dt id="bilabiate">Bilabiate</dt>
-				<dd>&#151; Two-<a href="#lip">lipped</a>; most often applied to <a href="#zygomorphic">zygomorphic</a> <a href="#perianth">perianths</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; Two-<a href="#lip">lipped</a>; most often applied to <a href="#zygomorphic">zygomorphic</a> <a href="#perianth">perianths</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="bilateral">Bilateral</dt>
 				<dd>&#151; Having two equal sides on either side of an <a href="#axis">axis</a>.</dd>
 
 				<dt id="bilaterallysymmetrical">Bilaterally symmetrical</dt>
-				<dd>&#151; Referring to a <a href="#calyx">calyx or <a href="#corolla">corolla</a> that is <a href="#zygomorphic">zygomorphic</a>, capable of being divided into two equal halves along one plane only. [<a href="plate09.html" 
+				<dd>&#151; Referring to a <a href="#calyx">calyx or <a href="#corolla">corolla</a> that is <a href="#zygomorphic">zygomorphic</a>, capable of being divided into two equal halves along one plane only. [<a href="plate09.php" 
 				title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="bilobed">Bilobed</dt>
 				<dd>&#151; Having two <a href="#lobe">lobes</a>.</dd>
 
 				<dt id="bipinnate">Bipinnate</dt>
-				<dd>&#151; Twice <a href="#pinnate">pinnately</a> <a href="#compound">compound</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Twice <a href="#pinnate">pinnately</a> <a href="#compound">compound</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="bipinnatifid">Bipinnatifid</dt>
 				<dd>&#151; Twice <a href="#pinnatifid">pinnatifid</a>.</dd>
 
 				<dt id="biternate">Biternate</dt>
-				<dd>&#151; Twice ternate; when the divisions of a <a href="#ternate">ternate</a> leaf are divided into three. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Twice ternate; when the divisions of a <a href="#ternate">ternate</a> leaf are divided into three. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="bivalved">Bivalved</dt>
 				<dd>&#151; Having two sides or units originating at a common point.</dd>
@@ -336,7 +336,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Northern.</dd>
 
 				<dt id="bract">Bract</dt>
-				<dd>&#151; A reduced leaf or <a href="#scale">scale</a>, typically one which <a href="#subtend">subtends</a> a <a href="#pedicel">pedicel</a> or <a href="#inflorescence">inflorescence</a>, but it also can refer to minute leaves on a stem. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; A reduced leaf or <a href="#scale">scale</a>, typically one which <a href="#subtend">subtends</a> a <a href="#pedicel">pedicel</a> or <a href="#inflorescence">inflorescence</a>, but it also can refer to minute leaves on a stem. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="bracteal">Bracteal</dt>
 				<dd>&#151; Pertaining to a <a href="#bract">bract</a>.</dd>
@@ -357,19 +357,19 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Stiff hair or <a href="#trichome">trichome</a>.</dd>
 
 				<dt id="bristly">Bristly</dt>
-				<dd>&#151; With <a href="#bristle">bristles</a>. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; With <a href="#bristle">bristles</a>. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="bronzing">Bronzing</dt>
 				<dd>&#151; Referring especially to the color of foliage after a winter; usually a metallic bronze or coppery color.</dd>
 
 				<dt id="bud">Bud</dt>
-				<dd>&#151; Very young developing tissue enclosed in <a href="#scale">scales</a> or <a href="#valve">valves</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a> and [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; Very young developing tissue enclosed in <a href="#scale">scales</a> or <a href="#valve">valves</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a> and [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="bulb">Bulb</dt>
 				<dd>&#151; A short, often subglobose, stem surrounded by <a href="#scale">scales</a> or modified leaves, typically underground.</dd>
 
 				<dt id="bulbil">Bulbil</dt>
-				<dd>&#151; A small, usually <a href="#axillary">axillary</a> <a href="#bulb">bulb</a>-like organ. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A small, usually <a href="#axillary">axillary</a> <a href="#bulb">bulb</a>-like organ. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="bulblet">Bulblet</dt>
 				<dd>&#151; A small bulbiform organ, particularly one proliferating from a leaf <a href="#axil">axil</a> or <a href="#sterile">sterile</a> flower. [Plate 7]</dd>
@@ -414,7 +414,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Thin layer of meristematic cells, typically that which gives rise to <a href="#secondary">secondary</a> xylem or phloem.</dd>
 
 				<dt id="campanulate">Campanulate</dt>
-				<dd>&#151; Bell-shaped or cup-shaped, typically with a flared or enhanced rim. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Bell-shaped or cup-shaped, typically with a flared or enhanced rim. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="canaliculate">Canaliculate</dt>
 				<dd>&#151; Having a groove or channel.</dd>
@@ -426,7 +426,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The <a href="#elongate">elongated</a> new shoot of <a href="#shrub">shrubs</a>, such as in <em>Rubus</em>.</dd>
 
 				<dt id="canescent">Canescent</dt>
-				<dd>&#151; Densely beset with matted, often grayish-<a href="#pubescent">pubescent</a>, hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Densely beset with matted, often grayish-<a href="#pubescent">pubescent</a>, hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="capillary">Capillary</dt>
 				<dd>&#151; Hair-like.</dd>
@@ -435,13 +435,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#head">Head</a>-like; very densely clustered.</dd>
 
 				<dt id="capitulum">Capitulum</dt>
-				<dd>&#151; A small <a href="#head">head</a> of flowers. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A small <a href="#head">head</a> of flowers. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="capsule">Capsule</dt>
-				<dd>&#151; A dry <a href="#dehiscent">dehiscent</a> fruit composed of two or more <a href="#carpel">carpels</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A dry <a href="#dehiscent">dehiscent</a> fruit composed of two or more <a href="#carpel">carpels</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="carinate">Carinate</dt>
-				<dd>&#151; <a href="#keel">Keeled</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; <a href="#keel">Keeled</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="carpel">Carpel</dt>
 				<dd>&#151; A <a href="#pistil">pistil</a>, or one of the units of a <a href="#compound">compound</a> <a href="#pistil">pistil</a>.</dd>
@@ -453,13 +453,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Cartilage-like; firm and tough but neither rigid nor bony.</dd>
 
 				<dt id="caryopsis">Caryopsis</dt>
-				<dd>&#151; In grasses, a seed-like fruit with a thin <a href="#pericarp">pericarp</a>; a <a href="#grain">grain</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; In grasses, a seed-like fruit with a thin <a href="#pericarp">pericarp</a>; a <a href="#grain">grain</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="catkin">Catkin</dt>
-				<dd>&#151; Same as <a href="#ament">ament</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; Same as <a href="#ament">ament</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="caudate">Caudate</dt>
-				<dd>&#151; Tail-like, or bearing a tail-like appendage. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd
+				<dd>&#151; Tail-like, or bearing a tail-like appendage. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd
 
 				<dt id="caudex">Caudex</dt>
 				<dd>&#151; The <a href="#ligneous">ligneous</a> or woody base or a <a href="#perennial">perennial</a> plant.</dd>
@@ -480,7 +480,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The <a href="#basal">basal</a> part of an <a href="#ovule">ovule</a> where it is attached to the funiculus.</dd>
 
 				<dt id="chambered">Chambered</dt>
-				<dd>&#151; Areas in the hollow <a href="#pith">pith</a> of twigs where vertical walls occur at close intervals. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; Areas in the hollow <a href="#pith">pith</a> of twigs where vertical walls occur at close intervals. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="chartaceous">Chartaceous</dt>
 				<dd>&#151; Thin, but firm; resembling the more ancient writing paper.</dd>
@@ -495,7 +495,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Hairs or slender <a href="#bristle">bristles</a> confined to the <a href="#margin">margins</a> of some organ.</dd>
 
 				<dt id="ciliate">Ciliate</dt>
-				<dd>&#151; Fringed with <a href="#cilia">cilia</a>; bearing <a href="#cilia">cilia</a> on the <a href="#margin">margins</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Fringed with <a href="#cilia">cilia</a>; bearing <a href="#cilia">cilia</a> on the <a href="#margin">margins</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="Ciliolate">Ciliolate</dt>
 				<dd>&#151; Minutely <a href="#ciliate">ciliate</a>.</dd>
@@ -510,13 +510,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Rolled coilwise from the top downward, as in unopened fern <a href="#frond">fronds</a>.</dd>
 
 				<dt id="circumscissile">Circumscissile</dt>
-				<dd>&#151; Pertaining to the <a href="#dehiscence">dehiscence</a> of a <a href="#capsule">capsule</a> (pyxis) which opens by a circular, horizontal line, the top usually coming off as a lid. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; Pertaining to the <a href="#dehiscence">dehiscence</a> of a <a href="#capsule">capsule</a> (pyxis) which opens by a circular, horizontal line, the top usually coming off as a lid. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="clammy">Clammy</dt>
 				<dd>&#151; Sticky-hairy.</dd>
 
 				<dt id="clasping">Clasping</dt>
-				<dd>&#151; Tending to encircle or invest, as in the base of a leaf which forms partly around the stem to which it is attached. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Tending to encircle or invest, as in the base of a leaf which forms partly around the stem to which it is attached. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="clavate">Clavate</dt>
 				<dd>&#151; Club-shaped; <a href="#dilated">dilated</a> upwards.</dd>
@@ -525,7 +525,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The narrowed base or stalk of some petals.</dd>
 
 				<dt id="cleft">Cleft</dt>
-				<dd>&#151; <a href="#distinct">Distinctly</a> divided or <a href="#incised">incised</a>, usually to about the middle. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; <a href="#distinct">Distinctly</a> divided or <a href="#incised">incised</a>, usually to about the middle. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="cleistogamous">Cleistogamous</dt>
 				<dd>&#151; Fertilized in the bud, without the opening of the flower.</dd>
@@ -547,7 +547,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A dense tuft of hairs, often resembling a beard, attached to a seed.</dd>
 
 				<dt id="comose">Comose</dt>
-				<dd>&#151; Bearded, with a <a href="#coma">coma</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Bearded, with a <a href="#coma">coma</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="compound">Compound</dt>
 				<dd>&#151; Pertaining to leaves which are divided into distinct <a href="#leaflet">leaflets</a>.</dd>
@@ -600,13 +600,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; White and coral-like.</dd>
 
 				<dt id="cordate">Cordate</dt>
-				<dd>&#151; Heart-shaped. [<a href="plate03.html" title="Plate 03">Plate 3</a> and <a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Heart-shaped. [<a href="plate03.php" title="Plate 03">Plate 3</a> and <a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="coriaceous">Coriaceous</dt>
 				<dd>&#151; Leather-like.</dd>
 
 				<dt id="corm">Corm</dt>
-				<dd>&#151; A solid, <a href="#bulb">bulb</a>-like part, usually <a href="#subterranean">subterranean</a>, as the "<a href="#bulb">bulb</a>" of a crocus or gladiolus. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; A solid, <a href="#bulb">bulb</a>-like part, usually <a href="#subterranean">subterranean</a>, as the "<a href="#bulb">bulb</a>" of a crocus or gladiolus. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="cormose">Cormose</dt>
 				<dd>&#151; Bearing <a href="#corm">corms</a>.</dd>
@@ -621,13 +621,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A short-cylindric or <a href="#crown">crown</a>-like modification of the <a href="#corolla">corolla</a>; also, a small <a href="#crown">crown</a> in the throat of a <a href="#corolla">corolla</a>, as in <em>Narcissus</em>.</dd>
 
 				<dt id="coronate">Coronate</dt>
-				<dd>&#151; With a <a href="#corona">corona</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; With a <a href="#corona">corona</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="corrugated">Corrugated</dt>
 				<dd>&#151; Wrinkled or folded longitudinally.</dd>
 
 				<dt id="corymb">Corymb</dt>
-				<dd>&#151; An arrangement of the <a href="#inflorescence">inflorescence</a> in which stalked flowers are situated along a central <a href="#axis">axis</a>, but with the flowers all nearly or quite attaining the same elevation with respect to each other, the oldest at the edges. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; An arrangement of the <a href="#inflorescence">inflorescence</a> in which stalked flowers are situated along a central <a href="#axis">axis</a>, but with the flowers all nearly or quite attaining the same elevation with respect to each other, the oldest at the edges. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="corymbiform">Corymbiform</dt>
 				<dd>&#151; Resembling a <a href="#corymb">corymb</a>.</dd>
@@ -652,10 +652,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Saucer-shaped or cup-shaped (usually shallowly so).</dd>
 
 				<dt id="crenate">Crenate</dt>
-				<dd>&#151; Very shallowly <a href="#toothed">toothed</a> with broad, <a href="#blunt">blunt</a> <a href="#teeth">teeth</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Very shallowly <a href="#toothed">toothed</a> with broad, <a href="#blunt">blunt</a> <a href="#teeth">teeth</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="crenulate">Crenulate</dt>
-				<dd>&#151; Minutely <a href="#crenate">crenate</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Minutely <a href="#crenate">crenate</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="crest">Crest</dt>
 				<dd>&#151; A ridge or strong <a href="#keel">keel</a>, typically along one side of an <a href="#achene">achene</a> or <a href="#nutlet">nutlet</a>; also, the <a href="#elevated">elevated</a> portion of a petal, as in some <em>Iris</em>.</dd>
@@ -664,25 +664,25 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; That portion of a stem at the ground surface; also, in the Asteraceae family, <a href="#scale">scales</a> or <a href="#awn">awns</a> at the summit of an <a href="#achene">achene</a>.</dd>
 
 				<dt id="cruciform">Cruciform</dt>
-				<dd>&#151; Cross-shaped. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Cross-shaped. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="cucullate">Cucullate</dt>
 				<dd>&#151; <a href="#hood">Hood</a>-shaped.</dd>
 
 				<dt id="culm">Culm</dt>
-				<dd>&#151; The stem of grasses, sedges, and rushes. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The stem of grasses, sedges, and rushes. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="cultivar">Cultivar</dt>
 				<dd>&#151; A cultivated variation.</dd>
 
 				<dt id="cuneate">Cuneate</dt>
-				<dd>&#151; Wedge-shaped. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Wedge-shaped. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="cusp">Cusp</dt>
 				<dd>&#151; An abrupt point or tooth.</dd>
 
 				<dt id="cuspidate">Cuspidate</dt>
-				<dd>&#151; Bearing a <a href="#cusp">cusp</a>. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Bearing a <a href="#cusp">cusp</a>. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="cuticle">Cuticle</dt>
 				<dd>&#151; An often waxy, outer film of dead epidermal cells.</dd>
@@ -694,7 +694,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Shaped like a cylinder.</dd>
 
 				<dt id="cyme">Cyme</dt>
-				<dd>&#151; An often flat-topped <a href="#inflorescence">inflorescence</a>, the central <a href="#floret">floret</a> of which blooms first. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; An often flat-topped <a href="#inflorescence">inflorescence</a>, the central <a href="#floret">floret</a> of which blooms first. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="cymose">Cymose</dt>
 				<dd>&#151; Resembling a <a href="#cyme">cyme</a>.</dd>
@@ -712,7 +712,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Divided or <a href="#compound">compound</a> more than once. </dd>
 
 				<dt id="decumbent">Decumbent</dt>
-				<dd>&#151; Trailing along the ground but with the <a href="#inflorescence">inflorescence</a> or summit of the stem <a href="#ascending">ascending</a> or <a href="#erect">erect</a>. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Trailing along the ground but with the <a href="#inflorescence">inflorescence</a> or summit of the stem <a href="#ascending">ascending</a> or <a href="#erect">erect</a>. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="decurrent">Decurrent</dt>
 				<dd>&#151; Usually pertaining to some flat, foliar organ, the tissue of which continues beyond its base down an <a href="#elongate">elongate</a> <a href="#axis">axis</a> (usually a stem or <a href="#petiole">petiole</a>).</dd>
@@ -730,13 +730,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The opening of a fruit or <a href="#anther">anther</a> by <a href="#suture">sutures</a>, <a href="#valve">valves</a>, slits, <a href="#pore">pores</a>, etc.</dd>
 
 				<dt id="deltoid">Deltoid</dt>
-				<dd>&#151; Triangular. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Triangular. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="dentate">Dentate</dt>
-				<dd>&#151; <a href="#toothed">Toothed</a>, the <a href="#teeth">teeth</a> perpendicular to the <a href="#margin">margin</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; <a href="#toothed">Toothed</a>, the <a href="#teeth">teeth</a> perpendicular to the <a href="#margin">margin</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="denticulate">Denticulate</dt>
-				<dd>&#151; Minutely <a href="#dentate">dentate</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Minutely <a href="#dentate">dentate</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="depauperate">Depauperate</dt>
 				<dd>&#151; Poor; with little sustenance or vigor.</dd>
@@ -778,7 +778,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; To separate.</dd>
 
 				<dt id="disk">Disk or disc</dt>
-				<dd>&#151; The central portion of a <a href="#capitate">capitate</a> <a href="#inflorescence">inflorescence</a>, or the <a href="#receptacle">receptacle</a> of such an <a href="#inflorescence">inflorescence</a>; also, a structure formed by the coalescence of <a href="#stigma">stigmas</a> as in the Papaveraceae family; also, the development of the <a href="#receptacle">receptacle</a> at or around the base of a petals, as in <em>Acer</em> and <em>Euonymus</em>. [<a href="plate09.html" title="Plate 09">Plate 9</a> and [<a href="plate12S.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The central portion of a <a href="#capitate">capitate</a> <a href="#inflorescence">inflorescence</a>, or the <a href="#receptacle">receptacle</a> of such an <a href="#inflorescence">inflorescence</a>; also, a structure formed by the coalescence of <a href="#stigma">stigmas</a> as in the Papaveraceae family; also, the development of the <a href="#receptacle">receptacle</a> at or around the base of a petals, as in <em>Acer</em> and <em>Euonymus</em>. [<a href="plate09.php" title="Plate 09">Plate 9</a> and [<a href="plate12S.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="diskflower">Disk flowers</dt>
 				<dd>&#151; In the Asteraceae family, the central, <a href="#tubular">tubular</a> flowers of the <a href="#head">head</a>. Compare <a href="#rayflower">ray flower</a>.</dd>
@@ -814,7 +814,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A typically one-<a href="#locular">locular</a>, fleshy or pulpy fruit with a hard or stony center. </dd>
 
 				<dt id="drupelet">Drupelet</dt>
-				<dd>&#151; A small <a href="#drupe">drupe</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A small <a href="#drupe">drupe</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 
 				<dt id="e">E</dt>
@@ -830,7 +830,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Off center, or one-sided.</dd>
 
 				<dt id="echinate">Echinate</dt>
-				<dd>&#151; Bearing stout, often <a href="#blunt">bluntish</a>, <a href="#spine">spines</a> or <a href="#prickle">prickles</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Bearing stout, often <a href="#blunt">bluntish</a>, <a href="#spine">spines</a> or <a href="#prickle">prickles</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="eciliate">Eciliate</dt>
 				<dd>&#151; Without <a href="#cilia">cilia</a>.</dd>
@@ -845,13 +845,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Solid but with an <a href="#elliptic">elliptical</a> outline.</dd>
 
 				<dt id="elliptic">Elliptic</dt>
-				<dd>&#151; A circular shape which has been <a href="#lateral">laterally</a> <a href="#compressed">compressed</a>, widest about the middle. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; A circular shape which has been <a href="#lateral">laterally</a> <a href="#compressed">compressed</a>, widest about the middle. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="elongate">Elongate</dt>
 				<dd>&#151; Drawn out into a form much longer than wide.</dd>
 
 				<dt id="emarginate">Emarginate</dt>
-				<dd>&#151; With a shallow notch at the tip. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; With a shallow notch at the tip. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="emergent">Emergent</dt>
 				<dd>&#151; Pertaining to <a href="#aquatic">aquatic</a> plants which have some portion of the plant extended out of the water.</dd>
@@ -866,7 +866,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; In a seed, the reserve food stored around, or next to, the embryo.</dd>
 
 				<dt id="entire">Entire</dt>
-				<dd>&#151; Pertaining to <a href="#margin">margins</a> without <a href="#crenate">crenation</a>, serration, or <a href="#dentate">dentition</a>; even though the <a href="#margin">margin</a> may be variously <a href="#cilliate">ciliate</a> or <a href="#pubescent">pubescent</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Pertaining to <a href="#margin">margins</a> without <a href="#crenate">crenation</a>, serration, or <a href="#dentate">dentition</a>; even though the <a href="#margin">margin</a> may be variously <a href="#cilliate">ciliate</a> or <a href="#pubescent">pubescent</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="ephemeral">Ephemeral</dt>
 				<dd>&#151; Lasting for one day or less.</dd>
@@ -875,7 +875,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The superficial layer of cells.</dd>
 
 				<dt id="epigynous">Epigynous</dt>
-				<dd>&#151; Flower with the <a href="#calyx">calyx</a> situated on the <a href="#ovary">ovary</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Flower with the <a href="#calyx">calyx</a> situated on the <a href="#ovary">ovary</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="equitant">Equitant</dt>
 				<dd>&#151; Pertaining to the two-<a href="#ranked">ranked</a> arrangement of usually <a href="#conduplicate">conduplicate</a> leaves, overlapping in two ranks.</dd>
@@ -911,16 +911,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A flat side.</dd>
 
 				<dt id="falcate">Falcate</dt>
-				<dd>&#151; Sickle-shaped; slenderly curved and tapering to a usually sharp tip. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Sickle-shaped; slenderly curved and tapering to a usually sharp tip. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="falls">Falls</dt>
 				<dd>&#151; Outer <a href="#whorl">whorl</a> or series of <a href="#perianth">perianth</a> parts of an iridaceous flower, often broader than those of the inner series and, in some Iris, drooping or <a href="#flexuous">flexuous</a>.</dd>
 
 				<dt id="farinose">Farinose</dt>
-				<dd>&#151; Resembling farina; typically used to describe the white-<a href="#mealy">mealy</a>, strongly modified hairs in the <a href="#genus">genus</a> <em>Chenopodium</em>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Resembling farina; typically used to describe the white-<a href="#mealy">mealy</a>, strongly modified hairs in the <a href="#genus">genus</a> <em>Chenopodium</em>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="fascicle">Fascicle</dt>
-				<dd>&#151; A cluster or bundle. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; A cluster or bundle. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="fasciculate">Fasciculate</dt>
 				<dd>&#151; With <a href="#fascicle">fascicles</a>.</dd>
@@ -944,13 +944,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Beset or provided with numerous fine fibers.</dd>
 
 				<dt id="fibrous">Fibrous</dt>
-				<dd>&#151; Referring usually to a much branched root system with progressively smaller branches. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Referring usually to a much branched root system with progressively smaller branches. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="fiddlehead">Fiddlehead</dt>
 				<dd>&#151; Referring to the unusual <a href="#circinate">circinate</a> unrolling of <a href="#frond">fronds</a>, in many ferns.</dd>
 
 				<dt id="filament">Filament</dt>
-				<dd>&#151; <a href="#anther">Anther</a>-bearing stalk of the <a href="#stamen">stamen</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; <a href="#anther">Anther</a>-bearing stalk of the <a href="#stamen">stamen</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="filiform">Filiform</dt>
 				<dd>&#151; Very slender, thread-shaped; usually <a href="#terete">terete</a> in cross section.</dd>
@@ -977,7 +977,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Flexible; easily bent this way and that.</dd>
 
 				<dt id="floccose">Floccose</dt>
-				<dd>&#151; Copiously beset with tangled <a href="#woolly">woolly</a> hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Copiously beset with tangled <a href="#woolly">woolly</a> hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="floret">Floret</dt>
 				<dd>&#151; A single small flower, usually a member of a cluster, such as a <a href="#head">head</a>; used particularly in grasses (Poaceae family) and composites (Asteraceae family).</dd>
@@ -992,13 +992,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Leafy; leaf-like.</dd>
 
 				<dt id="foliate">Foliate</dt>
-				<dd>&#151; With leaves. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; With leaves. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="foliolate">Foliolate</dt>
-				<dd>&#151; Having <a href="#leaflet">leaflets</a>; often used with a prefix, such as trifoliolate. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Having <a href="#leaflet">leaflets</a>; often used with a prefix, such as trifoliolate. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="follicle">Follicle</dt>
-				<dd>&#151; A dry fruit consisting of a single <a href="#carpel">carpel</a> and <a href="#dehiscence">dehiscing</a> along only one <a href="#suture">suture</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A dry fruit consisting of a single <a href="#carpel">carpel</a> and <a href="#dehiscence">dehiscing</a> along only one <a href="#suture">suture</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="form">-form</dt>
 				<dd>&#151; Suffix meaning like or resembling.</dd>
@@ -1025,7 +1025,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Tawny.</dd>
 
 				<dt id="funnelform">Funnelform</dt>
-				<dd>&#151; Shaped approximately like a funnel; sometimes called infundibuliform. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Shaped approximately like a funnel; sometimes called infundibuliform. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="furcate">Furcate</dt>
 				<dd>&#151; Forked.</dd>
@@ -1040,7 +1040,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="galeate">Galeate</dt>
-				<dd>&#151; <a href="#hood">Hood</a>-like; <a href="#helmet">helmet</a>-shaped. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; <a href="#hood">Hood</a>-like; <a href="#helmet">helmet</a>-shaped. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="geniculate">Geniculate</dt>
 				<dd>&#151; Knee-like; usually referring to the <a href="#alternate">alternate</a>, abrupt bends at the <a href="#node">nodes</a> of some stems; also referring to bent <a href="#awn">awns</a>.</dd>
@@ -1049,7 +1049,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151;  A group of related <a href="#species">species</a>, as the genus <em>Ulmus</em> (elm), the genus <em>Syringa</em> (lilac), embracing respectively all kinds of elms and all kinds of lilacs.</dd>
 
 				<dt id="gibbous">Gibbous</dt>
-				<dd>&#151; Swollen on one side; protuberant, often interrupting the radial symmetry of a structure. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Swollen on one side; protuberant, often interrupting the radial symmetry of a structure. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="glabrate">Glabrate or Glabrescent</dt>
 				<dd>&#151; Becoming smooth.</dd>
@@ -1061,7 +1061,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A general term applying to any number of small protuberances, <a href="#viscid">viscid</a> dots, or secretions.</dd>
 
 				<dt id="glandular">Glandular</dt>
-				<dd>&#151; With <a href="#gland">glands</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; With <a href="#gland">glands</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="glaucescent">Glaucescent</dt>
 				<dd>&#151; Weakly <a href="#glaucous">glaucous</a>. </dd>
@@ -1076,7 +1076,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Circular.</dd>
 
 				<dt id="glochidiate">Glochidiate</dt>
-				<dd>&#151; With minute barbed <a href="#bristle">bristles</a>. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; With minute barbed <a href="#bristle">bristles</a>. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="glomerate">Glomerate</dt>
 				<dd>&#151; Tightly clustered, usually in reference to compact clusters of 
@@ -1086,10 +1086,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Similar to <a href="#glomerate">glomerate</a>, but with smaller clusters.</dd>
 
 				<dt id="glomerule">Glomerule</dt>
-				<dd>&#151; A small, compact cluster. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A small, compact cluster. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="glume">Glume</dt>
-				<dd>&#151; The lowest two (sometimes one) empty <a href="#scale">scales</a> <a href="#subtend">subtending</a> the usually fertile <a href="#scale">scales</a> in grass <a href="#spikelet">spikelets</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The lowest two (sometimes one) empty <a href="#scale">scales</a> <a href="#subtend">subtending</a> the usually fertile <a href="#scale">scales</a> in grass <a href="#spikelet">spikelets</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="glutinous">Glutinous</dt>
 				<dd>&#151; Covered with a sticky exudation.</dd>
@@ -1125,7 +1125,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A plant that grows in <a href="#saline">saline</a> soils.</dd>
 
 				<dt id="hastate">Hastate</dt>
-				<dd>&#151; Resembling an arrowhead, particularly with respect to the lobed <a href="#basal">basal</a> portion, which is usually at about right angles to the main portion. [<a href="plate03.html" title="Plate 03">Plate 3</a>and <a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Resembling an arrowhead, particularly with respect to the lobed <a href="#basal">basal</a> portion, which is usually at about right angles to the main portion. [<a href="plate03.php" title="Plate 03">Plate 3</a>and <a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="hastiform">Hastiform</dt>
 				<dd>&#151; More or less <a href="#hastate">hastate</a>.</dd>
@@ -1135,10 +1135,10 @@ header("Content-Type: text/html; charset=".$charset);
 				serving for the absorption of food, as in the dodders.</dd>
 
 				<dt id="head">Head</dt>
-				<dd>&#151; A dense, compact cluster of mostly <a href="#sessile">sessile</a> flowers. [<a href="plate08.html" title="Plate 08">Plate 8</a>] Also used to describe the inflorescence in the Asteraceae family. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd></dd>
+				<dd>&#151; A dense, compact cluster of mostly <a href="#sessile">sessile</a> flowers. [<a href="plate08.php" title="Plate 08">Plate 8</a>] Also used to describe the inflorescence in the Asteraceae family. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd></dd>
 
 				<dt id="helicoid">Helicoid</dt>
-				<dd>&#151; Refers to <a href="#raceme">racemes</a> or <a href="#spike">spikes</a> which are coiled from the tip downward with successive <a href="#lateral">lateral</a> branches arising on the same side. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; Refers to <a href="#raceme">racemes</a> or <a href="#spike">spikes</a> which are coiled from the tip downward with successive <a href="#lateral">lateral</a> branches arising on the same side. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="helmet">Helmet</dt>
 				<dd>&#151; A <a href="#hood">hood</a>-shaped organ, usually a petal, best exemplified in the <a href="#genus">genus</a> <em>Aconitum</em>.</dd>
@@ -1159,16 +1159,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The unusual fruit exemplified by the <a href="#genus">genus</a> <em>Rosa</em>.</dd>
 
 				<dt id="hirsute">Hirsute</dt>
-				<dd>&#151; Beset with stiff or stiffish, usually straight, hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a> and <a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; Beset with stiff or stiffish, usually straight, hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a> and <a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="hirsutulous">Hirsutulous</dt>
 				<dd>&#151; Slightly <a href="#hirsute">hirsute</a>.</dd>
 
 				<dt id="hirtellous">Hirtellous</dt>
-				<dd>&#151; Minutely <a href="#hirsute">hirsute</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Minutely <a href="#hirsute">hirsute</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="hispid">Hispid</dt>
-				<dd>&#151; <a href="#coarse">Coarsely</a> <a href="#hirsute">hirsute</a> or <a href="#bristle">bristly</a>-hairy. [<a href="plate06.html" title="Plate 06">Plate 6</a> and <a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; <a href="#coarse">Coarsely</a> <a href="#hirsute">hirsute</a> or <a href="#bristle">bristly</a>-hairy. [<a href="plate06.php" title="Plate 06">Plate 6</a> and <a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="hispidulous">Hispidulous</dt>
 				<dd>&#151; Minutely <a href="#hispid">hispid</a>.</dd>
@@ -1177,7 +1177,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#pubescent">Pubescent</a> with close, fine, usually grayish or whitish, hairs.</dd>
 
 				<dt id="hood">Hood</dt>
-				<dd>&#151; Specifically, that part of the milkweed flower in which the <a href="#stamen">stamens</a> are greatly modified into hood-like organs; in general, an organ which is arched or <a href="#concave">concave</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Specifically, that part of the milkweed flower in which the <a href="#stamen">stamens</a> are greatly modified into hood-like organs; in general, an organ which is arched or <a href="#concave">concave</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="horn">Horn</dt>
 				<dd>&#151; A <a href="#incurved">incurved</a> body often present in the <a href="#hood">hooded</a> body of milkweed flowers.</dd>
@@ -1205,13 +1205,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The disk-like structure subtending the <a href="#ovary">ovary</a> in the genus <em>Scleria</em>.</dd>
 
 				<dt id="hypogynous">Hypogynous</dt>
-				<dd>&#151; Flower with the <a href="#calyx">calyx</a> situated below the <a href="#ovary">ovary</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Flower with the <a href="#calyx">calyx</a> situated below the <a href="#ovary">ovary</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="i">I</dt>
 				<dd><hr /></dd>
 
 				<dt id="imbricate">Imbricate</dt>
-				<dd>&#151; A general term which applies under various conditions where one organ, or series of organs, overlaps another organ or series of organs; as in roof shingles. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; A general term which applies under various conditions where one organ, or series of organs, overlaps another organ or series of organs; as in roof shingles. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="immaculate">Immaculate</dt>
 				<dd>&#151; Without spots.  Compare with <a href="#maculate">maculate</a>.</dd>
@@ -1226,7 +1226,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Sunken in; situated <a href="#inferior">inferior</a> to the surface of a blade, usually in reference to <a href="#vein">veins</a> which are neither flush with nor raised above the surface of the blade or organ.</dd>
 
 				<dt id="incised">Incised</dt>
-				<dd>&#151; Deeply cut or divided, usually <a href="#irregular">irregularly</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Deeply cut or divided, usually <a href="#irregular">irregularly</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="included">Included</dt>
 				<dd>&#151; Contained within, usually in reference to <a href="#stamen">stamens</a>, <a href="#pistil">pistils</a>, or <a href="#capsule">capsules</a> which do not surpass or exceed the <a href="#calyx">calyx</a> or <a href="#corolla">corolla</a> in length.</dd>
@@ -1250,7 +1250,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A delicate flap or covering connected to the <a href="#sorus">sorus</a> in ferns.</dd>
 
 				<dt id="inferior">Inferior</dt>
-				<dd>&#151; In reference to an organ which appears subordinate to or lower than another similar organ; in reference to an ovary, at least the sides of which are <a href="#adnate">adnate</a> to the <a href="#hypanthium">hypanthium</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; In reference to an organ which appears subordinate to or lower than another similar organ; in reference to an ovary, at least the sides of which are <a href="#adnate">adnate</a> to the <a href="#hypanthium">hypanthium</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="infertile">Infertile</dt>
 				<dd>&#151; <a href="#sterile">Sterile</a>; unable to produce seeds.</dd>
@@ -1262,7 +1262,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Bent inward.</dd>
 
 				<dt id="inflorescence">Inflorescence</dt>
-				<dd>&#151; The discrete flowering portion or portions of a plant; a flower cluster. [<a href="plate08.html" title="Plate 08">Plate 8</a> and <a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The discrete flowering portion or portions of a plant; a flower cluster. [<a href="plate08.php" title="Plate 08">Plate 8</a> and <a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="infra-">Infra-</dt>
 				<dd>&#151; Prefix meaning beneath, or less than, or within. Opposite of <a href="#supra-">supra-</a>.</dd>
@@ -1283,7 +1283,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Prefix meaning between, or among.</dd>
 
 				<dt id="internode">Internode</dt>
-				<dd>&#151; That portion of the stem other than the <a href="#node">node</a>; the distance between two <a href="#node">nodes</a>. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; That portion of the stem other than the <a href="#node">node</a>; the distance between two <a href="#node">nodes</a>. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="interspecific">Interspecific</dt>
 				<dd>&#151; Among species or between two species. Compare to <a href="#infraspecific">infraspecific</a> and <a href="#intraspecific">intraspecific</a>.</dd>
@@ -1307,7 +1307,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Sunken inwardly; used in connection with the <a href="#achene">achene</a> in <em>Carex</em>.</dd>
 
 				<dt id="involucel">Involucel</dt>
-				<dd>&#151; A <a href="#secondary">secondary</a> <a href="#involucre">involucre</a>, such as that <a href="#subtend">subtending</a> an <a href="#umbellet">umbellet</a> in the Apiaceae family. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A <a href="#secondary">secondary</a> <a href="#involucre">involucre</a>, such as that <a href="#subtend">subtending</a> an <a href="#umbellet">umbellet</a> in the Apiaceae family. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="involucral">Involucral</dt>
 				<dd>&#151; Pertaining to an <a href="#involucre">involucre</a>. </dd>
@@ -1316,10 +1316,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having an <a href="#involucre">involucre</a>.</dd>
 
 				<dt id="involucre">Involucre</dt>
-				<dd>&#151; A <a href="#whorl">whorl</a> or <a href="#imbricate">imbricated</a> series of <a href="#bract">bracts</a>, often appearing somewhat <a href="#calyx">calyx</a>-like, typically <a href="#subtend">subtending</a> a flower cluster or a solitary flower. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A <a href="#whorl">whorl</a> or <a href="#imbricate">imbricated</a> series of <a href="#bract">bracts</a>, often appearing somewhat <a href="#calyx">calyx</a>-like, typically <a href="#subtend">subtending</a> a flower cluster or a solitary flower. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="involute">Involute</dt>
-				<dd>&#151; Leaf <a href="#margin">margins</a> rolled toward the upper surface of the <a href="#midnerve">midrib</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Leaf <a href="#margin">margins</a> rolled toward the upper surface of the <a href="#midnerve">midrib</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="irregular">Irregular</dt>
 				<dd>&#151; Referring to a <a href="#calyx">calyx</a> or <a href="#corolla">corolla</a> which is <a href="#bilateralsymmetrical">bilaterally symmetrical</a>, capable of being divided into two equal halves along only one plane. Same as <a href="#zygomorphic">zygomorphic</a>.</dd>
@@ -1343,10 +1343,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="lacerate">Lacerate</dt>
-				<dd>&#151; Unevenly cut or <a href="#incised">incised</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Unevenly cut or <a href="#incised">incised</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="laciniate">Laciniate</dt>
-				<dd>&#151; Deeply and sharply slashed into slender <a href="#segment">segments</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Deeply and sharply slashed into slender <a href="#segment">segments</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="lacuna">Lacuna</dt>
 				<dd>&#151; Defined space.</dd>
@@ -1355,13 +1355,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Thin flat plates or <a href="#lateral">laterally</a> flattened ridges.</dd>
 
 				<dt id="lamina">Lamina</dt>
-				<dd>&#151; Blade, usually of a leaf. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Blade, usually of a leaf. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="lanate">Lanate</dt>
-				<dd>&#151; Densely white <a href="#woolly">woolly</a>-<a href="#pubescent">pubescent</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Densely white <a href="#woolly">woolly</a>-<a href="#pubescent">pubescent</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="lanceolate">Lanceolate</dt>
-				<dd>&#151; Lance-shaped, broadest below the middle, long-tapering above the middle, several times longer than wide.  See <a href="#oblanceolate">oblanceolate</a>[<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Lance-shaped, broadest below the middle, long-tapering above the middle, several times longer than wide.  See <a href="#oblanceolate">oblanceolate</a>[<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="lanuginose">Lanuginose</dt>
 				<dd>&#151; <a href="#woolly">Woolly</a> or <a href="#cottony">cottony</a>; <a href="#downy">downy</a>, the hairs somewhat shorter than in <a href="#lanate">lanate</a>.</dd>
@@ -1382,31 +1382,31 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Usually a <a href="#blade">blade</a>-like organ attached to the stem, often by a <a href="#petiole">petiole</a> or <a href="#sheath">sheath</a>, and commonly functioning as a principal organ in photosynthesis and transpiration. Leaves characteristically <a href="#subtend">subtend</a> buds and extend from the stem in various planes. See also <a href="#leaflet">leaflet</a>. A leaf <a href="#axil">axil</a> is the upper angle between a leaf <a href="#petiole">petiole</a>, or <a href="#sessile">sessile</a> leaf base, and the <a href="#node">node</a> from which it grows. A leaf scar is formed on a twig following the fall of a leaf, usually revealing the pattern of <a href="#vascular">vascular</a> bundles in the leaf trace.</dd>
 
 				<dt id="leaflet">Leaflet</dt>
-				<dd>&#151; One of the discriminate <a href="#segment">segments</a> of the <a href="#compound">compound</a> leaf of a dicotyledonous plant. Leaflets may resemble leaves, but differ principally in that buds are not found in the <a href="#axil">axils</a> of leaflets, and that leaflets all lie in the same plane. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; One of the discriminate <a href="#segment">segments</a> of the <a href="#compound">compound</a> leaf of a dicotyledonous plant. Leaflets may resemble leaves, but differ principally in that buds are not found in the <a href="#axil">axils</a> of leaflets, and that leaflets all lie in the same plane. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="legume">Legume</dt>
-				<dd>&#151; The fruit in the Fabaceae family, produced from a one-celled <a href="#ovary">ovary</a>, and typically splitting along both <a href="#suture">sutures</a>; as in the pea <a href="#pod">pod</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; The fruit in the Fabaceae family, produced from a one-celled <a href="#ovary">ovary</a>, and typically splitting along both <a href="#suture">sutures</a>; as in the pea <a href="#pod">pod</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="lemma">Lemma</dt>
-				<dd>&#151; The lowermost of the two <a href="#scale">scales</a> forming the <a href="#floret">floret</a> in a grass <a href="#spikelet">spikelet</a> -- the uppermost, less easily seen, is called the <a href="#palea">palea</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The lowermost of the two <a href="#scale">scales</a> forming the <a href="#floret">floret</a> in a grass <a href="#spikelet">spikelet</a> -- the uppermost, less easily seen, is called the <a href="#palea">palea</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="lenticel">Lenticel</dt>
-				<dd>&#151; A corky spot on young bark, corresponding functionally to a <a href="#stoma">stoma</a> on a leaf. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A corky spot on young bark, corresponding functionally to a <a href="#stoma">stoma</a> on a leaf. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="lenticular">Lenticular</dt>
 				<dd>&#151; Lens-shaped; two-sided, with the <a href="#face">faces</a> <a href="#convex">convex</a>.</dd>
 
 				<dt id="lepidote">Lepidote</dt>
-				<dd>&#151; Surfaced with small <a href="#scurfy">scurfy</a> <a href="#scale">scales</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]
+				<dd>&#151; Surfaced with small <a href="#scurfy">scurfy</a> <a href="#scale">scales</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]
 
 				<dt id="ligneous">Ligneous</dt>
 				<dd>&#151; Woody.</dd>
 
 				<dt id="ligulate">Ligulate</dt>
-				<dd>&#151; Bearing a <a href="#ligule">ligule</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Bearing a <a href="#ligule">ligule</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="ligule">Ligule</dt>
-				<dd>&#151; In the Asteraceae family, pertaining to the <a href="#dilated">dilated</a> or flattened, spreading <a href="#limb">limb</a> of the composite <a href="#ray">ray flower</a>; in other families, such as Poaceae family, an extension, often <a href="#scarious">scarious</a>, of the summit of the leaf <a href="#sheath">sheath</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; In the Asteraceae family, pertaining to the <a href="#dilated">dilated</a> or flattened, spreading <a href="#limb">limb</a> of the composite <a href="#ray">ray flower</a>; in other families, such as Poaceae family, an extension, often <a href="#scarious">scarious</a>, of the summit of the leaf <a href="#sheath">sheath</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="limb">Limb</dt>
 				<dd>&#151; The expanded portion of a <a href="#corolla">corolla</a> above the throat; the expanded portion of any petal.</dd>
@@ -1418,7 +1418,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Referring to either the upper or lower lip of a <a href="#bilabiate">bilabiate</a> <a href="#corolla">corolla</a>; the principal, seemingly lower, petal in the Orchidaceae.</dd>
 
 				<dt id="lobe">Lobe</dt>
-				<dd>&#151; Any <a href="#segment">segment</a> or division, particularly if <a href="#blunt">blunt</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Any <a href="#segment">segment</a> or division, particularly if <a href="#blunt">blunt</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 				 
 				<dt id="lobulate">Lobulate</dt>
 				<dd>&#151; Bearing <a href="#lobe">lobes</a>.</dd>
@@ -1430,13 +1430,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151;  A discriminate cavity or space within an <a href="#ovary">ovary</a>, fruit, or <a href="#anther">anther</a>.</dd>
 
 				<dt id="loculicidal">Loculicidal</dt>
-				<dd>&#151; Pertaining to a <a href="#capsule">capsule</a> which <a href="#dehiscence">dehisces</a> along the <a href="#dorsal">dorsal</a> <a href="#suture">suture</a> of each <a href="#locule">locule</a>, thus opening directly into the cavity. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; Pertaining to a <a href="#capsule">capsule</a> which <a href="#dehiscence">dehisces</a> along the <a href="#dorsal">dorsal</a> <a href="#suture">suture</a> of each <a href="#locule">locule</a>, thus opening directly into the cavity. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="locus">Locus</dt>
 				<dd>&#151; Place.</dd>
 
 				<dt id="loment">Loment</dt>
-				<dd>&#151; Specifically applied to the series of one-seeded <a href="#article">articles</a> of a fruit in the <a href="#genus">genus</a> <em>Desmodium</em>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; Specifically applied to the series of one-seeded <a href="#article">articles</a> of a fruit in the <a href="#genus">genus</a> <em>Desmodium</em>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="longiligulate">Longiligulate</dt>
 				<dd>&#151; With long <a href="#ligule">ligules</a>.</dd>
@@ -1445,7 +1445,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Shiny.</dd>
 
 				<dt id="lyrate">Lyrate</dt>
-				<dd>&#151; <a href="#pinnate">Pinnately</a> <a href="#lobe">lobed</a> into large, broad <a href="#lobe">lobes</a>, the <a href="#terminal">terminal</a> one typically noticeably larger than the reduced <a href="#lateral">lateral</a> ones. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; <a href="#pinnate">Pinnately</a> <a href="#lobe">lobed</a> into large, broad <a href="#lobe">lobes</a>, the <a href="#terminal">terminal</a> one typically noticeably larger than the reduced <a href="#lateral">lateral</a> ones. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="m">M</dt>
 				<dd><hr /></dd>
@@ -1463,7 +1463,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Withering but <a href="#persistent">persistent</a>, usually remaining green.</dd>
 
 				<dt id="margin">Margin</dt>
-				<dd>&#151; Edge. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Edge. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="marine">Marine</dt>
 				<dd>&#151; Referring to an <a href="#aquatic">aquatic</a> habitat in salt water.</dd>
@@ -1496,7 +1496,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Haploid <a href="#spore">spore</a> which gives rise to the male gametophyte; other being called <a href="#megaspore">megaspore</a>.</dd>
 
 				<dt id="midnerve">Midnerve, Midrib, Midvein</dt>
-				<dd>&#151; The central or principal <a href="#vein">vein</a> of a foliar or <a href="#bracteal">bracteal</a> organ, or of a <a href="#sepal">sepal</a> or <a href="#petal">petal</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; The central or principal <a href="#vein">vein</a> of a foliar or <a href="#bracteal">bracteal</a> organ, or of a <a href="#sepal">sepal</a> or <a href="#petal">petal</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="milky">Milky</dt>
 				<dd>&#151; Like a thick white juice.</dd>
@@ -1526,7 +1526,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A short and small abrupt tip.</dd>
 
 				<dt id="mucronate">Mucronate</dt>
-				<dd>&#151; With a short, abrupt tip. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; With a short, abrupt tip. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="mucronulate">Mucronulate</dt>
 				<dd>&#151; Minutely <a href="#mucronate">mucronate</a>.</dd>
@@ -1535,7 +1535,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#cleft">Cleft</a> into many <a href="#lobe">lobes</a> or <a href="#segment">segments</a>.</dd>
 
 				<dt id="muricate">Muricate</dt>
-				<dd>&#151; Copiously beset with hard, often sharp, tubercles. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Copiously beset with hard, often sharp, tubercles. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="n">N</dt>
 				<dd><hr /></dd>
@@ -1581,19 +1581,19 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Inversely <a href="#conical">conical</a>.</dd>
 
 				<dt id="obcordate">Obcordate</dt>
-				<dd>&#151; Referring to leaves or petals which are heart-shaped at the tip and tapering to a wedge-shaped base. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Referring to leaves or petals which are heart-shaped at the tip and tapering to a wedge-shaped base. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="oblanceolate">Oblanceolate</dt>
 				<dd>&#151; Several times longer than wide, but widest above the middle, long-tapering at the base.</dd>
 
 				<dt id="oblique">Oblique</dt>
-				<dd>&#151; Slanting, or unequal-sided. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Slanting, or unequal-sided. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="oblong">Oblong</dt>
-				<dd>&#151; Several times longer than wide with nearly or quite <a href="#parallel">parallel</a> sides. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Several times longer than wide with nearly or quite <a href="#parallel">parallel</a> sides. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="obovate">Obovate</dt>
-				<dd>&#151; Inversely <a href="#ovate">ovate</a>. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Inversely <a href="#ovate">ovate</a>. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="obovoid">Obovoid</dt>
 				<dd>&#151; Having the form of an egg, but with the broad end at the tip.</dd>
@@ -1602,7 +1602,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#rudimentary">Rudimentary</a>; not evident.</dd>
 
 				<dt id="obtuse">Obtuse</dt>
-				<dd>&#151; <a href="#blunt">Blunt</a> or rounded. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; <a href="#blunt">Blunt</a> or rounded. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="ochroleucous">Ochroleucous</dt>
 				<dd>&#151; Yellowish white.</dd>
@@ -1620,22 +1620,22 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Dull; neither shining nor <a href="#translucent">translucent</a>.</dd>
 
 				<dt id="opposite">Opposite</dt>
-				<dd>&#151; Arranged in pairs along an <a href="#axis">axis</a>, not <a href="#alternate">alternate</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Arranged in pairs along an <a href="#axis">axis</a>, not <a href="#alternate">alternate</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="orbicular">Orbicular</dt>
-				<dd>&#151; Circular in outline. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Circular in outline. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="osier">Osier</dt>
 				<dd>&#151; A long, lithe stem.</dd>
 
 				<dt id="oval">Oval</dt>
-				<dd>&#151; Broadly <a href="#elliptic">elliptical</a>. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Broadly <a href="#elliptic">elliptical</a>. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="ovary">Ovary</dt>
-				<dd>&#151; That portion of the <a href="#pistil">pistil</a> which contains the <a href="#ovule">ovules</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; That portion of the <a href="#pistil">pistil</a> which contains the <a href="#ovule">ovules</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="ovate">Ovate</dt>
-				<dd>&#151; Egg-shaped. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Egg-shaped. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="ovoid">Ovoid</dt>
 				<dd>&#151; A solid with an <a href="#ovate">ovate</a> outline.</dd>
@@ -1647,13 +1647,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="palate">Palate</dt>
-				<dd>&#151; A rounded projection of the lower <a href="#lip">lip</a> of some <a href="#irregular">irregular</a> <a href="#corolla">corollas</a>, often closing the throat, as in <em>Utricularia</em>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; A rounded projection of the lower <a href="#lip">lip</a> of some <a href="#irregular">irregular</a> <a href="#corolla">corollas</a>, often closing the throat, as in <em>Utricularia</em>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="palea">Palea</dt>
-				<dd>&#151; The uppermost of the two <a href="#scale">scales</a> forming the <a href="#floret">floret</a> in a grass <a href="#spikelet">spikelet</a> (often obscure). [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; The uppermost of the two <a href="#scale">scales</a> forming the <a href="#floret">floret</a> in a grass <a href="#spikelet">spikelet</a> (often obscure). [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="palmate">Palmate</dt>
-				<dd>&#151; <a href="#radiate">Radiately</a> <a href="#lobe">lobed</a> or divided, the axes of the individual <a href="#segment">segments</a> originating at a common point or nearly so. [<a href="plate02.html" title="Plate 02">Plate 2</a> and <a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; <a href="#radiate">Radiately</a> <a href="#lobe">lobed</a> or divided, the axes of the individual <a href="#segment">segments</a> originating at a common point or nearly so. [<a href="plate02.php" title="Plate 02">Plate 2</a> and <a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="paludal">Paludal</dt>
 				<dd>&#151; Pertaining to marshes.</dd>
@@ -1662,7 +1662,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Fiddle-shaped.</dd>
 
 				<dt id="panicle">Panicle</dt>
-				<dd>&#151; An <a href="#inflorescence">inflorescence</a> composed of two or more <a href="#raceme">racemes</a> or <a href="#racemiform">racemiform</a> <a href="#corymb">corymbs</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; An <a href="#inflorescence">inflorescence</a> composed of two or more <a href="#raceme">racemes</a> or <a href="#racemiform">racemiform</a> <a href="#corymb">corymbs</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="paniculate">Paniculate</dt>
 				<dd>&#151; Bearing <a href="#panicle">panicles</a></dd>
@@ -1671,7 +1671,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#panicle">Panicle</a> shaped.</dd>
 
 				<dt id="pannate">Pannate, Pannose</dt>
-				<dd>&#151; With a tight, densely tangled <a href="#tomentum">tomentum</a>; Appearing felt-like. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; With a tight, densely tangled <a href="#tomentum">tomentum</a>; Appearing felt-like. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="panne">Panne</dt>
 				<dd>&#151; Typically, a moist interdunal depression, often scoured down to the water table, in <a href="#calcareous">calcareous</a> sands on the lee sides of dunes near Lake Michigan -- the vegetation quite <a href="#fen">fen</a>-like in composition.</dd>
@@ -1686,16 +1686,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A minute, nipple-shaped projection.</dd>
 
 				<dt id="papillate">Papillate, Papillose</dt>
-				<dd>&#151; Bearing <a href="#papilla">papillae</a>; <a href="#warty">warty</a> or <a href="#tuberculate">tuberculate</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Bearing <a href="#papilla">papillae</a>; <a href="#warty">warty</a> or <a href="#tuberculate">tuberculate</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="pappus">Pappus</dt>
-				<dd>&#151; A modification of the <a href="#calyx">calyx</a>, usually in the Asteraceae family, such that the <a href="#segment">segments</a> are manifest as a low <a href="#crown">crown</a>, a ring of <a href="#scale">scales</a>, or fine hairs. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; A modification of the <a href="#calyx">calyx</a>, usually in the Asteraceae family, such that the <a href="#segment">segments</a> are manifest as a low <a href="#crown">crown</a>, a ring of <a href="#scale">scales</a>, or fine hairs. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="papule">Papule</dt>
 				<dd>&#151; A single wart or <a href="#tubercle">tubercle</a>.</dd>
 
 				<dt id="parallel">Parallel</dt>
-				<dd>&#151; Running side-by-side, from base to tip. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Running side-by-side, from base to tip. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="parallel-veined">Parallel-veined</dt>
 				<dd>&#151; A feature occurring largely in the <a href="#monocot">Monocots</a>, where, instead of a network, the observable <a href="#vein">veins</a> are parallel to each other and the <a href="#midnerve">midrib</a>, or nearly so.</dd>
@@ -1717,13 +1717,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Fringed or <a href="#dissected">dissected</a> in comb-like fashion.</dd>
 
 				<dt id="pedicel">Pedicel</dt>
-				<dd>&#151; The stalk of a single flower in a cluster. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; The stalk of a single flower in a cluster. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="pedicellate">Pedicellate</dt>
 				<dd>&#151; Having a <a href="#pedicel">pedicel</a>.</dd>
 
 				<dt id="peduncle">Peduncle</dt>
-				<dd>&#151; Characteristically referring to the second <a href="#internode">internode</a> below a flower, but generally applied to any <a href="#primary">primary</a> stalk which supports a <a href="#head">head</a>, flower cluster, or occasionally a single flower. [<a href="plate08.html" title="Plate 08">Plate 8</a> and <a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Characteristically referring to the second <a href="#internode">internode</a> below a flower, but generally applied to any <a href="#primary">primary</a> stalk which supports a <a href="#head">head</a>, flower cluster, or occasionally a single flower. [<a href="plate08.php" title="Plate 08">Plate 8</a> and <a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="pedunculate">Pedunculate</dt>
 				<dd>&#151; Having a <a href="#peduncle">peduncle</a>.</dd>
@@ -1732,7 +1732,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Clear; transparent.</dd>
 
 				<dt id="peltate">Peltate</dt>
-				<dd>&#151; Leaf/<a href="#petiole">petiole</a> relationship in which the <a href="#petiole">petiole</a> attaches to the blade away from the blade <a href="#margin">margin</a>. Also similar relationships between <a href="#stigma">stigmas</a> and <a href="#style">styles</a>, <a href="#indusium">indusium</a> attachments to the <a href="#frond">frond</a> surface, etc. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Leaf/<a href="#petiole">petiole</a> relationship in which the <a href="#petiole">petiole</a> attaches to the blade away from the blade <a href="#margin">margin</a>. Also similar relationships between <a href="#stigma">stigmas</a> and <a href="#style">styles</a>, <a href="#indusium">indusium</a> attachments to the <a href="#frond">frond</a> surface, etc. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="pendulous">Pendulous</dt>
 				<dd>&#151; Drooping.</dd>
@@ -1747,16 +1747,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Pertaining to flowers which contain both <a href="#stamen">stamens</a> and <a href="#pistil">pistils</a>.</dd>
 
 				<dt id="perfoliate">Perfoliate</dt>
-				<dd>&#151; A condition in which the stem appears to pass through the leaf. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; A condition in which the stem appears to pass through the leaf. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="perianth">Perianth</dt>
-				<dd>&#151; Pertaining to the floral series of <a href="#sepal">sepals</a>, <a href="#petal">petals</a>, or both, spoken of collectively. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Pertaining to the floral series of <a href="#sepal">sepals</a>, <a href="#petal">petals</a>, or both, spoken of collectively. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="pericarp">Pericarp</dt>
 				<dd>&#151; The wall of the matured <a href="#ovary">ovary</a>.</dd>
 
 				<dt id="perigynium">Perigynium</dt>
-				<dd>&#151; Referring specifically to the often <a href="#inflated">inflated</a> <a href="#sac">sac</a> which encloses the <a href="#achene">achene</a> in the <a href="#genus">genus</a> <em>Carex</em>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; Referring specifically to the often <a href="#inflated">inflated</a> <a href="#sac">sac</a> which encloses the <a href="#achene">achene</a> in the <a href="#genus">genus</a> <em>Carex</em>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="perigynous">Perigynous</dt>
 				<dd>&#151; With the <a href="#perianth">perianth</a> surrounding the <a href="#ovary">ovary</a>.</dd>
@@ -1765,7 +1765,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Remaining attached, especially after withering; not <a href="#caducous">caducous</a>.</dd>
 
 				<dt id="petal">Petal</dt>
-				<dd>&#151; A segment of the <a href="#corolla">corolla</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a> and <a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; A segment of the <a href="#corolla">corolla</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a> and <a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="petaloid">Petaloid</dt>
 				<dd>&#151; Colored like, or resembling, a petal.</dd>
@@ -1774,34 +1774,34 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having a leafstalk.</dd>
 
 				<dt id="petiole">Petiole</dt>
-				<dd>&#151; A leafstalk. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; A leafstalk. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="petiolulate">Petiolulate</dt>
 				<dd>&#151; Having a <a href="#leaflet">leaflet</a> stalk.</dd>
 
 				<dt id="petiolule">Petiolule</dt>
-				<dd>&#151; The stalk of a <a href="#leaflet">leaflet</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; The stalk of a <a href="#leaflet">leaflet</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="phloem">Phloem</dt>
 				<dd>&#151; The conducting tissue of the vascular system that transports sugars and other compounds, primarily from the leaves,  throughout the plant. Compare to <a href="#xylem">xylem</a>.</dd>
 
 				<dt id="phyllary">Phyllary</dt>
-				<dd>&#151; An <a href="#involucral">involucral</a> <a href="#bract">bract</a> in the Asteraceae family. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; An <a href="#involucral">involucral</a> <a href="#bract">bract</a> in the Asteraceae family. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="phyllodium">Phyllodium</dt>
 				<dd>&#151; A somewhat <a href="#dilated">dilated</a> leafstalk having the form of and serving as a leaf blade.</dd>
 
 				<dt id="pilose">Pilose</dt>
-				<dd>&#151; <a href="#pubescent">Pubescent</a> with soft hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; <a href="#pubescent">Pubescent</a> with soft hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="pinna">Pinna</dt>
 				<dd>&#151; One of the principal divisions in a <a href="#pinnate">pinnate</a> or <a href="#pinnate">pinnately</a> <a href="#compound">compound</a> leaf or <a href="#frond">frond</a>.</dd>
 
 				<dt id="pinnate">Pinnate</dt>
-				<dd>&#151; Referring to a foliar structure which is <a href="#compound">compound</a> or deeply divided, the principal divisions arranged along each side of a common <a href="#axis">axis</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a> and <a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Referring to a foliar structure which is <a href="#compound">compound</a> or deeply divided, the principal divisions arranged along each side of a common <a href="#axis">axis</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a> and <a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="pinnatifid">Pinnatifid</dt>
-				<dd>&#151; Incompletely <a href="#pinnate">pinnate</a>, the <a href="#cleft">clefts</a> between <a href="#segment">segments</a> not reaching the <a href="#axis">axis</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Incompletely <a href="#pinnate">pinnate</a>, the <a href="#cleft">clefts</a> between <a href="#segment">segments</a> not reaching the <a href="#axis">axis</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="pinnatisect">Pinnatisect</dt>
 				<dd>&#151; <a href="#pinnate">Pinnately</a> <a href="#dissected">dissected</a>.</dd>
@@ -1810,13 +1810,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; One of the principal divisions of a <a href="#pinna">pinna</a>.</dd>
 
 				<dt id="pistil">Pistil</dt>
-				<dd>&#151; That organ comprised of <a href="#ovary">ovary</a>, <a href="#style">style</a> (when present), and <a href="#stigma">stigma</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; That organ comprised of <a href="#ovary">ovary</a>, <a href="#style">style</a> (when present), and <a href="#stigma">stigma</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="pistillate">Pistillate</dt>
 				<dd>&#151; Referring either to plants, <a href="#inflorescence">inflorescences</a>, or flowers which bear <a href="#pistil">pistils</a> but not <a href="#stamen">stamens</a>.</dd>
 
 				<dt id="pith">Pith</dt>
-				<dd>&#151; The <a href="#parenchymatous">parenchymatous</a>, often spongy or porous, central portions of stems and branchlets. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; The <a href="#parenchymatous">parenchymatous</a>, often spongy or porous, central portions of stems and branchlets. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="pitted">Pitted</dt>
 				<dd>&#151; Beset with depressions or pits.</dd>
@@ -1849,19 +1849,19 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having a number of various forms.</dd>
 
 				<dt id="pome">Pome</dt>
-				<dd>&#151; A fleshy fruit (as in the apple), formed from an <a href="#inferior">inferior</a> <a href="#ovary">ovary</a> with several <a href="#locule">locules</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A fleshy fruit (as in the apple), formed from an <a href="#inferior">inferior</a> <a href="#ovary">ovary</a> with several <a href="#locule">locules</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="pore">Pore</dt>
 				<dd>&#151; The small area which bursts open in some types of <a href="#dehiscent">dehiscent</a> <a href="#capsule">capsules</a>; also the opening in some <a href="#anther">anthers</a> from which the pollen discharges.</dd>
 
 				<dt id="poricidal">Poricidal</dt>
-				<dd>&#151; <a href="#dehiscence">Dehiscing</a> by means of <a href="#pore">pores</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; <a href="#dehiscence">Dehiscing</a> by means of <a href="#pore">pores</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="posterior">Posterior</dt>
 				<dd>&#151; Next to or close to the main <a href="#axis">axis</a>; its opposite is <a href="#anterior">anterior</a>.</dd>
 
 				<dt id="prickle">Prickle</dt>
-				<dd>&#151; A sharp, usually slender, <a href="#bristle">bristle</a> or <a href="#spine">spine</a> of the <a href="#epidermis">epidermis</a>, though originating in the deeper cell layers. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A sharp, usually slender, <a href="#bristle">bristle</a> or <a href="#spine">spine</a> of the <a href="#epidermis">epidermis</a>, though originating in the deeper cell layers. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="primary">Primary</dt>
 				<dd>&#151; Principal; first order.</dd>
@@ -1876,7 +1876,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A projection or outgrowth from some parent tissue.</dd>
 
 				<dt id="procumbent">Procumbent</dt>
-				<dd>&#151; Trailing or reclining, but not rooting at the <a href="#node">nodes</a>. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Trailing or reclining, but not rooting at the <a href="#node">nodes</a>. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="prostrate">Prostrate</dt>
 				<dd>&#151; Lying flat upon the substrate.</dd>
@@ -1885,13 +1885,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Near.  The near end. Opposite meaning of distal.</dd>
 
 				<dt id="puberulent">Puberulent</dt>
-				<dd>&#151; Minutely hairy. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Minutely hairy. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="pubescent">Pubescent</dt>
 				<dd>&#151; Hairy.</dd>
 
 				<dt id="pulverulent">Pulverulent</dt>
-				<dd>&#151; Appearing powdery or <a href="#mealy">mealy</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Appearing powdery or <a href="#mealy">mealy</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="pulvinus">Pulvinus</dt>
 				<dd>&#151; A swelling or enlargement, typically in the <a href="#axil">axils</a> of the branches in a grass <a href="#inflorescence">inflorescence</a>.</dd>
@@ -1927,7 +1927,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="raceme">Raceme</dt>
-				<dd>&#151; A <a href="#simple">simple</a> <a href="#inflorescence">inflorescence</a> in which the flowers are <a href="#pedicellate">pedicellate</a> and arranged singly along an <a href="#elongate">elongate</a> <a href="#axis">axis</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A <a href="#simple">simple</a> <a href="#inflorescence">inflorescence</a> in which the flowers are <a href="#pedicellate">pedicellate</a> and arranged singly along an <a href="#elongate">elongate</a> <a href="#axis">axis</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="racemiform">Racemiform</dt>
 				<dd>&#151; Resembling a <a href="#raceme">raceme</a>; or an adjective describing a <a href="#raceme">raceme</a>.</dd>
@@ -1936,13 +1936,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having flowers in <a href="#raceme">racemes</a>.</dd>
 
 				<dt id="rachilla">Rachilla</dt>
-				<dd>&#151; A <a href="#secondary">secondary</a> <a href="#rachis">rachis</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; A <a href="#secondary">secondary</a> <a href="#rachis">rachis</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="rachis">Rachis</dt>
-				<dd>&#151; The principal <a href="#axis">axis</a> of an <a href="#inflorescence">inflorescence</a> or <a href="#compound">compound</a> leaf. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd></dd>
+				<dd>&#151; The principal <a href="#axis">axis</a> of an <a href="#inflorescence">inflorescence</a> or <a href="#compound">compound</a> leaf. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd></dd>
 
 				<dt id="radiallysymmetrical">Radially symmetrical</dt>
-				<dd>&#151; <a href="#actinomorphic">Actinomorphic</a>; capable of being bisected into two or more similar planes. Same as <a href="#regular">regular</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; <a href="#actinomorphic">Actinomorphic</a>; capable of being bisected into two or more similar planes. Same as <a href="#regular">regular</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="radiate">Radiate</dt>
 				<dd>&#151; Spreading in all directions.</dd>
@@ -1951,13 +1951,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Ordered in a series, usually used with a number, such as two-ranked.</dd>
 
 				<dt id="ray">Ray</dt>
-				<dd>&#151; A strap-shaped, <a href="#ligulate">ligulate</a>, typically <a href="#margin">marginal</a>, flower in the <a href="#head">head</a> of a composite <a href="#inflorescence">inflorescence</a>; also one of the principal branches of an <a href="#umbellate">umbellate</a> or <a href="#cymose">cymose</a> <a href="#inflorescence">inflorescence</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a> and [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; A strap-shaped, <a href="#ligulate">ligulate</a>, typically <a href="#margin">marginal</a>, flower in the <a href="#head">head</a> of a composite <a href="#inflorescence">inflorescence</a>; also one of the principal branches of an <a href="#umbellate">umbellate</a> or <a href="#cymose">cymose</a> <a href="#inflorescence">inflorescence</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a> and [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="rayflower">Ray flower</dt>
-				<dd>&#151; A strap-shaped, <a href="#ligulate">ligulate</a>, typically <a href="#margin">marginal</a>, flower in the head of a composite <a href="#inflorescence">inflorescence</a>. Also called <a href="#ligulate">ligulate</a> flower. Compare to <a href="#diskflower">disk flower</a>. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; A strap-shaped, <a href="#ligulate">ligulate</a>, typically <a href="#margin">marginal</a>, flower in the head of a composite <a href="#inflorescence">inflorescence</a>. Also called <a href="#ligulate">ligulate</a> flower. Compare to <a href="#diskflower">disk flower</a>. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="receptacle">Receptacle</dt>
-				<dd>&#151; An enlarged or <a href="#elongate">elongated</a> end of a <a href="#pedicel">pedicel</a>, <a href="#peduncle">peduncle</a>, or <a href="#scape">scape</a> on which some or all of the flower parts are borne, such as in the Asteraceae family or certain genera in the Rosaceae family. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; An enlarged or <a href="#elongate">elongated</a> end of a <a href="#pedicel">pedicel</a>, <a href="#peduncle">peduncle</a>, or <a href="#scape">scape</a> on which some or all of the flower parts are borne, such as in the Asteraceae family or certain genera in the Rosaceae family. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="recurved">Recurved</dt>
 				<dd>&#151; Directed backward or downward.</dd>
@@ -1972,37 +1972,37 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Distantly; far apart.</dd>
 
 				<dt id="reniform">Reniform</dt>
-				<dd>&#151; Kidney-shaped. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Kidney-shaped. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="repand">Repand</dt>
 				<dd>&#151; Typically with a shallowly, unevenly <a href="#lobe">lobed</a> or <a href="#sinuate">sinuate</a> <a href="#margin">margin</a>.</dd>
 
 				<dt id="repent">Repent</dt>
-				<dd>&#151; <a href="#prostrate">Prostrate</a>, creeping along the ground, typically applying to those plants which root at the <a href="#node">nodes</a>. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; <a href="#prostrate">Prostrate</a>, creeping along the ground, typically applying to those plants which root at the <a href="#node">nodes</a>. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="resinous">Resinous</dt>
-				<dd>&#151; Appearing to secrete or exude resin. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Appearing to secrete or exude resin. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="resupinate">Resupinate</dt>
 				<dd>&#151; Literally oriented upside down.</dd>
 
 				<dt id="reticulate">Reticulate</dt>
-				<dd>&#151; Forming a network of interconnecting <a href="#vein">veins</a>. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Forming a network of interconnecting <a href="#vein">veins</a>. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="retrorse">Retrorse</dt>
-				<dd>&#151; Directed backward or downward. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Directed backward or downward. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="retuse">Retuse</dt>
-				<dd>&#151; Notched slightly at an usually <a href="#obtuse">obtuse</a> <a href="#apex">apex</a>. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Notched slightly at an usually <a href="#obtuse">obtuse</a> <a href="#apex">apex</a>. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="revolute">Revolute</dt>
-				<dd>&#151; Referring to <a href="#margin">margins</a> which tend to roll back toward the lower surface of the <a href="#midnerve">midrib</a> of a foliar structure. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Referring to <a href="#margin">margins</a> which tend to roll back toward the lower surface of the <a href="#midnerve">midrib</a> of a foliar structure. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="rhizomatous">Rhizomatous</dt>
 				<dd>&#151; Bearing <a href="#rhizome">rhizomes</a>.</dd>
 
 				<dt id="rhizome">Rhizome</dt>
-				<dd>&#151; An underground stem, typically horizontal. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; An underground stem, typically horizontal. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="rhombic">Rhombic</dt>
 				<dd>&#151; A four-sided, typically <a href="#oblique">obliquely</a> angled, shape.</dd>
@@ -2032,7 +2032,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Turning outward and downward, such as in the petals of a double rose.</dd>
 
 				<dt id="rotate">Rotate</dt>
-				<dd>&#151; Pertaining to <a href="#corolla">corollas</a> which are more or less flat and circular in general outline; wheel-like. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Pertaining to <a href="#corolla">corollas</a> which are more or less flat and circular in general outline; wheel-like. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="rudimentary">Rudimentary</dt>
 				<dd>&#151; Primitive; poorly developed.</dd>
@@ -2047,7 +2047,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Minutely <a href="#rugose">rugose</a>.</dd>
 
 				<dt id="runcinate">Runcinate</dt>
-				<dd>&#151; <a href="#coarse">Coarsely</a> and sharply cut or <a href="#incised">incised</a>, the principal divisions typically directed backward, typified by the leaf of a dandelion. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; <a href="#coarse">Coarsely</a> and sharply cut or <a href="#incised">incised</a>, the principal divisions typically directed backward, typified by the leaf of a dandelion. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="runner">Runner</dt>
 				<dd>&#151; A <a href="#filiform">filiform</a> or very slender <a href="#stolon">stolon</a>.</dd>
@@ -2059,19 +2059,19 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A pouch or <a href="#bladder">bladder</a>.</dd>
 
 				<dt id="saccate">Saccate</dt>
-				<dd>&#151; Having a <a href="#sac">sac</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Having a <a href="#sac">sac</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="sagittate">Sagittate</dt>
-				<dd>&#151; Shaped like an arrowhead, usually referring to leaves in which two <a href="#basal">basal</a> <a href="#lobe">lobes</a> are directed backward and downward. [<a href="plate03.html" title="Plate 03">Plate 3</a> and <a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Shaped like an arrowhead, usually referring to leaves in which two <a href="#basal">basal</a> <a href="#lobe">lobes</a> are directed backward and downward. [<a href="plate03.php" title="Plate 03">Plate 3</a> and <a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="saline">Saline</dt>
 				<dd>&#151; Salty.</dd>
 
 				<dt id="salverform">Salverform</dt>
-				<dd>&#151; Having a slender <a href="#tube">tube</a> abruptly expanded into a flat <a href="#limb">limb</a>, like a <em>Phlox</em> blossom. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Having a slender <a href="#tube">tube</a> abruptly expanded into a flat <a href="#limb">limb</a>, like a <em>Phlox</em> blossom. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="samara">Samara</dt>
-				<dd>&#151; An <a href="#indehiscent">indehiscent</a>, <a href="#wing">winged</a> fruit. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; An <a href="#indehiscent">indehiscent</a>, <a href="#wing">winged</a> fruit. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="saprophyte">Saprophyte</dt>
 				<dd>&#151; A plant which grows on and derives nourishment from a dead plant or organic matter.</dd>
@@ -2089,7 +2089,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Minutely <a href="#scabrous">scabrous</a>.</dd>
 
 				<dt id="scabrous">Scabrous</dt>
-				<dd>&#151; Rough; harsh to the touch. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Rough; harsh to the touch. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="scale">Scale</dt>
 				<dd>&#151; Generally a thin, sometimes <a href="#scarious">scarious</a>, much reduced, leaf, <a href="#bract">bract</a>, or <a href="#perianth">perianth</a> part.</dd>
@@ -2098,7 +2098,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Said of <a href="#margin">margins</a> marked by a series of circular or arc-shaped <a href="#teeth">teeth</a> or projections.</dd>
 
 				<dt id="scape">Scape</dt>
-				<dd>&#151; A leafless flowering stem arising directly from the ground; or, such a stem which possesses minute <a href="#scale">scale</a>-like leaves much smaller than the <a href="#basal">basal</a> leaves. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A leafless flowering stem arising directly from the ground; or, such a stem which possesses minute <a href="#scale">scale</a>-like leaves much smaller than the <a href="#basal">basal</a> leaves. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="scapose">Scapose</dt>
 				<dd>&#151; Having or appearing to have a <a href="#scape">scape</a>.</dd>
@@ -2107,16 +2107,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Typically, thin, dry, papery or membranous; usually not green.</dd>
 
 				<dt id="schizocarp">Schizocarp</dt>
-				<dd>&#151; A <a href="#pericarp">pericarp</a> which splits into two to several one-seeded portions, termed <a href="#mericarp">mericarps</a> or <a href="#nutlet">nutlets</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A <a href="#pericarp">pericarp</a> which splits into two to several one-seeded portions, termed <a href="#mericarp">mericarps</a> or <a href="#nutlet">nutlets</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="scurfy">Scurfy</dt>
-				<dd>&#151; Bearing <a href="#mealy">mealy</a> or bran-like granules or <a href="#scale">scales</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Bearing <a href="#mealy">mealy</a> or bran-like granules or <a href="#scale">scales</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="secondary">Secondary</dt>
 				<dd>&#151; Once removed from <a href="#primary">primary</a>, which see. </dd>
 
 				<dt id="secund">Secund</dt>
-				<dd>&#151; Arranged or oriented along one side of an <a href="#axis">axis</a>, typically referring to the flowers of an <a href="#inflorescence">inflorescence</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; Arranged or oriented along one side of an <a href="#axis">axis</a>, typically referring to the flowers of an <a href="#inflorescence">inflorescence</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="segment">Segment</dt>
 				<dd>&#151; One of the units of a leaf or <a href="#perianth">perianth</a> that is divided but not fully <a href="#compound">compound</a>.</dd>
@@ -2125,7 +2125,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Growing old; aging.</dd>
 
 				<dt id="sepal">Sepal</dt>
-				<dd>&#151; A <a href="#segment">segment</a> of the <a href="#calyx">calyx</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a> and <a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; A <a href="#segment">segment</a> of the <a href="#calyx">calyx</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a> and <a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="sepaloid">Sepaloid</dt>
 				<dd>&#151; Of the texture of, or resembling, a <a href="#sepal">sepal</a>.</dd>
@@ -2134,25 +2134,25 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Divided by partitions.</dd>
 
 				<dt id="septicidal">Septicidal</dt>
-				<dd>&#151; Referring to <a href="#capsule">capsules</a> which dehisce through the side walls or partitions, not opening directly into the <a href="#locule">locule</a>. <a href="plate11.html" title="Plate 11">Plate 11</a>
+				<dd>&#151; Referring to <a href="#capsule">capsules</a> which dehisce through the side walls or partitions, not opening directly into the <a href="#locule">locule</a>. <a href="plate11.php" title="Plate 11">Plate 11</a>
 
 				<dt id="septum">Septum</dt>
 				<dd>&#151; Any kind of partition.</dd>
 
 				<dt id="sericeous">Sericeous</dt>
-				<dd>&#151; With silky hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; With silky hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="serotinous">Serotinous</dt>
 				<dd>&#151; Produced late in the season; late to open; having <a href="#cone">cones</a> that remain closed long after the seeds are ripe.</dd>
 
 				<dt id="serrate">Serrate</dt>
-				<dd>&#151; With sharp, typically forward-pointing, <a href="#teeth">teeth</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; With sharp, typically forward-pointing, <a href="#teeth">teeth</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="serrulate">Serrulate</dt>
-				<dd>&#151; Minutely <a href="#serrate">serrate</a>. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Minutely <a href="#serrate">serrate</a>. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="sessile">Sessile</dt>
-				<dd>&#151; Without a stalk. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Without a stalk. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="setaceous">Setaceous</dt>
 				<dd>&#151; <a href="#bristle">Bristle-like</a>.</dd>
@@ -2161,7 +2161,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having the form of a <a href="#bristle">bristle</a>.</dd>
 
 				<dt id="setose">Setose</dt>
-				<dd>&#151; Beset with <a href="#bristle">bristles</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Beset with <a href="#bristle">bristles</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="setulose">Setulose</dt>
 				<dd>&#151; Having minute <a href="#bristle">bristles</a>.</dd>
@@ -2170,19 +2170,19 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A <a href="#tubular">tubular</a> structure effected by the formation of leaf <a href="#margin">margins</a> around the stem.</dd>
 
 				<dt id="shrub">Shrub</dt>
-				<dd>&#151; A woody plant, typically smaller than a tree, and typified as being branched from the base with two or more main stems. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; A woody plant, typically smaller than a tree, and typified as being branched from the base with two or more main stems. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="silicle">Silicle</dt>
-				<dd>&#151; A short <a href="#silique">silique</a>. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A short <a href="#silique">silique</a>. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="silique">Silique</dt>
-				<dd>&#151; A specialized <a href="#capsule">capsule</a> in which a frame-like <a href="#placenta">placenta</a> or partition separates the two <a href="#valve">valves</a>, most often occurring in the mustard family. [<a href="plate11.html" title="Plate 11">Plate 11</a>]</dd>
+				<dd>&#151; A specialized <a href="#capsule">capsule</a> in which a frame-like <a href="#placenta">placenta</a> or partition separates the two <a href="#valve">valves</a>, most often occurring in the mustard family. [<a href="plate11.php" title="Plate 11">Plate 11</a>]</dd>
 
 				<dt id="simple">Simple</dt>
-				<dd>&#151; Not <a href="#compound">compound</a>, a term usually applied to leaves; also, referring to a stem without branches or modifications. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Not <a href="#compound">compound</a>, a term usually applied to leaves; also, referring to a stem without branches or modifications. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="sinuate">Sinuate</dt>
-				<dd>&#151; Wavy. [<a href="plate04.html" title="Plate 04">Plate 4</a>]</dd>
+				<dd>&#151; Wavy. [<a href="plate04.php" title="Plate 04">Plate 4</a>]</dd>
 
 				<dt id="sinus">Sinus</dt>
 				<dd>&#151; A <a href="#cleft">cleft</a> or dissection between two <a href="#lobe">lobes</a>.</dd>
@@ -2197,16 +2197,16 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Specifically, in ferns, the clusters or discrete aggregations of <a href="#sporangium">sporangia</a>.</dd>
 
 				<dt id="spadix">Spadix</dt>
-				<dd>&#151; An <a href="#inflorescence">inflorescence</a> <a href="#spike">spike</a> typified by a very fleshy <a href="#axis">axis</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; An <a href="#inflorescence">inflorescence</a> <a href="#spike">spike</a> typified by a very fleshy <a href="#axis">axis</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="spathe">Spathe</dt>
-				<dd>&#151; A <a href="#foliaceous">foliaceous</a> <a href="#bract">bract</a>-like or sheathiform structure enclosing or partly enclosing an <a href="#inflorescence">inflorescence</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A <a href="#foliaceous">foliaceous</a> <a href="#bract">bract</a>-like or sheathiform structure enclosing or partly enclosing an <a href="#inflorescence">inflorescence</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="spathiform">Spathiform</dt>
 				<dd>&#151; Resembling a <a href="#spathe">spathe</a>.</dd>
 
 				<dt id="spatulate">Spatulate</dt>
-				<dd>&#151; Strongly <a href="#dilated">dilated</a> or expanded toward the <a href="#distal">distal</a> end; spoon-shaped. [<a href="plate03.html" title="Plate 03">Plate 3</a>]</dd>
+				<dd>&#151; Strongly <a href="#dilated">dilated</a> or expanded toward the <a href="#distal">distal</a> end; spoon-shaped. [<a href="plate03.php" title="Plate 03">Plate 3</a>]</dd>
 
 				<dt id="species">Species</dt>
 				<dd>&#151; A group of like individuals, as white pine or bur oak.</dd>
@@ -2221,13 +2221,13 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A hard point or protuberance, typically on a leaf <a href="#margin">margin</a>.</dd>
 
 				<dt id="spike">Spike</dt>
-				<dd>&#151; An unbranched <a href="#inflorescence">inflorescence</a> in which the flowers are <a href="#sessile">sessile</a> or subsessile along an <a href="#elongate">elongate</a> <a href="#axis">axis</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a> and <a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; An unbranched <a href="#inflorescence">inflorescence</a> in which the flowers are <a href="#sessile">sessile</a> or subsessile along an <a href="#elongate">elongate</a> <a href="#axis">axis</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a> and <a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="spikelet">Spikelet</dt>
-				<dd>&#151; A <a href="#secondary">secondary</a> or small <a href="#spike">spike</a>; specifically, in the Poaceae family, the unit composed or one or two <a href="#glume">glumes</a> <a href="#subtend">subtending</a> one to several sets of <a href="#lemma">lemma</a> and <a href="#palea">palea</a> combinations. [<a href="plate12.html" title="Plate 12">Plate 12</a>]</dd>
+				<dd>&#151; A <a href="#secondary">secondary</a> or small <a href="#spike">spike</a>; specifically, in the Poaceae family, the unit composed or one or two <a href="#glume">glumes</a> <a href="#subtend">subtending</a> one to several sets of <a href="#lemma">lemma</a> and <a href="#palea">palea</a> combinations. [<a href="plate12.php" title="Plate 12">Plate 12</a>]</dd>
 
 				<dt id="spine">Spine</dt>
-				<dd>&#151; A sharp, stiff, often slender, <a href="#process">process</a>; a <a href="#thorn">thorn</a>. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A sharp, stiff, often slender, <a href="#process">process</a>; a <a href="#thorn">thorn</a>. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="spinescent">Spinescent</dt>
 				<dd>&#151; Ending in a <a href="#spine">spine</a>, or bearing a <a href="#spine">spine</a>.</dd>
@@ -2254,7 +2254,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A foliar organ upon which <a href="#sporangium">sporangia</a> are produced.</dd>
 
 				<dt id="spur">Spur</dt>
-				<dd>&#151; An extended <a href="#sac">sac</a> at the base of a <a href="#corolla">corolla</a>; a short branchlet with a very compact arrangement of leaf scars. [<a href="plate07.html" title="Plate 07">Plate 7</a> and <a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; An extended <a href="#sac">sac</a> at the base of a <a href="#corolla">corolla</a>; a short branchlet with a very compact arrangement of leaf scars. [<a href="plate07.php" title="Plate 07">Plate 7</a> and <a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="squarrose">Squarrose</dt>
 				<dd>&#151; Pertaining typically to <a href="#perianth">perianth</a> or <a href="#involucral">involucral</a> <a href="#segment">segments</a> which bend outward or downward at the tip.</dd>
@@ -2263,7 +2263,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The stem of any organ, as the <a href="#petiole">petiole</a>, <a href="#peduncle">peduncle</a>, <a href="#pedicel">pedicel</a>, <a href="#filament">filament</a>, or <a href="#stipe">stipe</a>.</dd>
 
 				<dt id="stamen">Stamen</dt>
-				<dd>&#151; Pollen-producing structure comprised of the <a href="#anther">anther</a> and the <a href="#filament">filament</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Pollen-producing structure comprised of the <a href="#anther">anther</a> and the <a href="#filament">filament</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="staminate">Staminate</dt>
 				<dd>&#151; Referring either to plants, <a href="#inflorescence">inflorescences</a>, or flowers which bear <a href="#stamen">stamens</a> but not <a href="#pistil">pistils</a>.</dd>
@@ -2275,7 +2275,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; The upper, <a href="#dilated">dilated</a> or expanded, petal in a <a href="#papilionaceous">papilionaceous</a> flower.</dd>
 
 				<dt id="stellate">Stellate</dt>
-				<dd>&#151; Star-shaped, usually in reference to hairs which are branched, forked or divided into two to several <a href="#ray">rays</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Star-shaped, usually in reference to hairs which are branched, forked or divided into two to several <a href="#ray">rays</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="stem">Stem</dt>
 				<dd>&#151; The main <a href="#axis">axis</a> or principal shoot of a plant.</dd>
@@ -2284,7 +2284,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Incapable of reproducing sexually; also, referring to soil, very poor in nutrients.</dd>
 
 				<dt id="stigma">Stigma</dt>
-				<dd>&#151; That part of the <a href="#pistil">pistil</a> receptive to pollen. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; That part of the <a href="#pistil">pistil</a> receptive to pollen. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="stipe">Stipe</dt>
 				<dd>&#151; A small connecting stalk; sometimes a small stalk which elevates the <a href="#pistil">pistil</a> or flower above the receptacle or <a href="#pedicel">pedicel</a>; also, the <a href="#petiole">petiole</a> of a fern frond or of <em>Lemna</em>.</dd>
@@ -2302,7 +2302,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; With <a href="#stipule">stipules</a>.</dd>
 
 				<dt id="stipule">Stipule</dt>
-				<dd>&#151; An appendage or <a href="#bract">bract</a> situated at either side of a leaf <a href="#axil">axil</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a> and <a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; An appendage or <a href="#bract">bract</a> situated at either side of a leaf <a href="#axil">axil</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a> and <a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="stipuliform">Stipuliform</dt>
 				<dd>&#151; Resembling a <a href="#stipule">stipule</a>.</dd>
@@ -2311,7 +2311,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A horizontal, <a href="#prostrate">prostrate</a>, running branch or stem, often tending to root at the <a href="#node">nodes</a>.</dd>
 
 				<dt id="stoloniferous">Stoloniferous</dt>
-				<dd>&#151; Having <a href="#stolon">stolons</a>. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Having <a href="#stolon">stolons</a>. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="stoma">Stoma</dt>
 				<dd>&#151; A minute orifice between two guard cells in a leaf <a href="#epidermis">epidermis</a>, through which gaseous exchange is effected -- plural stomata.</dd>
@@ -2326,7 +2326,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Minutely <a href="#strigose">strigose</a>.</dd>
 
 				<dt id="strigose">Strigose</dt>
-				<dd>&#151; <a href="#pubescent">Pubescent</a> with <a href="#appressed">appressed</a> hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; <a href="#pubescent">Pubescent</a> with <a href="#appressed">appressed</a> hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="strigulose">Strigulose</dt>
 				<dd>&#151; Minutely <a href="#strigose">strigose</a>.</dd>
@@ -2335,7 +2335,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; An <a href="#inflorescence">inflorescence</a>, often, but not always, <a href="#indurated">indurated</a> or woody, characterized by a series of <a href="#imbricate">imbricated</a> <a href="#scale">scales</a>; a <a href="#cone">cone</a>.</dd>
 
 				<dt id="style">Style</dt>
-				<dd>&#151; A usually slender stalk connecting the <a href="#stigma">stigma</a> with the <a href="#ovary">ovary</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; A usually slender stalk connecting the <a href="#stigma">stigma</a> with the <a href="#ovary">ovary</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="stylopodium">Stylopodium</dt>
 				<dd>&#151; A <a href="#disk">disk</a>-like expansion of the base of the <a href="#style">style</a>, with the term often meaning to include the <a href="#style">style</a> as well.</dd>
@@ -2371,7 +2371,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Grooved or furrowed lengthwise.</dd>
 
 				<dt id="superior">Superior</dt>
-				<dd>&#151; Referring to an organ which stands above or appears over or higher than another similar organ; or in reference to an <a href="#ovary">ovary</a>, free from the <a href="#calyx">calyx</a>. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Referring to an organ which stands above or appears over or higher than another similar organ; or in reference to an <a href="#ovary">ovary</a>, free from the <a href="#calyx">calyx</a>. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				<dt id="supra-">Supra-, super-</dt>
 				<dd>&#151; Prefix meaning above, or upon, or more than. Opposite of <a href="#infra-">infra-</a>.</dd>
@@ -2404,7 +2404,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="taproot">Taproot</dt>
-				<dd>&#151; The <a href="#primary">primary</a>, central, downward-growing root. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; The <a href="#primary">primary</a>, central, downward-growing root. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="taxon">Taxon</dt>
 				<dd>&#151; A discrete taxonomic unit.</dd>
@@ -2413,10 +2413,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Sharp <a href="#process">processes</a> at the edges of tissues.</dd>
 
 				<dt id="tendril">Tendril</dt>
-				<dd>&#151; A slender, often <a href="#ultimate">ultimately</a> coiled, foliar or branch-like organ which clings to a support. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A slender, often <a href="#ultimate">ultimately</a> coiled, foliar or branch-like organ which clings to a support. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="tepal">Tepal</dt>
-				<dd>&#151; Used in reference to the <a href="#sepal">sepals</a> and <a href="#petal">petals</a> (usually in the <a href="#monocot">Monocots</a>) which often resemble each other; in such instances either a given <a href="#sepal">sepal</a> or a given <a href="#petal">petal</a> is termed a tepal. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; Used in reference to the <a href="#sepal">sepals</a> and <a href="#petal">petals</a> (usually in the <a href="#monocot">Monocots</a>) which often resemble each other; in such instances either a given <a href="#sepal">sepal</a> or a given <a href="#petal">petal</a> is termed a tepal. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="terete">Terete</dt>
 				<dd>&#151; Circular in cross section.</dd>
@@ -2428,7 +2428,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; End.</dd>
 
 				<dt id="ternate">Ternate</dt>
-				<dd>&#151; Three-parted; with three principal divisions; also, occurring in threes. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Three-parted; with three principal divisions; also, occurring in threes. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="terrestrial">Terrestrial</dt>
 				<dd>&#151; Referring to plants which live out their lives on land.</dd>
@@ -2440,10 +2440,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Four-angled.</dd>
 
 				<dt id="thorn">Thorn</dt>
-				<dd>&#151; A reduced, sharply pointed branch or modified leaf; or remnant that originates below the <a href="#epidermis">epidermis</a>.  About the same as a <a href="#spine">spine</a>. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; A reduced, sharply pointed branch or modified leaf; or remnant that originates below the <a href="#epidermis">epidermis</a>.  About the same as a <a href="#spine">spine</a>. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="thyrse">Thyrse</dt>
-				<dd>&#151; A cylindrical or <a href="#ovoid">ovoid</a>, often compact, <a href="#panicle">panicle</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A cylindrical or <a href="#ovoid">ovoid</a>, often compact, <a href="#panicle">panicle</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="thyrsiform">Thyrsiform</dt>
 				<dd>&#151; Resembling a <a href="#thyrse">thyrse</a>.</dd>
@@ -2452,7 +2452,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having the form of a <a href="#thyrse">thyrse</a>.</dd>
 
 				<dt id="tomentose">Tomentose</dt>
-				<dd>&#151; Densely <a href="#pubescent">pubescent</a> with matted hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Densely <a href="#pubescent">pubescent</a> with matted hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="tomentulose">Tomentulose</dt>
 				<dd>&#151; Finely <a href="#tomentose">tomentose</a>.</dd>
@@ -2473,7 +2473,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Running or lying across something.</dd>
 
 				<dt id="tree">Tree</dt>
-				<dd>&#151; A woody plant, typically higher than a <a href="#shrub">shrub</a>, and typified as being unbranched at the base and having a strong single trunk. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; A woody plant, typically higher than a <a href="#shrub">shrub</a>, and typified as being unbranched at the base and having a strong single trunk. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="tri">Tri-</dt>
 				<dd>&#151; A prefix meaning three; for example, trifoliolate refers to three <a href="#leaflet">leaflets</a>.</dd>
@@ -2491,25 +2491,25 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Three-sided.</dd>
 
 				<dt id="tripinnate">Tripinnate</dt>
-				<dd>&#151; Said of a leaf in which the blade is <a href="#pinnate">pinnately</a> <a href="#compound">compound</a> with each of the divisions then <a href="#bipinnate">bipinnately</a> <a href="#compound">compound</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; Said of a leaf in which the blade is <a href="#pinnate">pinnately</a> <a href="#compound">compound</a> with each of the divisions then <a href="#bipinnate">bipinnately</a> <a href="#compound">compound</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="tristigmatic">Tristigmatic</dt>
 				<dd>&#151; Bearing three <a href="#stigma">stigmas</a>.</dd>
 
 				<dt id="truncate">Truncate</dt>
-				<dd>&#151; Ending abruptly, as if cut straight across. [<a href="plate05.html" title="Plate 05">Plate 5</a>]</dd>
+				<dd>&#151; Ending abruptly, as if cut straight across. [<a href="plate05.php" title="Plate 05">Plate 5</a>]</dd>
 
 				<dt id="tube">Tube</dt>
 				<dd>&#151; Usually referring to the <a href="#connate">connate</a> parts of either the <a href="#calyx">calyx</a> or the <a href="#corolla">corolla</a>.</dd>
 
 				<dt id="tuber">Tuber</dt>
-				<dd>&#151; A term generally referring to any thick, fleshy enlargement of a <a href="#rhizome">rhizome</a> or <a href="#stolon">stolon</a>. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; A term generally referring to any thick, fleshy enlargement of a <a href="#rhizome">rhizome</a> or <a href="#stolon">stolon</a>. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="tubercle">Tubercle</dt>
 				<dd>&#151; A small <a href="#tuber">tuber</a>-like, often <a href="#indurated">indurated</a>, <a href="#process">process</a> or protuberance.</dd>
 
 				<dt id="tuberculate">Tuberculate</dt>
-				<dd>&#151; Having <a href="#tubercle">tubercles</a>. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Having <a href="#tubercle">tubercles</a>. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="tuberiferous">Tuberiferous</dt>
 				<dd>&#151; Bearing <a href="#tuber">tubers</a>.</dd>
@@ -2518,10 +2518,10 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Resembling a <a href="#tuber">tuber</a>.</dd>
 
 				<dt id="tuberous">Tuberous</dt>
-				<dd>&#151; Having the character of a <a href="#tuber">tuber</a>;  <a href="#tuber">tuber</a>-like in appearance. [<a href="plate01.html" title="Plate 01">Plate 1</a>]</dd>
+				<dd>&#151; Having the character of a <a href="#tuber">tuber</a>;  <a href="#tuber">tuber</a>-like in appearance. [<a href="plate01.php" title="Plate 01">Plate 1</a>]</dd>
 
 				<dt id="tubular">Tubular</dt>
-				<dd>&#151; <a href="#tube">Tube</a>-like. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; <a href="#tube">Tube</a>-like. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="tufted">Tufted</dt>
 				<dd>&#151; Usually referring to the compact arrangement of the stem bases with respect to each other and their position in the soil; same as <a href="#cespitose">cespitose</a>.</dd>
@@ -2536,7 +2536,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Swollen, or tightly drawn; said of a membrane or covering expanded by pressure from within.</dd>
 
 				<dt id="Twig">Twig</dt>
-				<dd>&#151; The shoot of a woody plant representing the growth of the current season and terminated basally by the circumferential <a href="#terminal">terminal</a> <a href="#bud">bud</a>-scar of the previous year. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; The shoot of a woody plant representing the growth of the current season and terminated basally by the circumferential <a href="#terminal">terminal</a> <a href="#bud">bud</a>-scar of the previous year. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="u">U</dt>
 				<dd><hr /></dd>
@@ -2545,7 +2545,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Last; final.</dd>
 
 				<dt id="umbel">Umbel</dt>
-				<dd>&#151; An <a href="#inflorescence">inflorescence</a> in which the branches all radiate from a common point. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; An <a href="#inflorescence">inflorescence</a> in which the branches all radiate from a common point. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="umbellate">Umbellate</dt>
 				<dd>&#151; With <a href="#umbel">umbels</a>.</dd>
@@ -2560,7 +2560,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Indented, <a href="#invaginated">invaginated</a>, or depressed near the center.</dd>
 
 				<dt id="uncinate">Uncinate</dt>
-				<dd>&#151; Hooked or bent at the tip. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; Hooked or bent at the tip. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="undulate">Undulate</dt>
 				<dd>&#151; With a <a href="#sinuate">sinuate</a> or wavy surface or <a href="#margin">margin</a> (up and down, not in and out).</dd>
@@ -2575,7 +2575,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#irregular">Irregular</a> as to the number of its parts, or their shape.</dd>
 
 				<dt id="urceolate">Urceolate</dt>
-				<dd>&#151; <a href="#urn-shaped">Urn-shaped</a>. [<a href="plate10.html" title="Plate 10">Plate 10</a>]</dd>
+				<dd>&#151; <a href="#urn-shaped">Urn-shaped</a>. [<a href="plate10.php" title="Plate 10">Plate 10</a>]</dd>
 
 				<dt id="urn-shaped">Urn-shaped</dt>
 				<dd>&#151; Hollow and cylindrical or <a href="#ovoid">ovoid</a>, and <a href="#contracted">contracted</a> at or below the mouth, like an urn; also known as <a href="#urceolate">urceolate</a>.</dd>
@@ -2599,7 +2599,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Having <a href="#vein">veins</a> or conducting vessels.</dd>
 
 				<dt id="vascularbundle">Vascular Bundle</dt>
-				<dd>&#151; An aggregate or cluster of vessels. [<a href="plate07.html" title="Plate 07">Plate 7</a>]</dd>
+				<dd>&#151; An aggregate or cluster of vessels. [<a href="plate07.php" title="Plate 07">Plate 7</a>]</dd>
 
 				<dt id="vegetative">Vegetative</dt>
 				<dd>&#151; Referring to plant parts that are not involved in sexual reproduction.</dd>
@@ -2611,7 +2611,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; A small <a href="#vein">vein</a>.</dd>
 
 				<dt id="velutinous">Velutinous</dt>
-				<dd>&#151; <a href="#pubescent">Pubescent</a> with velvety hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; <a href="#pubescent">Pubescent</a> with velvety hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="venation">Venation</dt>
 				<dd>&#151; The arrangement or nature of the <a href="#vein">veins</a>.</dd>
@@ -2623,7 +2623,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; Attached at or near the middle and turning freely on its support, such as an <a href="#anther">anther</a>.</dd>
 
 				<dt id="verticil">Verticil</dt>
-				<dd>&#151; A <a href="#whorl">whorl</a>. [<a href="plate08.html" title="Plate 08">Plate 8</a>]</dd>
+				<dd>&#151; A <a href="#whorl">whorl</a>. [<a href="plate08.php" title="Plate 08">Plate 8</a>]</dd>
 
 				<dt id="verticillate">Verticillate</dt>
 				<dd>&#151; Having <a href="#verticil">verticils</a>; that is, <a href="#whorl">whorled</a> or appearing so.</dd>
@@ -2632,7 +2632,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#rudimentary">Rudimentary</a>.</dd>
 
 				<dt id="villous">Villous</dt>
-				<dd>&#151; With long, straight, soft hairs. [<a href="plate06.html" title="Plate 06">Plate 6</a>]</dd>
+				<dd>&#151; With long, straight, soft hairs. [<a href="plate06.php" title="Plate 06">Plate 6</a>]</dd>
 
 				<dt id="vine">Vine</dt>
 				<dd>&#151; A plant which climbs or sprawls by means of twining or <a href="#tendril">tendrils</a>; also, a plant which trails or creeps extensively along the ground.</dd>
@@ -2653,7 +2653,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd>&#151; <a href="#coarse">Coarsely</a> <a href="#papillate">papillose</a>.</dd>
 
 				<dt id="whorl">Whorl</dt>
-				<dd>&#151; An arrangement of three or more organs at a single <a href="#node">node</a>. [<a href="plate02.html" title="Plate 02">Plate 2</a>]</dd>
+				<dd>&#151; An arrangement of three or more organs at a single <a href="#node">node</a>. [<a href="plate02.php" title="Plate 02">Plate 2</a>]</dd>
 
 				<dt id="wing">Wing</dt>
 				<dd>&#151; In general, any thin, expanded portion of an organ; sometimes referring to the well developed, exaggerated <a href="#decurrent">decurrence</a> of a leaf base; also, one of the two <a href="#lateral">lateral</a> petals of a <a href="#papilionaceous">papilionaceous</a> flower.</dd>
@@ -2683,7 +2683,7 @@ header("Content-Type: text/html; charset=".$charset);
 				<dd><hr /></dd>
 
 				<dt id="zygomorphic">Zygomorphic</dt>
-				<dd>&#151; Referring to a <a href="#calyx">calyx</a> or <a href="#corolla">corolla</a> which is <a href="#bilaterallysymmetrical">bilaterally symmetrical</a>, capable of being divided into two equal halves along one plane only. [<a href="plate09.html" title="Plate 09">Plate 9</a>]</dd>
+				<dd>&#151; Referring to a <a href="#calyx">calyx</a> or <a href="#corolla">corolla</a> which is <a href="#bilaterallysymmetrical">bilaterally symmetrical</a>, capable of being divided into two equal halves along one plane only. [<a href="plate09.php" title="Plate 09">Plate 9</a>]</dd>
 
 				</dl>
             </div>
@@ -2694,13 +2694,13 @@ header("Content-Type: text/html; charset=".$charset);
 		<div class="box">
 		<h3>Family Glossaries</h3>
 		<ul><li>
-		<a href="asteraceae.html" 
+		<a href="asteraceae.php" 
 		title="Glossary for Asteraceae">Asteraceae &#151; Composites</a>
 		</li><li>
-		<a href="cyperaceae.html" 
+		<a href="cyperaceae.php" 
 		title="Glossary for Cyperaceae">Cyperaceae &#151; Sedges</a>
 		</li><li>
-		<a href="poaceae.html" 
+		<a href="poaceae.php" 
 		title="Glossary for Poaceae">Poaceae &#151; Grasses</a>
 		</li></ul></div>
 
@@ -2708,62 +2708,62 @@ header("Content-Type: text/html; charset=".$charset);
 		<h3>Contents of Plates</h3>
 		<dl>
 		<dt>
-		<a href="plate01.html" 
+		<a href="plate01.php" 
 		title="Plate 01">Plate 1</a>:</dt>
 		<dd>Stem and Root Types.
 		</dd>
 		<dt>
-		<a href="plate02.html" 
+		<a href="plate02.php" 
 		title="Plate 02">Plate 2</a>:</dt>
 		<dd>Leaf Composition, Parts, and Types.
 		</dd>
 		<dt>
-		<a href="plate03.html" 
+		<a href="plate03.php" 
 		title="Plate 03">Plate 3</a>:</dt>
 		<dd>Leaf Shapes.
 		</dd>
 		<dt>
-		<a href="plate04.html" 
+		<a href="plate04.php" 
 		title="Plate 04">Plate 4</a>:</dt>
 		<dd>Leaf Margins.
 		</dd>
 		<dt>
-		<a href="plate05.html" 
+		<a href="plate05.php" 
 		title="Plate 05">Plate 5</a>:</dt>
 		<dd>Leaf Apices, Venation, and Bases.
 		</dd>
 		<dt>
-		<a href="plate06.html" 
+		<a href="plate06.php" 
 		title="Plate 06">Plate 6</a>:</dt>
 		<dd>Surface Features.
 		</dd>
 		<dt>
-		<a href="plate07.html" 
+		<a href="plate07.php" 
 		title="Plate 07">Plate 7</a>:</dt>
 		<dd>Stem and Leaf Parts, and Variations.
 		</dd>
 		<dt>
-		<a href="plate08.html" 
+		<a href="plate08.php" 
 		title="Plate 08">Plate 8</a>:</dt>
 		<dd>Inflorescence Types.
 		</dd>
 		<dt>
-		<a href="plate09.html" 
+		<a href="plate09.php" 
 		title="Plate 09">Plate 9</a>:</dt>
 		<dd>Floral Morphology.
 		</dd>
 		<dt>
-		<a href="plate10.html" 
+		<a href="plate10.php" 
 		title="Plate 10">Plate 10</a>:</dt>
 		<dd>Corolla Types.
 		</dd>
 		<dt>
-		<a href="plate11.html" 
+		<a href="plate11.php" 
 		title="Plate 11">Plate 11</a>:</dt>
 		<dd>Fruit Types.
 		</dd>
 		<dt>
-		<a href="plate12.html" 
+		<a href="plate12.php" 
 		title="Plate 12">Plate 12</a>:</dt>
 		<dd>Sedges, Grasses, and Composites.
 		</dd>
@@ -2774,10 +2774,10 @@ header("Content-Type: text/html; charset=".$charset);
 		<div class="box">
 		<h3>Related Pages</h3>
 		<ul><li>
-		<a href="/resources/plant_terms.html" 
+		<a href="../../resources/plant_terms.php" 
 		 title="vPlants Accepted Plant Terms.">Accepted Plant Terms</a>
 		</li><li>
-		<a href="/resources/links2.html" 
+		<a href="../../resources/links2.php" 
 		 title="Links to related web sites">Links for Plants</a>
 		</li></ul>
 		</div>
@@ -2794,7 +2794,7 @@ header("Content-Type: text/html; charset=".$charset);
 		</li></ul>
 		</div>
 		 
-		<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+		<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 		</div>
 		
 	<?php
