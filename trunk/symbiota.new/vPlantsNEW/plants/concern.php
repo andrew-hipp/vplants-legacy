@@ -20,27 +20,42 @@ header("Content-Type: text/html; charset=".$charset);
 	?> 
         <!-- This is inner text! -->
         <div  id="innertext">
-            <h1>Plants of Special Concern</h1>
-
-            <div style="margin:20px;">
+			<h1>Plants of Special Concern</h1>
+			
+			<div style="margin:20px;">
+				<h2>Causes for Concern</h2>
+            	<p>Over the past 200 years the Chicago Region has changed from the sprawling woodlands, wetlands, and prairie to a bustling metropolis, transportation and industrial center, and network of cities.  As the open wildlands shrink, natural plant communities have decreased in size, and overall biodiversity has declined.  Habitats become smaller and fragmented.  More plants and animals become less common and harder to find.  This causes great concern since the end result leads to extinction of species.  We should act as stewards of the natural world around us, if for no other reason than for our own benefit in terms of health, resources, and serenity.</p>
+			
+				<h2>The Listing of Plants</h2>
+            	<p>Certain species of plants (and animals) that experience decreases in frequency, population size, or number of populations have been assigned special status by state and federal governments.  Depending on the listing agency, ranks of Endangered, Threatened, Rare, Special Concern, Watch List or Extirpated are assigned to particular taxa (species, subspecies, or variety).  Typically, the taxa at highest risk for becoming extinct are listed as endangered, with the risk decreasing down to threatened, rare, etc.  Ideally, by protecting populations of species that are ranked on these lists, the extirpation (local extinction) of species in particular areas can be avoided.  Each state usually has their own ranking system and different protection laws or methods associated with those ranks.</p>
+			
             	<h2>Regional Lists</h2>
-
 				<p>The Chicago Region covered by vPlants includes four states: Illinois, Indiana, Michigan, and Wisconsin. Each state has their own ranking system and different protection laws or methods associated with those ranks. In addition, the U.S. federal government has lists of species for the whole country. The taxa on these lists are often referred collectively by the following categories: Species of Concern, Sensitive Species, or T and E species (short for threatened and endangered species).
 				</p>
-
 				<p>
 				For The vPlants Project, we have compiled a list of <a href="../resources/plant_concern.php" 
 				title="See this document">Chicago Region Plants of Concern</a> that are listed for any of the four states of the area (Illinois, Indiana, Michigan, Wisconsin), plus the federal listed species.  View further information about this list as well as visit the state and federal web sites using the links on this page.
 				</p>
-
-				<h2>Are there any special concern fungi?</h2>
-
-				<p>Yes, see links on this page. Here in the Midwest, as of 2006, Minnesota is the only state that has listed threatened and endangered fungi. The U.S. Federal listing includes 2 lichens (lichenized fungi). Many European countries have Red Lists for fungi.  As with the plants, if any fungi become listed for our region then vPlants will add the Regional Conservation Status section for those species.</p>
+			
+			    <h2>Protection</h2>
+            	<!-- Laws and preserves -->
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
             </div>
         </div>
 		
 		<div id="content2">
 
+			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/CIPI.jpg" width="250" height="337" alt="thistle growing in sand." title="Cirsium pitcheri" />
+			<div class="box imgtext">
+			<p>Pitcher's thistle, <i>Cirsium pitcheri</i>, is Federally listed as Threatened.  Its required habitat of open dune faces has become rarer through loss to development. <a href="../plants/species/species.jsp?gid=9488"><i>C. pitcheri</i> description </a></p>
+			</div>
+			
 			<div class="box document">
 			<h3>vPlants Documents</h3>
 			<ul><li>
