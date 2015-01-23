@@ -62,37 +62,37 @@ header("Content-Type: text/html; charset=".$charset);
             	<div class="indexheading"><a href="http://www.mortonarb.org/">The Morton Arboretum</a></div>
 				<div class="indexdescription"> The Morton Arboretum, a 1,700-acre botanical garden of trees and other plants, displays more than 3,300 kinds of plants from throughout the north temperate zone. These living collections are combined with 700 acres of oak woodland, reconstructed prairie, rare species habitat, and wetlands, presenting a showcase of horticultural and native plant diversity. The Arboretum and its staff are actively involved in regional, national and international conservation efforts.
 				</div>
-				<p>The Morton Arboretum, 
-				  4100 IL Route 53, 
-				  Lisle, IL   60532-4293, 
-				  (630) 968-0074, 
+				<p>The Morton Arboretum, <br>
+				  4100 IL Route 53, <br>
+				  Lisle, IL   60532-4293, <br>
+				  (630) 968-0074, <br>
 				  www.mortonarb.org
 				</p>
 				
-				<h2><a href="http://www.fieldmuseum.org/">The Field Museum</a></h2>
-				<p>Using collections-based research and self-directed learning through exhibits and education programs, The Field Museum promotes greater public understanding and appreciation of the world in which we live. The Museum's expanding programs on the region's biological diversity help integrate natural riches into everyday life and culture. Regional inventory and population monitoring programs focus on species of conservation concern, or those that serve as sensitive indicators of the health of an ecological community.
-				</p>
+				<div class="indexheading"><a href="http://www.fieldmuseum.org/">The Field Museum</a></div>
+				<div class="indexdescription">Using collections-based research and self-directed learning through exhibits and education programs, The Field Museum promotes greater public understanding and appreciation of the world in which we live. The Museum's expanding programs on the region's biological diversity help integrate natural riches into everyday life and culture. Regional inventory and population monitoring programs focus on species of conservation concern, or those that serve as sensitive indicators of the health of an ecological community.
+				</div>
 				<p>
-				  The Field Museum of Natural History, 
-				  1400 S. Lake Shore Drive, 
-				  Chicago, IL   60605, 
-				  (312) 922-9410, 
+				  The Field Museum of Natural History, <br>
+				  1400 S. Lake Shore Drive, <br>
+				  Chicago, IL   60605, <br>
+				  (312) 922-9410, <br>
 				  www.fieldmuseum.org 
 				</p>
 				
-				<h2><a href="http://www.chicagobotanic.org/">Chicago Botanic Garden</a></h2>
-				<p>Since its founding more than 30 years ago, the Chicago Botanic Garden has become a world-class cultural landmark. Owned by the Forest Preserve District of Cook County and managed by the Chicago Horticultural Society, the Garden spans 385 acres, features 23 garden areas, and serves over 700,000 visitors each year. The Garden's Skokie River restoration project is a permanent study site for streambank stabilization techniques, and Mary Mix McDonald Woods, a wet savanna and open oak woodland, is a nearly 100-acre restoration management project.
-				</p>
+				<div class="indexheading"><a href="http://www.chicagobotanic.org/">Chicago Botanic Garden</a></div>
+				<div class="indexdescription">Since its founding more than 30 years ago, the Chicago Botanic Garden has become a world-class cultural landmark. Owned by the Forest Preserve District of Cook County and managed by the Chicago Horticultural Society, the Garden spans 385 acres, features 23 garden areas, and serves over 700,000 visitors each year. The Garden's Skokie River restoration project is a permanent study site for streambank stabilization techniques, and Mary Mix McDonald Woods, a wet savanna and open oak woodland, is a nearly 100-acre restoration management project.
+				</div>
 				<p>
-				  Chicago Botanic Garden, 
-				  1000 Lake-Cook Road, 
-				  P.O. Box 400, 
-				  Glencoe, IL   60022, 
-				  (847) 835-5440, 
+				  Chicago Botanic Garden, <br>
+				  1000 Lake-Cook Road, <br>
+				  P.O. Box 400, <br>
+				  Glencoe, IL   60022, <br>
+				  (847) 835-5440, <br>
 				  www.chicagobotanic.org
 				</p>
 				
-				<h2><a href="<?php echo $clientRoot; ?>/about/partner_other.php">Additional Partners and Affiliates</a></h2>
+				<div class="indexheading"><a href="<?php echo $clientRoot; ?>/about/partner_other.php">Additional Partners and Affiliates</a></div>
             </div>
         </div>
 
