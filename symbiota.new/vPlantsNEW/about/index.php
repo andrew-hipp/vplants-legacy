@@ -53,7 +53,6 @@ header("Content-Type: text/html; charset=".$charset);
 						</div>
 					</div><!-- end of #content1 -->
 					</div><!-- end of #content1wrap -->
-					<!-- End of inner text -->
 					
 					<!-- start of side content -->
 					<div id="content2">

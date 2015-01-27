@@ -18,74 +18,51 @@ header("Content-Type: text/html; charset=".$charset);
 	$displayLeftMenu = "true";
 	include($serverRoot."/header.php");
 	?> 
-		<!-- Left menu begins -->
-		<div class="menu">
-			<div class="menuheader">
-				<a href="<?php echo $clientRoot; ?>/about/index.php">
-					About Us
-				</a>
-			</div>
-			<div class="menuitem">
-				<a href="<?php echo $clientRoot; ?>/about/vplants.php">
-					vPlants Project
-				</a>
-			</div>
-			<div class="menuitem">
-				<a href="<?php echo $clientRoot; ?>/about/chicago.php">
-					Chicago Region
-				</a>
-			</div>
-			<div class="menuitem">
-				<a href="<?php echo $clientRoot; ?>/about/partnership.php">
-					vPlants Partnership
-				</a>
-			</div>
-			<div class="menuitem">
-				<strong>
-					Contact Us
-				</strong>
-			</div>
-			<div class="menuitem">
-				<a href="<?php echo $clientRoot; ?>/about/credits.php">
-					Credits
-				</a>
-			</div>
-		</div>
-		<!-- Left menu ends -->
-		
-        <!-- This is inner text! -->
-        <div  id="innertext">
-            <h1>Contact Us</h1>
-			<div style="margin:20px;">
+	    <!-- This is inner text! -->
+		<!-- start of inner text and right side content -->
+		<div  id="innertext">
+			<div id="bodywrap">
+				<div id="wrapper1"><!-- for navigation and content -->
 
-			<h2>Under construction</h2>
+					<!-- PAGE CONTENT STARTS -->
 
-            <div style="margin:20px;">
-            	<p>Excuse the dust.  We are moving and adding new content.</p>
+					<div id="content1wrap"><!--  for content1 only -->
+
+					<div id="content1"><!-- start of primary content --><a id="pagecontent" name="pagecontent"></a>
+					<h1>Contact Us</h1>
+
+					<h2>Under construction</h2>
+
+					<div style="margin:20px;">
+						<p>Excuse the dust.  We are moving and adding new content.</p>
+						
+						<p>The primary contact is <a href="http://systematics.mortonarb.org/lab">Andrew Hipp</a>, The Morton Arboretum.</p>
+
+						<p>We welcome suggestions on how to improve this site and to 
+							correct errors! And, we are always looking for new partners, volunteers, 
+							and supporters!</p>
+
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+					</div>
+					</div><!-- end of #content1 -->
+					</div><!-- end of #content1wrap -->
 				
-				<p>The primary contact is <a href="http://systematics.mortonarb.org/lab">Andrew Hipp</a>, The Morton Arboretum.</p>
+					<!-- start of side content -->
+					<div id="content2">
+						<!-- any image width should be 250 pixels -->
 
-				<p>We welcome suggestions on how to improve this site and to 
-					correct errors! And, we are always looking for new partners, volunteers, 
-					and supporters!</p>
+						<div class="box">
+						<h3>vPlants is growing</h3>
+						<p ><img src="<?php echo $clientRoot; ?>/images/vplants/feature/250_prairie.jpg" width="210" height="291" alt="Prairie near Chicago."></p>
+						</div>
 
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-            </div>
-        </div>
-		
-		<!-- start of side content -->
-		<div id="content2">
-			<!-- any image width should be 250 pixels -->
+						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
-			<div class="box">
-			<h3>vPlants is growing</h3>
-			<p ><img src="<?php echo $clientRoot; ?>/images/vplants/feature/250_prairie.jpg" width="210" height="291" alt="Prairie near Chicago."></p>
-			</div>
-
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
-
-		</div><!-- end of #content2 -->
+					</div><!-- end of #content2 -->
+				</div><!-- end of #wrapper1 -->
+			</div><!-- end of #bodywrap -->
+		</div><!-- end of #innertext -->
 
 	<?php
 	include($serverRoot."/footer.php");
