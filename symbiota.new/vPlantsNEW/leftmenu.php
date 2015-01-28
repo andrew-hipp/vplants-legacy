@@ -12,6 +12,9 @@
 			<a class="start" href="<?php echo $clientRoot; ?>/about/index.php">About Us</a>
 		</li>
 		<li>
+			<a class="region" href="<?php echo $clientRoot; ?>/about/vplants.php">vPlants Project</a>
+		</li>
+		<li>
 			<a class="region" href="<?php echo $clientRoot; ?>/about/chicago.php">Chicago Region</a>
 		</li>
 		<li>
@@ -62,41 +65,21 @@
 			<a class="concern" href="<?php echo $clientRoot; ?>/plants/concern.php">Special Concern</a>
 		</li>
 	</ul>
-	<ul class="plant">
-		<li>
-			<a class="start" href="<?php echo $clientRoot; ?>/search/index.php">Search</a>
-		</li>
-	</ul>
-	<ul class="plant">
-		<li>
-			<a class="start" href="<?php echo $clientRoot; ?>/imagelib/index.php">Browse Images</a>
-		</li>
-	</ul>
-	<ul class="plant">
-		<li>
-			<a class="start" href="<?php echo $clientRoot; ?>/projects/index.php?">Inventories</a>
-		</li>
-	</ul>
-	<ul class="plant">
-		<li>
-			<a class="start" href="#">Interactive Tools</a>
-		</li>
-	</ul>
 	<ul class="home">
 		<li>
-			<a class="start" href="#">Interactive Tools</a>
+			<a class="start" href="<?php echo $clientRoot; ?>/resources/index.php">Resources</a>
 		</li>
 		<li>
-			<a class="regionherbaria" href="<?php echo $clientRoot; ?>/resources/index.php" >Resources</a>
+			<a class="regionherbaria" href="<?php echo $clientRoot; ?>/resources/regionherbaria.php">Region Herbaria</a>
 		</li>
 		<li>
-			<a class="docs" href="<?php echo $clientRoot; ?>/resources/docs.php" >Documents</a>
+			<a class="docs" href="<?php echo $clientRoot; ?>/resources/docs.php">Documents</a>
 		</li>
 		<li>
-			<a class="biblio" href="<?php echo $clientRoot; ?>/resources/biblio.php" >References</a>
+			<a class="biblio" href="<?php echo $clientRoot; ?>/resources/biblio.php">References</a>
 		</li>
 		<li>
-			<a class="links" href="<?php echo $clientRoot; ?>/resources/links.php" >Links</a>
+			<a class="links" href="<?php echo $clientRoot; ?>/resources/links.php">Links</a>
 		</li>
 	</ul>
 </div><!-- end of #sitemenu -->
