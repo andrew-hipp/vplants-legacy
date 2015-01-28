@@ -91,7 +91,7 @@ header("Content-Type: text/html; charset=".$charset);
         </div>
 		
 	<div id="content2">
-		<img src="<?php echo $clientRoot; ?>/images.vplants/feature/IMPA.po.jpg" width="250" height="244"  alt="Pendant yellow flowers with spurs" title="Impatiens" />
+		<img src="<?php echo $clientRoot; ?>/images/vplants/feature/IMPA.po.jpg" width="250" height="244"  alt="Pendant yellow flowers with spurs" title="Impatiens" />
 		<p>Yellow jewelweed</p>
 
 		<div class="box external">
