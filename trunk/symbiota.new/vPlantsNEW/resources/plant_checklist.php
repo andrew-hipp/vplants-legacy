@@ -56,6 +56,17 @@ header("Content-Type: text/html; charset=".$charset);
 					<div id="content2">
 
 						<div class="box">
+							<h3>Plant Documents</h3>
+							<ul>
+								<li><a href="docs.php">Plant Documents Main</a></li>
+								<li><strong>Taxon Checklist</strong></li>
+								<li><a href="plant_concern.php">Plants of Concern</a></li>
+								<li><a href="plant_invasive.php">Invasive Plants</a></li>
+								<li><a href="plant_terms.php">Accepted Plant Terms</a></li>
+							</ul>
+						</div>
+						
+						<div class="box">
 						<h3>Related Pages</h3>
 						<ul><li><a href="../plants/index.html">Plant Directory.</a>
 						<br>Explanation of plants included in vPlants.

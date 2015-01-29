@@ -45,9 +45,14 @@ header("Content-Type: text/html; charset=".$charset);
 					<div id="content2">
 
 						<div class="box">
-						<h3>...</h3>
-						<ul><li>...
-						</li></ul>
+							<h3>Plant Documents</h3>
+							<ul>
+								<li><a href="docs.php">Plant Documents Main</a></li>
+								<li><a href="plant_checklist.php">Taxon Checklist</a></li>
+								<li><strong>Plants of Concern</strong></li>
+								<li><a href="plant_invasive.php">Invasive Plants</a></li>
+								<li><a href="plant_terms.php">Accepted Plant Terms</a></li>
+							</ul>
 						</div>
 
 						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>

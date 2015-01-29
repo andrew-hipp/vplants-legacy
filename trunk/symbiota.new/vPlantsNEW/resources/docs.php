@@ -74,6 +74,17 @@ header("Content-Type: text/html; charset=".$charset);
 					</div><!-- end of #content1wrap -->
 		
 					<div id="content2">
+						
+						<div class="box">
+							<h3>Plant Documents</h3>
+							<ul>
+								<li><strong>Plant Documents Main</strong></li>
+								<li><a href="plant_checklist.php">Taxon Checklist</a></li>
+								<li><a href="plant_concern.php">Plants of Concern</a></li>
+								<li><a href="plant_invasive.php">Invasive Plants</a></li>
+								<li><a href="plant_terms.php">Accepted Plant Terms</a></li>
+							</ul>
+						</div>
 
 						<div class="box external">
 							<h3>Related Web Sites</h3>
