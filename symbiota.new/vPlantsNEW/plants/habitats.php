@@ -54,6 +54,17 @@ header("Content-Type: text/html; charset=".$charset);
 				
 					<div id="content2">
 
+						<div class="box">
+							<h3>Habitats of the Chicago Region</h3>
+							<ul>
+								<li><strong>Habitats Main</strong></li>
+								<li><a href="habitats2.php">Woodlands</a></li>
+								<li><a href="habitats3.php">Grasslands</a></li>
+								<li><a href="habitats4.php">Wetlands</a></li>
+								<li><a href="habitats5.php">Urban Areas</a></li>
+							</ul>
+						</div>
+						
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/ammophila.jpg" width="250" height="378" alt="dunes grass" title="Ammophila breviligulata">
 
 						<div class="box imgtext">
