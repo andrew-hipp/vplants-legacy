@@ -304,6 +304,21 @@ header("Content-Type: text/html; charset=".$charset);
 						</div>
 					</div><!-- end of #content1 -->
 					</div><!-- end of #content1wrap -->
+					
+					<div id="content2">
+					
+						<div class="box">
+							<h3>Plant Documents</h3>
+							<ul>
+								<li><a href="docs.php">Plant Documents Main</a></li>
+								<li><a href="plant_checklist.php">Taxon Checklist</a></li>
+								<li><a href="plant_concern.php">Plants of Concern</a></li>
+								<li><a href="plant_invasive.php">Invasive Plants</a></li>
+								<li><strong>Accepted Plant Terms</strong></li>
+							</ul>
+						</div>
+					
+					</div><!-- end of #content2 -->
 				</div><!-- end of #wrapper1 -->
 			</div><!-- end of #bodywrap -->
 		</div><!-- end of #innertext -->
