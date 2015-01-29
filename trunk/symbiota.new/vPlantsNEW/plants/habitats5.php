@@ -19,42 +19,59 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
-            <h1>Urban Areas</h1>
+		<!-- start of inner text and right side content -->
+		<div  id="innertext">
+			<div id="bodywrap">
+				<div id="wrapper1"><!-- for navigation and content -->
 
-            <div style="margin:20px;">
-            	<h2>Living in the City</h2><!-- Chicago Wilderness definitions -->
-				<p>From woodland parks to sidewalk cracks, plants find a home in the city.</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-            </div>
-        </div>
+					<!-- PAGE CONTENT STARTS -->
+
+					<div id="content1wrap"><!--  for content1 only -->
+
+					<div id="content1"><!-- start of primary content --><a id="pagecontent" name="pagecontent"></a>
+						<h1>Urban Areas</h1>
+
+						<div style="margin:20px;">
+							<h2>Living in the City</h2><!-- Chicago Wilderness definitions -->
+							<p>From woodland parks to sidewalk cracks, plants find a home in the city.</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+						</div>
+					</div><!-- end of #content1 -->
+					</div><!-- end of #content1wrap -->
 		
-		<div id="content2">
+					<div id="content2">
 
-			<div class="box document">
-			<h3>....</h3>
-			<ul><li>
-			....
-			</li></ul>
-			</div>
+						<div class="box">
+							<h3>Habitats of the Chicago Region</h3>
+							<ul>
+								<li><a href="habitats.php">Habitats Main</a></li>
+								<li><a href="habitats2.php">Woodlands</a></li>
+								<li><a href="habitats3.php">Grasslands</a></li>
+								<li><a href="habitats4.php">Wetlands</a></li>
+								<li><strong>Urban Areas</strong></li>
+							</ul>
+						</div>
 
-			<div class="box external">
-			<h3>....</h3>
-			<ul>
-			<li>
-			....
-			</li>
-			</ul>
-			</div>
+						<div class="box external">
+						<h3>....</h3>
+						<ul>
+						<li>
+						....
+						</li>
+						</ul>
+						</div>
 
-			<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
+						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="../disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
-		</div><!-- end of #content2 -->
+					</div><!-- end of #content2 -->
+				</div><!-- end of #wrapper1 -->
+			</div><!-- end of #bodywrap -->
+		</div><!-- end of #innertext -->
 
 	<?php
 	include($serverRoot."/footer.php");
