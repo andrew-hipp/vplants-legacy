@@ -34,11 +34,19 @@ header("Content-Type: text/html; charset=".$charset);
 						<div style="margin:20px;">
 							<h1>Names</h1>
 							
-							<p>What's in a name? It is human nature to name things. We use names to communicate information and assign an identity to people and objects. For plants, fungi, and other organisms there are several kinds of names:
-							<dl><dt><a href="names5.php">Taxon</a></dt><dd> (plural: taxa) is a general term meaning a group or rank, such as a species, a variety, a genus, a family, etc. </dd>
-							<dt><a href="names2.php">Scientific names</a></dt><dd> are official names that follow rules of taxonomy to uniquely identify a taxon, such as a species or family. Example: <i>Ulmus americana</i> and <i>Ulmaceae</i>.</dd>
-							<dt><a href="names3.php">Synonyms</a></dt><dd> are different names for the same taxon. Example: <i>Ulmus floridana</i> is a synonym of <i>Ulmus americana</i>.</dd>
-							<dt><a href="names4.php">Common names</a></dt><dd> are nicknames that vary between regions and languages. They follow no rules and often are not unique. Example: American elm.</dd></dl></p>
+							<p>What's in a name? It is human nature to name things. We use names to communicate information and assign an identity to people and objects. For plants, fungi, and other organisms there are several kinds of names:</p>
+							
+							<div class="indexheading"><a href="names5.php">Taxon</a></div>
+							<div class="indexdescription"><p>(plural: taxa) is a general term meaning a group or rank, such as a species, a variety, a genus, a family, etc.<a href="names5.php">Learn more</a></p></div>
+							
+							<div class="indexheading"><a href="names2.php">Scientific names</a></div>
+							<div class="indexdescription"><p>are official names that follow rules of taxonomy to uniquely identify a taxon, such as a species or family. Example: <i>Ulmus americana</i> and <i>Ulmaceae</i>.<a href="names2.php">Learn more</a></p></div>
+							
+							<div class="indexheading"><a href="names3.php">Synonyms</a></div>
+							<div class="indexdescription"><p>are different names for the same taxon. Example: <i>Ulmus floridana</i> is a synonym of <i>Ulmus americana</i>.<a href="names3.php">Learn more</a></p></div>
+							
+							<div class="indexheading"><a href="names4.php">Common names</a></div>
+							<div class="indexdescription"><p>are nicknames that vary between regions and languages. They follow no rules and often are not unique. Example: American elm.<a href="names4.php">Learn more</a></p></div>
 
 						</div>
 					</div><!-- end of #content1 -->
@@ -47,11 +55,15 @@ header("Content-Type: text/html; charset=".$charset);
 		
 					<div id="content2">
 
-						<div class="box document">
-						<h3>....</h3>
-						<ul><li>
-						....
-						</li></ul>
+						<div class="box">
+							<h3>Names</h3>
+							<ul>
+								<li><strong>Names Main</strong></li>
+								<li><a href="names5.php">Taxonomy</a></li>
+								<li><a href="names2.php">Scientific names</a></li>
+								<li><a href="names3.php">Synonyms</a></li>
+								<li><a href="names4.php">Common names</a></li>
+							</ul>
 						</div>
 
 						<div class="box external">
