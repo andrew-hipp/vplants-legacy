@@ -33,7 +33,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 						<div style="margin:20px;">
 							<!-- Chicago Wilderness definitions -->
-							<p>Under construction</p>
+							<p>Under construction. This page will contain information on the grasslands of the Chicago region.</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>
