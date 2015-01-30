@@ -48,11 +48,13 @@ header("Content-Type: text/html; charset=".$charset);
 		
 					<div id="content2">
 
-						<div class="box document">
-						<h3>....</h3>
-						<ul><li>
-						....
-						</li></ul>
+						<div class="box">
+							<h3>Distribution of Plants</h3>
+							<ul>
+								<li><strong>Plant Distribution Main</strong></li>
+								<li><a href="distribution2.php">Endemics</a></li>
+								<li><a href="distribution3.php">Disjuncts</a></li>
+							</ul>
 						</div>
 						
 						<div class="box external">
