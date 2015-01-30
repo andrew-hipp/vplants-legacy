@@ -33,7 +33,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 						<div style="margin:20px;">
 							<h2>Living in the City</h2><!-- Chicago Wilderness definitions -->
-							<p>From woodland parks to sidewalk cracks, plants find a home in the city.</p>
+							<p>From woodland parks to sidewalk cracks, plants find a home in the city. More content soon.</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>

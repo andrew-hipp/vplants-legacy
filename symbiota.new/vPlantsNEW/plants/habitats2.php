@@ -34,7 +34,8 @@ header("Content-Type: text/html; charset=".$charset);
 						<div style="margin:20px;">
 							<!-- Chicago Wilderness definitions -->
 							 <!-- past and present % cover, definitions, link to tree families,  -->
-							<p>Under construction</p>
+							<p>Under construction. This page will contain information on woodlands of the Chicago Region.
+							</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>
 							<p>&nbsp;</p>
