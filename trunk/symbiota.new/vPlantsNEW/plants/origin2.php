@@ -46,6 +46,16 @@ header("Content-Type: text/html; charset=".$charset);
 		
 					<div id="content2">
 
+						<div class="box">
+							<h3>Plants Origin</h3>
+							<ul>
+								<li><a href="origin.php">Origin Main</a></li>
+								<li><a href="origin4.php">Native species</a></li>
+								<li><strong>Non-native species</strong></li>
+								<li><a href="origin3.php">Invasive species</a></li>
+							</ul>
+						</div>
+						
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/ABTH.jpg" width="250" height="293" alt="photo of agricultural weed" title="Abutilon theophrasti">
 						<div class="box imgtext">
 						<p>Velvet leaf, <a href="../plants/species/species.jsp?gid=138"><i>Abutilon theophrasti</i></a>, is a native to Asia and now a common weed of cultivated ground.</p>

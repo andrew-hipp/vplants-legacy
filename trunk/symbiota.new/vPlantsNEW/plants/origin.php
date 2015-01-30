@@ -51,6 +51,16 @@ header("Content-Type: text/html; charset=".$charset);
 		
 					<div id="content2">
 
+						<div class="box">
+							<h3>Plants Origin</h3>
+							<ul>
+								<li><strong>Origin Main</strong></li>
+								<li><a href="origin4.php">Native species</a></li>
+								<li><a href="origin2.php">Non-native species</a></li>
+								<li><a href="origin3.php">Invasive species</a></li>
+							</ul>
+						</div>
+						
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/CAAM6.jpg" width="250" height="321" alt="Blue flowers" title="Campanula americana">
 						<div class="box imgtext">
 						<p>The tall bellflower, <i>Campanula americana</i> is one of the 1650 native plants in the region.
