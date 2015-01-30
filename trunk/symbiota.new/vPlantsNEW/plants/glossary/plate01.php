@@ -32,22 +32,6 @@ header("Content-Type: text/html; charset=".$charset);
 						<h1></h1>
 
 						<div style="margin:20px;">
-							<p>
-							<a href="index.php">Glossary List</a> | 
-							<strong>Stem and Root Types</strong> |
-							<a href="plate02.php">Leaf Composition, Parts, and Types</a> |
-							<a href="plate03.php">Leaf Shapes</a> |
-							<a href="plate04.php">Leaf Margins</a> |
-							<a href="plate05.php">Leaf Apices, Venation, and Bases</a> |
-							<a href="plate06.php">Surface Features</a> |
-							<a href="plate07.php">Stem and Leaf Parts, and Variations</a> |
-							<a href="plate08.php">Inflorescence Types</a> |
-							<a href="plate09.php">Floral Morpholog</a> |
-							<a href="plate10.php">Corolla Types</a> |
-							<a href="plate11.php">Fruit Types</a> |
-							<a href="plate12.php">Sedges, Grasses, and Composites</a> |
-							<a href="plate_all.php">All Plates</a> 
-							</p>
 
 							<div class="plate">
 							<img src="<?php echo $clientRoot; ?>/images/vplants/plants/glossary/plate01.jpg" width="712" height="1055" 
@@ -75,8 +59,8 @@ header("Content-Type: text/html; charset=".$charset);
 							<h3>Contents of Plates</h3>
 							<dl>
 							
-							<dt><a href="plate01.php" title="Plate 01">Plate 1</a>:</dt>
-							<dd>Stem and Root Types.</dd>
+							<dt>Plate 1:</dt>
+							<dd><b>Stem and Root Types.</b></dd>
 							
 							<dt><a href="plate02.php" title="Plate 02">Plate 2</a>:</dt>
 							<dd>Leaf Composition, Parts, and Types.</dd>
