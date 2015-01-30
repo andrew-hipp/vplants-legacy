@@ -50,7 +50,7 @@ header("Content-Type: text/html; charset=".$charset);
 						<div class="box">
 							<h3>Habitats of the Chicago Region</h3>
 							<ul>
-								<li><a href="habitats.php">Habitats Main</strong></li>
+								<li><a href="habitats.php">Habitats Main</a></li>
 								<li><strong>Woodlands</strong></li>
 								<li><a href="habitats3.php">Grasslands</a></li>
 								<li><a href="habitats4.php">Wetlands</a></li>
