@@ -38,6 +38,16 @@ header("Content-Type: text/html; charset=".$charset);
 					</div><!-- end of #content1wrap -->
 		
 					<div id="content2">
+						
+						<div class="box">
+							<h3>Plants Origin</h3>
+							<ul>
+								<li><a href="origin.php">Origin Main</a></li>
+								<li><strong>Native species</strong></li>
+								<li><a href="origin2.php">Non-native species</a></li>
+								<li><a href="origin3.php">Invasive species</a></li>
+							</ul>
+						</div>
 
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/ABTH.jpg" width="250" height="293" alt="photo of agricultural weed" title="Abutilon theophrasti">
 						<div class="box imgtext">

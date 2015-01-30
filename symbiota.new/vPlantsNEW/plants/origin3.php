@@ -40,6 +40,16 @@ header("Content-Type: text/html; charset=".$charset);
 					</div><!-- end of #content1wrap -->
 		
 					<div id="content2">
+						
+						<div class="box">
+							<h3>Plants Origin</h3>
+							<ul>
+								<li><a href="origin.php">Origin Main</a></li>
+								<li><a href="origin4.php">Native species</a></li>
+								<li><a href="origin2.php">Non-native species</a></li>
+								<li><strong>Invasive species</strong></li>
+							</ul>
+						</div>
 
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/LYSA2.jpg" width="250" height="366" alt="purple flowered plant in wetland" title="Lythrum salicaria">
 						<div class="box imgtext">
