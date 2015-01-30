@@ -52,6 +52,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 							Restrict usage of floret to 
 							Asteraceae, Poaceae, Cyperaceae. </p>
+							<p>
 							<table><tr> 
 								<td valign="top"><pre class="small">
 							Achene
@@ -301,6 +302,7 @@ header("Content-Type: text/html; charset=".$charset);
 							</pre></td>
 							  </tr>
 							</table>
+							</p>
 						</div>
 					</div><!-- end of #content1 -->
 					</div><!-- end of #content1wrap -->
