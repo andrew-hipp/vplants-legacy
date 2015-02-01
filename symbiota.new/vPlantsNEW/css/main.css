@@ -11,7 +11,7 @@ body{
 	padding: 0;
 	color: #333;
 	background: #E9E975;
-	font: 1em Verdana, Lucida, Helvetica, Arial, sans-serif;
+	font-family: Verdana, Lucida, Helvetica, Arial, sans-serif;
 }
 
 p, td, ul, ol, li, dl, dt, dd { 
@@ -216,10 +216,20 @@ div.indexdescription p {
 
 /*Central div in the middle center table div */
 #innertext{
+	padding: 15px;
+	min-height:400px;
+	margin-top:9px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	background: #ffb;
+}
+
+#innervplantstext{
 	font-size: 14px;
 	width:100%;
 	min-height:400px;
-	margin-top:8px;
+	margin-top:9px;
 	margin-bottom:0px;
 	margin-left:0px;
 	margin-right:0px;
@@ -428,7 +438,6 @@ p.small, dl.small { font-size: .7em; }
 
 #wrapper1, #wrapper0 { /* 8em is left col width plus 1 gutter */
 	clear: both; 
-	border-left: 6.4em solid #360; /* left col width */
 	position: relative; /* need this for positioning of navigation */
 	padding-top: 2.5em; /* space for tab navigation */
 	/* If padding-left used here then IE reduces width of enclosed #pagemenu */
@@ -448,11 +457,11 @@ body.sidepaleline #wrapper1 {
 	background: transparent url(images/side_pale_line.gif) right top repeat-y;
 	}
 div#sitemenu {
+	font-size: 14px;
+	background: #360;
 	width: 6.4em; /* left col width */
-	position: absolute;
-	top: 4px; /* match top border of #pagemenu */
-	margin-top: 1.6em; /* approximate height of #pagemenu plus a bit */
-	left: -6.4em;
+	height: 100%;
+	padding-top: 1.6em; /* approximate height of #pagemenu plus a bit */
 	}
 
 div#pagemenu {/* move to top of content */
@@ -938,19 +947,14 @@ table#speclist {
 	cursor: pointer; /* hand cursor */
 	}
 #speclist th, #speclist td {
-	font-size: .8em;
-	text-align: center;
-	}
+}
 #speclist td img {
 	margin-left: auto;
 	margin-right: auto;
 	}
 #speclist td a {
-	display: block;
-	width: 4em;
-	border: 1px solid #999;
-	line-height: 24px; /* height of cam.gif minus 2px(borders) */
-	}
+	text-decoration: none;
+}
 
 .selectspecs {
 	font-size: .8em;

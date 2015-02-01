@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
 		<!-- start of inner text and right side content -->
-		<div  id="innertext">
+		<div  id="innervplantstext">
 			<div id="bodywrap">
 				<div id="wrapper1"><!-- for navigation and content -->
 

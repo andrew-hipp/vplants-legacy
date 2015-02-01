@@ -21,7 +21,7 @@ header("Content-Type: text/html; charset=".$charset);
 		
         <!-- This is inner text! -->
 		<!-- start of inner text and right side content -->
-		<div  id="innertext">
+		<div  id="innervplantstext">
 			<div id="bodywrap">
 				<div id="wrapper1"><!-- for navigation and content -->
 
@@ -93,7 +93,7 @@ header("Content-Type: text/html; charset=".$charset);
 					</div>
 				</div><!-- end of #wrapper1 -->
 			</div><!-- end of #bodywrap -->
-		</div><!-- end of #innertext -->
+		</div><!-- end of #innervplantstext -->
 
 	<?php
 	include($serverRoot."/footer.php");

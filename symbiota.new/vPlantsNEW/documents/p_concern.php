@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>Chicago Region Plants of Concern List</h1>
 			<div style="margin:20px;">
             	<p class="large">Download, file format is Excel XLS:<br /> <a href="plants_of_concern.xls">Plants of Concern, 2006 version, 2006-10-17 (153 KB)</a>

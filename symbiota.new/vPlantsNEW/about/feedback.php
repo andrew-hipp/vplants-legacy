@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1><Add header text, if any, here.></h1>
 			<div style="margin:20px;">
             	<h1>Feedback Form</h1>
