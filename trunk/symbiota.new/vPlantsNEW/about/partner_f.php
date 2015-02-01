@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>Partners: <a href="http://www.fieldmuseum.org/">The Field Museum</a></h1>
 			<div style="margin:20px;">
             	 <p>Using collections-based research and self-directed learning through exhibits and education programs, The Field Museum promotes greater public understanding and appreciation of the world in which we live. The Museum's expanding programs on the region's biological diversity help integrate natural riches into everyday life and culture. Regional inventory and population monitoring programs focus on species of conservation concern, or those that serve as sensitive indicators of the health of an ecological community.

@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>vPlants Scientific Name Checklist</h1>
 			<div style="margin:20px;">
             	<p class="large">Download, file format is Excel XLS:<br /> <a href="plants_checklist_v4_6.xls">vPlants Scientific Name Checklist, version 4.6, 2006-12-12 (2.1 MB)</a>

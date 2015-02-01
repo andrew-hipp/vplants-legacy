@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>Species Pages Feedback Form</h1>
 			<div style="margin:20px;">
 				<p class="small"><a href="/news/">See Species Pages</a>. Help us with development of this site by answering any of the following questions.

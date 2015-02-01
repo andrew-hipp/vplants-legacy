@@ -187,6 +187,24 @@
 		</td>
 	</tr>
     <tr>
-	<td class='middlecenter'  colspan="3">
+	<?php 
+	if($displayLeftMenu){
+		?> 
+		<td style=""> 
+			<div style="height:100%;background:#360;margin-top:9px;">
+				<?php include($serverRoot."/leftmenu.php"); ?>
+			</div>
+		</td>
+		<?php 
+	}
+	else{
+		?>
+        	<td style="">
+        		<div style='height:100%;background:#360;margin-top:9px;'></div>
+        	</td>
+        <?php 
+	}
+	?>
+	<td class='middlecenter'  colspan="2">
 
 		

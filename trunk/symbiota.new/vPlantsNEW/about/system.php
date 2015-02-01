@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>System Overview</h1>
 			<div style="margin:20px;">
             	<h2>vPlants: The Chicago Regional Virtual Herbarium as a model multi-institutional plant data resource</h2>

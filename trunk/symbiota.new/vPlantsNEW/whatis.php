@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
 
             <div style="margin:20px;">
             	<table width="750" height="350" border="0" cellpadding="0" cellspacing="0">

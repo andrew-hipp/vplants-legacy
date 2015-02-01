@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
 
             <div style="margin:20px;">
             	 <p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></span></p>

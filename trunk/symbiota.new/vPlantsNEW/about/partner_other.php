@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>Additional Partners and Affiliates</h1>
 			<div style="margin:20px;">
             	 <h3><a href="http://www.chias.org/">Chicago Academy of Sciences [Notebaert Nature Museum]</a></h3>

@@ -19,7 +19,7 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innertext">
+        <div  id="innervplantstext">
             <h1>Documents and Downloads</h1>
 			<div style="margin:20px;">
             	<p>Links to web pages and documents. Many of these are reference documents used by the vPlants partners, but are also of use to the public.</p>
