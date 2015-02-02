@@ -85,7 +85,13 @@
 							<a href="#" >Interactive Tools</a>
 							<ul>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/ident/key.php?cl=3503&proj=91&taxon=All+Species" >Dynamic Key</a>
+									<a href="<?php echo $clientRoot; ?>/ident/key.php?cl=3503&proj=91&taxon=All+Species" >vPlants Dynamic Key</a>
+								</li>
+								<li>
+									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=checklist" >Dynamic Checklist</a>
+								</li>
+								<li>
+									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=key" >Dynamic Key</a>
 								</li>
 							</ul>
 						</li>
