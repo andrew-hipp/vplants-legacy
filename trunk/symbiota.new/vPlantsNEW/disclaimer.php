@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once("config/symbini.php");
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Disclaimer</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<title><?php echo $defaultTitle; ?>vPlants - Disclaimer</title>
+	<link href="css/base.css" type="text/css" rel="stylesheet" />
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -19,11 +19,11 @@ header("Content-Type: text/html; charset=".$charset);
 	include($serverRoot."/header.php");
 	?> 
         <!-- This is inner text! -->
-        <div  id="innervplantstext">
+        <div  id="innertext">
             <h1>Disclaimer Statement</h1>
 
-            <div style="margin:20px;">
-            	<p>We provide no warranty, expressed or implied, as to the accuracy, 
+			<div style="margin:20px;">
+				<p>We provide no warranty, expressed or implied, as to the accuracy, 
 				reliability or completeness of these data.
 				Information provided in the species descriptions and other vPlants pages applies to the Chicago Region and may not be relevant or complete for other regions.</p>
 				<p>Some links on this server may direct you to information maintained 
@@ -34,8 +34,8 @@ header("Content-Type: text/html; charset=".$charset);
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
-            </div>
-        </div>
+			</div>
+		</div>
 
 	<?php
 	include($serverRoot."/footer.php");

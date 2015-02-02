@@ -330,7 +330,7 @@ ul#hor_dropdown ul {
 ul#hor_dropdown li:hover { position:relative; }
 ul#hor_dropdown li:hover ul {
 	left:0px;
-	top:22px;
+	top:25px;
 	padding:0px;
 	z-index:1000;
 }
@@ -347,6 +347,131 @@ ul#hor_dropdown li:hover ul li a {
 	z-index:1000;
 }
 ul#hor_dropdown li:hover ul li a:hover { background:#999999; }
+
+ul.sitemenu {
+	font-size: 14px;
+	background: #360;
+	width: 7.6em; /* left col width */
+}
+
+ul.sitemenu ul {/* all ULs 1.5em*/
+	/* assigning width here messes up IE 5 windows.
+	Actually we only need width declared for any fly-out submenus. */
+	z-index: 5; /* bring menus on top of content that follows in html */
+	margin: 0 0 .5em 0; 
+	padding: 0; 
+	list-style: none; 
+	border-top: 1px solid #993;
+}
+
+ul.sitemenu li { 
+	position: relative;
+	padding: 0; /* because borders are on anchors */
+	color: #fff; 
+	 /*background-color: #360; do color here rather than UL to prevent a Netscape bug */
+} /* don't put borders on LI when using popup menus, be nice to IE */
+
+/* set font-size on anchor instead of LI so it can't be compounded smaller in submenus */
+ul.sitemenu li a, ul.sitemenu li span {
+	display: block; 
+	font-size: .8em; 
+	margin: 0;
+	padding: .3em 0 .3em .7em;  /* was .3em 0 .3em .4em;  */
+	border-left: .7em solid #993; /* was .4em */
+	border-right: .1em solid #993; 
+	border-bottom: 1px solid #993;
+	color: #fff;
+	text-decoration: none;
+	line-height: 1.2em; /* MUST include em unit to prevent missing border bug in Netscape and older Firefox */
+} 
+
+ul.sitemenu ul.tools {
+	border-top: 0;
+	margin-top: 1.5em;
+}
+ul.sitemenu ul.tools li a, ul.sitemenu ul.tools li span {
+	margin-bottom: 1px;
+	padding: .3em 0 .3em .8em; 
+	border: 0;
+}
+
+ul.sitemenu li a.start, ul.sitemenu li span.start {
+	border-left-width: .2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.1em; /* less than this and Netscape 7 looses some borders */
+	padding: .1em 0 .1em .7em;
+	padding-left: 22px;
+	background: #E9E975 url(images/logo_icon.gif) 0 50% no-repeat;
+	color: #361;
+}
+
+/* span used for current html page instead of anchor link */
+ul.sitemenu li span, ul.sitemenu li span.start { 
+	background-color: #fff; 
+	color: #333;
+	border-right-color: #fff; 
+}
+
+ul.sitemenu li span.start {
+	background-color: #ffb; 
+	color: #361; 
+	border-right: 0;
+}
+
+ul.sitemenu li a.plant, ul.sitemenu li span.plant {
+	border-left-width: .2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.1em; /* less than this and Netscape 7 looses some borders */
+	padding: .1em 0 .1em .7em;
+	padding-left: 22px;
+	background: #E9E975 url(images/logo_icon_p.gif) 0 50% no-repeat;
+	color: #361;
+}
+
+/* span used for current html page instead of anchor link */
+ul.sitemenu li span, ul.sitemenu li span.plant { 
+	background-color: #fff; 
+	color: #333;
+	border-right-color: #fff; 
+}
+
+ul.sitemenu li span.plant {
+	background-color: #ffb; 
+	color: #361; 
+	border-right: 0;
+}
+
+ul.sitemenu .fungus {
+	color: #440;
+	background-image: url(images/logo_icon_f.gif);
+}
+
+ul.sitemenu ul.fungus li {
+	background-color: #440; 
+}
+
+ul.sitemenu a:hover, 
+ul.sitemenu a:focus, 
+ul.sitemenu a:active { 
+	color: #00f; /* standard blue */
+	background-color: #ffd;
+}
+
+ul.sitemenu ul {
+	display: none;
+	list-style-type:none;
+}
+ul.sitemenu li:hover { position:relative; }
+ul.sitemenu li:hover ul {
+	display: block;
+	padding:0px;
+}
+
+ul.sitemenu li:hover ul li a {
+	display:block;
+}
 
 #sitehead {
 	min-height: 60px;
@@ -434,7 +559,7 @@ p.small, dl.small { font-size: .7em; }
 
 #bodywrap {
 	position: relative; 
-	}/* positioning context for anything outside of content  */
+}/* positioning context for anything outside of content  */
 
 #wrapper1, #wrapper0 { /* 8em is left col width plus 1 gutter */
 	clear: both; 
@@ -456,14 +581,6 @@ body.sidepale #wrapper1 {
 body.sidepaleline #wrapper1 { 
 	background: transparent url(images/side_pale_line.gif) right top repeat-y;
 	}
-div#sitemenu {
-	font-size: 14px;
-	background: #360;
-	width: 6.4em; /* left col width */
-	height: 100%;
-	padding-top: 1.6em; /* approximate height of #pagemenu plus a bit */
-	}
-
 div#pagemenu {/* move to top of content */
 	position: absolute;
 	top: 0;
@@ -584,89 +701,6 @@ div#gomenu {
 	color: #707; /* #361 green */
 	font-size: .8em;
 	font-weight: bold;
-	}
-
-div#sitemenu ul {/* all ULs 1.5em*/
-	/* assigning width here messes up IE 5 windows.
-	Actually we only need width declared for any fly-out submenus. */
-	z-index: 5; /* bring menus on top of content that follows in html */
-	margin: 0 0 .5em 0; 
-	padding: 0; 
-	list-style: none; 
-	border-top: 1px solid #993;
-	}
-
-div#sitemenu li { 
-	position: relative;
-	margin: 0; 
-	padding: 0; /* because borders are on anchors */
-	color: #fff; 
-	 /*background-color: #360; do color here rather than UL to prevent a Netscape bug */
-	} /* don't put borders on LI when using popup menus, be nice to IE */
-
-/* set font-size on anchor instead of LI so it can't be compounded smaller in submenus */
-div#sitemenu li a, div#sitemenu li span {
-	display: block; 
-	font-size: .8em; 
-	margin: 0;
-	padding: .3em 0 .3em .7em;  /* was .3em 0 .3em .4em;  */
-	border-left: .7em solid #993; /* was .4em */
-	border-right: .1em solid #993; 
-	border-bottom: 1px solid #993;
-	color: #fff;
-	text-decoration: none;
-	line-height: 1.2em; /* MUST include em unit to prevent missing border bug in Netscape and older Firefox */
-	} 
-
-div#sitemenu ul.tools {
-	border-top: 0;
-	margin-top: 1.5em;
-	}
-div#sitemenu ul.tools li a, div#sitemenu ul.tools li span {
-	margin-bottom: 1px;
-	padding: .3em 0 .3em .8em; 
-	border: 0;
-	}
-
-
-div#sitemenu li a.start, div#sitemenu li span.start {
-	border-left-width: .2em;
-	font-weight: bold;
-	text-transform: uppercase;
-	line-height: 1.1em; /* less than this and Netscape 7 looses some borders */
-	padding-left: 22px;
-	background: #E9E975 url(images/logo_icon.gif) 0 50% no-repeat;
-	color: #361;
-	}
-
-/* span used for current html page instead of anchor link */
-div#sitemenu li span, div#sitemenu li span.start { 
-	background-color: #fff; 
-	color: #333;
-	border-right-color: #fff; 
-	}
-
-div#sitemenu .plant .start {
-	color: #250;
-	background-image: url(images/logo_icon_p.gif);
-	}
-div#sitemenu .fungus .start {
-	color: #440;
-	background-image: url(images/logo_icon_f.gif);
-	}
-
-div#sitemenu ul.plant li {
-	background-color: #250;
-	}
-div#sitemenu ul.fungus li {
-	background-color: #440; 
-	}
-
-div#sitemenu a:hover, 
-div#sitemenu a:focus, 
-div#sitemenu a:active { 
-	color: #00f; /* standard blue */
-	background-color: #ffd;
 	}
 
 .taxon {
@@ -1009,7 +1043,7 @@ ul#searchvars {
 	}
 
 #content2 p {font-size: .8em; margin: 10px 8px;} 
-#bodywrap {background: url(images/side_pale_line.gif) #fff right top repeat-y;} 
+#bodywrap {min-height:400px;background: url(images/side_pale_line.gif) #fff right top repeat-y;} 
 #sitefoot {background: #fff;}
 
 #content2 h6 {
@@ -1249,14 +1283,13 @@ body {color: #333; background: #ffb;}
 	color: #361; 
 	background: #dd7 url(images/side_line.gif) right top no-repeat;
 	}
-#bodywrap {background: url(images/side_line.gif) #ffb right top repeat-y;} 
+#bodywrap {min-height:400px;background: url(images/side_line.gif) #ffb right top repeat-y;} 
 #sitefoot {background: #ffb;}
 #tagline {padding-top: 9px; text-align: right;}
 #tagline img {display: inline; margin-right: 8px; border: 1px solid #cc0;}
 
 
 #pagemenu li.thispage {background-color: #ffb; color: #361;}
-div#sitemenu li span.start {background-color: #ffb; color: #361; border-right: 0;}
 
 h2 {margin: 0 0 .5em 0; font-size: 1.4em;}
 
@@ -1267,3 +1300,26 @@ h2 {margin: 0 0 .5em 0; font-size: 1.4em;}
 .maps a:hover img, .maps a:active img, .maps a:focus img {border-color: #00f;}
 
 #sitefoot {margin-bottom: 0; padding-bottom: 50px;}
+
+/* Quick Search Plugin */
+#quicksearchbutton{
+	float: right;
+	clear: both;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+#quicksearchtaxon{
+	float: right;
+	height: 50px;
+	width: 200px;
+	resize: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Slideshow Plugin */
+#slideshowcontainer{
+	border: 2px solid black;
+	border-radius:10px;
+	padding:10px;
+}

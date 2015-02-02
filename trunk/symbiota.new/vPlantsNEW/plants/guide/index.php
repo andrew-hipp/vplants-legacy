@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Guide to Plants</title>
+	<title><?php echo $defaultTitle; ?>vPlants - Guide to Plants</title>
 	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
 	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
@@ -32,7 +32,7 @@ header("Content-Type: text/html; charset=".$charset);
 					<h1>Guide to Plants of the Chicago Region</h1>
 
 					<div style="margin:20px;">
-						<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></span></p>
+						<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></span></p>
 						
 						<p>Use the <a href="/xsql/plants/famlist.xsql" title="Index of families">Family Index</a> and <a href="/xsql/plants/genlist.xsql" title="Index of genera">Genus Index</a> to see alphabetical lists of included plants. At the top of the page you can Search for plants by name. For a complete list of the plant species, subspecies, and varieties represented in the Chicago Region, see the <a href="/resources/plant_checklist.html" title="vPlants document.">Scientific Name Checklist</a>.</p>
 
@@ -139,13 +139,13 @@ header("Content-Type: text/html; charset=".$charset);
 						</div>
 						 
 						<p>Non-flowering vascular plants</p>
-						<img src="<?php echo $clientRoot; ?>/images.vplants/feature/nonflowering.jpg" width="250" height="342" alt="Non-flowering plant examples: fern frond, a pteridophyte; and spruce branch, a gymnosperm.">
+						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/nonflowering.jpg" width="250" height="342" alt="Non-flowering plant examples: fern frond, a pteridophyte; and spruce branch, a gymnosperm.">
 						<hr>
 						<p>Flowering plants </p>
-						<img src="<?php echo $clientRoot; ?>/images.vplants/feature/angios.jpg" width="250" height="322" alt="Flowering plant examples: flowers of cactus and wild rice, both angiosperms.">
+						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/angios.jpg" width="250" height="322" alt="Flowering plant examples: flowers of cactus and wild rice, both angiosperms.">
 						 
 						 
-						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></p>
+						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 					</div><!-- end of #content2 -->
 				</div><!-- end of #wrapper1 -->

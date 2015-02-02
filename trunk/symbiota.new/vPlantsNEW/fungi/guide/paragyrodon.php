@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once("../../config/symbini.php");
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Guide to Paragyrodon</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<title><?php echo $defaultTitle; ?>vPlants - Guide to Paragyrodon</title>
+	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -25,7 +25,7 @@ header("Content-Type: text/html; charset=".$charset);
             <div style="margin:20px;">
             	<div class="floatimg"><img src="<?php echo $clientRoot; ?>/images.vplants/fungi/guide/PARA1/PARA1SPHA.po.jpg" width="250" height="290" alt=""></div>
 
-				<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></span></p>
+				<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></span></p>
 
 
 				<p>The leather-neck or large-veiled <i>Paragyrodon</i> is endemic to the Midwest of the United States and Canada.</p>

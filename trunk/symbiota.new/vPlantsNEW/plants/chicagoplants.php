@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?> vPlants - Chicago Region Plants<</title>
+	<title><?php echo $defaultTitle; ?> vPlants - Chicago Region Plants<</title>
 	<link href="../css/base.css" type="text/css" rel="stylesheet" />
 	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
@@ -78,36 +78,20 @@ header("Content-Type: text/html; charset=".$charset);
 						</div>
 
 						<div id="simpleform">
-							  <form name="simple" method="post" action="/xsql/plants/findtaxa.xsql">
-							   <fieldset><legend title="Enter name of plant in one or more of the search fields.">Plant Search</legend>
-								<p><label for="family" accesskey="4" 
-								 title="Example: Ulmaceae.">Family:</label>
-								 <input class="texts" id="family" name="family" type="text" maxlength="30" 
-								  title="Enter name of a family [one word, can use first several letters]." 
-								  value=""></p>
-								<p><label for="genus"  
-								 title="Example: Ulmus.">Genus:</label> 
-								 <input class="texts" id="genus" name="genus" type="text" maxlength="30" 
-								  title="Enter name of a genus [one word, can use first several letters]." 
-								  value=""></p>
-								<p><label for="species" 
-								 title="Example: americana.">Species Epithet:</label> 
-								 <input class="texts" id="species" name="species" type="text" maxlength="30" 
-								  title="Enter the species epithet, or subspecies, or variety [one word]."
-								  value=""></p>
-								<p><label for="common" 
-								 title="Example: american elm.">Common Name:</label> 
-								 <input class="texts" id="common" name="common" type="text" maxlength="50" 
-								  title="Enter a common name [can use more than one word]." 
-								  value=""></p>
-								<p><input class="actions" id="submit" name="submit" type="submit" 
-								 value="Go" title="Perform Search."></p>
-							   </fieldset>
-							  </form>
+							<fieldset>
+								<legend title="Enter name of plant or fungus in one or more of the search fields.">Name Search</legend>
+								<?php
+								$buttonText = 'Go';
+								include_once($serverRoot.'/classes/PluginsManager.php');
+								$pluginManager = new PluginsManager();
+								$quicksearch = $pluginManager->createQuickSearch($buttonText);
+								echo $quicksearch;
+								?>
+							</fieldset>
 						</div>
 
 						<p class="large">
-							  <a href="/search.html" 
+							  <a href="<?php echo $clientRoot; ?>/collections/index.php" 
 							   title="Search by Location, Collector, and more.">Go to Advanced Search</a>
 						</p>
 

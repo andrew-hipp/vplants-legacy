@@ -1,13 +1,13 @@
 <?php
 //error_reporting(E_ALL);
-include_once($serverRoot."/config/symbini.php");
+include_once("../../config/symbini.php");
 header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Guide to Inocybe</title>
-	<link href="<?php echo $serverRoot?>/css/base.css" type="text/css" rel="stylesheet" />
-	<link href="<?php echo $serverRoot?>/css/main.css" type="text/css" rel="stylesheet" />
+	<title><?php echo $defaultTitle; ?>vPlants - Guide to Inocybe</title>
+	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
+	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
 	<script type="text/javascript">
 		<?php include_once($serverRoot.'/config/googleanalytics.php'); ?>
@@ -25,7 +25,7 @@ header("Content-Type: text/html; charset=".$charset);
             <div style="margin:20px;">
             	 <div class="floatimg"><img src="<?php echo $clientRoot; ?>/images.vplants/fungi/guide/INOC2/INOC2RIMO1.po.jpg" width="250" height="228" alt=""></div>
 
-				<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="/disclaimer.html" title="Read Disclaimer.">Disclaimer</a></span></p>
+				<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></span></p>
 
 
 				<p>The genus <i>Inocybe</i> is a group of typically little brown mushrooms (or LBMs) in the family Cortinariaceae.  This large group is found throughout the world and is relatively common in the temperate regions of North America.  Members of <i>Inocybe</i> are primarily terrestrial and are present in many habitats and forest types.  All species in this genus are believed to form symbiotic relationships with plants, known as mycorrhizae.</i>

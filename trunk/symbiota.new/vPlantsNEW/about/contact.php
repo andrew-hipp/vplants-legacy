@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?> About Us - Contact</title>
+	<title><?php echo $defaultTitle; ?> About Us - Contact</title>
 	<link href="../css/base.css" type="text/css" rel="stylesheet" />
 	<link href="../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
@@ -57,7 +57,7 @@ header("Content-Type: text/html; charset=".$charset);
 						<p ><img src="<?php echo $clientRoot; ?>/images/vplants/feature/250_prairie.jpg" width="210" height="291" alt="Prairie near Chicago."></p>
 						</div>
 
-						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
+						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>
 
 					</div><!-- end of #content2 -->
 				</div><!-- end of #wrapper1 -->
