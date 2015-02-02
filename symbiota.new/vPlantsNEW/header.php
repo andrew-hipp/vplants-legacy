@@ -62,122 +62,30 @@
 							<a href="<?php echo $clientRoot; ?>/index.php" >Home</a>
 						</li>
 						<li>
-							<a href="<?php echo $clientRoot; ?>/about/index.php" >About Us</a>
-							<ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/about/vplants.php" >vPlants Project</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/about/chicago.php" >Chicago Region</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/about/partnership.php" >vPlants Partnership</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/about/contact.php" >Contact Us</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/about/credits.php" >Credits</a>
-								</li>
-							</ul>
+							<a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Collections</a>
 						</li>
 						<li>
-							<a href="<?php echo $clientRoot; ?>/plants/index.php" >About Plants</a>
-							<ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/chicagoplants.php" >Chicago Region Plants</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/guide/index.php" >Guide</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/glossary/index.php" >Glossary</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/biology.php" >Biology</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/diversity.php" >Diversity</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/habitats.php" >Habitats</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/origin.php" >Origin</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/distribution.php" >Distribution</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/names.php" >Names</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/collections.php" >Collections</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/plants/concern.php" >Special Concern</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/search/index.php" >Search</a>
-							<ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Collections</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/collections/map/mapinterface.php" target="_blank" >Map Search</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/imagelib/imgsearch.php" >Image Search</a>
-								</li>
-							</ul>
+							<a href="<?php echo $clientRoot; ?>/collections/map/mapinterface.php" target="_blank">Map Search</a>
 						</li>
 						<li>
 							<a href="<?php echo $clientRoot; ?>/imagelib/index.php" >Browse Images</a>
 						</li>
 						<li>
 							<a href="<?php echo $clientRoot; ?>/projects/index.php?" >Inventories</a>
-							<!-- <ul>
+							<ul>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=1" >add Western Great Lakes Herbaria Projects list???</a>
+									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3503&pid=91" >vPlants Checklist</a>
 								</li>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=2" >Project 2</a>
+									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=91" >Great Lakes State Floras</a>
 								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=3" >Project 3</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=4" >Project 4</a>
-								</li>
-							</ul> -->
+							</ul>
 						</li>
 						<li>
 							<a href="#" >Interactive Tools</a>
-							<!-- <ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=checklist&tid=56" >Dynamic Checklist</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=checklist&tid=4773" >Dynamic Key</a>
-								</li>
-							</ul> -->
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/resources/index.php" >Resources</a>
 							<ul>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/resources/regionherbaria.php" >Region Herbaria</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/resources/docs.php" >Documents</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/resources/biblio.php" >References</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/resources/links.php" >Links</a>
+									<a href="<?php echo $clientRoot; ?>/ident/key.php?cl=3503&proj=91&taxon=All+Species" >Dynamic Key</a>
 								</li>
 							</ul>
 						</li>
@@ -190,7 +98,7 @@
 	<?php 
 	if($displayLeftMenu){
 		?> 
-		<td style=""> 
+		<td style="width: 7.4em;"> 
 			<div style="height:100%;background:#360;margin-top:9px;">
 				<?php include($serverRoot."/leftmenu.php"); ?>
 			</div>

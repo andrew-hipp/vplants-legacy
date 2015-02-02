@@ -5,7 +5,7 @@ header("Content-Type: text/html; charset=".$charset);
 ?>
 <html>
 <head>
-	<title><?php echo $defaultTitle?>vPlants - Plate 7 - Stem and Leaf Parts, and Variations</title>
+	<title><?php echo $defaultTitle; ?>vPlants - Plate 7 - Stem and Leaf Parts, and Variations</title>
 	<link href="../../css/base.css" type="text/css" rel="stylesheet" />
 	<link href="../../css/main.css" type="text/css" rel="stylesheet" />
 	<meta name='keywords' content='' />
