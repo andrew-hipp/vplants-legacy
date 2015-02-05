@@ -74,10 +74,13 @@
 							<a href="<?php echo $clientRoot; ?>/projects/index.php?" >Inventories</a>
 							<ul>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3503&pid=91" >vPlants Checklist</a>
+									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3516&pid=93" >Naturalized flora of The Morton Arboretum</a>
 								</li>
 								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=91" >Great Lakes State Floras</a>
+									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3503&pid=93" >vPlants Checklist</a>
+								</li>
+								<li>
+									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=93" >Chicago Region Checklists and Inventories</a>
 								</li>
 							</ul>
 						</li>
