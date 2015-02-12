@@ -94,6 +94,9 @@ header("Content-Type: text/html; charset=".$charset);
 							
 							<dt><a href="plate12.php" title="Plate 12">Plate 12</a>:</dt>
 							<dd>Sedges, Grasses, and Composites.</dd>
+							
+							<dt><a href="plate_all.php" title="All Plates">Plates 1-12</a>:</dt>
+							<dd>All</dd>
 
 							</dl>
 						</div>
