@@ -116,9 +116,7 @@ header("Content-Type: text/html; charset=".$charset);
 					</p><p>
 					<a href="index.php" title="Plant Directory.">What kinds of plants are included?</a>
 					</p><p>
-					<a href="../xsql/plants/famlist.xsql" title="List of Plant Families.">Family Index</a>
-					</p><p>
-					<a href="../xsql/plants/genidx.xsql" title="List of Plant Genera.">Genus Index</a>
+					<a href="../checklists/checklist.php?cl=3503&pid=93" title="List of Plant Species.">Species Index</a>
 					</p><p>
 					<a href="../chicago.php" title="Why the Chicago Region?">Why focus on the Chicago Region?</a>
 					</p><p>
