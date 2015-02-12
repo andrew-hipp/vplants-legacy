@@ -123,19 +123,23 @@ header("Content-Type: text/html; charset=".$charset);
 
 						<div class="box">
 						<h3>Related Pages</h3>
-						 <ul><li>
-						  <a href="/plants/diversity.html"
-						   title="How many plants.">Chicago plant diversity</a>
-						 </li><li>
-						  <a href="/topics/" 
-						   title="Collections, habitats, and more.">More information on plants</a>
-						 </li><li>
-						  <a href="/resources/plant_checklist.html" 
-						   title="vPlants document.">Scientific Name Checklist</a>
-						 </li><li>
-						  <a href="/resources/links2.html"
-						   title="Links to related web sites">Links for Plants</a>
-						 </li></ul>
+						 <ul>
+							 <li>
+							  <a href="<?php echo $clientRoot; ?>/plants/diversity.php" title="How many plants.">Chicago plant diversity</a>
+							 </li>
+							 <li>
+								<a href="<?php echo $clientRoot; ?>/plants/index.php">More information on plants</a>
+							 </li>
+							 <li>
+							  <a href="<?php echo $clientRoot; ?>/resources/plant_checklist.php" title="vPlants document.">Scientific Name Checklist</a>
+							 </li>
+							 <li>
+							  <a href="<?php echo $clientRoot; ?>/resources/links.php" title="Links to related web sites">Links for Plants</a>
+							 </li>
+							 <li>
+							  <a href="growthforms.php">Growth Forms</a>
+							 </li>
+						 </ul>
 						</div>
 						 
 						<p>Non-flowering vascular plants</p>
