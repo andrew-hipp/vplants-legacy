@@ -32,12 +32,6 @@ header("Content-Type: text/html; charset=".$charset);
 						<h1></h1>
 
 						<div style="margin:20px;">
-							<p>
-							<a href="index.php">Glossary List</a> | 
-							<a href="plate01.php">Previous Plate</a> | 
-							<a href="plate03.php">Next Plate</a>
-							</p>
-
 							<div class="plate">
 							<img src="<?php echo $clientRoot; ?>/images/vplants/plants/glossary/plate02.jpg" width="712" height="1055" 
 							alt="Line drawings of plant features." 
