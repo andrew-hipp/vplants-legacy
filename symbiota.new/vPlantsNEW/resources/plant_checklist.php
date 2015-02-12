@@ -70,12 +70,9 @@ header("Content-Type: text/html; charset=".$charset);
 						<h3>Related Pages</h3>
 						<ul><li><a href="../plants/index.html">Plant Directory.</a>
 						<br>Explanation of plants included in vPlants.
-						</li><li><a href="/xsql/plants/famlist.xsql" 
-						title="Index of families">Family Index.</a>
-						<br>The Family Index is an alphabetical listing of the vascular plant families found in the Chicago Region that link to a list of the scientific names in a particular family.<br>
-						</li><li><a href="/xsql/plants/genlist.xsql" 
-						title="Index of genera">Genus Index.</a>
-						<br>The Genus Index is an alphabetical listing of the vascular plant genera found in the Chicago Region that link to a list of the scientific names in a particular genus.
+						</li><li><a href="../checklists/checklist.php?cl=3503&pid=93" 
+						title="Index of species">Species Index.</a>
+						<br>The Species Index is an alphabetical listing of the vascular plant genera found in the Chicago Region that link to information about each species.
 
 						</li></ul>
 						</div>
