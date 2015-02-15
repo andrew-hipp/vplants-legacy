@@ -65,16 +65,12 @@ header("Content-Type: text/html; charset=".$charset);
 			 
 						<div class="box">
 							<h3>Directory and Guides</h3>
-							<ul><li><a href="guide/"
-							 title="Identification guide">Guide to Plants</a></li>
-							<li><a href="/xsql/plants/famlist.xsql" 
-							 title="Index of families">Family Index</a></li>
-							<li><a href="/xsql/plants/genlist.xsql" 
-							 title="Index of genera">Genus Index</a></li>
-							<li><a href="<?php echo $clientRoot; ?>/resources/biblio.php" 
-							 title="Guides for Chicago Region">Plant References</a></li>
-							<li><a href="<?php echo $clientRoot; ?>/resources/links.php" 
-							 title="Links to websites">Plant Links</a></li></ul>
+							<ul>
+								<li><a href="guide/" title="Identification guide">Guide to Plants</a></li>
+								<li><a href="../checklists/checklist.php?cl=3503&pid=93" title="List of Plant Species.">Species Index</a></li>
+								<li><a href="<?php echo $clientRoot; ?>/resources/biblio.php" title="Guides for Chicago Region">Plant References</a></li>
+								<li><a href="<?php echo $clientRoot; ?>/resources/links.php" title="Links to websites">Plant Links</a></li>
+							</ul>
 						</div>
 
 						<div id="simpleform">

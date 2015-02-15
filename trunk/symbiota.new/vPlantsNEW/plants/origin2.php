@@ -58,7 +58,7 @@ header("Content-Type: text/html; charset=".$charset);
 						
 						<img src="<?php echo $clientRoot; ?>/images/vplants/feature/ABTH.jpg" width="250" height="293" alt="photo of agricultural weed" title="Abutilon theophrasti">
 						<div class="box imgtext">
-						<p>Velvet leaf, <a href="../plants/species/species.jsp?gid=138"><i>Abutilon theophrasti</i></a>, is a native to Asia and now a common weed of cultivated ground.</p>
+						<p>Velvet leaf, <a href="../taxa/index.php?taxon=Abutilon%20theophrasti"><i>Abutilon theophrasti</i></a>, is a native to Asia and now a common weed of cultivated ground.</p>
 						</div>
 
 						<p class="small">Information provided on this page applies to the Chicago Region and may not be relevant or complete for other regions.</p><p class="small noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></p>

@@ -34,7 +34,7 @@ header("Content-Type: text/html; charset=".$charset);
 					<div style="margin:20px;">
 						<p class="small">This guide applies to the Chicago Region and is not complete for other regions. <span class="noprint"><a href="<?php echo $clientRoot; ?>/disclaimer.php" title="Read Disclaimer.">Disclaimer</a></span></p>
 						
-						<p>Use the <a href="/xsql/plants/famlist.xsql" title="Index of families">Family Index</a> and <a href="/xsql/plants/genlist.xsql" title="Index of genera">Genus Index</a> to see alphabetical lists of included plants. At the top of the page you can Search for plants by name. For a complete list of the plant species, subspecies, and varieties represented in the Chicago Region, see the <a href="/resources/plant_checklist.html" title="vPlants document.">Scientific Name Checklist</a>.</p>
+						<p>Use the <a href="../../checklists/checklist.php?cl=3503&pid=93" title="Index of genera">Species Index</a> to see an alphabetical lists of included plants. At the top of the page you can Search for plants by name. For a complete list of the plant species, subspecies, and varieties represented in the Chicago Region, see the <a href="<?php echo $clientRoot; ?>/resources/plant_checklist.php" title="vPlants document.">Scientific Name Checklist</a>.</p>
 
 						<table class="key" cellpadding="3" cellspacing="0" border="0">
 						<caption>Groups included in vPlants</caption>

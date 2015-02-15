@@ -31,7 +31,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/CIPI.jpg" width="250" height="337" alt="thistle growing in sand." title="Cirsium pitcheri" />
 			<div class="box imgtext">
-			<p>Pitcher's thistle, <i>Cirsium pitcheri</i>, is Federally listed as Threatened.  Its required habitat of open dune faces has become rarer through loss to development. <a href="../plants/species/species.jsp?gid=9488"><i>C. pitcheri</i> description </a></p>
+			<p>Pitcher's thistle, <a href="../taxa/index.php?taxon=Cirsium%20pitcheri"><i>Cirsium pitcheri</i></a>, is Federally listed as Threatened.  Its required habitat of open dune faces has become rarer through loss to development.</p>
 			</div>
 
 			<div class="box">

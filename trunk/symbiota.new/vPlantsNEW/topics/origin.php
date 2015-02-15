@@ -30,7 +30,7 @@ header("Content-Type: text/html; charset=".$charset);
 				</p>
 
 				<h2>Native Plants of the Chicago Region</h2>
-				<p>Native plants are adapted to this region and optimized for the specific conditions of the area.  They succeed in areas where the natural habitat is still intact.  While it is sometimes straightforward to classify a particular plant as being native or non-native, it can often be a challenge to decide on the "natural" distribution of a species.  For this project, with few exceptions, we have agreed with the designations made by Swink and Wilhelm (1994).  The assigned status of a particular taxon is indicated on the Description pages under the section "Regional occurrence."  See <a href="../plants/species/species.jsp?gid=6813" title="description page"><i>Campanula americana</i></a> for an example of a native plant species.</p>
+				<p>Native plants are adapted to this region and optimized for the specific conditions of the area.  They succeed in areas where the natural habitat is still intact.  While it is sometimes straightforward to classify a particular plant as being native or non-native, it can often be a challenge to decide on the "natural" distribution of a species.  For this project, with few exceptions, we have agreed with the designations made by Swink and Wilhelm (1994).  The assigned status of a particular taxon is indicated on the Description pages under the section "Regional occurrence."  See <a href="../taxa/index.php?taxon=Campanula%20americana" title="description page"><i>Campanula americana</i></a> for an example of a native plant species.</p>
 
 
 				<h2>Native, non-native, and invasive fungi</h2>

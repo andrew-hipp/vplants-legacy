@@ -32,9 +32,9 @@ header("Content-Type: text/html; charset=".$charset);
 		<div id="content2">
 
 			<img src="<?php echo $clientRoot; ?>/images/vplants/feature/LYSA2.jpg" width="250" height="366" alt="purple flowered plant in wetland" title="Lythrum salicaria">
-			<div class="box imgtext">
-			<p>Purple loosestrife, <a href="../plants/species/species.jsp?gid=24671"><i>Lythrum salicaria</i></a>, is an incredibly harmful invasive plant that was introduced to North America from Eurasia and has spread into wetlands across the continent.</p>
-			</div>
+						<div class="box imgtext">
+						<p>Purple loosestrife, <a href="../taxa/index.php?taxon=Lythrum%20salicaria"><i>Lythrum salicaria</i></a>, is an incredibly harmful invasive plant that was introduced to North America from Eurasia and has spread into wetlands across the continent.</p>
+						</div>
 
 			<div class="box document">
 			<h3>Related Documents</h3>
