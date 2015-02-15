@@ -75,9 +75,9 @@ header("Content-Type: text/html; charset=".$charset);
 						<div class="box document">
 						<h3>Chicago Region Endemics</h3>
 						<ul><li>
-						<a href="../plants/species/species.jsp?gid=40209"><i>Thismia americana</i></a>
+						<a href="../taxa/index.php?taxon=Thismia%20americana"><i>Thismia americana</i></a>
 						</li><li>
-						<a href="../plants/species/species.jsp?gid=20393"><i>Iliamna remota</i></a>
+						<a href="../taxa/index.php?taxon=Iliamna%20remota"><i>Iliamna remota</i></a>
 						</li><li>
 						</div>
 
@@ -89,15 +89,15 @@ header("Content-Type: text/html; charset=".$charset);
 						<div class="box">
 						<h3>Great Lakes Endemics</h3>
 						<ul><li>
-						<a href="../plants/species/species.jsp?gid=9488"><i>Cirsium pitcheri</i></a>
+						<a href="../taxa/index.php?taxon=Cirsium%20pitcheri"><i>Cirsium pitcheri</i></a>
 						</li><li>
-						<a href="../plants/species/species.jsp?gid=20155"><i>Hypericum kalmianum</i></a>
+						<a href="../taxa/index.php?taxon=Hypericum%20kalmianum"><i>Hypericum kalmianum</i></a>
 						</li><li>
-						<a href="../plants/species/species.jsp?gid=91011"><i>Iris lacustris</i></a>
+						<a href="../taxa/index.php?taxon=Iris%20lacustris"><i>Iris lacustris</i></a>
 						</li><li>
-						<a href="../plants/species/species.jsp?gid=6064"><i>Cakile edentula</i> var. <i>lacustris</i></a>
+						<a href="../taxa/index.php?taxon=Cakile%20edentula%20var.%20lacustris"><i>Cakile edentula</i> var. <i>lacustris</i></a>
 						</li><li>
-						<a href="../plants/species/species.jsp?gid=38060"><i>Solidago simplex</i> ssp. <i>randii</i> var. <i>gillmanii</i></a>
+						<a href="../taxa/index.php?taxon=Solidago%20simplex%20var.%20gillmanii"><i>Solidago simplex</i> ssp. <i>randii</i> var. <i>gillmanii</i></a>
 						</li><li>
 						</div>
 
