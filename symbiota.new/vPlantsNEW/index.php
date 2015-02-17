@@ -31,16 +31,13 @@ header("Content-Type: text/html; charset=".$charset);
 
 					<h2><a href="about/" title="About vPlants and its partners.">vPlants</a>: a Virtual Herbarium of the Chicago Region.</h2>
 
-					<p class="large">The online resource for <a href="plants/" title="Plant directory."><strong>Plants</strong></a> and <a href="fungi/" title="Fungus directory."><strong>Fungi</strong></a> offering:</p>
+					<p class="large">The online resource for <a href="plants/" title="Plant directory."><strong>plants</strong></a> of the Chicago Region, offering:</p>
 					<ul class="large">
 					<li>Specimen data and images</li>
-					<li>Species descriptions *</li>
+					<li>Species descriptions</li>
 					<li>Distribution by county</li>
-					<li>Photo galleries *</li>
+					<li>Photo galleries</li>
 					</ul>
-
-					<p>* <a href="news/" title="See new content.">Description Pages, Features in production</a> / <a href="news/keys.php">Keys</a></p>
-
 
 					<div id="floatimg"><img src="images/vplants/feature/home_170_250.jpg" width="170" height="250" alt="meadow of flowers along edge of lake." title="DeKalb County, west of Chicago."></div><p class="large">Currently the site contains data for 80,000 plant specimens from three institutions with rich Chicago Region collections: the Field Museum of Natural History, The Morton Arboretum, and the Chicago Botanic Garden. Species descriptions and other content are added on a continual basis.</p>
 					<p>Specimen data from additional institutions such as the Chicago Academy of Sciences and the Illinois Natural History Survey will be added.  We have also been in contact with other herbaria in the Great Lakes area such as the University of Wisconsin and University of Michigan regarding the possibility of adding or linking their Chicago Region specimen data through vPlants. This project is a first step towards building a larger online database for plants and fungi that occur in the Great Lakes area and beyond.</p>
