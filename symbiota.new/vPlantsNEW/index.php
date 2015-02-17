@@ -39,8 +39,8 @@ header("Content-Type: text/html; charset=".$charset);
 					<li>Photo galleries</li>
 					</ul>
 
-					<div id="floatimg"><img src="images/vplants/feature/home_170_250.jpg" width="170" height="250" alt="meadow of flowers along edge of lake." title="DeKalb County, west of Chicago."></div><p class="large">Currently the site contains data for 80,000 plant specimens from three institutions with rich Chicago Region collections: the Field Museum of Natural History, The Morton Arboretum, and the Chicago Botanic Garden. Species descriptions and other content are added on a continual basis.</p>
-					<p>Specimen data from additional institutions such as the Chicago Academy of Sciences and the Illinois Natural History Survey will be added.  We have also been in contact with other herbaria in the Great Lakes area such as the University of Wisconsin and University of Michigan regarding the possibility of adding or linking their Chicago Region specimen data through vPlants. This project is a first step towards building a larger online database for plants and fungi that occur in the Great Lakes area and beyond.</p>
+					<div id="floatimg"><img src="images/vplants/feature/home_170_250.jpg" width="170" height="250" alt="meadow of flowers along edge of lake." title="DeKalb County, west of Chicago."></div><p class="large">Currently the site contains data for more than 120,000 plant specimens records from more than 30 institutions. The core of these collections, ca, 80,000, come from three institution with particularly rich Chicago Region collections: the Field Museum of Natural History, The Morton Arboretum, and the Chicago Botanic Garden. These three institutions formed vPlants in 2001.</p>
+					<p>The original vPlants system was built to be a scalable herbarium data portal for the Chicago region. In 2015, the system was migrated to Symbiota, where data are now combined with data from herbaria spread across the U.S., many contributing specimens that increase our knowledge of the Chicagoland flora.</p>
 
 					<div id="gomenu">Next &#187; <a href="chicago.php">Why the Chicago Region?</a></div>
 
@@ -60,7 +60,7 @@ header("Content-Type: text/html; charset=".$charset);
 
 					<div id="simpleform">
 						<fieldset>
-							<legend title="Enter name of plant or fungus in one or more of the search fields.">Name Search</legend>
+							<legend title="Enter name of plant in one or more of the search fields.">Name Search</legend>
 							<?php
 							$buttonText = 'Go';
 							include_once($serverRoot.'/classes/PluginsManager.php');
