@@ -20,7 +20,7 @@
 					<img src="<?php echo $clientRoot; ?>/images/vplants/feature/40ac.jpg" style="width:40px;height:40px;margin-left:2.5px;margin-right:2.5px;" alt=" " title="Agaricus campestris">
 				</div>
 			</div><!-- End of #sitehead -->
-			<div style="clear:both;height:24px;">
+			<div style="clear:both;height:33px;">
 				<div style="clear:both;float:right;color:#000000;margin-top:8px;"
 					<?php
 					if($userDisplayName){
@@ -56,7 +56,7 @@
 					</span>
 					
 				</div>
-				<div style="height:24px;">
+				<div style="">
 					<ul id="hor_dropdown">
 						<li>
 							<a href="<?php echo $clientRoot; ?>/index.php" >Home</a>
@@ -108,20 +108,13 @@
 	if($displayLeftMenu){
 		?> 
 		<td style="width: 7.4em;"> 
-			<div style="height:100%;background:#360;margin-top:9px;">
+			<div style="height:100%;background:#360;">
 				<?php include($serverRoot."/leftmenu.php"); ?>
 			</div>
 		</td>
 		<?php 
 	}
-	else{
-		?>
-        	<td style="">
-        		<div style='height:100%;background:#360;margin-top:9px;'></div>
-        	</td>
-        <?php 
-	}
 	?>
-	<td class='middlecenter'  colspan="2">
+	<td class='middlecenter'  colspan="<?php echo ($displayLeftMenu?'2':'3'); ?>">
 
 		
