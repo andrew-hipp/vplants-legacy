@@ -20,8 +20,8 @@
 					<img src="<?php echo $clientRoot; ?>/images/vplants/feature/40ac.jpg" style="width:40px;height:40px;margin-left:2.5px;margin-right:2.5px;" alt=" " title="Agaricus campestris">
 				</div>
 			</div><!-- End of #sitehead -->
-			<div style="clear:both;height:33px;">
-				<div style="clear:both;float:right;color:#000000;margin-top:8px;"
+			<div id="top_navbar">
+				<div id="right_navbarlinks">
 					<?php
 					if($userDisplayName){
 					?>
@@ -56,50 +56,48 @@
 					</span>
 					
 				</div>
-				<div style="">
-					<ul id="hor_dropdown">
-						<li>
-							<a href="<?php echo $clientRoot; ?>/index.php" >Home</a>
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Collections</a>
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/collections/map/mapinterface.php" target="_blank">Map Search</a>
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/imagelib/index.php" >Browse Images</a>
-						</li>
-						<li>
-							<a href="<?php echo $clientRoot; ?>/projects/index.php?" >Inventories</a>
-							<ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3516&pid=93" >Naturalized flora of The Morton Arboretum</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3503&pid=93" >vPlants Checklist</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=93" >Chicago Region Checklists and Inventories</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="#" >Interactive Tools</a>
-							<ul>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/ident/key.php?cl=3503&proj=91&taxon=All+Species" >vPlants Dynamic Key</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=checklist" >Dynamic Checklist</a>
-								</li>
-								<li>
-									<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=key" >Dynamic Key</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
+				<ul id="hor_dropdown">
+					<li>
+						<a href="<?php echo $clientRoot; ?>/index.php" >Home</a>
+					</li>
+					<li>
+						<a href="<?php echo $clientRoot; ?>/collections/index.php" >Search Collections</a>
+					</li>
+					<li>
+						<a href="<?php echo $clientRoot; ?>/collections/map/mapinterface.php" target="_blank">Map Search</a>
+					</li>
+					<li>
+						<a href="<?php echo $clientRoot; ?>/imagelib/index.php" >Browse Images</a>
+					</li>
+					<li>
+						<a href="<?php echo $clientRoot; ?>/projects/index.php?" >Inventories</a>
+						<ul>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3516&pid=93" >Naturalized flora of The Morton Arboretum</a>
+							</li>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/checklists/checklist.php?cl=3503&pid=93" >vPlants Checklist</a>
+							</li>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/projects/index.php?proj=93" >Chicago Region Checklists and Inventories</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" >Interactive Tools</a>
+						<ul>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/ident/key.php?cl=3503&proj=91&taxon=All+Species" >vPlants Dynamic Key</a>
+							</li>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=checklist" >Dynamic Checklist</a>
+							</li>
+							<li>
+								<a href="<?php echo $clientRoot; ?>/checklists/dynamicmap.php?interface=key" >Dynamic Key</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</td>
 	</tr>
