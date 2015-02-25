@@ -76,9 +76,7 @@ header("Content-Type: text/html; charset=".$charset);
 						
 						<div class="indexheading"><a href="http://imls.gov">The Institute of Museum and Library Services (IMLS)</a></div>
 						<div class="indexdescription">The Institute of Museum and Library Services is the primary source of federal support for the nation’s 122,000 libraries and 17,500 museums. The Institute's mission is to create strong libraries and museums that connect people to information and ideas. The Institute works at the national level and in coordination with state and local organizations to sustain heritage, culture, and knowledge; enhance learning and innovation; and support professional development.</div>
-
-
-						<div class="indexheading"><a href="<?php echo $clientRoot; ?>/about/partner_other.php">Additional Partners and Affiliates</a></div>
+					
 					</div>
 					</div><!-- end of #content1 -->
 					</div><!-- end of #content1wrap -->
