@@ -32,8 +32,7 @@ header("Content-Type: text/html; charset=".$charset);
 					<div id="content1"><!-- start of primary content --><a id="pagecontent" name="pagecontent"></a>
 					<h1>vPlants Partnership</h1>
 					<div style="margin:20px;">
-						<p>Under construction. Describe collaboration.</p>
-
+				
 						<div class="indexheading"><a href="http://www.mortonarb.org/">The Morton Arboretum</a></div>
 						<div class="indexdescription"> The Morton Arboretum, a 1,700-acre botanical garden of trees and other plants, displays more than 3,300 kinds of plants from throughout the north temperate zone. These living collections are combined with 700 acres of oak woodland, reconstructed prairie, rare species habitat, and wetlands, presenting a showcase of horticultural and native plant diversity. The Arboretum and its staff are actively involved in regional, national and international conservation efforts.
 						</div>
@@ -67,6 +66,18 @@ header("Content-Type: text/html; charset=".$charset);
 						  www.chicagobotanic.org
 						</p>
 						
+						<div class="indexheading"><a href="http://www.chicagowilderness.org">Chicago Wilderness</a></div>
+						<div class="indexdescription">The Chicago Wilderness consortium is an unprecedented alliance of more than 200 public and private organizations that have joined forces to protect, restore and manage the region's natural lands and the plants and animals that inhabit them.
+						</div>
+						
+						<div class="indexheading"><a href="http://www.swbiodiversity.org">Southwest Environmental Information Network (SEINet)</a></div>
+						<div class="indexdescription">SEINet was created to distribute data of interest to the environmental community of Arizona. It has grown to become a provider of a suite of data-access technologies and a distributed network of collections, museums and agencies across much of the United States.
+						</div>
+						
+						<div class="indexheading"><a href="http://imls.gov">The Institute of Museum and Library Services (IMLS)</a></div>
+						<div class="indexdescription">The Institute of Museum and Library Services is the primary source of federal support for the nation’s 122,000 libraries and 17,500 museums. The Institute's mission is to create strong libraries and museums that connect people to information and ideas. The Institute works at the national level and in coordination with state and local organizations to sustain heritage, culture, and knowledge; enhance learning and innovation; and support professional development.</div>
+
+
 						<div class="indexheading"><a href="<?php echo $clientRoot; ?>/about/partner_other.php">Additional Partners and Affiliates</a></div>
 					</div>
 					</div><!-- end of #content1 -->
