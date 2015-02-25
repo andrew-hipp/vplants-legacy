@@ -30,21 +30,19 @@ header("Content-Type: text/html; charset=".$charset);
 					<div id="content1"><!-- start of primary content --><a id="pagecontent" name="pagecontent"></a>
 					<h1>The vPlants Project</h1>
 					<div style="margin:20px;">
-						<p>Three major botanical institutions, <a href="http://www.mortonarb.org/">The Morton Arboretum</a>, the <a href="http://www.fieldmuseum.org/">Field Museum of Natural History</a>, and the <a href="http://www.chicagobotanic.org/">Chicago Botanic Garden</a>, have developed the online, searchable database vPlants (&#8220;virtual Plants&#8221;) that provides free plant specimen data and digital images of specimens to anyone with internet access. The project began in January 2001. </p>
-						<p>Users can <a href="../search.html">search</a> data from 80,000 plant specimens from the greater <a href="about/chicago.php">Chicago Region</a>, which are housed in the <a href="../topics/index.html">herbaria</a> of each of the partner institutions.  In addition to the collection data, there are digital images for almost 50,000 of the specimens available for viewing from the website.  We are now in the process of adding about 12,000 fungus specimen records.  By adding specimens from new partner institutions we will expand the total to over 120,000 records.  New features of the site include descriptive information about the vascular plants and fungi of the Chicago Region.  This project is a first step towards building a larger online database for plants and fungi that occur in the Great Lakes area and beyond.</p>
-		 
-						<h2>Specimen Pages</h2>
-		 
-						<p>Information from specimen labels entered at the three institutions is transferred, using XML, into a single web-searchable database at the vPlants portal.  This allows each institution to keep their data in any format they wish and then export XML text for the vPlants system.</p>
-						<p>The data, provided by collectors on specimen labels, are very useful and yet are rarely available for viewing or searching by the public or even other scientists.  Two key pieces of collection information that are recorded in our database include locality and habitat data.  Archiving the location where the plant or fungus grew (locality) will allow us to generate electronic maps of historical and present distributions of plant and fungal taxa in the Chicago Region.  Likewise, the habitat data provide users with information about the ecology of the species.  Trends and changes through time in the natural communities of the Chicago Region can be examined using this information.</p>
-						<p>Aside from label text, we also capture high-resolution digital images of the specimens so that users can examine the details of flowers, leaves, or fruits using standard Web-browser software from their home or office. This convenience allows scientists and other herbarium users to view specimens without traveling to each institution or requesting specimen loans.</p>
-						 
-						<h2>Species Description Pages</h2>
-						 
-						<p>We are continuing to write species description pages for the website. Rather than provide details about a single specimen, these pages present information about a species, subspecies, or variety that exists in the Chicago Region. Page writers compile descriptive data in databases at the three institutions, then export the descriptions as XML files to the vPlants portal where the XML is combined with database queries to generate live description pages.</p>
-						<p>Users can learn about the plant and fungal diversity of the area from these new pages.  We have included visual appearance, details about similar species, habitat and ecology data, etymology of the scientific names, and photographs. The county distribution data are based on our specimen collections.  As with the specimen pages, users will be able to browse or search by family, genus, species, or common name.</p>
-						<p>When complete, there will be pages for about 3,000 vascular plant taxa and 1,000 fungal taxa.  In the future we hope to add the technology of online visual keys or guides to aid users with identification of a particular plant or fungus found in the Chicago Region.</p>
-					</div>
+            	<p>The Morton Arboretum, the Field Museum of Natural History, and the Chicago Botanic Garden developed vPlants (“virtual Plants”) as an online, searchable database to provide free web access to data and digital images of plant specimens collected in the Chicago Region. The project began in January 2001 and was initially funded by the Institute of Museum and Library Services. Chicago Wilderness and the Newman Family Fund also provided support for the project.
+				</p>
+				<p>vPlants was built using XML-based software that allowed these three founding institutions to pool data from their disparate hardware and database systems. Information housed at each institution was transferred, using XML, into a single web-searchable database at the vPlants portal. At the time it was a nifty system.
+				</p>
+				<p>In the ensuing years, some of the elements of the vPlants system did not age well. Although the XML-based elements continued to provide very fast database searches, some of the software pieces that connected the system to the web could not be upgraded. This frustrated our users, who found our search engine increasingly unresponsive over time.
+				</p>
+				<p>In 2015, we moved the vPlants data and static pages to the well tested Symbiota platform  (Gries et al. 2014).
+				</p>
+				<p>The original vPlants data pool allowed users to search data from 80,000 plant specimens housed in the herbaria of each of the three founding institutions. The data pool also contained digital images for almost 50,000 of those specimens. By associating ourselves with the much larger network of herbaria that use Symbiota and contribute data via SEINet, users of our new and improved vPlants web portal can search data from over 120,000 plant specimens and have access to new tools.
+				</p>
+				<p>We hope that our participation in this Symbiota-based network is a significant step towards building a larger online portal for plants found throughout the Western Great Lakes Region.
+				</p>
+				</div>
 					</div>
 					</div>
 		
